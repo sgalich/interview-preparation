@@ -1,7 +1,4 @@
-# Searching algorithms
-
-
-def jumpSearch(arr, S):
+def search(arr, S):
 	"""Jump search algorithm.
 	O(√n) for sorted array
 	"""
