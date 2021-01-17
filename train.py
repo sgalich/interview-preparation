@@ -1,4 +1,10 @@
+# Searching algorithms
+
+
 def jumpSearch(arr, S):
+	"""Jump search algorithm.
+	O(√n) for sorted array
+	"""
 	arr.sort()    # Jump search is for sorted arrays only
 	step = int(len(arr)**.5)
 	end = step

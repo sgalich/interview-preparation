@@ -1020,7 +1020,7 @@
                   end += step
               return False
               ```
-          - [x] [interpretation](https://gist.github.com/sgalich/6d83639028183ce6fccd8213e84617c8#file-train-py#L1)
+          - [x] [implementation](https://github.com/sgalich/interview-preparation/blob/main/train.py#L4)
           - [ ] ??? Binary Search is better than Jump Search, but Jump search has an advantage that we traverse back only once (Binary Search may require up to O(Log n) jumps, consider a situation where the element to be searched is the smallest element or smaller than the smallest). So in a system where binary search is costly, we use Jump Search.
           - The cost by itself is very small, but when the number of elements to search through is very large, and the number of division operations that we need to perform increases, the cost can add up incrementally. Therefore jump search is better than binary search when there is a large number of elements in a system where even a small increase in speed matters.
         - Interpolation Search
