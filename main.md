@@ -72,7 +72,8 @@
       - [ ] [1](https://www.themuse.com/advice/3-ways-youre-messing-up-the-answer-to-tell-me-about-a-conflict-youve-faced-at-work)
     - [x] Tell Me About a Time You Demonstrated Leadership Skills.
       - I think people demostrate leadership skills when they take a responsibility for the result of the whole team and motivate their coworkers to do something in order to achieve a common goal. I have such experience in my career as a software developer. While I’m working at otc.ru I made parsers (algorithms that scraped an information we need from different websites). I was asked to make parsers, that should scrape an information about purchases by their publication day. Once I was looking through our website with the results of my job and noticed that some of information, that my parsers had gathered, is not the same as in the original source. Then I had made a research and found out that users of the original sources tend to change this information afte they had published a purchase. While we had parsed this purchase only once after it was published, so after a user changed the purchase we had an outdated information on our website. So in order to keep only actual information in our website I initiated a process of changing our method of data extraction, transformation, loading and keeping it in the database. It took some time while our team completely changed the approach of parsing purchases. As the result we get always fresh information on our website and our users began to view these purchases on our webiste more often because they began to trust more to our information.
-    - [ ] What’s a Time You Disagreed With a Decision That Was Made at Work?
+    - [x] What’s a Time You Disagreed With a Decision That Was Made at Work?
+      - While I'm working at OTC.ru we were about to run a new service. I was asked to create about 10 new web parsers in a around a few weekends, so that was quite challenging. We were discussing among colleagues and my boss a structure of keeping information that parsers should bring to a database. There were 10 different websites with different structure of their information. I preferred the hard way - I had thought that a was able to create withing the tight deadline also a processing service that would transofrm data from parsers and store it in the database in the format we need. But my colleagues (that had much more experience than I had) decided opposite. So I created the parsers that store raw information in json format in our database. And concurrently with my work my colleagues developed that service that process this row data in order show this information on our website in the right format. From this story I've learned that perfectionism is not the goal #1. Team work is really much more effective than doing everything by my own hands.
     - [ ] Tell Me About a Time You Made a Mistake.
     - [ ] Tell Me About a Time You Failed.
     - [ ] How do you deal with failure?
@@ -525,57 +526,103 @@
         - [ ] [Capacity](https://en.wikipedia.org/wiki/System_capacity)
       - Certification
       - Compliance
-      - [ ] [Configuration management](https://en.wikipedia.org/wiki/Configuration_management)
-      - [ ] [Data integrity](https://en.wikipedia.org/wiki/Data_integrity)
-      - [ ] [Data retention](https://en.wikipedia.org/wiki/Data_retention)
+      - Configuration management
+        - [ ] [Configuration management](https://en.wikipedia.org/wiki/Configuration_management)
+      - Data integrity
+        - [ ] [Data integrity](https://en.wikipedia.org/wiki/Data_integrity)
+      - Data retention
+        - [ ] [Data retention](https://en.wikipedia.org/wiki/Data_retention)
       - Dependency on other parties
-      - [ ] [Deployment](https://en.wikipedia.org/wiki/Software_deployment)
-      - [ ] [Development environment](https://en.wikipedia.org/wiki/Development_environment)
-      - [ ] [Disaster recovery](https://en.wikipedia.org/wiki/Disaster_recovery)
+      - Deployment
+        - [ ] [Deployment](https://en.wikipedia.org/wiki/Software_deployment)
+      - Development environment
+        - [ ] [Development environment](https://en.wikipedia.org/wiki/Development_environment)
+      - Disaster recovery
+        - [ ] [Disaster recovery](https://en.wikipedia.org/wiki/Disaster_recovery)
       - Documentation
       - Efficiency (resource consumption for given load)
       - Effectiveness (resulting performance in relation to effort)
-      - [ ] [Elasticity](https://en.wikipedia.org/wiki/Elasticity_(cloud_computing))
+      - Elasticity
+        - [ ] [Elasticity](https://en.wikipedia.org/wiki/Elasticity_(cloud_computing))
       - Emotional factors (like fun or absorbing or has "Wow! Factor")
       - Environmental protection
-      - [ ] [Escrow](https://en.wikipedia.org/wiki/Source_code_escrow)
+      - Escrow
+        - [ ] [wiki: Escrow](https://en.wikipedia.org/wiki/Source_code_escrow)
       - Exploitability
-      - [ ] [Extensibility](https://en.wikipedia.org/wiki/Extensibility) (adding features, and carry-forward of customizations at next major version upgrade)
+      - Extensibility
+        - adding features, and carry-forward of customizations at next major version upgrade
+        - [ ] [wiki: Extensibility](https://en.wikipedia.org/wiki/Extensibility)
       - Failure management
-      - [ ] [Fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance) (e.g. Operational System Monitoring, Measuring, and Management)
+      - Fault tolerance
+        - e.g. Operational System Monitoring, Measuring, and Management
+        - [ ] [wiki: Fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance) 
       - Flexibility (e.g. to deal with future changes in requirements)
-      - [ ] [Integrability](https://en.wikipedia.org/wiki/System_integration) ability to integrate components
-      - [ ] [Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
-      - [ ] [Interoperability](https://en.wikipedia.org/wiki/Interoperability)
-      - [ ] Legal and [licensing](https://en.wikipedia.org/wiki/Software_license_agreement) issues or patent-infringement-avoidability
-      - [ ] Maintainability (e.g. Mean Time to Repair - MTTR)
-      - [ ] Management
-      - [ ] Modifiability
-      - [ ] Network topology](https://en.wikipedia.org/wiki/Network_topology)
-      - [ ] Open source](https://en.wikipedia.org/wiki/Open_source)
-      - [ ] Operability](https://en.wikipedia.org/wiki/Operability)
-      - [ ] [Performance](https://en.wikipedia.org/wiki/Computer_performance) / response time ([performance engineering](https://en.wikipedia.org/wiki/Performance_engineering))
-      - [ ] [Platform](https://en.wikipedia.org/wiki/Platform_(computing)) compatibility
-      - [ ] [Privacy](https://en.wikipedia.org/wiki/Privacy) (compliance to [privacy laws](https://en.wikipedia.org/wiki/Privacy_law))
-      - [ ] [Portability](https://en.wikipedia.org/wiki/Software_portability)
-      - [ ] [Quality](https://en.wikipedia.org/wiki/Quality_(business)) (e.g. faults discovered, faults delivered, fault removal efficacy)
-      - [ ] [Readability](https://en.wikipedia.org/wiki/Computer_programming#Readability_of_source_code)
-      - [ ] [Reliability](https://en.wikipedia.org/wiki/Reliability_engineering) (e.g. Mean Time Between/to Failures - MTBF/MTTF )
+      - Integrability
+        - [ ] [wiki: Integrability](https://en.wikipedia.org/wiki/System_integration) ability to integrate components
+      - Internationalization and localization
+        - [ ] [wiki: Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
+      - Interoperability
+        - [ ] [wiki: Interoperability](https://en.wikipedia.org/wiki/Interoperability)
+      - Legal and licensing issues or patent-infringement-avoidability
+        - [ ] Legal and [wiki: licensing](https://en.wikipedia.org/wiki/Software_license_agreement)
+      - Maintainability
+        - e.g. Mean Time to Repair - MTTR
+      - Management
+      - Modifiability
+      - Network topology
+        - [ ] [wiki: Network topology](https://en.wikipedia.org/wiki/Network_topology)
+      - Open source
+        - [ ] [wiki: Open source](https://en.wikipedia.org/wiki/Open_source)
+      - Operability
+        - [ ] [wiki: Operability](https://en.wikipedia.org/wiki/Operability)
+      - Performance/response time
+        - [ ] [wiki: Performance](https://en.wikipedia.org/wiki/Computer_performance)
+        - [ ] [wiki: performance engineering](https://en.wikipedia.org/wiki/Performance_engineering)
+      - Platform compatibility
+        - [ ] [wiki: Platform](https://en.wikipedia.org/wiki/Platform_(computing))
+      - Privacy
+        - [ ] [wiki: Privacy](https://en.wikipedia.org/wiki/Privacy)
+        - [ ] [wiki: privacy laws](https://en.wikipedia.org/wiki/Privacy_law))
+      - Portability
+        - [ ] [wiki: Portability](https://en.wikipedia.org/wiki/Software_portability)
+      - Quality
+        - e.g. faults discovered, faults delivered, fault removal efficacy
+        - [ ] [wiki: Quality](https://en.wikipedia.org/wiki/Quality_(business))
+      - Readability
+        - [ ] [wiki: Readability](https://en.wikipedia.org/wiki/Computer_programming#Readability_of_source_code)
+      - Reliability
+        - Mean Time Between/to Failures - MTBF/MTTF
+        - [ ] [wiki: Reliability](https://en.wikipedia.org/wiki/Reliability_engineering)
       - Reporting
-      - [ ] [Resilience](https://en.wikipedia.org/wiki/Resilience_(network))
-      - Resource constraints (processor speed, memory, disk space, network bandwidth, etc.)
-      - [ ] [Response time](https://en.wikipedia.org/wiki/Response_Time#Data_processing)
-      - [ ] [Reusability](https://en.wikipedia.org/wiki/Reusability)
-      - [ ] [Robustness](https://en.wikipedia.org/wiki/Robustness_(computer_science))
-      - [ ] [Safety](https://en.wikipedia.org/wiki/Safety) or [factor of safety](https://en.wikipedia.org/wiki/Factor_of_safety)
-      - [ ] [Compatibility](https://en.wikipedia.org/wiki/Backward_compatibility)
-      - [ ] [Stability](https://en.wikipedia.org/wiki/Stability_Model)
-      - [ ] [Supportability](https://en.wikipedia.org/wiki/Serviceability_(computer))
-      - [ ] [Testability](https://en.wikipedia.org/wiki/Software_testability)
-      - [ ] [Throughput](https://en.wikipedia.org/wiki/Throughput)
-      - [ ] [Transparency](https://en.wikipedia.org/wiki/Transparency_(behavior))
-      - [ ] [Usability](https://en.wikipedia.org/wiki/Usability) (human factors) by target user community
-      - [ ] [Volume](https://en.wikipedia.org/wiki/Volume_testing)
+      - Resilience
+        - [ ] [wiki: Resilience](https://en.wikipedia.org/wiki/Resilience_(network))
+      - Resource constraints
+        - processor speed, memory, disk space, network bandwidth, etc.
+      - Response time
+        - [ ] [wiki: Response time](https://en.wikipedia.org/wiki/Response_Time#Data_processing)
+      - Reusability
+        - [ ] [wiki: Reusability](https://en.wikipedia.org/wiki/Reusability)
+      - Robustness
+        - [ ] [wiki: Robustness](https://en.wikipedia.org/wiki/Robustness_(computer_science))
+      - Safety
+        - [ ] [wiki: Safety](https://en.wikipedia.org/wiki/Safety) or 
+        - [ ] [wiki: factor of safety](https://en.wikipedia.org/wiki/Factor_of_safety)
+      - Compatibility
+        - [ ] [wiki: Compatibility](https://en.wikipedia.org/wiki/Backward_compatibility)
+      - Stability
+        - [ ] [wiki: Stability](https://en.wikipedia.org/wiki/Stability_Model)
+      - Supportability
+        - [ ] [wiki: Supportability](https://en.wikipedia.org/wiki/Serviceability_(computer))
+      - Testability
+        - [ ] [wiki: Testability](https://en.wikipedia.org/wiki/Software_testability)
+      - Throughput
+        - [ ] [wiki: Throughput](https://en.wikipedia.org/wiki/Throughput)
+      - Transparency
+        - [ ] [wiki: Transparency](https://en.wikipedia.org/wiki/Transparency_(behavior))
+      - Usability
+        - [ ] [wiki: Usability](https://en.wikipedia.org/wiki/Usability) (human factors) by target user community
+      - Volume
+        - [ ] [wiki: Volume](https://en.wikipedia.org/wiki/Volume_testing)
   - COMPONENTS
     - About
     - Database
@@ -850,6 +897,8 @@
       - NoSQL
         - MongoDB, CouchDB
   - PRACTICE
+    - About
+      - [1](https://www.hiredintech.com/classrooms/system-design/lesson/61)
     - [ ] Explain ER diagram of a project that you've worked on.
     - [ ] Design a receipt system
     - [ ] How to make API secure?
