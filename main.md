@@ -1,4 +1,4 @@
-# ⚡ SWE INTERVIEW PREPARATION PLAN ⚡
+# ⚡ MY INTERVIEW PREPARATION PLAN ⚡
 > Consistency is the key to success
 
 - FIRST THINGS FIRST
@@ -516,67 +516,66 @@
       - Security
         - About
           - [Wiki](https://en.wikipedia.org/wiki/Computer_security)
-      - Other non-functional requirements
-        - Accessibility
-        - Adaptability
-        - Auditability and control
-        - Backup
-          - [ ] [Backup](https://en.wikipedia.org/wiki/Backup)
-        - Capacity
-          - [ ] [Capacity](https://en.wikipedia.org/wiki/System_capacity)
-        - Certification
-        - Compliance
-        - [ ] [Configuration management](https://en.wikipedia.org/wiki/Configuration_management)
-        - [ ] [Data integrity](https://en.wikipedia.org/wiki/Data_integrity)
-        - [ ] [Data retention](https://en.wikipedia.org/wiki/Data_retention)
-        - Dependency on other parties
-        - [ ] [Deployment](https://en.wikipedia.org/wiki/Software_deployment)
-        - [ ] [Development environment](https://en.wikipedia.org/wiki/Development_environment)
-        - [ ] [Disaster recovery](https://en.wikipedia.org/wiki/Disaster_recovery)
-        - Documentation
-        - Efficiency (resource consumption for given load)
-        - Effectiveness (resulting performance in relation to effort)
-        - [ ] [Elasticity](https://en.wikipedia.org/wiki/Elasticity_(cloud_computing))
-        - Emotional factors (like fun or absorbing or has "Wow! Factor")
-        - Environmental protection
-        - [ ] [Escrow](https://en.wikipedia.org/wiki/Source_code_escrow)
-        - Exploitability
-        - [ ] [Extensibility](https://en.wikipedia.org/wiki/Extensibility) (adding features, and carry-forward of customizations at next major version upgrade)
-        - Failure management
-        - [ ] [Fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance) (e.g. Operational System Monitoring, Measuring, and Management)
-        - Flexibility (e.g. to deal with future changes in requirements)
-        - [ ] [Integrability](https://en.wikipedia.org/wiki/System_integration) ability to integrate components
-        - [ ] [Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
-        - [ ] [Interoperability](https://en.wikipedia.org/wiki/Interoperability)
-        - [ ] Legal and [licensing](https://en.wikipedia.org/wiki/Software_license_agreement) issues or patent-infringement-avoidability
-        - [ ] Maintainability (e.g. Mean Time to Repair - MTTR)
-        - [ ] Management
-        - [ ] Modifiability
-        - [ ] Network topology](https://en.wikipedia.org/wiki/Network_topology)
-        - [ ] Open source](https://en.wikipedia.org/wiki/Open_source)
-        - [ ] Operability](https://en.wikipedia.org/wiki/Operability)
-        - [ ] [Performance](https://en.wikipedia.org/wiki/Computer_performance) / response time ([performance engineering](https://en.wikipedia.org/wiki/Performance_engineering))
-        - [ ] [Platform](https://en.wikipedia.org/wiki/Platform_(computing)) compatibility
-        - [ ] [Privacy](https://en.wikipedia.org/wiki/Privacy) (compliance to [privacy laws](https://en.wikipedia.org/wiki/Privacy_law))
-        - [ ] [Portability](https://en.wikipedia.org/wiki/Software_portability)
-        - [ ] [Quality](https://en.wikipedia.org/wiki/Quality_(business)) (e.g. faults discovered, faults delivered, fault removal efficacy)
-        - [ ] [Readability](https://en.wikipedia.org/wiki/Computer_programming#Readability_of_source_code)
-        - [ ] [Reliability](https://en.wikipedia.org/wiki/Reliability_engineering) (e.g. Mean Time Between/to Failures - MTBF/MTTF )
-        - Reporting
-        - [ ] [Resilience](https://en.wikipedia.org/wiki/Resilience_(network))
-        - Resource constraints (processor speed, memory, disk space, network bandwidth, etc.)
-        - [ ] [Response time](https://en.wikipedia.org/wiki/Response_Time#Data_processing)
-        - [ ] [Reusability](https://en.wikipedia.org/wiki/Reusability)
-        - [ ] [Robustness](https://en.wikipedia.org/wiki/Robustness_(computer_science))
-        - [ ] [Safety](https://en.wikipedia.org/wiki/Safety) or [factor of safety](https://en.wikipedia.org/wiki/Factor_of_safety)
-        - [ ] [Compatibility](https://en.wikipedia.org/wiki/Backward_compatibility)
-        - [ ] [Stability](https://en.wikipedia.org/wiki/Stability_Model)
-        - [ ] [Supportability](https://en.wikipedia.org/wiki/Serviceability_(computer))
-        - [ ] [Testability](https://en.wikipedia.org/wiki/Software_testability)
-        - [ ] [Throughput](https://en.wikipedia.org/wiki/Throughput)
-        - [ ] [Transparency](https://en.wikipedia.org/wiki/Transparency_(behavior))
-        - [ ] [Usability](https://en.wikipedia.org/wiki/Usability) (human factors) by target user community
-        - [ ] [Volume](https://en.wikipedia.org/wiki/Volume_testing)
+      - Accessibility
+      - Adaptability
+      - Auditability and control
+      - Backup
+        - [ ] [Backup](https://en.wikipedia.org/wiki/Backup)
+      - Capacity
+        - [ ] [Capacity](https://en.wikipedia.org/wiki/System_capacity)
+      - Certification
+      - Compliance
+      - [ ] [Configuration management](https://en.wikipedia.org/wiki/Configuration_management)
+      - [ ] [Data integrity](https://en.wikipedia.org/wiki/Data_integrity)
+      - [ ] [Data retention](https://en.wikipedia.org/wiki/Data_retention)
+      - Dependency on other parties
+      - [ ] [Deployment](https://en.wikipedia.org/wiki/Software_deployment)
+      - [ ] [Development environment](https://en.wikipedia.org/wiki/Development_environment)
+      - [ ] [Disaster recovery](https://en.wikipedia.org/wiki/Disaster_recovery)
+      - Documentation
+      - Efficiency (resource consumption for given load)
+      - Effectiveness (resulting performance in relation to effort)
+      - [ ] [Elasticity](https://en.wikipedia.org/wiki/Elasticity_(cloud_computing))
+      - Emotional factors (like fun or absorbing or has "Wow! Factor")
+      - Environmental protection
+      - [ ] [Escrow](https://en.wikipedia.org/wiki/Source_code_escrow)
+      - Exploitability
+      - [ ] [Extensibility](https://en.wikipedia.org/wiki/Extensibility) (adding features, and carry-forward of customizations at next major version upgrade)
+      - Failure management
+      - [ ] [Fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance) (e.g. Operational System Monitoring, Measuring, and Management)
+      - Flexibility (e.g. to deal with future changes in requirements)
+      - [ ] [Integrability](https://en.wikipedia.org/wiki/System_integration) ability to integrate components
+      - [ ] [Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
+      - [ ] [Interoperability](https://en.wikipedia.org/wiki/Interoperability)
+      - [ ] Legal and [licensing](https://en.wikipedia.org/wiki/Software_license_agreement) issues or patent-infringement-avoidability
+      - [ ] Maintainability (e.g. Mean Time to Repair - MTTR)
+      - [ ] Management
+      - [ ] Modifiability
+      - [ ] Network topology](https://en.wikipedia.org/wiki/Network_topology)
+      - [ ] Open source](https://en.wikipedia.org/wiki/Open_source)
+      - [ ] Operability](https://en.wikipedia.org/wiki/Operability)
+      - [ ] [Performance](https://en.wikipedia.org/wiki/Computer_performance) / response time ([performance engineering](https://en.wikipedia.org/wiki/Performance_engineering))
+      - [ ] [Platform](https://en.wikipedia.org/wiki/Platform_(computing)) compatibility
+      - [ ] [Privacy](https://en.wikipedia.org/wiki/Privacy) (compliance to [privacy laws](https://en.wikipedia.org/wiki/Privacy_law))
+      - [ ] [Portability](https://en.wikipedia.org/wiki/Software_portability)
+      - [ ] [Quality](https://en.wikipedia.org/wiki/Quality_(business)) (e.g. faults discovered, faults delivered, fault removal efficacy)
+      - [ ] [Readability](https://en.wikipedia.org/wiki/Computer_programming#Readability_of_source_code)
+      - [ ] [Reliability](https://en.wikipedia.org/wiki/Reliability_engineering) (e.g. Mean Time Between/to Failures - MTBF/MTTF )
+      - Reporting
+      - [ ] [Resilience](https://en.wikipedia.org/wiki/Resilience_(network))
+      - Resource constraints (processor speed, memory, disk space, network bandwidth, etc.)
+      - [ ] [Response time](https://en.wikipedia.org/wiki/Response_Time#Data_processing)
+      - [ ] [Reusability](https://en.wikipedia.org/wiki/Reusability)
+      - [ ] [Robustness](https://en.wikipedia.org/wiki/Robustness_(computer_science))
+      - [ ] [Safety](https://en.wikipedia.org/wiki/Safety) or [factor of safety](https://en.wikipedia.org/wiki/Factor_of_safety)
+      - [ ] [Compatibility](https://en.wikipedia.org/wiki/Backward_compatibility)
+      - [ ] [Stability](https://en.wikipedia.org/wiki/Stability_Model)
+      - [ ] [Supportability](https://en.wikipedia.org/wiki/Serviceability_(computer))
+      - [ ] [Testability](https://en.wikipedia.org/wiki/Software_testability)
+      - [ ] [Throughput](https://en.wikipedia.org/wiki/Throughput)
+      - [ ] [Transparency](https://en.wikipedia.org/wiki/Transparency_(behavior))
+      - [ ] [Usability](https://en.wikipedia.org/wiki/Usability) (human factors) by target user community
+      - [ ] [Volume](https://en.wikipedia.org/wiki/Volume_testing)
   - COMPONENTS
     - About
     - Database
@@ -996,41 +995,34 @@
         - [ ] [Minimum adjacent swaps to move maximum and minimum to corners](https://www.geeksforgeeks.org/minimum-adjacent-swaps-to-move-maximum-and-minimum-to-corners/)
       - [ ] Search algorithms
         - About
-          - [ ] [1](https://stackabuse.com/search-algorithms-in-python/)
-        - Linear Search]
+          - [ ] [good explanations](https://stackabuse.com/search-algorithms-in-python/), but: Achtung! Bad code with errors detected!
+        - Linear Search
+          - O(n)
           - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
-          - [x] implemented
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)
         - Binary Search
+          - O(log n)
           - [x] [g4g](http://geeksquiz.com/binary-search/)
-          - [x] implemented
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/binary.py)
         - Jump Search
+          - O(√n)
           - [x] [g4g](https://www.geeksforgeeks.org/jump-search/)
-          - [x] implementation
-            ```
-            def jumpSearch(arr, S):
-              arr.sort()
-              step = int(len(arr)**.5)
-              end = step
-              while end <= len(arr):
-              if arr[end - 1] >= S:
-              for i in range(end - step, end):
-                if arr[i] == S:
-                  return True
-                else:
-                  end += step
-              return False
-              ```
-          - [x] [implementation](https://github.com/sgalich/interview-preparation/blob/main/train.py#L4)
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/jump.py)
           - [ ] ??? Binary Search is better than Jump Search, but Jump search has an advantage that we traverse back only once (Binary Search may require up to O(Log n) jumps, consider a situation where the element to be searched is the smallest element or smaller than the smallest). So in a system where binary search is costly, we use Jump Search.
           - The cost by itself is very small, but when the number of elements to search through is very large, and the number of division operations that we need to perform increases, the cost can add up incrementally. Therefore jump search is better than binary search when there is a large number of elements in a system where even a small increase in speed matters.
         - Interpolation Search
+          - O(log log n) – O(n)
           - [ ] [g4g](https://www.geeksforgeeks.org/interpolation-search/)
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/interpolation.py)
         - Exponential Search
           - [ ] [g4g](https://www.geeksforgeeks.org/exponential-search/)
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/exponential.py)
         - Ternary Search
           - [ ] [g4g](https://www.geeksforgeeks.org/binary-search-preferred-ternary-search/)
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/ternary.py)
         - Fibonacci Search
           - [ ] [g4g](https://www.geeksforgeeks.org/fibonacci-search/)
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/fibonacci.py)
       - [ ] Sorting algorithms
         - About
           - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
