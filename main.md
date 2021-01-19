@@ -11,6 +11,7 @@
     - https://www.geeksforgeeks.org
     - https://www.hackerrank.com/
     - https://www.pramp.com
+    - https://www.hackerearth.com/
   - About
     - [x] [1](https://medium.com/@m_mcclarty/data-engineering-interview-guide-7a14d10887dd)
     - [x] [2](https://www.freecodecamp.org/news/software-engineering-interviews-744380f4f2af/)
@@ -75,7 +76,8 @@
       - I think people demostrate leadership skills when they take a responsibility for the result of the whole team and motivate their coworkers to do something in order to achieve a common goal. I have such experience in my career as a software developer. While I’m working at otc.ru I made parsers (algorithms that scraped an information we need from different websites). I was asked to make parsers, that should scrape an information about purchases by their publication day. Once I was looking through our website with the results of my job and noticed that some of information, that my parsers had gathered, is not the same as in the original source. Then I had made a research and found out that users of the original sources tend to change this information afte they had published a purchase. While we had parsed this purchase only once after it was published, so after a user changed the purchase we had an outdated information on our website. So in order to keep only actual information in our website I initiated a process of changing our method of data extraction, transformation, loading and keeping it in the database. It took some time while our team completely changed the approach of parsing purchases. As the result we get always fresh information on our website and our users began to view these purchases on our webiste more often because they began to trust more to our information.
     - [x] What’s a Time You Disagreed With a Decision That Was Made at Work?
       - While I'm working at OTC.ru we were about to run a new service. I was asked to create about 10 new web parsers in a around a few weekends, so that was quite challenging. We were discussing among colleagues and my boss a structure of keeping information that parsers should bring to a database. There were 10 different websites with different structure of their information. I preferred the hard way - I had thought that a was able to create withing the tight deadline also a processing service that would transofrm data from parsers and store it in the database in the format we need. But my colleagues (that had much more experience than I had) decided opposite. So I created the parsers that store raw information in json format in our database. And concurrently with my work my colleagues developed that service that process this row data in order show this information on our website in the right format. From this story I've learned that perfectionism is not the goal #1. Team work is really much more effective than doing everything by my own hands.
-    - [ ] Tell Me About a Time You Made a Mistake.
+    - [x] Tell Me About a Time You Made a Mistake.
+      - I make mistakes every time, even every day. This is a great source of learning for me. I consider my greatest mistake was to choose civil cervant field instead of computer science when I'd finished with my school education. As soon as I realised that it was a mistake I made some efforts to fix it and became a software developer. As a software developer now I'm constantly struggling with bugs and mistakes. And this experience teaches me. Even good working clean and well documented code, that I write–after some amount of time I see mistakes in it. I think, this is a great evidence that I'm moving forward and constantly getting better at programming.
     - [ ] Tell Me About a Time You Failed.
     - [ ] How do you deal with failure?
     - [ ] What is your biggest weakness?
@@ -206,6 +208,7 @@
     - [x] [Wiki: Systems_design](https://en.wikipedia.org/wiki/Systems_design)
     - [x] [Wiki: System_architecture](https://en.wikipedia.org/wiki/System_architecture)
     - [ ] [hiredintech: System Design Interviewing](https://www.hiredintech.com/courses/system-design)
+    - [ ] [examples](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
     - [x] [2](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
     - [ ] [3](https://towardsdatascience.com/system-design-101-b8f15162ef7c)
     - [ ] [4](https://www.educative.io/courses/grokking-the-system-design-interview)
@@ -726,6 +729,7 @@
       - Replication
         - [ ] [wiki: replication](https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE)
         - master-slave replication (read from slaves, write to master)
+        - master-master
       - Partitioning
         - About
           - [x] [Wiki: db partitioning](https://en.wikipedia.org/wiki/Partition_(database))
@@ -744,7 +748,7 @@
     - Load balancer
   - TECHNOLOGIES
     - About
-      - CRON
+      - CRON, Amazon Web Services, EC2, RDS, S3, Elastic MapReduce
       - Git
       - Regex
         - [ ] [Wiki](https://en.wikipedia.org/wiki/Regular_expression)
@@ -911,6 +915,7 @@
 - 🧮 🤪 III. ALGORITHMS & DATA STRUCTURES
   - ABOUT
     - [ ] [Data Structure](https://en.wikipedia.org/wiki/Data_structure)
+    - [ ] [hiredintech](https://www.hiredintech.com/classrooms/algorithm-design)
     - [ ] [functional programming](https://en.wikipedia.org/wiki/Functional_programming)
     - [ ] [computer programming](https://en.wikipedia.org/wiki/Computer_programming)
     - [ ] [data-structures](https://www.geeksforgeeks.org/data-structures/)
