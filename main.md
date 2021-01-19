@@ -10,6 +10,7 @@
     - https://leetcode.com
     - https://www.geeksforgeeks.org
     - https://www.hackerrank.com/
+    - https://www.pramp.com
   - About
     - [x] [1](https://medium.com/@m_mcclarty/data-engineering-interview-guide-7a14d10887dd)
     - [x] [2](https://www.freecodecamp.org/news/software-engineering-interviews-744380f4f2af/)
@@ -744,7 +745,7 @@
   - TECHNOLOGIES
     - About
       - CRON
-      - [x] Git
+      - Git
       - Regex
         - [ ] [Wiki](https://en.wikipedia.org/wiki/Regular_expression)
       - [ ] SQL Server
@@ -752,14 +753,12 @@
       - [ ] Apache Airflow !
       - [ ] Splunk !
       - [ ] Presto !
-      - [ ] Apache Airflow !
         - https://github.com/apache/airflow
       - [ ] [Hadoop !](https://hadoop.apache.org/)
       - [ ] [Spark (old Hadoop's substitute) !](https://spark.apache.org/)
         - [ ] [Spark: Databricks Community Edition](https://databricks.com/product/faq/community-edition)
       - [ ] [Kafka !](https://kafka.apache.org/)
       - [ ] [Hive !](https://hive.apache.org/)
-      - [ ] MongoDB
       - [ ] ElasticSearch  
       - [ ] Hbase
       - [ ] AWS Redshift
@@ -768,6 +767,7 @@
       - [ ] HDFS
       - [ ] MapReduce
       - [ ] Cassandra
+      - DAG
       - [ ] RabbitMQ
       - [x] Docker
       - [ ] Jenkins
@@ -887,6 +887,7 @@
         - [ ] practice: [Leetcode](https://leetcode.com/problemset/database/)
         - [ ] practice: [hackerrank](https://www.hackerrank.com/domains/sql)
         - [ ] group by
+          - [ ] https://www.peachpit.com/articles/article.aspx?p=30681&seqNum=8
         - [x] joins
         - [ ] window functions
         - [ ] CASE WHEN statements
@@ -1049,10 +1050,13 @@
           - O(n)
           - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)
+          - [ ] [wiki: linear search](https://en.wikipedia.org/wiki/Linear_search)
         - Binary Search
           - O(log n)
           - [x] [g4g](http://geeksquiz.com/binary-search/)
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/binary.py)
+          - [ ] [wiki: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+          - [ ] [Unbounded Binary Search](https://www.geeksforgeeks.org/find-the-point-where-a-function-becomes-negative/)
         - Jump Search
           - O(√n)
           - [x] [g4g](https://www.geeksforgeeks.org/jump-search/)
@@ -1061,14 +1065,20 @@
           - The cost by itself is very small, but when the number of elements to search through is very large, and the number of division operations that we need to perform increases, the cost can add up incrementally. Therefore jump search is better than binary search when there is a large number of elements in a system where even a small increase in speed matters.
         - Interpolation Search
           - O(log log n) – O(n)
-          - [ ] [g4g](https://www.geeksforgeeks.org/interpolation-search/)
+          - [x] [g4g](https://www.geeksforgeeks.org/interpolation-search/)
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/interpolation.py)
+          - [ ] [wiki: interpolation search](https://en.wikipedia.org/wiki/Interpolation_search)
         - Exponential Search
-          - [ ] [g4g](https://www.geeksforgeeks.org/exponential-search/)
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/exponential.py)
+          - O(log n)
+          - Worst case: sought element is the last in array
+          - The best search algorithm for for unbounded or infinite arrays / if the sougth element is close to the first element of array
+          - [x] [g4g](https://www.geeksforgeeks.org/exponential-search/)
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/exponential.py)
+          - [ ] [wiki: exponential search](https://en.wikipedia.org/wiki/Exponential_search)
         - Ternary Search
           - [ ] [g4g](https://www.geeksforgeeks.org/binary-search-preferred-ternary-search/)
           - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/ternary.py)
+          - [ ] [wiki: ternary search](https://en.wikipedia.org/wiki/Ternary_search)
         - Fibonacci Search
           - [ ] [g4g](https://www.geeksforgeeks.org/fibonacci-search/)
           - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/fibonacci.py)
@@ -1360,6 +1370,7 @@
       - About
         - [x] [Leetcode: arrays](https://leetcode.com/explore/learn/card/fun-with-arrays/)
       - [ ] [array-and-string](https://leetcode.com/explore/learn/card/array-and-string/)
+      - [ ] [lecture: Unbounded arrays](http://www.cs.cmu.edu/~fp/courses/15122-s11/lectures/12-ubarrays.pdf)
       - [ ] [Search, insert and delete in an unsorted array](https://www.geeksforgeeks.org/search-insert-and-delete-in-an-unsorted-array/)
       - [ ] [Search, insert and delete in a sorted array](https://www.geeksforgeeks.org/search-insert-and-delete-in-a-sorted-array/)
       - [ ] [Write a program to reverse an array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array/)
@@ -1715,6 +1726,8 @@
     - [ ] [John Vlissides](https://en.wikipedia.org/wiki/John_Vlissides)
     - [ ] [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig)
     - [ ] [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(computer_programmer))
-    - [ ] [Christopher Alexander](https://en.wikipedia.org/wiki/Christopher_Alexander)
+    - [ ] [Christopher Alexander](https://en.wikipedia.org/wiki/Christopher_Alexander)\
+    - [ ] https://en.wikipedia.org/wiki/Jon_Bentley_(computer_scientist)
+    - [ ] https://en.wikipedia.org/wiki/Andrew_Chi-Chih_Yao
   - Blogs
     - https://mattturck.com
