@@ -1,17 +1,6 @@
-# ⚡ MY INTERVIEW PREPARATION PLAN ⚡
 > Consistency is the key to success
 
-- FIRST THINGS FIRST
-  - How it works
-    - Found a good article - identificate the most specific field of the article and add the link there. If you cannot identify a certain field just add the link to About section under the most specific field you can identify.
-    - Just learned material from the link. If it was bad - just remove the link. If it was OK, just check the checkbox [x] and go further.
-    - The main goal of this sheet is to help to prepare to a data engineer (software engineer) interview in a STRUCTURED manner.
-  - Problem solving
-    - https://leetcode.com
-    - https://www.geeksforgeeks.org
-    - https://www.hackerrank.com/
-    - https://www.pramp.com
-    - https://www.hackerearth.com/
+- ABOUT
   - About
     - [x] [1](https://medium.com/@m_mcclarty/data-engineering-interview-guide-7a14d10887dd)
     - [x] [2](https://www.freecodecamp.org/news/software-engineering-interviews-744380f4f2af/)
@@ -22,7 +11,7 @@
     - [ ] [8](https://www.glassdoor.com/Interview/data-engineer-interview-questions-SRCH_KO0,13.htm)
     - [ ] [9](https://arc.dev/interview/data-engineer-interview-questions-and-answers)
     - [ ] [Cookbook](https://github.com/andkret/Cookbook)
-    - [ ] [ATL](https://en.wikipedia.org/wiki/Applicant_tracking_system)
+    - [ ] [ATS](https://en.wikipedia.org/wiki/Applicant_tracking_system)
     - data-driven decision making
     - [ ] Youtube CS lectures:
       - [ ] CS75 summer 2012
@@ -48,12 +37,34 @@
       - [ ] CS164
         - [ ] https://www.youtube.com/watch?v=MIZrQ2smM30
         - [ ] [Relational databases](https://www.youtube.com/watch?v=5xeIjMsxEqs)
+  - Problem solving
+    - https://leetcode.com
+    - https://www.geeksforgeeks.org
+    - https://www.hackerrank.com/
+    - https://www.pramp.com
+    - https://www.hackerearth.com/
+  - Persons
+    - [ ] [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin)
+    - [ ] [Martin Fowler](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))
+    - [ ] [Erich Gamma](https://en.wikipedia.org/wiki/Erich_Gamma)
+    - [ ] [Ralph Johnson](https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist))
+    - [ ] [John Vlissides](https://en.wikipedia.org/wiki/John_Vlissides)
+    - [ ] [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig)
+    - [ ] [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(computer_programmer))
+    - [ ] [Christopher Alexander](https://en.wikipedia.org/wiki/Christopher_Alexander)\
+    - [ ] https://en.wikipedia.org/wiki/Jon_Bentley_(computer_scientist)
+    - [ ] https://en.wikipedia.org/wiki/Andrew_Chi-Chih_Yao
+  - Blogs
+    - https://mattturck.com
 - 👋 🤨 I. BEHAVIORAL QUESTIONS
   - About
     - [ ] [1](https://www.themuse.com/advice/interview-questions-and-answers)
     - [ ] [30 Behavioral Interview Questions to Prepare For](https://www.indeed.com/career-advice/interviewing/most-common-behavioral-interview-questions-and-answers)
     - [ ] [2](https://www.hiredintech.com/courses/interview-strategies)
     - [ ] [STAR method](https://www.themuse.com/advice/star-interview-method)
+  - English language skills
+    - https://preply.com
+    - [Telegram bot for memorizing new words](https://t.me/myenglishvocabulary_bot)
   - Personal Q&A
     - [x] Why Tesla?
         - Tesla is not just a usual car manufacturer. Tesla is a great company, which mission is to accelerate the world's transition to sustainable energy. It means that Tesla is changing the world, making it better. I really want to be a part of your team, work with you and every day make the world better with you.
@@ -1722,17 +1733,3 @@
         - [ ] [Sparse Set](https://www.geeksforgeeks.org/sparse-set/)
         - [ ] [Centroid Decomposition of Tree](https://www.geeksforgeeks.org/centroid-decomposition-of-tree/)
         - [ ] [Gomory-Hu Tree](https://www.geeksforgeeks.org/gomory-hu-tree-introduction/)
-- P.S.: ABOUT
-  - Persons
-    - [ ] [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin)
-    - [ ] [Martin Fowler](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))
-    - [ ] [Erich Gamma](https://en.wikipedia.org/wiki/Erich_Gamma)
-    - [ ] [Ralph Johnson](https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist))
-    - [ ] [John Vlissides](https://en.wikipedia.org/wiki/John_Vlissides)
-    - [ ] [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig)
-    - [ ] [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(computer_programmer))
-    - [ ] [Christopher Alexander](https://en.wikipedia.org/wiki/Christopher_Alexander)\
-    - [ ] https://en.wikipedia.org/wiki/Jon_Bentley_(computer_scientist)
-    - [ ] https://en.wikipedia.org/wiki/Andrew_Chi-Chih_Yao
-  - Blogs
-    - https://mattturck.com

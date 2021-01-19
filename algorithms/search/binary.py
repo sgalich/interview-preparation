@@ -2,7 +2,7 @@ def search(arr, S):
 	"""Binary search algorithm.
 	O(log(n)) for sorted array
 	"""
-	arr.sort()
+	arr = sorted(arr)
 	start = 0
 	end = len(arr)
 	while start < end:

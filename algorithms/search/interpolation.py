@@ -8,10 +8,11 @@ def search(arr: list, S: Union[int, float, str]) -> bool:
 
 	def estimate_index():
 		estimated_gap = (arr[high] - arr[low]) / (high - low)
+		estimated_gap = 1 if not estimated_gap else estimated_gap
 		index = low + int((S - arr[low]) / estimated_gap)
 		return index
 
-	arr.sort()    # this search works only with sorted arrays
+	arr = sorted(arr)    # this search works only with sorted arrays
 	low = 0
 	high = len(arr) - 1
 	while low <= high:

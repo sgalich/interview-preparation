@@ -4,7 +4,7 @@ def search(arr, S):
 	"""
 	if not arr:
 		return False
-	arr.sort()    # Jump search is for sorted arrays only
+	arr = sorted(arr)    # Jump search is for sorted arrays only
 	step = int(len(arr)**.5)
 	end = step
 	while end <= len(arr):

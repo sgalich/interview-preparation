@@ -8,7 +8,7 @@ def search(arr: list, S: Union[int, float, str]) -> bool:
 
 	def binarySearch(start: int, end: int) -> bool:
 		while start <= end:
-			ind = int((end - start) / 2)
+			ind = start + int((end - start) / 2)
 			if arr[ind] < S:
 				start = ind + 1
 			elif arr[ind] > S:
@@ -21,7 +21,7 @@ def search(arr: list, S: Union[int, float, str]) -> bool:
 		return False
 	if arr[0] == S:
 		return True
-	arr.sort()
+	arr = sorted(arr)
 	i = 1
 	while i < len(arr) and arr[i] <= S:
 		i *= 2
