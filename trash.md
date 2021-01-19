@@ -1,4 +1,5 @@
 # TRASH
+
 Here is the information, that I'm too greedy too throw it out yet.
 
 medium online assessment involving intersection of polygons

@@ -1,0 +1,710 @@
+🎛️ 🤔 III. SYSTEM DESIGN
+
+- ABOUT
+  - [x] [Wiki: Systems_design](https://en.wikipedia.org/wiki/Systems_design)
+  - [x] [Wiki: System_architecture](https://en.wikipedia.org/wiki/System_architecture)
+  - [ ] [hiredintech: System Design Interviewing](https://www.hiredintech.com/courses/system-design)
+  - [ ] [examples](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
+  - [x] [2](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
+  - [ ] [3](https://towardsdatascience.com/system-design-101-b8f15162ef7c)
+  - [ ] [4](https://www.educative.io/courses/grokking-the-system-design-interview)
+  - [ ] [5](https://www.freecodecamp.org/news/systems-design-for-interviews/)
+  - [ ] [Software Design Principles for Evolving Achitectures](http://www.firatatagun.com/blog/2016/01/08/software-design-principles-for-evolving-architectures/)
+  - [ ] [Ultimate guide for evolving architectures](http://www.firatatagun.com/blog/2016/01/05/ultimate-guide-for-evolving-architectures/)
+  - [ ] [quora 1](https://www.quora.com/How-can-I-learn-about-Design-questions-asked-in-programming-interviews)
+  - [ ] [quora 2](https://www.quora.com/What-are-the-best-design-interview-questions-youve-ever-asked-or-been-asked)
+  - [ ] [Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512)
+  - [ ] [How to rock a systems design interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
+  - [ ] [System Design Interview Questions – Concepts](https://www.freecodecamp.org/news/systems-design-for-interviews/)
+  - [ ] [6 Common System Design Interview Questions](https://www.indeed.com/career-advice/interviewing/system-design-interview-questions)
+  - [ ] [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis)
+    - [ ] [Elicitation](https://en.wikipedia.org/wiki/Requirements_elicitation)
+    - Recording
+    - Analyzing
+  - [ ] [Url shortening service](https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR)
+  - [ ] [aspect-oriented programming language](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
+  - [ ] [Abstraction principle](https://en.wikipedia.org/wiki/Abstraction_principle_(programming))
+  - [ ] [Algorithmic skeleton](https://en.wikipedia.org/wiki/Algorithmic_skeleton)
+  - [ ] [Distributed design patterns](https://en.wikipedia.org/wiki/Distributed_design_patterns)
+  - [ ] [Double-chance function](https://en.wikipedia.org/wiki/Double-chance_function)
+  - [ ] [Enterprise Architecture framework](https://en.wikipedia.org/wiki/Enterprise_Architecture_framework)
+  - [ ] [GRASP (object-oriented design)](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
+  - [ ] [Helper class](https://en.wikipedia.org/wiki/Helper_class)
+  - [ ] [Interaction design pattern](https://en.wikipedia.org/wiki/Interaction_design_pattern)
+  - [ ] [List of software development philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
+  - [ ] [List of software engineering topics](https://en.wikipedia.org/wiki/List_of_software_engineering_topics)
+  - [ ] [Pattern language](https://en.wikipedia.org/wiki/Pattern_language)
+  - [ ] [Pattern theory](https://en.wikipedia.org/wiki/Pattern_theory)
+  - [ ] [Pedagogical patterns](https://en.wikipedia.org/wiki/Pedagogical_patterns)
+  - [ ] [Portland Pattern Repository](https://en.wikipedia.org/wiki/Portland_Pattern_Repository)
+  - [ ] [Refactoring](https://en.wikipedia.org/wiki/Refactoring)
+  - [ ] [Software development methodology](https://en.wikipedia.org/wiki/Software_development_methodology)
+  - [ ] [classes](https://en.wikipedia.org/wiki/Class_(computer_science))
+  - [ ] [objects](https://en.wikipedia.org/wiki/Object_(computer_science))
+  - [ ] [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
+  - [ ] [software quality](https://en.wikipedia.org/wiki/Software_quality)
+  - [ ] [computer system](https://en.wikipedia.org/wiki/Computer_system)
+  - [ ] [software](https://en.wikipedia.org/wiki/Software)
+  - [ ] [Arcadia (engineering)](https://en.wikipedia.org/wiki/Arcadia_(engineering))
+  - [ ] [Department of Defense Architecture Framework](https://en.wikipedia.org/wiki/Department_of_Defense_Architecture_Framework)
+  - [ ] [Enterprise architecture framework](https://en.wikipedia.org/wiki/Enterprise_architecture_framework)
+  - [ ] [Enterprise information security architecture](https://en.wikipedia.org/wiki/Enterprise_information_security_architecture)
+  - [ ] [Method Framework for Engineering System Architectures](https://en.wikipedia.org/wiki/Method_Framework_for_Engineering_System_Architectures)
+  - [ ] [Process architecture](https://en.wikipedia.org/wiki/Process_architecture)
+  - [ ] [Requirements analysis](https://en.wikipedia.org/wiki/Requirements_analysis)
+  - [ ] [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
+  - [ ] [Systems architect](https://en.wikipedia.org/wiki/Systems_architect)
+  - [ ] [Systems analysis](https://en.wikipedia.org/wiki/Systems_analysis)
+  - [ ] [Systems engineering](https://en.wikipedia.org/wiki/Systems_engineering)
+  - [ ] [software architecture](https://en.wikipedia.org/wiki/Software_architecture)
+  - [ ] [hardware architecture](https://en.wikipedia.org/wiki/Hardware_architecture)
+  - [ ] [Enterprise architecture](https://en.wikipedia.org/wiki/Enterprise_architecture)
+  - [ ] [entity-relationship diagrams](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)
+  - [ ] [architecture description languages](https://en.wikipedia.org/wiki/Architecture_description_languages)
+  - [ ] [Software_engineering](https://en.wikipedia.org/wiki/Software_engineering)
+  - [ ] [Software development](https://en.wikipedia.org/wiki/Software_development)
+  - [ ] [software design](https://en.wikipedia.org/wiki/Software_design)
+  - [ ] [Computer science](https://en.wikipedia.org/wiki/Computer_science)
+  - [ ] [software engineer](https://en.wikipedia.org/wiki/Software_engineer)
+  - [ ] [Computer programm](https://en.wikipedia.org/wiki/Computer_program)
+  - [ ] [Agile](https://en.wikipedia.org/wiki/Agile_software_development)
+  - [ ] [User interface](https://en.wikipedia.org/wiki/Computer_human_interface)
+  - [ ] [interfaces](https://en.wikipedia.org/wiki/Interface_(computer_science))
+  - [ ] [subsystems](https://en.wikipedia.org/wiki/System)
+  - [ ] [loose coupling](https://en.wikipedia.org/wiki/Loose_coupling)
+  - [ ] [How web works?](https://github.com/vasanthk/how-web-works)
+  - [ ] [indirection](https://en.wikipedia.org/wiki/Indirection)
+  - [ ] [components](https://en.wikipedia.org/wiki/Software_componentry)
+  - [ ] [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
+    - [ ] [asynchronous method invocation](https://en.wikipedia.org/wiki/Asynchronous_method_invocation)
+    - [ ] [thread](https://en.wikipedia.org/wiki/Thread_(computing))
+    - [ ] [scheduler](https://en.wikipedia.org/wiki/Scheduling_(computing))
+    - [ ] [mutual exclusion](https://en.wikipedia.org/wiki/Mutual_exclusion)
+  - [ ] [system design youtube channel](https://www.youtube.com/channel/UC9vLsnF6QPYuH51njmIooCQ)
+  - [ ] [Class diagrams](https://en.wikipedia.org/wiki/Unified_Modeling_Language#UML_Class_Diagram)
+  - [ ] [Object-oriented programming (OOP)](https://en.wikipedia.org/wiki/Object-oriented)
+    - [ ] OOP Concepts
+      - [ ] [Java OOPs concepts](https://www.javatpoint.com/java-oops-concepts])
+      - [ ] [SOLID - Wikipediaen.wikipedia.org › wiki › SOLID](https://en.wikipedia.org/wiki/SOLID)
+  - Regression testing scenarios
+  - Debugging/Logging
+  - [ ] [Rapid application development](https://en.wikipedia.org/wiki/Rapid_application_development)
+  - [ ] [Joint application design](https://en.wikipedia.org/wiki/Joint_application_design)
+  - [ ] [Arcadia (engineering)](https://en.wikipedia.org/wiki/Arcadia_(engineering))
+  - [ ] [Configuration design](https://en.wikipedia.org/wiki/Configuration_design)
+  - [ ] [Electronic design automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation)
+  - [ ] [Electronic system-level (ESL)](https://en.wikipedia.org/wiki/Electronic_system-level)
+  - [ ] [Embedded system](https://en.wikipedia.org/wiki/Embedded_system)
+  - [ ] [Graphical system design](https://en.wikipedia.org/wiki/Graphical_system_design)
+  - [ ] [Hypersystems](https://en.wikipedia.org/wiki/Kristo_Ivanov#Hypersystems)
+  - [ ] [Morphological analysis (problem-solving)](https://en.wikipedia.org/wiki/Morphological_analysis_(problem-solving))
+  - [ ] [SCSD (School Construction Systems Development ) project](https://en.wikipedia.org/wiki/SCSD_(School_Construction_Systems_Development_)_project)
+  - [ ] [System information modelling](https://en.wikipedia.org/wiki/System_information_modelling)
+  - [ ] [System development life cycle (SDLC)](https://en.wikipedia.org/wiki/System_development_life_cycle)
+  - [ ] [System engineering](https://en.wikipedia.org/wiki/System_engineering)
+  - [ ] [System thinking](https://en.wikipedia.org/wiki/System_thinking)
+  - [ ] [TRIZ](https://en.wikipedia.org/wiki/TRIZ)
+  - [ ] [User_story](https://en.wikipedia.org/wiki/User_story)
+  - [ ] [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
+  - [ ] [pattern languages ](https://en.wikipedia.org/wiki/Pattern_language)
+  - [ ] [Modular_design](https://en.wikipedia.org/wiki/Modular_design)
+  - [ ] [Pattern Languages of Programming](https://en.wikipedia.org/wiki/Pattern_Languages_of_Programming)
+  - [ ] [Common layers in an information system logical architecture](https://en.wikipedia.org/wiki/Common_layers_in_an_information_system_logical_architecture)
+  - [ ] [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns_(book))
+  - [ ] [Revenge of the Nerds by P. Graham](http://www.paulgraham.com/icad.html)
+  - [ ] https://en.wikipedia.org/wiki/Inter-process_communication
+  - [ ] https://en.wikipedia.org/wiki/Internet_protocol_suite
+  - [ ] Misc: deadlock, and starvation, coherence, various levels of caching in a modern OS?
+  - [ ] https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/
+  - [ ] https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
+  - Do you know the difference between throughput and latency, and when each is the relevant factor?
+  - [ ] Architectural patterns
+    - About
+      - [x] Wiki [url] [https://en.wikipedia.org/wiki/Architectural_pattern_(computer_science)]
+    - [ ] [Three-tier](https://en.wikipedia.org/wiki/Three-tier_(computing))
+    - [ ] [Multilayered architecture](https://en.wikipedia.org/wiki/Multilayered_architecture)
+    - [ ] [Model-view-controller](https://en.wikipedia.org/wiki/Model-view-controller)
+    - [ ] [Domain Driven Design](https://en.wikipedia.org/wiki/Domain_Driven_Design)
+    - [ ] [Microkernel](https://en.wikipedia.org/wiki/Microkernel)
+    - [ ] [Blackboard pattern](https://en.wikipedia.org/wiki/Blackboard_pattern)
+    - Sensor-controller-actuator
+    - [ ] [Presentation–abstraction–control](https://en.wikipedia.org/wiki/Presentation%E2%80%93abstraction%E2%80%93control)
+  - [ ] Architectural styles
+    - [ ] Structure
+      - [ ] [Component-based](https://en.wikipedia.org/wiki/Software_componentry)
+      - [ ] [Monolithic application](https://en.wikipedia.org/wiki/Monolithic_application)
+      - [ ] [Layered](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Layered_architecture)
+      - [ ] [Pipes and filters](https://en.wikipedia.org/wiki/Pipes_and_filters)
+    - [ ] Shared memory
+      - [ ] [Database-centric](https://en.wikipedia.org/wiki/Database-centric_architecture)
+      - [ ] [Blackboard](https://en.wikipedia.org/wiki/Blackboard_(computing))
+      - [ ] [Rule-based](https://en.wikipedia.org/wiki/Rule-based_system)
+    - [ ] Messaging
+      - [ ] [Event-driven](https://en.wikipedia.org/wiki/Event-driven_architecture) aka [implicit invocation](https://en.wikipedia.org/wiki/Implicit_invocation)
+      - [ ] [Publish-subscribe](https://en.wikipedia.org/wiki/Publish/subscribe)
+      - [ ] [Asynchronous messaging](https://en.wikipedia.org/wiki/Asynchronous_messaging)
+    - [ ] Adaptive systems
+      - [ ] [Plug-ins](https://en.wikipedia.org/wiki/Plug-in_(computing))
+      - [ ] [Microkernel](https://en.wikipedia.org/wiki/Microkernel)
+      - [ ] [Reflection](https://en.wikipedia.org/wiki/Reflection_(computer_programming))
+      - [ ] [Domain specific languages](https://en.wikipedia.org/wiki/Domain_specific_languages)
+    - [ ] Distributed systems
+      - [ ] [Client-server](https://en.wikipedia.org/wiki/Client%E2%80%93server_model) (2-tier, [3-tier](https://en.wikipedia.org/wiki/Three-tier_(computing)), [n-tier](https://en.wikipedia.org/wiki/N-tier) exhibit this style)
+      - [ ] [Shared nothing architecture](https://en.wikipedia.org/wiki/Shared_nothing_architecture)
+      - [ ] [Space-based architecture](https://en.wikipedia.org/wiki/Space-based_architecture)
+      - [ ] [Object request broker](https://en.wikipedia.org/wiki/Object_request_broker)
+      - [ ] [Peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer)
+      - [ ] [Representational state transfer (REST)](https://en.wikipedia.org/wiki/Representational_state_transfer)
+      - [ ] [Service-oriented](https://en.wikipedia.org/wiki/Service-oriented_architecture)
+      - [ ] [Cloud computing patterns](https://en.wikipedia.org/wiki/Cloud_computing)      
+  - [ ] Software design patterns
+    - About
+      - [x] Wiki [url] [https://en.wikipedia.org/wiki/Software_design_pattern]
+      - [ ] [Design pattern](https://en.wikipedia.org/wiki/Design_pattern)
+      - [ ] [Youtube lecture](https://www.youtube.com/watch?v=mym5m-GKG0Q)
+      - [ ] [SOLID, DI, Factory, Singleton, etc.]()
+      - [ ] [Modular design](https://en.wikipedia.org/wiki/Modular_design)
+      - [ ] [ETL (data extraction transformation and loading)](https://stargroup.uwaterloo.ca/~mamouika/papers/pdf/IJCS.2006.pdf)
+      - [ ] [MFT](https://en.wikipedia.org/wiki/Managed_file_transfer)
+      - [ ] [ESB](https://en.wikipedia.org/wiki/Enterprise_service_bus)
+      - [ ] [Transaction data stores (TDS/OLTP)](https://en.wikipedia.org/wiki/Online_transaction_processing)
+      - [ ] [Master data store](https://en.wikipedia.org/wiki/Master_data_management)
+      - [ ] [Operational data store](https://en.wikipedia.org/wiki/Operational_data_store)
+      - [ ] [Data mart](https://en.wikipedia.org/wiki/Data_mart)
+      - [ ] [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)
+      - [ ] [Dimensional data modeling](https://en.wikipedia.org/wiki/Dimensional_modeling)
+      - [ ] [E-R data modeling](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)
+      - [ ] [Robotic process automation](https://en.wikipedia.org/wiki/Robotic_process_automation)
+      - [ ] [Blackboard system](https://en.wikipedia.org/wiki/Blackboard_(design_pattern))
+      - [ ] [Broker pattern](https://en.wikipedia.org/wiki/Broker_pattern)
+      - [ ] [Event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture)
+      - [ ] [Implicit invocation](https://en.wikipedia.org/wiki/Implicit_invocation)
+      - [ ] [Layers](https://en.wikipedia.org/wiki/Layer_(object-oriented_design))
+      - [ ] [Hexagonal architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
+      - [ ] [Microservices](https://en.wikipedia.org/wiki/Microservices)
+      - [ ] [Action-domain-responder](https://en.wikipedia.org/wiki/Action-domain-responder)
+      - [ ] [Model–view–controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+      - [ ] [Presentation-abstraction-control](https://en.wikipedia.org/wiki/Presentation-abstraction-control)
+      - [ ] [Model-view-presenter](https://en.wikipedia.org/wiki/Model-view-presenter)
+      - [ ] [Model-view-viewmodel](https://en.wikipedia.org/wiki/Model-view-viewmodel)
+      - [ ] [Entity–component–system](https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system)
+      - [ ] [Entity-control-boundary](https://en.wikipedia.org/wiki/Entity-control-boundary)
+      - [ ] [Multitier architecture (often three-tier or n-tier)](https://en.wikipedia.org/wiki/Multitier_architecture)
+      - [ ] [Naked objects](https://en.wikipedia.org/wiki/Naked_objects)
+      - [ ] [Operational data store (ODS)](https://en.wikipedia.org/wiki/Operational_data_store)
+      - [ ] [Peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer)
+      - [ ] [Pipe and filter architecture](https://en.wikipedia.org/wiki/Pipe_and_filter_architecture)
+      - [ ] [Service-oriented architecture](https://en.wikipedia.org/wiki/Service-oriented_architecture)
+      - [ ] [Space-based architecture](https://en.wikipedia.org/wiki/Space-based_architecture)
+      - [ ] [Distributed hash table](https://en.wikipedia.org/wiki/Distributed_hash_table)
+      - [ ] [Change data capture](https://en.wikipedia.org/wiki/Change_data_capture)
+      - [ ] [Data discovery](https://en.wikipedia.org/wiki/Data_discovery)
+      - [ ] [Publish/subscribe](https://en.wikipedia.org/wiki/Publish/subscribe)
+      - [ ] [Request/reply](https://en.wikipedia.org/wiki/Request-response)
+      - [ ] [Message exchange patterns](https://en.wikipedia.org/wiki/Messaging_pattern)
+      - [ ] [Data mining](https://en.wikipedia.org/wiki/Data_mining)
+      - [ ] [connection pool](https://en.wikipedia.org/wiki/Connection_pool)
+      - [ ] [aggregate](https://en.wikipedia.org/wiki/Aggregate_pattern)
+      - [ ] [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern)
+      - [ ] [Creational patterns](https://en.wikipedia.org/wiki/Creational_pattern)
+        - [ ] [Abstract factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
+        - [ ] [Builder](https://en.wikipedia.org/wiki/Builder_pattern)
+        - [ ] [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection)
+        - [ ] [Factory method](https://en.wikipedia.org/wiki/Factory_method_pattern)
+        - [ ] [Lazy initialization](https://en.wikipedia.org/wiki/Lazy_initialization)
+        - [ ] [Multiton](https://en.wikipedia.org/wiki/Multiton_pattern)
+        - [ ] [Object pool](https://en.wikipedia.org/wiki/Object_pool_pattern)
+        - [ ] [Prototype](https://en.wikipedia.org/wiki/Prototype_pattern)
+        - [ ] [Resource acquisition is initialization (RAII)](https://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization)
+        - [ ] [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
+      - [ ] [Structural patterns](https://en.wikipedia.org/wiki/Structural_pattern)
+        - [ ] [Adapter](https://en.wikipedia.org/wiki/Adapter_pattern), Wrapper, or Translator
+        - [ ] [Bridge](https://en.wikipedia.org/wiki/Bridge_pattern)
+        - [ ] [Composite](https://en.wikipedia.org/wiki/Composite_pattern)
+        - [ ] [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern)
+        - [ ] Extension object
+        - [ ] [Facade](https://en.wikipedia.org/wiki/Facade_pattern)
+        - [ ] [Flyweight](https://en.wikipedia.org/wiki/Flyweight_pattern)
+        - [ ] [Front controller](https://en.wikipedia.org/wiki/Front_controller)
+        - [ ] [Marker](https://en.wikipedia.org/wiki/Marker_interface_pattern)
+        - [ ] [Module](https://en.wikipedia.org/wiki/Module_pattern)
+        - [ ] [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)
+        - [ ] [Twin](https://en.wikipedia.org/wiki/Twin_pattern)
+      - [ ] [Behavioral patterns](https://en.wikipedia.org/wiki/Behavioral_pattern)
+        - [ ] [Blackboard](https://en.wikipedia.org/wiki/Blackboard_(design_pattern))
+        - [ ] [Chain of responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
+        - [ ] [Command](https://en.wikipedia.org/wiki/Command_pattern)
+        - [ ] [Interpreter](https://en.wikipedia.org/wiki/Interpreter_pattern)
+        - [ ] [Iterator](https://en.wikipedia.org/wiki/Iterator_pattern)
+        - [ ] [Mediator](https://en.wikipedia.org/wiki/Mediator_pattern)
+        - [ ] [Memento](https://en.wikipedia.org/wiki/Memento_pattern)
+        - [ ] [Null object](https://en.wikipedia.org/wiki/Null_Object_pattern)
+        - [ ] [Observer](https://en.wikipedia.org/wiki/Observer_pattern) or [Publish/subscribe](https://en.wikipedia.org/wiki/Publish/subscribe)
+        - [ ] [Servant](https://en.wikipedia.org/wiki/Design_pattern_Servant)
+        - [ ] [Specification](https://en.wikipedia.org/wiki/Specification_pattern)
+        - [ ] [State](https://en.wikipedia.org/wiki/State_pattern)
+        - [ ] [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern)
+        - [ ] [Template method](https://en.wikipedia.org/wiki/Template_method_pattern)
+        - [ ] [Visitor](https://en.wikipedia.org/wiki/Visitor_pattern)
+      - [ ] [Concurrency patterns](https://en.wikipedia.org/wiki/Concurrency_pattern)
+        - [ ] [Active Object](https://en.wikipedia.org/wiki/Active_object)
+        - [ ] [Balking](https://en.wikipedia.org/wiki/Balking_pattern)
+        - [ ] [Binding properties](https://en.wikipedia.org/wiki/Binding_properties_pattern)
+        - [ ] [Compute kernel](https://en.wikipedia.org/wiki/Compute_kernel)
+        - [ ] [Double-checked locking](https://en.wikipedia.org/wiki/Double_checked_locking_pattern)
+        - [ ] [Event-based asynchronous](https://en.wikipedia.org/wiki/Event-Based_Asynchronous_Pattern)
+        - [ ] [Guarded suspension](https://en.wikipedia.org/wiki/Guarded_suspension)
+        - [ ] [Join !](https://en.wikipedia.org/wiki/Join-pattern)
+        - [ ] [Lock](https://en.wikipedia.org/wiki/Lock_(computer_science))
+        - [ ] [Messaging design pattern (MDP)](https://en.wikipedia.org/wiki/Messaging_pattern)
+        - [ ] [Monitor object](https://en.wikipedia.org/wiki/Monitor_(synchronization))
+        - [ ] [Reactor](https://en.wikipedia.org/wiki/Reactor_pattern)
+        - [ ] [Read-write lock](https://en.wikipedia.org/wiki/Read/write_lock_pattern)
+        - [ ] [Scheduler](https://en.wikipedia.org/wiki/Scheduler_pattern)
+        - [ ] [Thread pool](https://en.wikipedia.org/wiki/Thread_pool_pattern)
+        - [ ] [Thread-specific storage](https://en.wikipedia.org/wiki/Thread-Specific_Storage)
+      - [ ] [Debugging patterns]()
+        - [ ] [unit test](https://en.wikipedia.org/wiki/Unit_test)
+        - [ ] [continuous test](https://en.wikipedia.org/wiki/Continuous_testing)
+        - [ ] [A pattern language for software debugging, 2006]()
+  - Misc: (Weibull, Lognormal, Exponential, etc.), life data (or survival) analysis, and reliability modeling
+- REQUIREMENTS
+  - About
+    - [x] [Requirements engineering](https://en.wikipedia.org/wiki/Requirements_engineering)
+  - Functional requirements
+    - About
+      - [ ] [Wiki: Functional requirements](https://en.wikipedia.org/wiki/Functional_requirement)
+  - Non-functional Requirements
+    - About
+      - [ ] [Wiki](https://en.wikipedia.org/wiki/Non-functional_requirement)
+      - [ ] [Architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements)
+    - Scalability
+      - About
+        - [ ] [Wiki](https://en.wikipedia.org/wiki/Scalability)
+        - [ ] [Scalability for Dummies](http://www.lecloud.net/tagged/scalability)
+        - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+        - [ ] [Scalable System Design Patterns](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
+        - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
+        - [ ] [What is the best way to design a web site to be highly scalable?](http://programmers.stackexchange.com/a/108679/62739)
+        - [x] [Youtube lecture CS75](https://www.youtube.com/watch?v=-W9F__D3oY4)
+        - [ ] [1](https://www.lecloud.net/tagged/scalability)
+        - [ ] [Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
+        - Misc: “sharding”, “denormalization” and “SQL tuning” 
+      - Vertical scaling
+      - Horizontal scaling
+      - Caching
+      - Database replication
+      - Database partitioning
+      - Using NoSQL instead of scaling a relational database
+      - Being asynchronous
+      - Bottlenecks
+        - handling a lot of users
+        - handling a lot of data
+    - Availability
+      - About
+        - [Wiki](https://en.wikipedia.org/wiki/Availability)
+        - [Service level agreement (SLA)](https://en.wikipedia.org/wiki/Service_level_agreement)
+    - Performance
+    - Durability
+      - About
+        - [ ] [Durability](https://en.wikipedia.org/wiki/Durability)
+    - Maintainability
+      - About
+        - [ ] [Maintainability](https://en.wikipedia.org/wiki/Maintainability)
+    - Life-cycle cost
+      - About
+        - [ ] [Life-cycle cost](https://en.wikipedia.org/wiki/Life-cycle_cost)
+    - Security
+      - About
+        - [Wiki](https://en.wikipedia.org/wiki/Computer_security)
+    - Accessibility
+    - Adaptability
+    - Auditability and control
+    - Backup
+      - [ ] [Backup](https://en.wikipedia.org/wiki/Backup)
+    - Capacity
+      - [ ] [Capacity](https://en.wikipedia.org/wiki/System_capacity)
+    - Certification
+    - Compliance
+    - Configuration management
+      - [ ] [Configuration management](https://en.wikipedia.org/wiki/Configuration_management)
+    - Data integrity
+      - [ ] [Data integrity](https://en.wikipedia.org/wiki/Data_integrity)
+    - Data retention
+      - [ ] [Data retention](https://en.wikipedia.org/wiki/Data_retention)
+    - Dependency on other parties
+    - Deployment
+      - [ ] [Deployment](https://en.wikipedia.org/wiki/Software_deployment)
+    - Development environment
+      - [ ] [Development environment](https://en.wikipedia.org/wiki/Development_environment)
+    - Disaster recovery
+      - [ ] [Disaster recovery](https://en.wikipedia.org/wiki/Disaster_recovery)
+    - Documentation
+    - Efficiency (resource consumption for given load)
+    - Effectiveness (resulting performance in relation to effort)
+    - Elasticity
+      - [ ] [Elasticity](https://en.wikipedia.org/wiki/Elasticity_(cloud_computing))
+    - Emotional factors (like fun or absorbing or has "Wow! Factor")
+    - Environmental protection
+    - Escrow
+      - [ ] [wiki: Escrow](https://en.wikipedia.org/wiki/Source_code_escrow)
+    - Exploitability
+    - Extensibility
+      - adding features, and carry-forward of customizations at next major version upgrade
+      - [ ] [wiki: Extensibility](https://en.wikipedia.org/wiki/Extensibility)
+    - Failure management
+    - Fault tolerance
+      - e.g. Operational System Monitoring, Measuring, and Management
+      - [ ] [wiki: Fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance) 
+    - Flexibility (e.g. to deal with future changes in requirements)
+    - Integrability
+      - [ ] [wiki: Integrability](https://en.wikipedia.org/wiki/System_integration) ability to integrate components
+    - Internationalization and localization
+      - [ ] [wiki: Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
+    - Interoperability
+      - [ ] [wiki: Interoperability](https://en.wikipedia.org/wiki/Interoperability)
+    - Legal and licensing issues or patent-infringement-avoidability
+      - [ ] Legal and [wiki: licensing](https://en.wikipedia.org/wiki/Software_license_agreement)
+    - Maintainability
+      - e.g. Mean Time to Repair - MTTR
+    - Management
+    - Modifiability
+    - Network topology
+      - [ ] [wiki: Network topology](https://en.wikipedia.org/wiki/Network_topology)
+    - Open source
+      - [ ] [wiki: Open source](https://en.wikipedia.org/wiki/Open_source)
+    - Operability
+      - [ ] [wiki: Operability](https://en.wikipedia.org/wiki/Operability)
+    - Performance/response time
+      - [ ] [wiki: Performance](https://en.wikipedia.org/wiki/Computer_performance)
+      - [ ] [wiki: performance engineering](https://en.wikipedia.org/wiki/Performance_engineering)
+    - Platform compatibility
+      - [ ] [wiki: Platform](https://en.wikipedia.org/wiki/Platform_(computing))
+    - Privacy
+      - [ ] [wiki: Privacy](https://en.wikipedia.org/wiki/Privacy)
+      - [ ] [wiki: privacy laws](https://en.wikipedia.org/wiki/Privacy_law))
+    - Portability
+      - [ ] [wiki: Portability](https://en.wikipedia.org/wiki/Software_portability)
+    - Quality
+      - e.g. faults discovered, faults delivered, fault removal efficacy
+      - [ ] [wiki: Quality](https://en.wikipedia.org/wiki/Quality_(business))
+    - Readability
+      - [ ] [wiki: Readability](https://en.wikipedia.org/wiki/Computer_programming#Readability_of_source_code)
+    - Reliability
+      - Mean Time Between/to Failures - MTBF/MTTF
+      - [ ] [wiki: Reliability](https://en.wikipedia.org/wiki/Reliability_engineering)
+    - Reporting
+    - Resilience
+      - [ ] [wiki: Resilience](https://en.wikipedia.org/wiki/Resilience_(network))
+    - Resource constraints
+      - processor speed, memory, disk space, network bandwidth, etc.
+    - Response time
+      - [ ] [wiki: Response time](https://en.wikipedia.org/wiki/Response_Time#Data_processing)
+    - Reusability
+      - [ ] [wiki: Reusability](https://en.wikipedia.org/wiki/Reusability)
+    - Robustness
+      - [ ] [wiki: Robustness](https://en.wikipedia.org/wiki/Robustness_(computer_science))
+    - Safety
+      - [ ] [wiki: Safety](https://en.wikipedia.org/wiki/Safety) or 
+      - [ ] [wiki: factor of safety](https://en.wikipedia.org/wiki/Factor_of_safety)
+    - Compatibility
+      - [ ] [wiki: Compatibility](https://en.wikipedia.org/wiki/Backward_compatibility)
+    - Stability
+      - [ ] [wiki: Stability](https://en.wikipedia.org/wiki/Stability_Model)
+    - Supportability
+      - [ ] [wiki: Supportability](https://en.wikipedia.org/wiki/Serviceability_(computer))
+    - Testability
+      - [ ] [wiki: Testability](https://en.wikipedia.org/wiki/Software_testability)
+    - Throughput
+      - [ ] [wiki: Throughput](https://en.wikipedia.org/wiki/Throughput)
+    - Transparency
+      - [ ] [wiki: Transparency](https://en.wikipedia.org/wiki/Transparency_(behavior))
+    - Usability
+      - [ ] [wiki: Usability](https://en.wikipedia.org/wiki/Usability) (human factors) by target user community
+    - Volume
+      - [ ] [wiki: Volume](https://en.wikipedia.org/wiki/Volume_testing)
+- COMPONENTS
+  - About
+  - Database
+    - About
+      - [ ] [Wiki: Data management](https://en.wikipedia.org/wiki/Data_management)
+      - [ ] [Wiki: dynamic data](https://en.wikipedia.org/wiki/Dynamic_data)
+      - [ ] [wiki: codd's 12 rules](https://en.wikipedia.org/wiki/Codd%27s_12_rules)
+      - [ ] [The Data Warehouse Toolkit: The Complete Guide to Dimensional Modelling](https://www.amazon.com/Data-Warehouse-Toolkit-Complete-Dimensional/dp/0471200247)
+      - [ ] [Star Schema: The Complete Reference  by Christopher Adamson](https://www.amazon.com/Schema-Complete-Reference-Christopher-Adamson/dp/0071744320)
+      - [ ] [Udemy cource](https://www.udemy.com/course/master-datawarehouse-concepts-step-by-step-from-scratch/)
+      - [ ] [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/)
+        - [ ] [About this book](https://medium.com/@m_mcclarty/tech-book-talk-designing-data-intensive-applications-eb4908f2f6d6)
+      - log-structure merge trees, raft
+      - [ ] Building and maintaining databases
+      - [ ] MPP database system
+      - [ ] SQL and query writing !
+      - [ ] Database performance concepts
+        - [ ] indices
+        - [ ] segmentation
+        - [ ] projections
+      - [ ] [RAID](https://en.wikipedia.org/wiki/RAID)
+      - [ ] [wiki: Data striping](https://en.wikipedia.org/wiki/Data_striping)
+      - [ ] [Standard RAID levels](https://en.wikipedia.org/wiki/Standard_RAID_levels)
+      - [ ] [An Unorthodox Approach To Database Design : The Coming Of The Shard](http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html)      
+      - ETL
+        - About
+          - [x] [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)
+          - [ ] [](https://en.wikipedia.org/wiki/Data)
+          - [ ] [](https://en.wikipedia.org/wiki/Unstructured_data)
+          - [ ] [Data_warehouse](https://en.wikipedia.org/wiki/Data_warehouse)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_lake)
+          - [ ] [](https://en.wikipedia.org/wiki/Relational_database)
+          - [ ] [](https://en.wikipedia.org/wiki/Flat_file_database)
+          - [ ] [](https://en.wikipedia.org/wiki/Join_(relational_algebra))
+          - [ ] [](https://en.wikipedia.org/wiki/Record_linkage)
+          - [ ] [](https://en.wikipedia.org/wiki/Surrogate_key)
+          - [ ] [](https://en.wikipedia.org/wiki/Referential_integrity)
+          - [ ] [](https://en.wikipedia.org/wiki/Expense_and_Cost_Recovery_System_(ECRS))
+          - [ ] [](https://en.wikipedia.org/wiki/Law_practice_management_software)
+          - [ ] [](https://en.wikipedia.org/wiki/Reference_data)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_validation)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_integrity)
+          - [ ] [](https://en.wikipedia.org/wiki/Aggregate_(data_warehouse))
+          - [ ] [](https://en.wikipedia.org/wiki/Staging_(data))
+          - [ ] [](https://en.wikipedia.org/wiki/Data_profiling)
+          - [ ] [](https://en.wikipedia.org/wiki/Batch_processing)
+          - [ ] [](https://en.wikipedia.org/wiki/Message_queue)
+          - [ ] [](https://en.wikipedia.org/wiki/Partition_(database))
+          - [ ] [](https://en.wikipedia.org/wiki/Database_trigger)
+          - [ ] [](https://en.wikipedia.org/wiki/Database_index)
+          - [ ] [](https://en.wikipedia.org/wiki/Fact_table)
+          - [ ] [](https://en.wikipedia.org/wiki/Star_schema)
+          - [ ] [](https://en.wikipedia.org/wiki/Parallel_computing)
+            - [ ] [](https://en.wikipedia.org/wiki/Parallel_Random_Access_Machine)
+          - [ ] [](https://en.wikipedia.org/wiki/Pipeline_(computing))
+          - [ ] [](https://en.wikipedia.org/wiki/Data_stream)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_virtualization)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_migration)
+          - [ ] [](https://en.wikipedia.org/wiki/Hub-and-spoke)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_profiling)
+          - [ ] [](https://en.wikipedia.org/wiki/Extract,_load,_transform)
+          - [ ] [](https://en.wikipedia.org/wiki/Foreign_key)
+          - [ ] [](https://en.wikipedia.org/wiki/Unique_key)
+          - [ ] [](https://en.wikipedia.org/wiki/Business_entity_(computer_science))
+          - [ ] [](https://en.wikipedia.org/wiki/Lookup_table)
+          - [ ] [](https://en.wikipedia.org/wiki/Enterprise_Application_Integration)
+          - [ ] [](https://en.wikipedia.org/wiki/Enterprise_Service_Bus)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_quality)
+          - [ ] [](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_mart)
+          - [ ] [](https://en.wikipedia.org/wiki/Electronic_data_interchange)
+          - [ ] [](https://en.wikipedia.org/wiki/Expense_and_cost_recovery_system_(ECRS))
+          - [ ] [](https://en.wikipedia.org/wiki/Hartmann_pipeline)
+          - [ ] [](https://en.wikipedia.org/wiki/Legal_Electronic_Data_Exchange_Standard)
+          - [ ] [](https://en.wikipedia.org/wiki/Metadata_discovery)
+          - [ ] [](https://en.wikipedia.org/wiki/Online_analytical_processing)
+          - [ ] [](https://en.wikipedia.org/wiki/Online_transaction_processing)
+          - [ ] [](https://en.wikipedia.org/wiki/Spatial_ETL)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_export)
+          - [ ] [](https://en.wikipedia.org/wiki/Workflow)
+        - Data_extraction
+          - [ ] [Wiki: Data_extraction](https://en.wikipedia.org/wiki/Data_extraction)
+          - [ ] [Wiki: ](https://en.wikipedia.org/wiki/Web_spider)
+          - [ ] [Wiki: ](https://en.wikipedia.org/wiki/Screen-scraping)
+          - [ ] [Wiki: ](https://en.wikipedia.org/wiki/Pattern_matching)
+          - [ ] [Wiki: ](https://en.wikipedia.org/wiki/Text_analytics)
+          - [ ] [Wiki: ](https://en.wikipedia.org/wiki/Information_extraction)
+          - [ ] [Wiki: ](https://en.wikipedia.org/wiki/Data_retrieval)
+          - [ ] [Wiki: ](https://en.wikipedia.org/wiki/Data_mining)
+        - Data transformation
+          - [ ] [Wiki: Data transformation](https://en.wikipedia.org/wiki/Data_transformation)
+          - [ ] [Wiki: Data_processing](https://en.wikipedia.org/wiki/Data_processing)
+          - [ ] [Wiki: Data cleaning](https://en.wikipedia.org/wiki/Data_cleaning)
+        - Data loading
+          - [ ] [](https://en.wikipedia.org/wiki/Data_storage_device)
+          - [ ] [](https://en.wikipedia.org/wiki/Operational_data_store)
+          - [ ] [](https://en.wikipedia.org/wiki/Data_mart)
+      - [ ] [wiki](https://en.wikipedia.org/wiki/Block_Range_Index)
+      - [ ] [wiki](https://en.wikipedia.org/wiki/CAP_theorem)
+    - Replication
+      - [ ] [wiki: replication](https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE)
+      - master-slave replication (read from slaves, write to master)
+      - master-master
+    - Partitioning
+      - About
+        - [x] [Wiki: db partitioning](https://en.wikipedia.org/wiki/Partition_(database))
+      - Partition criteria
+        - Range partitioning
+        - List partitioning
+        - Composite partitioning
+        - Round-robin partitioning
+          - [x] [quora](https://www.quora.com/What-is-round-robin-partitioning)
+        - Hash partitioning
+      - Partition methods
+        - Horizontal (Shard)
+          - [ ] [Wiki: shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))
+        - Vertical (Normalization)
+          - [ ] [Wiki: normalization](https://en.wikipedia.org/wiki/Database_normalization)
+  - Load balancer
+- TECHNOLOGIES
+  - About
+    - CRON, Amazon Web Services, EC2, RDS, S3, Elastic MapReduce
+    - Git
+    - Regex
+      - [ ] [Wiki](https://en.wikipedia.org/wiki/Regular_expression)
+    - [ ] SQL Server
+    - [ ] MicrosoftSQL
+    - [ ] Apache Airflow !
+    - [ ] Splunk !
+    - [ ] Presto !
+      - https://github.com/apache/airflow
+    - [ ] [Hadoop !](https://hadoop.apache.org/)
+    - [ ] [Spark (old Hadoop's substitute) !](https://spark.apache.org/)
+      - [ ] [Spark: Databricks Community Edition](https://databricks.com/product/faq/community-edition)
+    - [ ] [Kafka !](https://kafka.apache.org/)
+    - [ ] [Hive !](https://hive.apache.org/)
+    - [ ] ElasticSearch  
+    - [ ] Hbase
+    - [ ] AWS Redshift
+    - [ ] Vertica
+    - [ ] Oracle
+    - [ ] HDFS
+    - [ ] MapReduce
+    - [ ] Cassandra
+    - DAG
+    - [ ] RabbitMQ
+    - [x] Docker
+    - [ ] Jenkins
+    - [ ] Kubernetes
+    - [ ] CI/CD methods
+    - [ ] Linux command line environment
+    - [ ] SSIS
+    - [ ] Informatica
+    - [ ] Celery
+    - [ ] Grafana
+    - [ ] DataMart
+    - [ ] Data Warehouse
+    - [ ] MATLAB
+    - Data visualization techniques and tools 
+      - [ ] Tableau
+      - [ ] Power BI
+      - [ ] Superset
+    - Data communication protocols
+      - [ ] REST API, RESTful API Design & Implementation
+      - [ ] SOAP API
+      - [ ] Kafka
+      - [ ] gRPC
+      - CI/CD pipeline (Container orchestration platforms)
+        - Docker
+        - Jenkins
+        - Kubernetes
+          - networking, nginx ingress, apache, haproxy
+        - Helm
+    - Misc: Octave, Go, Concourse, ArgoCD, Ansible, HDFS, Presto, Ruby, Java, PHP, 
+    - Misc: jQuery, Angular, Vue, React, Chrome, IE, Firefox, Safari browsers, and their various idiosyncrasies
+    MySQL, familiar with MS SQL and Oracle, PostgreSQL
+    - Agile/SCRUM
+    - distributed algorithms (e.g. distributed consensus)
+    - [ ] Model-View-Controller, Test-Driven Development
+    - modern task runner et testing tools
+    - CICD pipeline and how to integrate Front-end design in that pipeline
+    - prometheus/grafana), centralised structured logging, tracing
+    - unit and integration testing and coverage
+    - debuggers, source control, profiling, unit test coverage
+    - gRPC/REST with OpenAPI/Swagger
+    - cloud native development best practices (12 factor applications)
+    - Stream processing systems
+      - About
+        - publish/subscribe event buses
+      - Apache Kafka !
+      - NATS
+      - RabbitMQ
+    - workflow management platforms (Airflow or similar)
+      - Airflow
+    - scalable map-reduce data processing
+      - Spark
+      - Hadoop
+    - object stores (S3, geographically distributed storage)
+    - emberjs
+    - authentication and authorisation techniques (e.g. OpenID Connect)
+    - Rails, React, ES6 and Webpack.
+    - API design principles
+    - Dash
+    - continuous integration (Rundeck, Jenkins
+    - Elastic Search
+    - SSO integration
+    - LoadBalancer has Nginx (OpenResty), HAProxy or LVS.
+    - Spring boot/MVC/Cloud, Hibernate, Mybatis
+    - KVM, Docker Swarm, Openstack
+    - [ ] Round-robin, IP
+    - [ ] Http2 + bundling/sprites
+    - [ ] ASK/INGRES database server
+    - [ ] REST API
+    - [ ] udp
+    - [ ] tcp
+    - [ ] dns
+    - Content Delivery Network
+      - AWS S3
+      - Cloudfront
+    - RabbitMQ
+    - ActiveMQ
+    - Redis list
+    - [ ] ETL pipelines
+    - [ ] Quality Assurance
+    - [ ] redis, OOPS concepts
+    - [ ] Kafka, Zookeeper, Cassandra
+    - [ ] Explain [memory management, polymorphism, etc.]
+    - [ ] [GPU](https://en.wikipedia.org/wiki/GPU)
+    - [ ] OSI model
+    - [ ] DNS, TCP, SSL, HTTP/HTTPS
+    - [ ] lambda architecture
+    - [ ] [Convolutional neural network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+    - [ ] [MD5](https://en.wikipedia.org/wiki/MD5)
+  - OS
+    - About
+      - [ ] [book: Operating System Concepts](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1118063333/ref=sr_1_1?s=books&ie=UTF8&qid=1506042402&sr=1-1&keywords=Operating+System+Concepts)
+    - Linux
+      - performance analysis
+  - Languages
+    - [ ] Bash
+    - [x] Python
+      - [x] Pandas
+      - [x] Numpy
+      - [ ] Pyspark
+      - [x] Matplotlib
+      - [x] Plotly
+      - [ ] Flask, Django
+    - [ ] Scala
+    - [ ] R
+    - [x] JavaScript
+      - [ ] React
+      - [x] Node JS
+      - [ ] Semantic UI
+      - [ ] Bulma
+      - [ ] Bootstrap
+      - [ ] D3
+      - [ ] NVD3
+    - [ ] Java
+    - [x] SQL
+      - [ ] [w3schools](https://www.w3schools.com/sql/default.asp)
+      - [ ] [nice tutorial](https://mode.com/sql-tutorial/introduction-to-sql/)
+      - [ ] practice: [Leetcode](https://leetcode.com/problemset/database/)
+      - [ ] practice: [hackerrank](https://www.hackerrank.com/domains/sql)
+      - [ ] group by
+        - [ ] https://www.peachpit.com/articles/article.aspx?p=30681&seqNum=8
+      - [x] joins
+      - [ ] window functions
+      - [ ] CASE WHEN statements
+      - [ ] Misc: normalization, indexing, ANALYZE-EXPLAIN for queries, Query Optimization
+  - DB
+    - Relational
+      - MySQL, Postgres
+    - NoSQL
+      - MongoDB, CouchDB
+- PRACTICE
+  - About
+    - [1](https://www.hiredintech.com/classrooms/system-design/lesson/61)
+  - [ ] Explain ER diagram of a project that you've worked on.
+  - [ ] Design a receipt system
+  - [ ] How to make API secure?
+  - [ ] Lets say you have a receipt from a retail store. Design a database schema to capture all the details on the receipt. Follow up, you have coupons to manage, how would you change your database schema.
+  - Design a...
+    - car park ticketing system
+    - chat messenger
+    - twitter feed

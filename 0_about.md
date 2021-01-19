@@ -1,0 +1,145 @@
+- ABOUT
+  - [x] [1](https://medium.com/@m_mcclarty/data-engineering-interview-guide-7a14d10887dd)
+  - [x] [2](https://www.freecodecamp.org/news/software-engineering-interviews-744380f4f2af/)
+  - [ ] [4](https://www.guru99.com/data-engineer-interview-questions.html)
+  - [ ] [5](https://365datascience.com/data-engineer-interview-questions/)
+  - [ ] [6](https://www.indeed.com/career-advice/interviewing/data-engineer-interview-questions)
+  - [ ] [7](https://www.simplilearn.com/data-engineer-interview-questions-and-answers-article)
+  - [ ] [8](https://www.glassdoor.com/Interview/data-engineer-interview-questions-SRCH_KO0,13.htm)
+  - [ ] [9](https://arc.dev/interview/data-engineer-interview-questions-and-answers)
+  - [ ] [Cookbook](https://github.com/andkret/Cookbook)
+  - [ ] [ATS](https://en.wikipedia.org/wiki/Applicant_tracking_system)
+  - data-driven decision making
+  - [ ] Youtube CS lectures:
+    - [ ] CS75 summer 2012
+      - [ ] https://www.youtube.com/watch?v=8KuO4r5CHjM
+      - [ ] https://www.youtube.com/watch?v=gwUEjgbs02w
+      - [ ] https://www.youtube.com/watch?v=TbhUCY2NmZE
+      - [ ] https://www.youtube.com/watch?v=Y-uG9c3eLp8
+      - [ ] https://www.youtube.com/watch?v=llHNrEg0dfA
+      - [ ] https://www.youtube.com/watch?v=5C8y5Vq7Ceo
+      - [ ] https://www.youtube.com/watch?v=PcVgPsrEzuU
+      - [ ] https://www.youtube.com/watch?v=_th7tvX83eM
+      - [ ] https://www.youtube.com/watch?v=zlTVcNxg38c
+    - [ ] CS75
+      - [ ] https://www.youtube.com/watch?v=irPOmE4PiLI
+      - [ ] https://www.youtube.com/watch?v=VqE0_cyHygk
+      - [ ] https://www.youtube.com/watch?v=8Xo9dbot_RU
+      - [ ] [SQL](https://www.youtube.com/watch?v=B9NJLXRIjzw)
+      - [ ] https://www.youtube.com/watch?v=ctp2Llivh1c
+      - [ ] [JS+JQuery](https://www.youtube.com/watch?v=7jQihn3bOMA)
+      - [ ] https://www.youtube.com/watch?v=hXvo7O4REDM
+      - [ ] [ajax](https://www.youtube.com/watch?v=E7fgws02Jf8)
+      - [ ] https://www.youtube.com/watch?v=wioUnJgWREg
+    - [ ] CS164
+      - [ ] https://www.youtube.com/watch?v=MIZrQ2smM30
+      - [ ] [Relational databases](https://www.youtube.com/watch?v=5xeIjMsxEqs)
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+  - [ ] []()
+- Problem solving
+  - https://leetcode.com
+  - https://www.geeksforgeeks.org
+  - https://www.hackerrank.com/
+  - https://www.pramp.com
+  - https://www.hackerearth.com/
+- Persons
+  - [ ] [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin)
+  - [ ] [Martin Fowler](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))
+  - [ ] [Erich Gamma](https://en.wikipedia.org/wiki/Erich_Gamma)
+  - [ ] [Ralph Johnson](https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist))
+  - [ ] [John Vlissides](https://en.wikipedia.org/wiki/John_Vlissides)
+  - [ ] [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig)
+  - [ ] [Paul Graham](https://en.wikipedia.org/wiki/Paul_Graham_(computer_programmer))
+  - [ ] [Christopher Alexander](https://en.wikipedia.org/wiki/Christopher_Alexander)\
+  - [ ] https://en.wikipedia.org/wiki/Jon_Bentley_(computer_scientist)
+  - [ ] https://en.wikipedia.org/wiki/Andrew_Chi-Chih_Yao
+- Blogs
+  - https://mattturck.com

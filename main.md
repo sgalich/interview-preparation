@@ -1,5 +1,3 @@
-> Consistency is the key to success
-
 - ABOUT
   - About
     - [x] [1](https://medium.com/@m_mcclarty/data-engineering-interview-guide-7a14d10887dd)
@@ -1061,7 +1059,7 @@
         - [ ] [Minimum adjacent swaps to move maximum and minimum to corners](https://www.geeksforgeeks.org/minimum-adjacent-swaps-to-move-maximum-and-minimum-to-corners/)
       - [ ] Search algorithms
         - About
-          - [ ] [good explanations](https://stackabuse.com/search-algorithms-in-python/), but: Achtung! Bad code with errors detected!
+          - [ ] [good explanations](https://stackabuse.com/search-algorithms-in-python/) with bad erroneous code
         - Linear Search
           - O(n)
           - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
