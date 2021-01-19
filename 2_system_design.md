@@ -1,4 +1,4 @@
-🎛️ 🤔 III. SYSTEM DESIGN
+🎛️ 🤔 II. SYSTEM DESIGN
 
 - ABOUT
   - [x] [Wiki: Systems_design](https://en.wikipedia.org/wiki/Systems_design)

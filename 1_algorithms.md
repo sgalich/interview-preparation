@@ -1,4 +1,4 @@
-🧮 🤪 II. ALGORITHMS & DATA STRUCTURES
+🧮 🤪 I. ALGORITHMS & DATA STRUCTURES
 
 - ABOUT
   - [ ] [Data Structure](https://en.wikipedia.org/wiki/Data_structure)

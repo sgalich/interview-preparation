@@ -1,10 +1,10 @@
 # ⚡ MY INTERVIEW PREPARATION PLAN ⚡
 
 This is my homepage for preparation to a software engineer interview.
-  0. [ABOUT](https://github.com/sgalich/interview-preparation/blob/main/0_about.md) <- container for all unsorted materials.
-  1. [BEHAVIORAL QUESTIONS](https://github.com/sgalich/interview-preparation/blob/main/main.md)
-  2. [ALGORITHMS & DATA STRUCTURES](https://github.com/sgalich/interview-preparation/blob/main/main.md)
-  3. [SYSTEM DESIGN](https://github.com/sgalich/interview-preparation/blob/main/main.md)
+  - [ABOUT](https://github.com/sgalich/interview-preparation/blob/main/0_about.md) <- container for all unsorted materials.
+  - [I. ALGORITHMS & DATA STRUCTURES](https://github.com/sgalich/interview-preparation/blob/main/1_algorithms.md)
+  - [II. SYSTEM DESIGN](https://github.com/sgalich/interview-preparation/blob/main/2_system_design.md)
+  - [III. BEHAVIORAL QUESTIONS](https://github.com/sgalich/interview-preparation/blob/main/3_behavioral.md)
 
 ## How it works
   - Found a good article - identificate the most specific field of the article and add the link there. If you cannot identify a certain field just add the link to About section under the most specific field you can identify.
@@ -13,11 +13,11 @@ This is my homepage for preparation to a software engineer interview.
   - If you found this somehow and want to use it–just replace "[x]" with "[ ]" and go ahead.
   - Do not afraid to change a structure of any topic.
   - To expand
-    - everything: ```Cmd``` + ```K``` + ```J```
-    - a particular clause: ```Cmd``` + ```Option (⌥)``` + ```]```
+    - everything: ```Cmd```+```K```+```J```
+    - a particular clause: ```Cmd```+```Option (⌥)```+```]```
   - To shrink
-    - everything: ```Cmd``` + ```K``` + ```0```
-    - a particular clause: ```Cmd``` + ```Option (⌥)``` + ```[```
+    - everything: ```Cmd```+```K```+```0```
+    - a particular clause: ```Cmd```+```Option (⌥)```+```[```
 
 Good luck! And remember –
 > Consistency is the key to success
