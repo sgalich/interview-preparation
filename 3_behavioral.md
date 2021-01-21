@@ -8,6 +8,7 @@
 - ENGLISH LANGUAGE SKILLS
   - https://preply.com
   - [Telegram bot for memorizing new words](https://t.me/myenglishvocabulary_bot)
+  - [ ] [book: Soft Skills: The Software Developer's Life Manual](https://www.amazon.com/Soft-Skills-Software-Developers-Manual/dp/9351197646/ref=sr_1_1?dchild=1&qid=1611267809&refinements=p_27%3AZ.+Sonmez+John+Et+Al&s=books&sr=1-1&text=Z.+Sonmez+John+Et+Al)
 - PERSONAL Q&A
   - [x] Why Tesla?
       - Tesla is not just a usual car manufacturer. Tesla is a great company, which mission is to accelerate the world's transition to sustainable energy. It means that Tesla is changing the world, making it better. I really want to be a part of your team, work with you and every day make the world better with you.
