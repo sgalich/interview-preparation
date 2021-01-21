@@ -7,12 +7,12 @@ def search(arr: List[Union[int, float, str]], S: Union[int, float, str]) -> bool
 	"""
 
 	def binarySearch(start: int, end: int) -> bool:
-		while start <= end:
+		while start < end:
 			ind = start + int((end - start) / 2)
 			if arr[ind] < S:
 				start = ind + 1
 			elif arr[ind] > S:
-				end = ind - 1
+				end = ind
 			else:
 				return True
 		return False
@@ -21,7 +21,7 @@ def search(arr: List[Union[int, float, str]], S: Union[int, float, str]) -> bool
 		return False
 	if arr[0] == S:
 		return True
-	arr = sorted(arr)
+	arr = sorted(arr)    # [-2, -1]
 	i = 1
 	while i < len(arr) and arr[i] <= S:
 		i *= 2

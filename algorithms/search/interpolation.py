@@ -10,12 +10,12 @@ def search(arr: List[Union[int, float, str]], S: Union[int, float, str]) -> bool
 		estimated_gap = (arr[high] - arr[low]) / (high - low)
 		estimated_gap = 1 if not estimated_gap else estimated_gap
 		index = low + int((S - arr[low]) / estimated_gap)
-		return index
+		return min(index, high)    # for this case: # [-2, -1]
 
 	arr = sorted(arr)    # this search works only with sorted arrays
 	low = 0
 	high = len(arr) - 1
-	while low <= high:
+	while low <= high:    
 		# Edge case + base case breaking the while loop
 		if low == high:
 			return arr[low] == S

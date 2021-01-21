@@ -18,7 +18,7 @@ This is my homepage for preparation to a software engineer interview.
   - To shrink (in VSCode)
     - everything: ```Cmd```+```K```+```0```
     - a particular clause: ```Cmd```+```Option (⌥)```+```[```
-  - Here is my screenshot: ![](https://github.com/sgalich/interview-preparation/blob/main/overview.png)
+  - Here is how do I use these nested lists: ![](https://github.com/sgalich/interview-preparation/blob/main/overview.png)
 
 Good luck! And remember –
 > Consistency is the key to success

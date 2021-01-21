@@ -37,6 +37,7 @@ ARRAYS = (
 	[3, 3, 0],
 	[1, 2, 3, 0],
 	[1, 0, 2, 3],
+	[1, 2, 3, 5, 0],
 	[1],
 	[-1, 2],
 	[-2, -1],
@@ -125,7 +126,7 @@ class TestSort(unittest.TestCase):
 		for search_type in self.ALL_SORTS:
 			function_test = getattr(search_type, 'sort')
 			function_answer = lambda x: sorted(x)
-			test_arrays(function_answer, function_test, self.SEARCH_NUM)
+			test_arrays(function_answer, function_test)
 
 
 if __name__ == '__main__':
