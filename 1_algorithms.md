@@ -181,11 +181,14 @@
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/fibonacci.py)
       - Dichotomous Search
         - [ ] [video](https://www.youtube.com/watch?v=n_zefNBfhSM)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/dichotomous.py)
       - Golden Section Search
         - [ ] [wiki: golden section search](https://en.wikipedia.org/wiki/Golden-section_search)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/golden_section.py)
     - Sorting algorithms
       - About
         - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
+        - [ ] [g4g: time complexity of sorting algorithms](https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/?ref=lbp)
         - [ ] Minimum spanning tree
         - [ ] Bipartite matching
         - [ ] Edmonds-Karp algorithm - max-flow problem
@@ -193,38 +196,47 @@
         - [ ] problem 1-5 Peak finding
         - [ ] random shuffle
         - [ ] quick select
-      - [ ] Selection Sort
+      - Selection Sort
+        - O(n^2)
         - [ ] [g4g](http://geeksquiz.com/selection-sort/)
-      - [ ] Bubble Sort
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection.py)
+      - Bubble Sort
+        - O(n^2)
         - [ ] [g4g](http://geeksquiz.com/bubble-sort/)
-      - [ ] Insertion Sort
+      - Insertion Sort
+        - O(n^2)
         - [ ] [g4g](http://geeksquiz.com/insertion-sort/)
-      - [ ] Merge Sort
+      - Merge Sort
+        - O(n*log(n))
         - [ ] [g4g](http://geeksquiz.com/merge-sort/)
-      - [ ] Heap Sort
+      - Heap Sort
+        - O(n*log(n))
         - [ ] [g4g](http://geeksquiz.com/heap-sort/)
-      - [ ] QuickSort
+      - QuickSort
+        - O(n*log(n))
         - [ ] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
         - [ ] [g4g](http://geeksquiz.com/quick-sort/)
         - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
-      - [ ] Radix Sort
+      - Radix Sort
+        - O(n*k), where k = ?
         - [ ] [g4g](https://www.geeksforgeeks.org/radix-sort/)
-      - [ ] Counting Sort
+      - Counting Sort
         - [ ] [g4g](https://www.geeksforgeeks.org/counting-sort/)
-      - [ ] Bucket Sort
+      - Bucket Sort
+        - O(n+k), where k = ?
         - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
         - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)
         - [ ] https://leetcode.com/explore/challenge/card/september-leetcoding-challenge/554/week-1-september-1st-september-7th/3446/
-      - [ ] ShellSort
+      - ShellSort
         - [ ] [g4g](http://geeksquiz.com/shellsort/)
-      - [ ] Comb Sort
+      - Comb Sort
         - [ ] [g4g](https://www.geeksforgeeks.org/comb-sort/)
-      - [ ] Pigeonhole Sort
+      - Pigeonhole Sort
         - [ ] [g4g](https://www.geeksforgeeks.org/pigeonhole-sort/)
-      - [ ] Cycle Sort
+      - Cycle Sort
         - [ ] [g4g](https://www.geeksforgeeks.org/cycle-sort/)
-      - [ ] Topological sorting
-      - [ ] TimSort
+      - Topological sorting
+      - TimSort
   - [ ] Backtracking:
     - [ ] [Print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
     - [ ] [The Knight’s tour problem](https://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)

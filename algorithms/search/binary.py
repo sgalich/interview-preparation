@@ -1,4 +1,7 @@
-def search(arr, S):
+from typing import Union, List
+
+
+def search(arr: List[Union[int, float, str]], S: Union[int, float, str]) -> bool:
 	"""Binary search algorithm.
 	O(log(n)) for sorted array
 	"""

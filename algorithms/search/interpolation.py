@@ -1,7 +1,7 @@
-from typing import Union
+from typing import Union, List
 
 
-def search(arr: list, S: Union[int, float, str]) -> bool:
+def search(arr: List[Union[int, float, str]], S: Union[int, float, str]) -> bool:
 	"""Interpolation search algorithm.
 	O(log log n) - O(n)
 	"""

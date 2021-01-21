@@ -11,7 +11,7 @@
 - PERSONAL Q&A
   - [x] Why Tesla?
       - Tesla is not just a usual car manufacturer. Tesla is a great company, which mission is to accelerate the world's transition to sustainable energy. It means that Tesla is changing the world, making it better. I really want to be a part of your team, work with you and every day make the world better with you.
-  - [x] Tell my about yourself?
+  - [x] Tell me about yourself?
       - [ ] [1](https://www.themuse.com/advice/tell-me-about-yourself-interview-question-answer-examples)
       - I’m a software engineer at a russian company OTC.ru. I make algorithms, that gather information about purchases all over the russian part of the internet. Also my algorithms process this information and store it in a PostgresQL database. I use python and JavaScript programming languages. I work at this position about 2 years. Before this I attended a programming bootcamp and worked with my own home project, that was a stock exchange trading algorithm. Now I’m looking for new opportunities. I would like to learn more about web development, machine learning techniques and other essential for a serious software developers technologies.
   - [x] What Are Your Greatest Strengths?
@@ -76,7 +76,7 @@
   - [ ] Do You Have Any Questions for Us?
   - [ ] What goals do you have the first 6 months of working at Tesla?
   - [ ] what all projects you worked on?
-  - [ ] Your background? 
+  - [ ] Your background?
   - [ ] Your achievements?
   - [ ] Have you worked with Product Managers?
   - [ ] What software do you use to design/model?
