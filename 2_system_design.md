@@ -3,7 +3,6 @@
 - ABOUT
   - [x] [Wiki: Systems_design](https://en.wikipedia.org/wiki/Systems_design)
   - [x] [Wiki: System_architecture](https://en.wikipedia.org/wiki/System_architecture)
-  - [ ] [hiredintech: System Design Interviewing](https://www.hiredintech.com/courses/system-design)
   - [ ] [examples](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
   - [x] [2](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
   - [ ] [3](https://towardsdatascience.com/system-design-101-b8f15162ef7c)
@@ -278,17 +277,20 @@
     - About
       - [ ] [Wiki](https://en.wikipedia.org/wiki/Non-functional_requirement)
       - [ ] [Architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements)
+      - [ ] [hiredintech: System Design Interviewing](https://www.hiredintech.com/courses/system-design)
     - Scalability
       - About
         - [ ] [Wiki](https://en.wikipedia.org/wiki/Scalability)
         - [ ] [Scalability for Dummies](http://www.lecloud.net/tagged/scalability)
+        - [ ] [examples](https://www.hiredintech.com/classrooms/system-design/lesson/61)
         - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
         - [ ] [Scalable System Design Patterns](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
         - [ ] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
         - [ ] [What is the best way to design a web site to be highly scalable?](http://programmers.stackexchange.com/a/108679/62739)
         - [x] [Youtube lecture CS75](https://www.youtube.com/watch?v=-W9F__D3oY4)
         - [ ] [1](https://www.lecloud.net/tagged/scalability)
-        - [ ] [Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
+        - [ ] [wiki: Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
+        - [ ] [wiki/Thundering_herd_problem](https://en.wikipedia.org/wiki/Thundering_herd_problem)
         - Misc: “sharding”, “denormalization” and “SQL tuning” 
       - Vertical scaling
       - Horizontal scaling
@@ -544,7 +546,9 @@
   - Load balancer
 - TECHNOLOGIES
   - About
-    - CRON, Amazon Web Services, EC2, RDS, S3, Elastic MapReduce
+    - Network
+      - [ ] [wiki/Point_of_presence](https://en.wikipedia.org/wiki/Point_of_presence)
+    - CRON, Amazon Web Services, EC2, RDS, S3, Elastic MapReduce, Webhook Delivery
     - Git
     - Regex
       - [ ] [Wiki](https://en.wikipedia.org/wiki/Regular_expression)
@@ -683,7 +687,7 @@
     - [ ] Java
     - [x] SQL
       - [ ] [w3schools](https://www.w3schools.com/sql/default.asp)
-      - [ ] [nice tutorial](https://mode.com/sql-tutorial/introduction-to-sql/)
+      - [ ] [very nice tutorial](https://mode.com/sql-tutorial/introduction-to-sql/) with not excellent practice instruments
       - [ ] practice: [Leetcode](https://leetcode.com/problemset/database/)
       - [ ] practice: [hackerrank](https://www.hackerrank.com/domains/sql)
       - [ ] group by
@@ -693,10 +697,19 @@
       - [ ] CASE WHEN statements
       - [ ] Misc: normalization, indexing, ANALYZE-EXPLAIN for queries, Query Optimization
   - DB
+    - [x] [DB overview](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc)
     - Relational
       - MySQL, Postgres
     - NoSQL
-      - MongoDB, CouchDB
+      - About
+      - Column Store
+        - Apache HBase, Cassandra
+      - Key-Value Store
+        - Redis, Amazon DynamoDB
+      - Graph
+        - neo4J, OrientDB, Titan
+      - Document-Oriented Database
+        - MongoDB, Couchbase
 - PRACTICE
   - About
     - [1](https://www.hiredintech.com/classrooms/system-design/lesson/61)
@@ -704,6 +717,7 @@
   - [ ] Design a receipt system
   - [ ] How to make API secure?
   - [ ] Lets say you have a receipt from a retail store. Design a database schema to capture all the details on the receipt. Follow up, you have coupons to manage, how would you change your database schema.
+  - [x] [Images handling at Kraken.io](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
   - Design a...
     - car park ticketing system
     - chat messenger

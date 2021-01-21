@@ -33,6 +33,7 @@
   - [ ] [Program to evaluate simple expressions](http://geeksquiz.com/program-evaluate-simple-expressions/)
   - [ ] [Check if characters of a given string can be rearranged to form a palindrome](http://geeksquiz.com/check-characters-given-string-can-rearranged-form-palindrome/)
   - [ ] [Print all pairs of anagrams in a given array of strings](http://geeksquiz.com/print-pairs-anagrams-given-array-strings/)
+  - [ ] [book The Art of Computer Programming by Knuth](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)
 - ALGORITHMS
   - About
     - [ ] [algorithm](https://en.wikipedia.org/wiki/Algorithm)
@@ -174,8 +175,13 @@
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/ternary.py)
         - [x] [wiki: ternary search](https://en.wikipedia.org/wiki/Ternary_search)
       - Fibonacci Search
+        - O(log n)
         - [ ] [g4g](https://www.geeksforgeeks.org/fibonacci-search/)
+        - [ ] [wiki: fibonacci search](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/fibonacci.py)
+      - Dichotomous Search
+        - [ ] [video](https://www.youtube.com/watch?v=n_zefNBfhSM)
+      - Golden Section Search
     - [ ] Sorting algorithms
       - About
         - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)

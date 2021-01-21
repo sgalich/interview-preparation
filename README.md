@@ -12,10 +12,10 @@ This is my homepage for preparation to a software engineer interview.
   - The main goal of this sheet is to help to prepare to a data engineer (software engineer) interview in a STRUCTURED manner.
   - If you found this somehow and want to use it–just replace "[x]" with "[ ]" and go ahead.
   - Do not afraid to change a structure of any topic.
-  - To expand
+  - To expand (in VSCode)
     - everything: ```Cmd```+```K```+```J```
     - a particular clause: ```Cmd```+```Option (⌥)```+```]```
-  - To shrink
+  - To shrink (in VSCode)
     - everything: ```Cmd```+```K```+```0```
     - a particular clause: ```Cmd```+```Option (⌥)```+```[```
 
