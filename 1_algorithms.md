@@ -79,7 +79,7 @@
       - [ ] [wiki](https://en.wikipedia.org/wiki/Backtracking)
       - [ ] [1](http://web.archive.org/web/20141109193758/http://web.cse.ohio-state.edu/%7Egurari/course/cis680/cis680Ch19.html)
       - [ ] N-Queens Problem
-  - [ ] Analysis of Algorithms
+  - Analysis of Algorithms
     - [ ] [Asymptotic Analysis](https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/)
     - [ ] [Worst, Average and Best Cases](https://www.geeksforgeeks.org/analysis-of-algorithms-set-2-asymptotic-analysis/)
     - [ ] [Asymptotic Notations](https://www.geeksforgeeks.org/analysis-of-algorithms-set-3asymptotic-notations/)
@@ -97,7 +97,7 @@
     - [ ] [Time Complexity where loop variable is incremented by 1, 2, 3, 4](https://www.geeksforgeeks.org/time-complexity-where-loop-variable-is-incremented-by-1-2-3-4/)
     - [ ] [Time Complexity of Loop with Powers](https://www.geeksforgeeks.org/time-complexity-of-loop-with-powers/)
     - [ ] [Performance of loops (A caching question)](http://geeksquiz.com/performance-of-loops-a-caching-question/)
-  - [ ] Searching and Sorting
+  - Searching and Sorting
     - About
       - [ ] [Wiki: divide & conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
       - [ ] [g4g: Divide & conquer](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
@@ -136,9 +136,9 @@
       - [ ] [Why Quick Sort preferred for Arrays and Merge Sort for Linked Lists?](https://www.geeksforgeeks.org/why-quick-sort-preferred-for-arrays-and-merge-sort-for-linked-lists/)
       - [ ] [Merge Sort for Doubly Linked List](https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
       - [ ] [Minimum adjacent swaps to move maximum and minimum to corners](https://www.geeksforgeeks.org/minimum-adjacent-swaps-to-move-maximum-and-minimum-to-corners/)
-    - [ ] Search algorithms
+    - Search algorithms
       - About
-        - [ ] [good explanations](https://stackabuse.com/search-algorithms-in-python/) with bad erroneous code
+        - [x] [good explanations](https://stackabuse.com/search-algorithms-in-python/)
       - Linear Search
         - O(n)
         - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
@@ -176,13 +176,14 @@
         - [x] [wiki: ternary search](https://en.wikipedia.org/wiki/Ternary_search)
       - Fibonacci Search
         - O(log n)
-        - [ ] [g4g](https://www.geeksforgeeks.org/fibonacci-search/)
-        - [ ] [wiki: fibonacci search](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/fibonacci.py)
+        - [x] [g4g](https://www.geeksforgeeks.org/fibonacci-search/)
+        - [x] [wiki: fibonacci search](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/fibonacci.py)
       - Dichotomous Search
         - [ ] [video](https://www.youtube.com/watch?v=n_zefNBfhSM)
       - Golden Section Search
-    - [ ] Sorting algorithms
+        - [ ] [wiki: golden section search](https://en.wikipedia.org/wiki/Golden-section_search)
+    - Sorting algorithms
       - About
         - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
         - [ ] Minimum spanning tree
