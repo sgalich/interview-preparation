@@ -202,57 +202,59 @@
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection_sort.py)
       - Bubble Sort
         - O(n) - O(n^2)
-        - ??? why? O(n^2) but not O(2^n) ?
         - [x] [g4g](http://geeksquiz.com/bubble-sort/)
         - [wiki: bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort_.py)
       - Insertion Sort
-        - O(n^2)
-        - [ ] [g4g](http://geeksquiz.com/insertion-sort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - O(n) - O(n^2)
+        - [x] [g4g](http://geeksquiz.com/insertion-sort/)
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/insertion_sort_.py)
+      - Binary insertion sort
+        - [x] [g4g](https://www.geeksforgeeks.org/binary-insertion-sort/)
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/binary_insertion_sort_.py)
       - Merge Sort
         - O(n*log(n))
         - [ ] [g4g](http://geeksquiz.com/merge-sort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/merge_sort_.py)
       - Heap Sort
         - O(n*log(n))
         - [ ] [g4g](http://geeksquiz.com/heap-sort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/heap_sort_.py)
       - QuickSort
         - O(n*log(n))
         - [ ] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
         - [ ] [g4g](http://geeksquiz.com/quick-sort/)
         - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/quick_sort_.py)
       - Radix Sort
         - O(n*k), where k = ?
         - [ ] [g4g](https://www.geeksforgeeks.org/radix-sort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort_.py)
       - Counting Sort
         - [ ] [g4g](https://www.geeksforgeeks.org/counting-sort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort_.py)
       - Bucket Sort
         - O(n+k), where k = ?
         - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
         - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)
         - [ ] https://leetcode.com/explore/challenge/card/september-leetcoding-challenge/554/week-1-september-1st-september-7th/3446/
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bucket_sort_.py)
       - ShellSort
         - [ ] [g4g](http://geeksquiz.com/shellsort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/shell_sort_.py)
       - Comb Sort
         - [ ] [g4g](https://www.geeksforgeeks.org/comb-sort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/comb_sort_.py)
       - Pigeonhole Sort
         - [ ] [g4g](https://www.geeksforgeeks.org/pigeonhole-sort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/pigeonhole_sort_.py)
       - Cycle Sort
         - [ ] [g4g](https://www.geeksforgeeks.org/cycle-sort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/cycle_sort_.py)
       - Topological sorting
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort_.py)
       - TimSort
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/_sort_.py)
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort_.py)
   - [ ] Backtracking:
     - [ ] [Print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
     - [ ] [The Knight’s tour problem](https://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)

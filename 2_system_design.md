@@ -693,6 +693,7 @@
       - [ ] group by
         - [ ] https://www.peachpit.com/articles/article.aspx?p=30681&seqNum=8
       - [x] joins
+        - [the best joins' explanation](https://joins.spathon.com)
       - [ ] window functions
       - [ ] CASE WHEN statements
       - [ ] Misc: normalization, indexing, ANALYZE-EXPLAIN for queries, Query Optimization

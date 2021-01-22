@@ -97,7 +97,7 @@
   - [ ] What innovative teams have you been part of?
   - [ ] Is your name on a patent, a peer reviewed published paper or have you ever worked in a startup?
   - [ ] Have created an app, written a unique hack or discovered a new use for an algorithm?
-  - [ ] Do you dream in code? Math?
+  - [ ] Do you dream in code?
   - [ ] Do you have an applied physics background? Are you very familiar with first principles thinking and problem solve from there?
   - [ ] Do you enjoy learning new things because it's fun to do so?
   - [ ] Do you do hard things because you relish the challenge?

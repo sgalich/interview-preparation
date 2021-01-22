@@ -10,6 +10,7 @@ from algorithms.search import ternary
 from algorithms.search import fibonacci
 from algorithms.search import dichotomous
 from algorithms.search import golden_section
+from algorithms.sort import binary_insertion_sort
 from algorithms.sort import bubble_sort
 from algorithms.sort import bucket_sort
 from algorithms.sort import comb_sort
@@ -69,7 +70,7 @@ def test_arrays(function_answer: Any, function_test: Callable, *args: Any) -> No
 			break
 		if answer != function_answer(array):
 			e = 'Incorrect answer'
-			test_result = f'ERROR! {e}, input: {_input}'
+			test_result = f'ERROR! {e}, input: {_input}, answer: {answer}'
 			break
 	print(test_result)
 
@@ -105,6 +106,7 @@ class TestSearch(unittest.TestCase):
 
 class TestSort(unittest.TestCase):
 	ALL_SORTS = (
+		binary_insertion_sort,
 		bubble_sort,
 		bucket_sort,
 		comb_sort,
