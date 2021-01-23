@@ -140,54 +140,73 @@
       - About
         - [x] [good explanations](https://stackabuse.com/search-algorithms-in-python/)
       - Linear Search
-        - O(n)
-        - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)
-        - [ ] [wiki: linear search](https://en.wikipedia.org/wiki/Linear_search)
+        - About
+          - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
+          - [ ] [wiki: linear search](https://en.wikipedia.org/wiki/Linear_search)
+        - Time: ```O(n)```
+        - Space: ```O(1)```
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)    
       - Binary Search
-        - O(log n)
-        - [x] [g4g](http://geeksquiz.com/binary-search/)
+        - About
+          - [x] [g4g](http://geeksquiz.com/binary-search/)
+          - [ ] [wiki: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+          - [ ] [Unbounded Binary Search](https://www.geeksforgeeks.org/find-the-point-where-a-function-becomes-negative/)
+        - Time: ```O(log(n))```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/binary.py)
-        - [ ] [wiki: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
-        - [ ] [Unbounded Binary Search](https://www.geeksforgeeks.org/find-the-point-where-a-function-becomes-negative/)
       - Jump Search
-        - O(√n)
-        - [x] [g4g](https://www.geeksforgeeks.org/jump-search/)
+        - About
+          - [x] [g4g](https://www.geeksforgeeks.org/jump-search/)
+        - Time: ```O(√n)```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/jump.py)
-        - [ ] ??? Binary Search is better than Jump Search, but Jump search has an advantage that we traverse back only once (Binary Search may require up to O(Log n) jumps, consider a situation where the element to be searched is the smallest element or smaller than the smallest). So in a system where binary search is costly, we use Jump Search.
-        - The cost by itself is very small, but when the number of elements to search through is very large, and the number of division operations that we need to perform increases, the cost can add up incrementally. Therefore jump search is better than binary search when there is a large number of elements in a system where even a small increase in speed matters.
+        - Doesn't use ```/``` while binary search does.
       - Interpolation Search
-        - O(log log n) – O(n)
-        - [x] [g4g](https://www.geeksforgeeks.org/interpolation-search/)
+        - About
+          - [x] [g4g](https://www.geeksforgeeks.org/interpolation-search/)
+          - [ ] [wiki: interpolation search](https://en.wikipedia.org/wiki/Interpolation_search)
+        - Time: ```O(log(log(n))) - O(n)```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/interpolation.py)
-        - [ ] [wiki: interpolation search](https://en.wikipedia.org/wiki/Interpolation_search)
       - Exponential Search
-        - O(log n)
-        - Worst case: sought element is the last in array
-        - The best search algorithm for for unbounded or infinite arrays / if the sougth element is close to the first element of array
-        - [x] [g4g](https://www.geeksforgeeks.org/exponential-search/)
+        - About
+          - [ ] [wiki: exponential search](https://en.wikipedia.org/wiki/Exponential_search)
+          - [x] [g4g](https://www.geeksforgeeks.org/exponential-search/)
+        - Time: ```O(1) - O(log(n))```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/exponential.py)
-        - [ ] [wiki: exponential search](https://en.wikipedia.org/wiki/Exponential_search)
+        - The best case: ```[sought_element, 1, 2, ...]```
+        - The worst case: ```[0, 1, 2, ..., sought_element]```
+        - The best search algorithm for for unbounded or infinite arrays
       - Ternary Search
-        - O(log3 n)
-        - Worse than binary search since ```2log2(n) < 4log3(n) <=> log2(n) < log2(n) * 2 * log2(3)```
-        - [x] [g4g](https://www.geeksforgeeks.org/binary-search-preferred-ternary-search/)
+        - About
+          - [x] [wiki: ternary search](https://en.wikipedia.org/wiki/Ternary_search)
+          - [x] [g4g](https://www.geeksforgeeks.org/binary-search-preferred-ternary-search/)
+        - Time: ```O(log3(n))```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/ternary.py)
-        - [x] [wiki: ternary search](https://en.wikipedia.org/wiki/Ternary_search)
+        - Always worse than binary search since ```2log2(n) < 4log3(n) <=> log2(n) < log2(n) * 2 * log2(3)```
       - Fibonacci Search
-        - O(log n)
-        - [x] [g4g](https://www.geeksforgeeks.org/fibonacci-search/)
-        - [x] [wiki: fibonacci search](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
+        - About
+          - [x] [g4g](https://www.geeksforgeeks.org/fibonacci-search/)
+          - [x] [wiki: fibonacci search](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
+        - Time: ```O(log(n))```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/fibonacci.py)
       - Dichotomous Search
-        - [ ] [video](https://www.youtube.com/watch?v=n_zefNBfhSM)
+        - About
+          - [ ] [video](https://www.youtube.com/watch?v=n_zefNBfhSM)
+        - Time: ```O()```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/dichotomous.py)
       - Golden Section Search
-        - [ ] [wiki: golden section search](https://en.wikipedia.org/wiki/Golden-section_search)
+        - About
+          - [ ] [wiki: golden section search](https://en.wikipedia.org/wiki/Golden-section_search)
+        - Time: ```O()```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/golden_section.py)
     - Sorting algorithms
       - About
-        - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
         - [ ] [g4g: time complexity of sorting algorithms](https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/?ref=lbp)
         - [ ] Minimum spanning tree
         - [ ] Bipartite matching
@@ -197,65 +216,108 @@
         - [ ] random shuffle
         - [ ] quick select
       - Selection Sort
-        - O(n^2)
-        - [x] [g4g](http://geeksquiz.com/selection-sort/)
+        - About
+          - [x] [g4g](http://geeksquiz.com/selection-sort/)
+        - Time: ```O(n^2)```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection_sort.py)
       - Bubble Sort
-        - O(n) - O(n^2)
-        - [x] [g4g](http://geeksquiz.com/bubble-sort/)
-        - [wiki: bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+        - About
+          - [x] [g4g](http://geeksquiz.com/bubble-sort/)
+          - [wiki: bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+        - Time: ```O(n) - O(n^2)```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort.py)
       - Insertion Sort
-        - O(n) - O(n^2)
-        - [x] [g4g](http://geeksquiz.com/insertion-sort/)
+        - About
+          - [x] [g4g](http://geeksquiz.com/insertion-sort/)
+        - Time: ```O(n) - O(n^2)```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/insertion_sort_.py)
       - Binary insertion sort
-        - [x] [g4g](https://www.geeksforgeeks.org/binary-insertion-sort/)
+        - About
+          - [x] [g4g](https://www.geeksforgeeks.org/binary-insertion-sort/)
+        - Time: ```O(n) - O(n^2)```
+        - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/binary_insertion_sort.py)
       - Merge Sort
-        - O(n*log(n))
-        - [ ] [g4g](http://geeksquiz.com/merge-sort/)
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/merge_sort.py)
+        - About
+          - [x] [g4g: Merge sort](http://geeksquiz.com/merge-sort/)
+          - [ ] [g4g: Merge sort vs. Insertion sort](https://www.geeksforgeeks.org/merge-sort-vs-insertion-sort/?ref=rp)
+          - [ ] [wiki: merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+        - Time: ```O(n*log(n))```
+        - Space: ```O(n)```
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/merge_sort.py)
       - Heap Sort
-        - O(n*log(n))
-        - [ ] [g4g](http://geeksquiz.com/heap-sort/)
+        - About
+          - [ ] [g4g](http://geeksquiz.com/heap-sort/)
+        - Time: ```O(n*log(n))```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/heap_sort.py)
       - QuickSort
-        - O(n*log(n))
-        - [ ] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
-        - [ ] [g4g](http://geeksquiz.com/quick-sort/)
-        - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
+        - About
+          - [ ] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
+          - [ ] [g4g](http://geeksquiz.com/quick-sort/)
+          - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
+          - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
+        - Time: ```O(n*log(n))```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/quick_sort.py)
       - Radix Sort
-        - O(n*k), where k = ?
-        - [ ] [g4g](https://www.geeksforgeeks.org/radix-sort/)
+        - About
+          - [ ] [g4g](https://www.geeksforgeeks.org/radix-sort/)
+        - Time: O(n*k), where k = ?
+        - Space: O()
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
       - Counting Sort
-        - [ ] [g4g](https://www.geeksforgeeks.org/counting-sort/)
+        - About
+          - [ ] [g4g](https://www.geeksforgeeks.org/counting-sort/)   
+        - Time: ```O()```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
       - Bucket Sort
-        - O(n+k), where k = ?
-        - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
-        - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)
-        - [ ] https://leetcode.com/explore/challenge/card/september-leetcoding-challenge/554/week-1-september-1st-september-7th/3446/
+        - About
+          - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
+          - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)
+          - [ ] [leetcode problem #220](https://leetcode.com/problems/contains-duplicate-iii/)
+        - Time: ```O(n+k), where k = ?```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bucket_sort.py)
       - ShellSort
-        - [ ] [g4g](http://geeksquiz.com/shellsort/)
+        - About
+          - [ ] [g4g](http://geeksquiz.com/shellsort/)
+        - Time: ```O()```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/shell_sort.py)
       - Comb Sort
-        - [ ] [g4g](https://www.geeksforgeeks.org/comb-sort/)
+        - About
+          - [ ] [g4g](https://www.geeksforgeeks.org/comb-sort/)
+        - Time: ```O()```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/comb_sort.py)
       - Pigeonhole Sort
-        - [ ] [g4g](https://www.geeksforgeeks.org/pigeonhole-sort/)
+        - About
+          - [ ] [g4g](https://www.geeksforgeeks.org/pigeonhole-sort/)
+        - Time: ```O()```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/pigeonhole_sort.py)
       - Cycle Sort
-        - [ ] [g4g](https://www.geeksforgeeks.org/cycle-sort/)
+        - About
+          - [ ] [g4g](https://www.geeksforgeeks.org/cycle-sort/)
+        - Time: ```O()```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/cycle_sort.py)
       - Topological sorting
+        - About
+        - Time: ```O()```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
       - TimSort
+        - About
+        - Time: ```O()```
+        - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
-  - [ ] Backtracking:
+  - Backtracking:
     - [ ] [Print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
     - [ ] [The Knight’s tour problem](https://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)
     - [ ] [Rat in a Maze](https://www.geeksforgeeks.org/backttracking-set-2-rat-in-a-maze/)
@@ -266,7 +328,7 @@
     - [ ] [Sudoku](https://www.geeksforgeeks.org/backtracking-set-7-suduku/)
     - [ ] [Tug of War](https://www.geeksforgeeks.org/tug-of-war/)
     - [ ] [Solving Cryptarithmetic Puzzles](https://www.geeksforgeeks.org/backtracking-set-8-solving-cryptarithmetic-puzzles/)
-  - [ ] Geometric Algorithms
+  - Geometric Algorithms
     - [ ] [Closest Pair of Points | O(nlogn) Implementation](https://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/)
     - [ ] [How to check if two given line segments intersect?](https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/)
     - [ ] [How to check if a given point lies inside or outside a polygon?](https://www.geeksforgeeks.org/how-to-check-if-a-given-point-lies-inside-a-polygon/)
@@ -275,7 +337,7 @@
     - [ ] [Given n line segments, find if any two segments intersect](https://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/)
     - [ ] [Check whether a given point lies inside a triangle or not](https://www.geeksforgeeks.org/check-whether-a-given-point-lies-inside-a-triangle-or-not/)
     - [ ] [How to check if given four points form a square](http://geeksquiz.com/check-given-four-points-form-square/)
-  - [ ] Mathematical Algorithms
+  - Mathematical Algorithms
     - [ ] [Write an Efficient Method to Check if a Number is Multiple of 3](https://www.geeksforgeeks.org/write-an-efficient-method-to-check-if-a-number-is-multiple-of-3/)
     - [ ] [Efficient way to multiply with 7](https://www.geeksforgeeks.org/efficient-way-to-multiply-with-7/)
     - [ ] [Write a C program to print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
@@ -338,7 +400,7 @@
     - [ ] [Program for Bisection Method](https://www.geeksforgeeks.org/program-for-bisection-method/)
     - [ ] [Program for Method Of False Position](https://www.geeksforgeeks.org/program-for-method-of-false-position/)
     - [ ] [Program for Newton Raphson Method](https://www.geeksforgeeks.org/program-for-newton-raphson-method/)
-  - [ ] Randomized Algorithms
+  - Randomized Algorithms
     - [ ] [Linearity of Expectation](https://www.geeksforgeeks.org/linearity-of-expectation/)
     - [ ] [Expected Number of Trials until Success](https://www.geeksforgeeks.org/expected-number-of-trials-before-success/)
     - [ ] [Randomized Algorithms | Set 0 (Mathematical Background)](https://www.geeksforgeeks.org/randomized-algorithms-set-0-mathematical-background/)
@@ -350,14 +412,14 @@
     - [ ] [Reservoir Sampling](https://www.geeksforgeeks.org/reservoir-sampling/)
     - [ ] [Shuffle a given array](https://www.geeksforgeeks.org/shuffle-a-given-array/)
     - [ ] [Select a Random Node from a Singly Linked List](https://www.geeksforgeeks.org/select-a-random-node-from-a-singly-linked-list/)
-  - [ ] Branch and Bound
+  - Branch and Bound
     - [ ] [Branch and Bound | Set 1 (Introduction with 0/1 Knapsack)](https://www.geeksforgeeks.org/branch-and-bound-set-1-introduction-with-01-knapsack/)
     - [ ] [Branch and Bound | Set 2 (Implementation of 0/1 Knapsack)](https://www.geeksforgeeks.org/branch-and-bound-set-2-implementation-of-01-knapsack/)
     - [ ] [Branch and Bound | Set 3 (8 puzzle Problem)](https://www.geeksforgeeks.org/branch-bound-set-3-8-puzzle-problem/)
     - [ ] [Branch And Bound | Set 4 (Job Assignment Problem)](https://www.geeksforgeeks.org/branch-bound-set-4-job-assignment-problem/)
     - [ ] [Branch and Bound | Set 5 (N Queen Problem)](https://www.geeksforgeeks.org/branch-and-bound-set-4-n-queen-problem/)
     - [ ] [Branch And Bound | Set 6 (Traveling Salesman Problem)](https://www.geeksforgeeks.org/branch-bound-set-5-traveling-salesman-problem/)
-  - [ ] Dynamic programming
+  - Dynamic programming
     - [ ] [System Design Interview - Top K Problem (Heavy Hitters)](https://www.youtube.com/watch?v=kx-XDoPjoHw)
     - [ ] [g4g](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
     - [ ] [hackerrank](https://www.hackerrank.com/domains/algorithms/dynamic-programming/difficulty:medium/page:1)

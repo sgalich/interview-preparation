@@ -58,7 +58,7 @@ ARRAYS = (
 
 
 def test_arrays(function_answer: Any, function_test: Callable, *args: Any) -> None:
-	print(function_test.__module__, end='\t')
+	print(function_test.__module__, end='\t\t')
 	test_result = 'OK!'
 	for array in ARRAYS:
 		# print(array)
@@ -71,6 +71,7 @@ def test_arrays(function_answer: Any, function_test: Callable, *args: Any) -> No
 		if answer != function_answer(array):
 			e = 'Incorrect answer'
 			test_result = f'ERROR! {e}, input: {_input}, answer: {answer}'
+			test_result = 'Is not implemented yet.' if not answer else test_result
 			break
 	print(test_result)
 
