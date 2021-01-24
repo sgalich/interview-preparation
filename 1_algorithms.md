@@ -210,6 +210,7 @@
         - [ ] [wiki: Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm)
         - [x] [wiki: Adaptive sort](https://en.wikipedia.org/wiki/Adaptive_sort)
         - [x] [g4g: time complexity of sorting algorithms](https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/?ref=lbp)
+        - [ ] [g4g: Stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [ ] Minimum spanning tree
         - [ ] Bipartite matching
         - [ ] Edmonds-Karp algorithm - max-flow problem
@@ -270,9 +271,16 @@
             - [ ] [g4g](http://geeksquiz.com/quick-sort/)
             - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
             - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
-          - Time: ```O(n*log(n))```
+          - Time: ```O(n*log(n)) - O(n^2)```
           - Space: ```O()```
           - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/quick_sort.py)
+          - 3-Way Quick Sort
+            - About
+              - [ ] [g4g: 3-Way Quick Sort](https://www.geeksforgeeks.org/3-way-quicksort-dutch-national-flag/)
+            - Time: ```O(n) - O(n^2)```
+            - Space: ```O()```
+            - [ ] [implemented]()
+            - Better for arrays with redundant elements: ```[1, 4, 2, 4, 2, 4, 1, 2, 4, 1, 2, 2, 2, 2, 4, 1, 4, 4, 4]```
         - **IntroSort**
           - About
             - [ ] [wiki: IntroSort](https://en.wikipedia.org/wiki/Introsort)
