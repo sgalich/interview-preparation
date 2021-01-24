@@ -5,6 +5,7 @@ def sort(arr: List[Union[int, float, str]]) -> List[Union[int, float, str]]:
 	"""Bubble sort algorithm.
 	O( ? )
 	"""
+	arr = arr.copy()
 	if len(arr) < 2:
 		return arr
 	swap = True

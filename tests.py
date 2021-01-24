@@ -1,5 +1,7 @@
 import unittest
 from typing import Any, Callable
+import random
+import time
 
 from algorithms.search import linear
 from algorithms.search import binary
@@ -29,37 +31,45 @@ from algorithms.sort import topological_sort
 
 
 ARRAYS = (
-	[],
+	[], [0], [1],
 	[0, 3, 1, 2, 3],
 	[0, 5, 1, 2, 3, 4],
 	[0, 45, 6, 1, 2, 3, 4, 5],
-	[0],
 	[1, 0, 2],
 	[3, 3, 0],
 	[1, 2, 3, 0],
 	[1, 0, 2, 3],
 	[1, 2, 3, 5, 0],
-	[1],
-	[-1, 2],
-	[-2, -1],
-	[-2, -1, -5],
-	[-2, -1, 6],
-	[2, 1],
-	[1, 2],
-	[2, 1, 3],
-	[1, 2, 3, 4],
-	[1, 2, 3, 4, 5],
-	[1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5],
-	[1, 2, 3, 4, 5, 1, 0, 3, 4, 5, 1, 2, 3, 4, 5],
-	[0, 2, 3, 467, 5, 1, 23, 3, 4, 54, 12, 2, 3, 4234, 5],
-	[0, -2, 3, 467, 5, -1, 23, 3, -4, 54, 12, 2, 3, -4234, 5],
-	[-2, 3, 467, 5, -1, 23, 3, -4, 54, 12, 2, 3, -4234, 5, 0]
+	[0] + random.sample(range(-1000000, 1000000), 1),
+	[0] + random.sample(range(-1000000, 1000000), 2),
+	[0] + random.sample(range(-1000000, 1000000), 3),
+	[0] + random.sample(range(-1000000, 1000000), 4),
+	[0] + random.sample(range(-1000000, 1000000), 5),
+	random.sample(range(-1000000, 1000000), 1),
+	random.sample(range(-1000000, 1000000), 2),
+	random.sample(range(-1000000, 1000000), 3),
+	random.sample(range(-1000000, 1000000), 4),
+	random.sample(range(-1000000, 1000000), 5),
+	[0] + random.sample(range(-1000000, 1000000), 10),
+	[0] + random.sample(range(-1000000, 1000000), 100),
+	[0] + random.sample(range(-1000000, 1000000), 1000),
+	[0] + random.sample(range(-1000000, 1000000), 10000),
+	# [0] + random.sample(range(-1000000, 1000000), 100000),
+	# [0] + random.sample(range(-1000000, 1000000), 1000000),
+	random.sample(range(-1000000, 1000000), 10),
+	random.sample(range(-1000000, 1000000), 100),
+	random.sample(range(-1000000, 1000000), 1000),
+	random.sample(range(-1000000, 1000000), 10000),
+	# random.sample(range(-1000000, 1000000), 100000),
+	# random.sample(range(-1000000, 1000000), 1000000),
 )
 
 
-def test_arrays(function_answer: Any, function_test: Callable, *args: Any) -> None:
+def test_arrays(function_answer: Callable, function_test: Callable, *args: Any) -> None:
 	print(function_test.__module__, end='\t\t')
 	test_result = 'OK!'
+	start = time.time()
+	running_time = ''
 	for array in ARRAYS:
 		# print(array)
 		_input = f'{function_test.__name__}({array})'
@@ -68,12 +78,17 @@ def test_arrays(function_answer: Any, function_test: Callable, *args: Any) -> No
 		except Exception as e:
 			test_result = f'ERROR! {e}, input: {_input}'
 			break
+		# print(answer)
+		if answer == None:
+			test_result = 'Is not implemented yet.'
+			break
 		if answer != function_answer(array):
 			e = 'Incorrect answer'
-			test_result = f'ERROR! {e}, input: {_input}, answer: {answer}'
-			test_result = 'Is not implemented yet.' if not answer else test_result
+			test_result = f'ERROR! {e}, input: {_input[:20]}, answer: {answer[:20]}'
 			break
-	print(test_result)
+		running_time = time.time() - start
+		running_time = '{:.2f}'.format(running_time)
+	print(test_result, running_time)
 
 
 ##########

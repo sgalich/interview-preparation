@@ -20,6 +20,7 @@ def sort(arr: List[Union[int, float, str]]) -> List[Union[int, float, str]]:
 				right.append(arr[i])
 		return left, pivot, right
 
+	arr = arr.copy()
 	if len(arr) < 2:
 		return arr
 	left, pivot, right = partition_around_pivot(0, len(arr) - 1)

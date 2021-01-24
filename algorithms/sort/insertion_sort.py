@@ -5,6 +5,7 @@ def sort(arr: List[Union[int, float, str]]) -> List[Union[int, float, str]]:
     """Insertion sort algorithm.
     O(n^2)
     """
+    arr = arr.copy()
     if len(arr) < 2:
         return arr
     for i in range(1, len(arr)):

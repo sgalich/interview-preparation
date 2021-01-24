@@ -22,6 +22,7 @@ def sort(arr: List[Union[int, float, str]]) -> List[Union[int, float, str]]:
             new_array += left[l:]
         return new_array
 
+    arr = arr.copy()
     if len(arr) < 2:
         return arr
     mid = len(arr) // 2

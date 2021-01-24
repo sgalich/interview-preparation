@@ -264,36 +264,52 @@
             - [x] [wiki: merge sort](https://en.wikipedia.org/wiki/Merge_sort)
           - Time: ```O(n*log(n))```
           - Space: ```O(n)```
+          - Stable: +
+          - Adaptive: +
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/merge_sort.py)
+        - **TimSort**
+          - About
+            - [ ] [wiki: TimSort](https://en.wikipedia.org/wiki/Timsort)
+          - Time: ```O(n) - O(n*log(n))```
+          - Space: ```O(n)```
+          - Stable: +
+          - Adaptive: +
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
+          - Used by python's ```sorted()``` function, + Android, Java
+          - Hybrid of Mergesort and Insertion Sort
         - **QuickSort**
           - About
-            - [ ] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
-            - [ ] [g4g](http://geeksquiz.com/quick-sort/)
+            - [x] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
+            - [x] [g4g](http://geeksquiz.com/quick-sort/)
             - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
             - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
           - Time: ```O(n*log(n)) - O(n^2)```
           - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/quick_sort.py)
+          - Stable: -
+          - Adaptive: -
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/quick_sort.py)
           - 3-Way Quick Sort
             - About
               - [ ] [g4g: 3-Way Quick Sort](https://www.geeksforgeeks.org/3-way-quicksort-dutch-national-flag/)
             - Time: ```O(n) - O(n^2)```
             - Space: ```O()```
+            - Stable: no
+            - Adaptive: yes
             - [ ] [implemented]()
             - Better for arrays with redundant elements: ```[1, 4, 2, 4, 2, 4, 1, 2, 4, 1, 2, 2, 2, 2, 4, 1, 4, 4, 4]```
+        - **Heap Sort**
+          - About
+            - [ ] [g4g: HeapSort](http://geeksquiz.com/heap-sort/)
+            - [ ] [wiki: HeapSort](https://en.wikipedia.org/wiki/Heapsort)
+          - Time: ```O(n*log(n))```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/heap_sort.py)
         - **IntroSort**
           - About
             - [ ] [wiki: IntroSort](https://en.wikipedia.org/wiki/Introsort)
           - Time: ```O()```
           - Space: ```O()```
           - [ ] [implemented]()
-        - **TimSort**
-          - About
-            - [ ] [wiki: TimSort](https://en.wikipedia.org/wiki/Timsort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
-          - Used by python's ```sorted()``` function, + Android, Java
         - ShellSort
           - About
             - [ ] [g4g: ShellSort](http://geeksquiz.com/shellsort/)
@@ -391,14 +407,6 @@
           - Time: ```O()```
           - Space: ```O()```
           - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
-    - **Other Sort Algorithms**
-      - **Heap Sort**
-        - About
-          - [ ] [g4g: HeapSort](http://geeksquiz.com/heap-sort/)
-          - [ ] [wiki: HeapSort](https://en.wikipedia.org/wiki/Heapsort)
-        - Time: ```O(n*log(n))```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/heap_sort.py)
   - Backtracking:
     - [ ] [Print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
     - [ ] [The Knight’s tour problem](https://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)
