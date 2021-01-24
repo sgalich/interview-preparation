@@ -97,7 +97,7 @@
     - [ ] [Time Complexity where loop variable is incremented by 1, 2, 3, 4](https://www.geeksforgeeks.org/time-complexity-where-loop-variable-is-incremented-by-1-2-3-4/)
     - [ ] [Time Complexity of Loop with Powers](https://www.geeksforgeeks.org/time-complexity-of-loop-with-powers/)
     - [ ] [Performance of loops (A caching question)](http://geeksquiz.com/performance-of-loops-a-caching-question/)
-  - Searching and Sorting
+  - **Searching and Sorting**
     - About
       - [ ] [Wiki: divide & conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
       - [ ] [g4g: Divide & conquer](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
@@ -136,7 +136,7 @@
       - [ ] [Why Quick Sort preferred for Arrays and Merge Sort for Linked Lists?](https://www.geeksforgeeks.org/why-quick-sort-preferred-for-arrays-and-merge-sort-for-linked-lists/)
       - [ ] [Merge Sort for Doubly Linked List](https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
       - [ ] [Minimum adjacent swaps to move maximum and minimum to corners](https://www.geeksforgeeks.org/minimum-adjacent-swaps-to-move-maximum-and-minimum-to-corners/)
-    - Search algorithms
+    - **Arrays' Search algorithms**
       - About
         - [x] [good explanations](https://stackabuse.com/search-algorithms-in-python/)
       - Linear Search
@@ -205,9 +205,11 @@
         - Time: ```O()```
         - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/golden_section.py)
-    - Sorting algorithms
+    - **Arrays' Sorting algorithms**
       - About
-        - [ ] [g4g: time complexity of sorting algorithms](https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/?ref=lbp)
+        - [ ] [wiki: Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm)
+        - [x] [wiki: Adaptive sort](https://en.wikipedia.org/wiki/Adaptive_sort)
+        - [x] [g4g: time complexity of sorting algorithms](https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/?ref=lbp)
         - [ ] Minimum spanning tree
         - [ ] Bipartite matching
         - [ ] Edmonds-Karp algorithm - max-flow problem
@@ -215,108 +217,180 @@
         - [ ] problem 1-5 Peak finding
         - [ ] random shuffle
         - [ ] quick select
-      - Selection Sort
+      - **Comparison sort algorithms**
         - About
-          - [x] [g4g](http://geeksquiz.com/selection-sort/)
-        - Time: ```O(n^2)```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection_sort.py)
-      - Bubble Sort
+          - [ ] [wiki: Comparison sort](https://en.wikipedia.org/wiki/Comparison_sort)
+          - [ ] [wiki: Cubesort](https://en.wikipedia.org/wiki/Cubesort)
+          - [ ] [wiki: Library_sort](https://en.wikipedia.org/wiki/Library_sort)
+          - [ ] [wiki: Patience_sorting](https://en.wikipedia.org/wiki/Patience_sorting)
+          - [ ] [wiki: Strand_sort](https://en.wikipedia.org/wiki/Strand_sort)
+          - [ ] [wiki: Tournament_sort](https://en.wikipedia.org/wiki/Tournament_sort)
+          - [ ] [wiki: Comb_sort](https://en.wikipedia.org/wiki/Comb_sort)
+          - [ ] [wiki: Gnome_sort](https://en.wikipedia.org/wiki/Gnome_sort)
+          - UnShuffle Sort, Franceschini's method
+        - **Selection Sort**
+          - About
+            - [x] [g4g: Selection sort](http://geeksquiz.com/selection-sort/)
+            - [ ] [wiki: Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
+          - Time: ```O(n^2)```
+          - Space: ```O(1)```
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection_sort.py)
+        - **Bubble Sort**
+          - About
+            - [x] [g4g: Bubble sort](http://geeksquiz.com/bubble-sort/)
+            - [x] [wiki: Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+          - Time: ```O(n) - O(n^2)```
+          - Space: ```O(1)```
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort.py)
+        - **Insertion Sort**
+          - About
+            - [x] [g4g: Insertion sort](http://geeksquiz.com/insertion-sort/)
+            - [ ] [wiki: Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
+          - Time: ```O(n) - O(n^2)```
+          - Space: ```O(1)```
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/insertion_sort_.py)
+          - Binary insertion sort
+            - About
+              - [x] [g4g](https://www.geeksforgeeks.org/binary-insertion-sort/)
+            - Time: ```O(n) - O(n^2)```
+            - Space: ```O(1)```
+            - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/binary_insertion_sort.py)
+            - ??? Still ```O(n^2)``` - why? because of the insertions (as I understood). But: ```iteration (n) + search (log(n)) + insert (n^2 ???) = O(n*log(n)*n) = O(n^2)```)
+        - **Merge Sort**
+          - About
+            - [x] [g4g: Merge sort](http://geeksquiz.com/merge-sort/)
+            - [x] [g4g: Merge sort vs. Insertion sort](https://www.geeksforgeeks.org/merge-sort-vs-insertion-sort/?ref=rp)
+            - [x] [wiki: merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+          - Time: ```O(n*log(n))```
+          - Space: ```O(n)```
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/merge_sort.py)
+        - **QuickSort**
+          - About
+            - [ ] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
+            - [ ] [g4g](http://geeksquiz.com/quick-sort/)
+            - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
+            - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
+          - Time: ```O(n*log(n))```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/quick_sort.py)
+        - **IntroSort**
+          - About
+            - [ ] [wiki: IntroSort](https://en.wikipedia.org/wiki/Introsort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented]()
+        - **TimSort**
+          - About
+            - [ ] [wiki: TimSort](https://en.wikipedia.org/wiki/Timsort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
+          - Used by python's ```sorted()``` function, + Android, Java
+        - ShellSort
+          - About
+            - [ ] [g4g: ShellSort](http://geeksquiz.com/shellsort/)
+            - [ ] [wiki: ShellSort](https://en.wikipedia.org/wiki/Shellsort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/shell_sort.py)
+        - Odd-even sort
+          - About
+            - [ ] [wiki: Odd-even sort](https://en.wikipedia.org/wiki/Odd–even_sort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented]()
+        - Cocktail shaker sort
+          - About
+            - [ ] [wiki: Cocktail chaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented]()
+        - Cycle Sort
+          - About
+            - [ ] [g4g](https://www.geeksforgeeks.org/cycle-sort/)
+            - [ ] [wiki: Cycle sort](https://en.wikipedia.org/wiki/Cycle_sort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/cycle_sort.py)
+        - Merge-insertion sort
+          - About
+            - [ ] [wiki: Merge-insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented]()
+        - Smooth sort
+          - About
+            - [ ] [wiki: Smooth sort](https://en.wikipedia.org/wiki/Smoothsort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented]()
+        - Block sort
+          - About
+            - [ ] [wiki: Block sort](https://en.wikipedia.org/wiki/Block_sort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented]()
+      - **Non-Comparison Sort Algorithms**
         - About
-          - [x] [g4g](http://geeksquiz.com/bubble-sort/)
-          - [wiki: bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
-        - Time: ```O(n) - O(n^2)```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort.py)
-      - Insertion Sort
+          - [ ] [wiki: Integer sort](https://en.wikipedia.org/wiki/Integer_sorting)
+          - https://en.wikipedia.org/wiki/Spreadsort
+          - https://en.wikipedia.org/wiki/Burstsort
+          - https://en.wikipedia.org/wiki/Flashsort
+          - https://en.wikipedia.org/wiki/Samplesort
+          - https://en.wikipedia.org/wiki/Bogosort
+          - https://en.wikipedia.org/wiki/Stooge_sort
+          - https://en.wikipedia.org/wiki/Bead_sort
+          - https://en.wikipedia.org/wiki/Pancake_sorting
+          - https://en.wikipedia.org/wiki/Spaghetti_sort
+          - 
+        - **Radix Sort**
+          - About
+            - [ ] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
+            - [ ] [wiki: Radix sort](https://en.wikipedia.org/wiki/Radix_sort#Least_significant_digit_radix_sorts)
+          - Time: ```O(n*k), where k = ?```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
+        - Counting Sort
+          - About
+            - [ ] [g4g: Counting sort](https://www.geeksforgeeks.org/counting-sort/)   
+            - [ ] [wiki: Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
+        - **Bucket Sort**
+          - About
+            - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
+            - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)
+            - [ ] [leetcode problem #220](https://leetcode.com/problems/contains-duplicate-iii/)
+          - Time: ```O(n+k), where k = ?```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bucket_sort.py)
+        - Comb Sort
+          - About
+            - [ ] [g4g](https://www.geeksforgeeks.org/comb-sort/)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/comb_sort.py)
+        - Pigeonhole Sort
+          - About
+            - [ ] [g4g: Pigeonhole sort](https://www.geeksforgeeks.org/pigeonhole-sort/)
+            - [ ] [wiki: Pigeonhole sort](https://en.wikipedia.org/wiki/Pigeonhole_sort)
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/pigeonhole_sort.py)
+        - Topological sorting
+          - About
+          - Time: ```O()```
+          - Space: ```O()```
+          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
+    - **Other Sort Algorithms**
+      - **Heap Sort**
         - About
-          - [x] [g4g](http://geeksquiz.com/insertion-sort/)
-        - Time: ```O(n) - O(n^2)```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/insertion_sort_.py)
-      - Binary insertion sort
-        - About
-          - [x] [g4g](https://www.geeksforgeeks.org/binary-insertion-sort/)
-        - Time: ```O(n) - O(n^2)```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/binary_insertion_sort.py)
-      - Merge Sort
-        - About
-          - [x] [g4g: Merge sort](http://geeksquiz.com/merge-sort/)
-          - [ ] [g4g: Merge sort vs. Insertion sort](https://www.geeksforgeeks.org/merge-sort-vs-insertion-sort/?ref=rp)
-          - [ ] [wiki: merge sort](https://en.wikipedia.org/wiki/Merge_sort)
-        - Time: ```O(n*log(n))```
-        - Space: ```O(n)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/merge_sort.py)
-      - Heap Sort
-        - About
-          - [ ] [g4g](http://geeksquiz.com/heap-sort/)
+          - [ ] [g4g: HeapSort](http://geeksquiz.com/heap-sort/)
+          - [ ] [wiki: HeapSort](https://en.wikipedia.org/wiki/Heapsort)
         - Time: ```O(n*log(n))```
         - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/heap_sort.py)
-      - QuickSort
-        - About
-          - [ ] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
-          - [ ] [g4g](http://geeksquiz.com/quick-sort/)
-          - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
-          - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
-        - Time: ```O(n*log(n))```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/quick_sort.py)
-      - Radix Sort
-        - About
-          - [ ] [g4g](https://www.geeksforgeeks.org/radix-sort/)
-        - Time: O(n*k), where k = ?
-        - Space: O()
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
-      - Counting Sort
-        - About
-          - [ ] [g4g](https://www.geeksforgeeks.org/counting-sort/)   
-        - Time: ```O()```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
-      - Bucket Sort
-        - About
-          - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
-          - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)
-          - [ ] [leetcode problem #220](https://leetcode.com/problems/contains-duplicate-iii/)
-        - Time: ```O(n+k), where k = ?```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bucket_sort.py)
-      - ShellSort
-        - About
-          - [ ] [g4g](http://geeksquiz.com/shellsort/)
-        - Time: ```O()```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/shell_sort.py)
-      - Comb Sort
-        - About
-          - [ ] [g4g](https://www.geeksforgeeks.org/comb-sort/)
-        - Time: ```O()```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/comb_sort.py)
-      - Pigeonhole Sort
-        - About
-          - [ ] [g4g](https://www.geeksforgeeks.org/pigeonhole-sort/)
-        - Time: ```O()```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/pigeonhole_sort.py)
-      - Cycle Sort
-        - About
-          - [ ] [g4g](https://www.geeksforgeeks.org/cycle-sort/)
-        - Time: ```O()```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/cycle_sort.py)
-      - Topological sorting
-        - About
-        - Time: ```O()```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
-      - TimSort
-        - About
-        - Time: ```O()```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
   - Backtracking:
     - [ ] [Print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
     - [ ] [The Knight’s tour problem](https://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)

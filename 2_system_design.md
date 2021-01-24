@@ -277,7 +277,6 @@
     - About
       - [ ] [Wiki](https://en.wikipedia.org/wiki/Non-functional_requirement)
       - [ ] [Architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements)
-      - [ ] [hiredintech: System Design Interviewing](https://www.hiredintech.com/courses/system-design)
     - Scalability
       - About
         - [ ] [Wiki](https://en.wikipedia.org/wiki/Scalability)
@@ -289,14 +288,30 @@
         - [ ] [What is the best way to design a web site to be highly scalable?](http://programmers.stackexchange.com/a/108679/62739)
         - [x] [Youtube lecture CS75](https://www.youtube.com/watch?v=-W9F__D3oY4)
         - [ ] [1](https://www.lecloud.net/tagged/scalability)
-        - [ ] [wiki: Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
         - [ ] [wiki/Thundering_herd_problem](https://en.wikipedia.org/wiki/Thundering_herd_problem)
-        - Misc: “sharding”, “denormalization” and “SQL tuning” 
+        - Misc: “denormalization” and “SQL tuning” 
       - Vertical scaling
       - Horizontal scaling
       - Caching
-      - Database replication
-      - Database partitioning
+      - Database Replication
+        - [ ] [wiki: replication](https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE)
+        - master-slave replication (read from slaves, write to master)
+        - master-master
+      - Database Partitioning
+        - About
+          - [x] [Wiki: db partitioning](https://en.wikipedia.org/wiki/Partition_(database))
+        - Partition criteria
+          - Range partitioning
+          - List partitioning
+          - Composite partitioning
+          - Round-robin partitioning
+            - [x] [quora](https://www.quora.com/What-is-round-robin-partitioning)
+          - Hash partitioning
+        - Partition methods
+          - Horizontal (Shard)
+            - [ ] [Wiki: shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))
+          - Vertical (Normalization)
+            - [ ] [Wiki: normalization](https://en.wikipedia.org/wiki/Database_normalization)
       - Using NoSQL instead of scaling a relational database
       - Being asynchronous
       - Bottlenecks
@@ -427,8 +442,11 @@
       - [ ] [wiki: Volume](https://en.wikipedia.org/wiki/Volume_testing)
 - COMPONENTS
   - About
+  - Cache
+    - memcached
   - Database
     - About
+      - [x] [DB overview](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc)
       - [ ] [Wiki: Data management](https://en.wikipedia.org/wiki/Data_management)
       - [ ] [Wiki: dynamic data](https://en.wikipedia.org/wiki/Dynamic_data)
       - [ ] [wiki: codd's 12 rules](https://en.wikipedia.org/wiki/Codd%27s_12_rules)
@@ -524,183 +542,30 @@
           - [ ] [](https://en.wikipedia.org/wiki/Data_mart)
       - [ ] [wiki](https://en.wikipedia.org/wiki/Block_Range_Index)
       - [ ] [wiki](https://en.wikipedia.org/wiki/CAP_theorem)
-    - Replication
-      - [ ] [wiki: replication](https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE)
-      - master-slave replication (read from slaves, write to master)
-      - master-master
-    - Partitioning
-      - About
-        - [x] [Wiki: db partitioning](https://en.wikipedia.org/wiki/Partition_(database))
-      - Partition criteria
-        - Range partitioning
-        - List partitioning
-        - Composite partitioning
-        - Round-robin partitioning
-          - [x] [quora](https://www.quora.com/What-is-round-robin-partitioning)
-        - Hash partitioning
-      - Partition methods
-        - Horizontal (Shard)
-          - [ ] [Wiki: shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))
-        - Vertical (Normalization)
-          - [ ] [Wiki: normalization](https://en.wikipedia.org/wiki/Database_normalization)
-  - Load balancer
-- TECHNOLOGIES
-  - About
-    - Network
-      - [ ] [wiki/Point_of_presence](https://en.wikipedia.org/wiki/Point_of_presence)
-    - CRON, Amazon Web Services, EC2, RDS, S3, Elastic MapReduce, Webhook Delivery
-    - Git
-    - Regex
-      - [ ] [Wiki](https://en.wikipedia.org/wiki/Regular_expression)
-    - [ ] SQL Server
-    - [ ] MicrosoftSQL
-    - [ ] Apache Airflow !
-    - [ ] Splunk !
-    - [ ] Presto !
-      - https://github.com/apache/airflow
-    - [ ] [Hadoop !](https://hadoop.apache.org/)
-    - [ ] [Spark (old Hadoop's substitute) !](https://spark.apache.org/)
-      - [ ] [Spark: Databricks Community Edition](https://databricks.com/product/faq/community-edition)
-    - [ ] [Kafka !](https://kafka.apache.org/)
-    - [ ] [Hive !](https://hive.apache.org/)
-    - [ ] ElasticSearch  
-    - [ ] Hbase
-    - [ ] AWS Redshift
-    - [ ] Vertica
-    - [ ] Oracle
-    - [ ] HDFS
-    - [ ] MapReduce
-    - [ ] Cassandra
-    - DAG
-    - [ ] RabbitMQ
-    - [x] Docker
-    - [ ] Jenkins
-    - [ ] Kubernetes
-    - [ ] CI/CD methods
-    - [ ] Linux command line environment
-    - [ ] SSIS
-    - [ ] Informatica
-    - [ ] Celery
-    - [ ] Grafana
-    - [ ] DataMart
-    - [ ] Data Warehouse
-    - [ ] MATLAB
-    - Data visualization techniques and tools 
-      - [ ] Tableau
-      - [ ] Power BI
-      - [ ] Superset
-    - Data communication protocols
-      - [ ] REST API, RESTful API Design & Implementation
-      - [ ] SOAP API
-      - [ ] Kafka
-      - [ ] gRPC
-      - CI/CD pipeline (Container orchestration platforms)
-        - Docker
-        - Jenkins
-        - Kubernetes
-          - networking, nginx ingress, apache, haproxy
-        - Helm
-    - Misc: Octave, Go, Concourse, ArgoCD, Ansible, HDFS, Presto, Ruby, Java, PHP, 
-    - Misc: jQuery, Angular, Vue, React, Chrome, IE, Firefox, Safari browsers, and their various idiosyncrasies
-    MySQL, familiar with MS SQL and Oracle, PostgreSQL
-    - Agile/SCRUM
-    - distributed algorithms (e.g. distributed consensus)
-    - [ ] Model-View-Controller, Test-Driven Development
-    - modern task runner et testing tools
-    - CICD pipeline and how to integrate Front-end design in that pipeline
-    - prometheus/grafana), centralised structured logging, tracing
-    - unit and integration testing and coverage
-    - debuggers, source control, profiling, unit test coverage
-    - gRPC/REST with OpenAPI/Swagger
-    - cloud native development best practices (12 factor applications)
-    - Stream processing systems
-      - About
-        - publish/subscribe event buses
-      - Apache Kafka !
-      - NATS
-      - RabbitMQ
-    - workflow management platforms (Airflow or similar)
-      - Airflow
-    - scalable map-reduce data processing
-      - Spark
-      - Hadoop
-    - object stores (S3, geographically distributed storage)
-    - emberjs
-    - authentication and authorisation techniques (e.g. OpenID Connect)
-    - Rails, React, ES6 and Webpack.
-    - API design principles
-    - Dash
-    - continuous integration (Rundeck, Jenkins
-    - Elastic Search
-    - SSO integration
-    - LoadBalancer has Nginx (OpenResty), HAProxy or LVS.
-    - Spring boot/MVC/Cloud, Hibernate, Mybatis
-    - KVM, Docker Swarm, Openstack
-    - [ ] Round-robin, IP
-    - [ ] Http2 + bundling/sprites
-    - [ ] ASK/INGRES database server
-    - [ ] REST API
-    - [ ] udp
-    - [ ] tcp
-    - [ ] dns
-    - Content Delivery Network
-      - AWS S3
-      - Cloudfront
-    - RabbitMQ
-    - ActiveMQ
-    - Redis list
-    - [ ] ETL pipelines
-    - [ ] Quality Assurance
-    - [ ] redis, OOPS concepts
-    - [ ] Kafka, Zookeeper, Cassandra
-    - [ ] Explain [memory management, polymorphism, etc.]
-    - [ ] [GPU](https://en.wikipedia.org/wiki/GPU)
-    - [ ] OSI model
-    - [ ] DNS, TCP, SSL, HTTP/HTTPS
-    - [ ] lambda architecture
-    - [ ] [Convolutional neural network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
-    - [ ] [MD5](https://en.wikipedia.org/wiki/MD5)
-  - OS
-    - About
-      - [ ] [book: Operating System Concepts](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1118063333/ref=sr_1_1?s=books&ie=UTF8&qid=1506042402&sr=1-1&keywords=Operating+System+Concepts)
-    - Linux
-      - performance analysis
-  - Languages
-    - [ ] Bash
-    - [x] Python
-      - [x] Pandas
-      - [x] Numpy
-      - [ ] Pyspark
-      - [x] Matplotlib
-      - [x] Plotly
-      - [ ] Flask, Django
-    - [ ] Scala
-    - [ ] R
-    - [x] JavaScript
-      - [ ] React
-      - [x] Node JS
-      - [ ] Semantic UI
-      - [ ] Bulma
-      - [ ] Bootstrap
-      - [ ] D3
-      - [ ] NVD3
-    - [ ] Java
-    - [x] SQL
-      - [ ] [w3schools](https://www.w3schools.com/sql/default.asp)
-      - [ ] [very nice tutorial](https://mode.com/sql-tutorial/introduction-to-sql/) with not excellent practice instruments
-      - [ ] practice: [Leetcode](https://leetcode.com/problemset/database/)
-      - [ ] practice: [hackerrank](https://www.hackerrank.com/domains/sql)
-      - [ ] group by
-        - [ ] https://www.peachpit.com/articles/article.aspx?p=30681&seqNum=8
-      - [x] joins
-        - [the best joins' explanation](https://joins.spathon.com)
-      - [ ] window functions
-      - [ ] CASE WHEN statements
-      - [ ] Misc: normalization, indexing, ANALYZE-EXPLAIN for queries, Query Optimization
-  - DB
-    - [x] [DB overview](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc)
     - Relational
-      - MySQL, Postgres
+      - About
+        - Indexing
+          - [ ] [MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_b_tree)
+          - [ ] [stackoverflow](https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql)
+        - How companies work with relational db
+          - [ ] [How Twitter used to store 250 million tweets a day some years ago](http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html)
+          - [ ] [How Facebook made MySql scale](https://gigaom.com/2011/12/06/facebook-shares-some-secrets-on-making-mysql-scale/)
+          - [ ] [WebScaleSQL - an effort from a few big companies to make MySql more scalable](http://webscalesql.org/)
+          - [ ] [Twitter's branch of MySql on GitHub](https://github.com/twitter/mysql)
+          - [ ] [Facebook's branch of MySql on GitHub](https://github.com/facebook/mysql-5.6)
+      - MySQL, Postgres, SQL Server
+      - SQL language
+        - [ ] [w3schools](https://www.w3schools.com/sql/default.asp)
+        - [ ] [very nice tutorial](https://mode.com/sql-tutorial/introduction-to-sql/) with not excellent practice instruments
+        - [ ] practice: [Leetcode](https://leetcode.com/problemset/database/)
+        - [ ] practice: [hackerrank](https://www.hackerrank.com/domains/sql)
+        - [ ] group by
+          - [ ] https://www.peachpit.com/articles/article.aspx?p=30681&seqNum=8
+        - [x] joins
+          - [the best joins' explanation](https://joins.spathon.com)
+        - [ ] window functions
+        - [ ] CASE WHEN statements
+        - [ ] Misc: normalization, indexing, ANALYZE-EXPLAIN for queries, Query Optimization
     - NoSQL
       - About
       - Column Store
@@ -711,15 +576,160 @@
         - neo4J, OrientDB, Titan
       - Document-Oriented Database
         - MongoDB, Couchbase
+  - Load balancer
+    - About
+      - [ ] [wiki: Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
+    - Technologies
+      - [nginx HTTP load balancer](https://nginx.org/en/docs/http/load_balancing.html)
+      - [Amazon's Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
+      - [HAProxy - TCP/HTTP load balancer](https://www.haproxy.org)
+  - Server
+    - About
+      - Amazon Web Services, EC2, RDS, S3, Elastic MapReduce, Webhook Delivery
+      - [ ] Apache Airflow !
+      - [ ] Splunk !
+      - [ ] Presto !
+        - https://github.com/apache/airflow
+      - [ ] [Hadoop !](https://hadoop.apache.org/)
+      - [ ] [Spark (old Hadoop's substitute) !](https://spark.apache.org/)
+        - [ ] [Spark: Databricks Community Edition](https://databricks.com/product/faq/community-edition)
+      - [ ] [Kafka !](https://kafka.apache.org/)
+      - [ ] [Hive !](https://hive.apache.org/)
+      - [ ] ElasticSearch  
+      - [ ] Hbase
+      - [ ] AWS Redshift
+      - [ ] Vertica
+      - [ ] Oracle
+      - [ ] HDFS
+      - [ ] MapReduce
+      - [ ] Cassandra
+      - DAG
+      - [ ] RabbitMQ
+      - [x] Docker
+      - [ ] Jenkins
+      - [ ] Kubernetes
+      - [ ] CI/CD methods
+      - [ ] SSIS
+      - [ ] Informatica
+      - [ ] Celery
+      - [ ] Grafana
+      - [ ] DataMart
+      - [ ] Data Warehouse
+      - [ ] MATLAB
+      - Data visualization techniques and tools 
+        - [ ] Tableau
+        - [ ] Power BI
+        - [ ] Superset
+      - Data communication protocols
+        - [ ] REST API, RESTful API Design & Implementation
+        - [ ] SOAP API
+        - [ ] Kafka
+        - [ ] gRPC
+        - CI/CD pipeline (Container orchestration platforms)
+          - Docker
+          - Jenkins
+          - Kubernetes
+            - networking, nginx ingress, apache, haproxy
+          - Helm
+      - Misc: Octave, Go, Concourse, ArgoCD, Ansible, HDFS, Presto, Ruby, Java, PHP, 
+      - Misc: jQuery, Angular, Vue, React, Chrome, IE, Firefox, Safari browsers, and their various idiosyncrasies MySQL, familiar with MS SQL and Oracle, PostgreSQL
+      - distributed algorithms (e.g. distributed consensus)
+      - [ ] Model-View-Controller, Test-Driven Development
+      - modern task runner et testing tools
+      - CICD pipeline and how to integrate Front-end design in that pipeline
+      - prometheus/grafana), centralised structured logging, tracing
+      - unit and integration testing and coverage
+      - debuggers, source control, profiling, unit test coverage
+      - gRPC/REST with OpenAPI/Swagger
+      - cloud native development best practices (12 factor applications)
+      - Stream processing systems
+        - About
+          - publish/subscribe event buses
+        - Apache Kafka !
+        - NATS
+        - RabbitMQ
+      - workflow management platforms (Airflow or similar)
+        - Airflow
+      - scalable map-reduce data processing
+        - Spark
+        - Hadoop
+      - object stores (S3, geographically distributed storage)
+      - emberjs
+      - authentication and authorisation techniques (e.g. OpenID Connect)
+      - Rails, React, ES6 and Webpack.
+      - API design principles
+      - Dash
+      - continuous integration (Rundeck, Jenkins
+      - Elastic Search
+      - SSO integration
+      - LoadBalancer has Nginx (OpenResty), HAProxy or LVS.
+      - Spring boot/MVC/Cloud, Hibernate, Mybatis
+      - KVM, Docker Swarm, Openstack
+      - [ ] ASK/INGRES database server
+      - RabbitMQ
+      - ActiveMQ
+      - Redis list
+      - [ ] ETL pipelines
+      - [ ] Quality Assurance
+      - [ ] redis, OOPS concepts
+      - [ ] Kafka, Zookeeper, Cassandra
+      - [ ] Explain [memory management, polymorphism, etc.]
+      - [ ] OSI model
+      - [ ] lambda architecture
+      - [ ] [MD5](https://en.wikipedia.org/wiki/MD5)
+    - Hardware
+      - [ ] [GPU](https://en.wikipedia.org/wiki/GPU)
+    - OS
+      - About
+        - [ ] [book: Operating System Concepts](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1118063333/ref=sr_1_1?s=books&ie=UTF8&qid=1506042402&sr=1-1&keywords=Operating+System+Concepts)
+      - Linux
+        - CRON
+        - performance analysis
+        - ! Bash language
+    - Application
+      - Git
+      - Regex
+      - [ ] [Wiki](https://en.wikipedia.org/wiki/Regular_expression)
+      - Languages
+        - [x] Python
+          - [x] Pandas
+          - [x] Numpy
+          - [ ] Pyspark
+          - [x] Matplotlib
+          - [x] Plotly
+          - [ ] Flask, Django
+        - [ ] Scala
+        - [ ] R
+        - [x] JavaScript
+          - [ ] React
+          - [x] Node JS
+          - [ ] Semantic UI
+          - [ ] Bulma
+          - [ ] Bootstrap
+          - [ ] D3
+          - [ ] NVD3
+        - [ ] Java
+  - Network
+    - About
+      - REST API
+      - UDP, TCP, SSL, HTTP/HTTPS, IP, Http2 + bundling/sprites
+      - DNS
+      - [ ] [wiki/Point_of_presence](https://en.wikipedia.org/wiki/Point_of_presence)
+      - [ ] [Convolutional neural network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+      - Content Delivery Network
+        - AWS S3
+        - Cloudfront
 - PRACTICE
   - About
-    - [1](https://www.hiredintech.com/classrooms/system-design/lesson/61)
-  - [ ] Explain ER diagram of a project that you've worked on.
-  - [ ] Design a receipt system
-  - [ ] How to make API secure?
-  - [ ] Lets say you have a receipt from a retail store. Design a database schema to capture all the details on the receipt. Follow up, you have coupons to manage, how would you change your database schema.
-  - [x] [Images handling at Kraken.io](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
+    - [ ] ? [hiredintech: links to examples](https://www.hiredintech.com/classrooms/system-design/lesson/61)
+    - [x] [Images handling at Kraken.io](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
   - Design a...
     - car park ticketing system
     - chat messenger
-    - twitter feed
+    - Twitter
+      - [x] [hiredintech](https://www.hiredintech.com/classrooms/system-design/lesson/67)
+  - Other Questions
+    - [ ] Design a receipt system
+    - [ ] How to make API secure?
+    - [ ] Explain ER diagram of a project that you've worked on.
+    - [ ] Lets say you have a receipt from a retail store. Design a database schema to capture all the details on the receipt. Follow up, you have coupons to manage, how would you change your database schema.

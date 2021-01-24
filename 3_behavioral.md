@@ -158,3 +158,4 @@
     - [ ] What problems did you encounter? How did you solve them?
     - [ ] What did it solve?
     - [ ] How did you design it to solve that? Why this way specifically?
+  - Agile/SCRUM
