@@ -289,6 +289,9 @@
         - [x] [Youtube lecture CS75](https://www.youtube.com/watch?v=-W9F__D3oY4)
         - [ ] [1](https://www.lecloud.net/tagged/scalability)
         - [ ] [wiki/Thundering_herd_problem](https://en.wikipedia.org/wiki/Thundering_herd_problem)
+        - [ ] [Sharding and IDs at Instagram](http://instagram-engineering.tumblr.com/post/10853187575/sharding-ids-at-instagram)
+        - [ ] [Sharding Postgres at Instagram (video & slides)](http://www.databasesoup.com/2012/04/sharding-postgres-with-instagram.html)
+        - [ ] [Generating unique primary keys at Flickr when sharding](https://code.flickr.net/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/)
         - Misc: “denormalization” and “SQL tuning” 
       - Vertical scaling
       - Horizontal scaling

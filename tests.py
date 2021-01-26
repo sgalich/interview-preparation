@@ -18,6 +18,7 @@ from algorithms.sort import bucket_sort
 from algorithms.sort import comb_sort
 from algorithms.sort import counting_sort
 from algorithms.sort import cycle_sort
+from algorithms.sort import ghnome_sort
 from algorithms.sort import heap_sort
 from algorithms.sort import insertion_sort
 from algorithms.sort import merge_sort
@@ -85,6 +86,7 @@ def test_arrays(function_answer: Callable, function_test: Callable, *args: Any) 
 		if answer != function_answer(array):
 			e = 'Incorrect answer'
 			test_result = f'ERROR! {e}, input: {_input[:20]}, answer: {answer[:20]}'
+			running_time = ''
 			break
 		running_time = time.time() - start
 		running_time = '{:.2f}'.format(running_time)
@@ -122,21 +124,22 @@ class TestSearch(unittest.TestCase):
 
 class TestSort(unittest.TestCase):
 	ALL_SORTS = (
+		selection_sort,
+		insertion_sort,
 		binary_insertion_sort,
 		bubble_sort,
+		merge_sort,
+		tim_sort,
+		quick_sort,
+		heap_sort,
+		ghnome_sort,
 		bucket_sort,
 		comb_sort,
 		counting_sort,
 		cycle_sort,
-		heap_sort,
-		insertion_sort,
-		merge_sort,
 		pigeonhole_sort,
-		quick_sort,
 		radix_sort,
-		selection_sort,
-		shell_sort,
-		tim_sort,
+		shell_sort,	
 		topological_sort
 	)
 

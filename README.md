@@ -19,6 +19,7 @@ This is my homepage for preparation to a software engineer interview.
     - everything: ```Cmd```+```K```+```0```
     - a particular clause: ```Cmd```+```Option (⌥)```+```[```
   - Here is how do I use these nested lists: ![](https://github.com/sgalich/interview-preparation/blob/main/overview.png)
+  - **Bolded** are essential topics for an interview!
 
 Good luck! And remember –
 > Consistency is the key to success

@@ -139,14 +139,14 @@
     - **Arrays' Search algorithms**
       - About
         - [x] [good explanations](https://stackabuse.com/search-algorithms-in-python/)
-      - Linear Search
+      - **Linear Search**
         - About
           - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
           - [ ] [wiki: linear search](https://en.wikipedia.org/wiki/Linear_search)
         - Time: ```O(n)```
         - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)    
-      - Binary Search
+      - **Binary Search**
         - About
           - [x] [g4g](http://geeksquiz.com/binary-search/)
           - [ ] [wiki: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
@@ -217,7 +217,29 @@
         - [ ] Hopcroft-Karp
         - [ ] problem 1-5 Peak finding
         - [ ] random shuffle
-        - [ ] quick select
+        - [ ] [wiki: Quantum_sort](https://en.wikipedia.org/wiki/Quantum_sort)
+        - https://en.wikipedia.org/wiki/Tree_sort
+        - https://en.wikipedia.org/wiki/Proportion_extend_sort
+        - https://en.wikipedia.org/wiki/Slowsort
+        - https://en.wikipedia.org/wiki/Cartesian_tree#Application_in_sorting
+        - https://en.wikipedia.org/wiki/Tournament_sort
+        - https://en.wikipedia.org/wiki/Weak_heap#Weak-heap_sort
+        - https://en.wikipedia.org/wiki/Splaysort
+        - https://en.wikipedia.org/wiki/Library_sort
+        - https://en.wikipedia.org/wiki/Patience_sorting
+        - https://en.wikipedia.org/wiki/Cascade_merge_sort
+        - https://en.wikipedia.org/wiki/Oscillating_merge_sort
+        - https://en.wikipedia.org/wiki/Polyphase_merge_sort
+        - https://en.wikipedia.org/wiki/Proxmap_sort
+        - Concurrent Sorts
+          - https://en.wikipedia.org/wiki/Bitonic_sorter
+          - https://en.wikipedia.org/wiki/Batcher_odd–even_mergesort
+          - https://en.wikipedia.org/wiki/Pairwise_sorting_network
+          - https://en.wikipedia.org/wiki/Samplesort
+        - Hybrid Sorts
+          - https://en.wikipedia.org/wiki/Block_sort
+          - https://en.wikipedia.org/wiki/Kirkpatrick-Reisch_sort
+          - https://en.wikipedia.org/wiki/Merge-insertion_sort
       - **Comparison sort algorithms**
         - About
           - [ ] [wiki: Comparison sort](https://en.wikipedia.org/wiki/Comparison_sort)
@@ -236,13 +258,6 @@
           - Time: ```O(n^2)```
           - Space: ```O(1)```
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection_sort.py)
-        - **Bubble Sort**
-          - About
-            - [x] [g4g: Bubble sort](http://geeksquiz.com/bubble-sort/)
-            - [x] [wiki: Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
-          - Time: ```O(n) - O(n^2)```
-          - Space: ```O(1)```
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort.py)
         - **Insertion Sort**
           - About
             - [x] [g4g: Insertion sort](http://geeksquiz.com/insertion-sort/)
@@ -257,6 +272,13 @@
             - Space: ```O(1)```
             - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/binary_insertion_sort.py)
             - ??? Still ```O(n^2)``` - why? because of the insertions (as I understood). But: ```iteration (n) + search (log(n)) + insert (n^2 ???) = O(n*log(n)*n) = O(n^2)```)
+        - **Bubble Sort**
+          - About
+            - [x] [g4g: Bubble sort](http://geeksquiz.com/bubble-sort/)
+            - [x] [wiki: Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+          - Time: ```O(n) - O(n^2)```
+          - Space: ```O(1)```
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort.py)
         - **Merge Sort**
           - About
             - [x] [g4g: Merge sort](http://geeksquiz.com/merge-sort/)
@@ -267,15 +289,17 @@
           - Stable: +
           - Adaptive: +
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/merge_sort.py)
-        - **TimSort**
+        - TimSort
           - About
-            - [ ] [wiki: TimSort](https://en.wikipedia.org/wiki/Timsort)
-          - Time: ```O(n) - O(n*log(n))```
+            - [x] [wiki: TimSort](https://en.wikipedia.org/wiki/Timsort)
+            - [ ] [python: TimSort](https://bugs.python.org/file4451/timsort.txt)
+            - [x] [hackernoon: TimSort](https://hackernoon.com/timsort-the-fastest-sorting-algorithm-youve-never-heard-of-36b28417f399)
+          - Time: ```Ω(n) - O(n*log(n))```
           - Space: ```O(n)```
           - Stable: +
           - Adaptive: +
           - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
-          - Used by python's ```sorted()``` function, + Android, Java
+          - Used by Python's ```sorted()``` function, + Android, Java
           - Hybrid of Mergesort and Insertion Sort
         - **QuickSort**
           - About
@@ -283,7 +307,7 @@
             - [x] [g4g](http://geeksquiz.com/quick-sort/)
             - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
             - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
-          - Time: ```O(n*log(n)) - O(n^2)```
+          - Time: ```Ω(n*log(n)) - Θ(n*log(n)) - O(n^2)```
           - Space: ```O()```
           - Stable: -
           - Adaptive: -
@@ -301,15 +325,17 @@
           - About
             - [ ] [g4g: HeapSort](http://geeksquiz.com/heap-sort/)
             - [ ] [wiki: HeapSort](https://en.wikipedia.org/wiki/Heapsort)
-          - Time: ```O(n*log(n))```
-          - Space: ```O()```
+          - Time: ```Ω(n) (equal keys) - O(n*log(n))```
+          - Space: ```O(1)```
           - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/heap_sort.py)
-        - **IntroSort**
+        - IntroSort
           - About
-            - [ ] [wiki: IntroSort](https://en.wikipedia.org/wiki/Introsort)
-          - Time: ```O()```
-          - Space: ```O()```
+            - [x] [wiki: IntroSort](https://en.wikipedia.org/wiki/Introsort)
+          - Time: ```O(n*log(n))```
+          - Space: ```O(1)```
           - [ ] [implemented]()
+          - Hybrid of QuickSort, HeapSort & Insertion Sort
+          - Used in C++, .NET, Go
         - ShellSort
           - About
             - [ ] [g4g: ShellSort](http://geeksquiz.com/shellsort/)
@@ -354,6 +380,12 @@
           - Time: ```O()```
           - Space: ```O()```
           - [ ] [implemented]()
+        - Gnome Sort
+          - About
+            - [x] [wiki: Gnome Sort](https://en.wikipedia.org/wiki/Gnome_sort)
+          - Time: ```Ω(n) - Θ(n^2) - O(n^2))```
+          - Space: ```O(1)```
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/ghnome_sort.py)
       - **Non-Comparison Sort Algorithms**
         - About
           - [ ] [wiki: Integer sort](https://en.wikipedia.org/wiki/Integer_sorting)
@@ -366,7 +398,6 @@
           - https://en.wikipedia.org/wiki/Bead_sort
           - https://en.wikipedia.org/wiki/Pancake_sorting
           - https://en.wikipedia.org/wiki/Spaghetti_sort
-          - 
         - **Radix Sort**
           - About
             - [ ] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
@@ -389,6 +420,9 @@
           - Time: ```O(n+k), where k = ?```
           - Space: ```O()```
           - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bucket_sort.py)
+          - Interpolation Sort
+            - About
+              - [ ] [wiki: Interpolation Sort](https://en.wikipedia.org/wiki/Interpolation_sort)
         - Comb Sort
           - About
             - [ ] [g4g](https://www.geeksforgeeks.org/comb-sort/)
@@ -652,11 +686,13 @@
   - Array
     - About
       - [x] [Leetcode: arrays](https://leetcode.com/explore/learn/card/fun-with-arrays/)
+    - Selection algorithms
+      - About
+        - [ ] [wiki: Selection algorithms](https://en.wikipedia.org/wiki/Selection_algorithm)
     - [ ] [array-and-string](https://leetcode.com/explore/learn/card/array-and-string/)
     - [ ] [lecture: Unbounded arrays](http://www.cs.cmu.edu/~fp/courses/15122-s11/lectures/12-ubarrays.pdf)
     - [ ] [Search, insert and delete in an unsorted array](https://www.geeksforgeeks.org/search-insert-and-delete-in-an-unsorted-array/)
     - [ ] [Search, insert and delete in a sorted array](https://www.geeksforgeeks.org/search-insert-and-delete-in-a-sorted-array/)
-    - [ ] [Write a program to reverse an array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array/)
     - [ ] [Leaders in an array](https://www.geeksforgeeks.org/leaders-in-an-array/)
     - [ ] [Given an array A[] and a number x, check for pair in A[] with sum as x](https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
     - [ ] [Majority Element](https://www.geeksforgeeks.org/majority-element/)

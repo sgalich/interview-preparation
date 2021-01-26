@@ -6,7 +6,7 @@ def sort(arr: List[Union[int, float, str]]) -> List[Union[int, float, str]]:
 	O(n*log(n)) - O(n^2)
 	This solution could be done in-place
 	with a better Space Complexity performance.
-	But it's not in educational purpose.
+	But it's not in educational purposes.
 	"""
 
 	def partition_around_pivot(start: int, end: int) -> int:
