@@ -400,11 +400,11 @@
           - https://en.wikipedia.org/wiki/Spaghetti_sort
         - **Counting Sort**
           - About
-            - [ ] [g4g: Counting sort](https://www.geeksforgeeks.org/counting-sort/)   
-            - [ ] [wiki: Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
+            - [x] [g4g: Counting sort](https://www.geeksforgeeks.org/counting-sort/)   
+            - [x] [wiki: Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
+          - Time: ```O(n + k)```
+          - Space: ```O(n + k)```
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
         - **Radix Sort**
           - About
             - [ ] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
