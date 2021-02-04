@@ -129,18 +129,18 @@ class TestSort(unittest.TestCase):
 		binary_insertion_sort,
 		bubble_sort,
 		merge_sort,
-		tim_sort,
+		# tim_sort,
 		quick_sort,
-		heap_sort,
+		# heap_sort,
 		ghnome_sort,
-		bucket_sort,
-		comb_sort,
+		# bucket_sort,
+		# comb_sort,
 		counting_sort,
-		cycle_sort,
-		pigeonhole_sort,
+		# cycle_sort,
+		# pigeonhole_sort,
 		radix_sort,
-		shell_sort,	
-		topological_sort
+		# shell_sort,	
+		# topological_sort
 	)
 
 	def test_sort(self):
