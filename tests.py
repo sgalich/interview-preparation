@@ -32,7 +32,7 @@ from algorithms.sort import topological_sort
 
 
 ARRAYS = (
-	[], [0], [1],
+	[], [0], [1], [1, 0],
 	[0, 3, 1, 2, 3],
 	[0, 5, 1, 2, 3, 4],
 	[0, 45, 6, 1, 2, 3, 4, 5],
@@ -85,7 +85,7 @@ def test_arrays(function_answer: Callable, function_test: Callable, *args: Any) 
 			break
 		if answer != function_answer(array):
 			e = 'Incorrect answer'
-			test_result = f'ERROR! {e}, input: {_input[:20]}, answer: {answer[:20]}'
+			test_result = f'ERROR! {e}, input: {_input},\n\nanswer: {answer}'
 			running_time = ''
 			break
 		running_time = time.time() - start
@@ -106,8 +106,8 @@ class TestSearch(unittest.TestCase):
 		exponential,
 		ternary,
 		fibonacci,
-		dichotomous,
-		golden_section
+		# dichotomous,
+		# golden_section
 	)
 	SEARCH_NUM = 0
 
@@ -129,16 +129,16 @@ class TestSort(unittest.TestCase):
 		binary_insertion_sort,
 		bubble_sort,
 		merge_sort,
-		# tim_sort,
 		quick_sort,
-		# heap_sort,
 		ghnome_sort,
-		# bucket_sort,
-		# comb_sort,
 		counting_sort,
+		radix_sort,
+		bucket_sort,
+		# tim_sort,
+		# heap_sort,
+		# comb_sort,
 		# cycle_sort,
 		# pigeonhole_sort,
-		radix_sort,
 		# shell_sort,	
 		# topological_sort
 	)

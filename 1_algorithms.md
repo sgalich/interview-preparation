@@ -407,11 +407,11 @@
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
         - **Radix Sort**
           - About
-            - [ ] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
-            - [ ] [wiki: Radix sort](https://en.wikipedia.org/wiki/Radix_sort#Least_significant_digit_radix_sorts)
+            - [x] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
+            - [x] [wiki: Radix sort](https://en.wikipedia.org/wiki/Radix_sort#Least_significant_digit_radix_sorts)
           - Time: ```O(n*k), where k = ?```
           - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
         - **Bucket Sort**
           - About
             - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)

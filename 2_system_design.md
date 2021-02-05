@@ -20,7 +20,6 @@
     - [ ] [Elicitation](https://en.wikipedia.org/wiki/Requirements_elicitation)
     - Recording
     - Analyzing
-  - [ ] [Url shortening service](https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR)
   - [ ] [aspect-oriented programming language](https://en.wikipedia.org/wiki/Aspect-oriented_programming)
   - [ ] [Abstraction principle](https://en.wikipedia.org/wiki/Abstraction_principle_(programming))
   - [ ] [Algorithmic skeleton](https://en.wikipedia.org/wiki/Algorithmic_skeleton)
@@ -79,6 +78,7 @@
     - [ ] [thread](https://en.wikipedia.org/wiki/Thread_(computing))
     - [ ] [scheduler](https://en.wikipedia.org/wiki/Scheduling_(computing))
     - [ ] [mutual exclusion](https://en.wikipedia.org/wiki/Mutual_exclusion)
+    - race condition, dead lock is the bottom line
   - [ ] [system design youtube channel](https://www.youtube.com/channel/UC9vLsnF6QPYuH51njmIooCQ)
   - [ ] [Class diagrams](https://en.wikipedia.org/wiki/Unified_Modeling_Language#UML_Class_Diagram)
   - [ ] [Object-oriented programming (OOP)](https://en.wikipedia.org/wiki/Object-oriented)
@@ -445,6 +445,7 @@
       - [ ] [wiki: Volume](https://en.wikipedia.org/wiki/Volume_testing)
 - COMPONENTS
   - About
+    - https://en.wikipedia.org/wiki/Bloom_filter
   - Cache
     - memcached
   - Database
@@ -724,13 +725,50 @@
         - Cloudfront
 - PRACTICE
   - About
-    - [ ] ? [hiredintech: links to examples](https://www.hiredintech.com/classrooms/system-design/lesson/61)
     - [x] [Images handling at Kraken.io](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
   - Design a...
+    - Url shortening service
+      - [ ] [educative.io](https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR)
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/08/system-design-interview-question-create-tinyurl-system/)
     - car park ticketing system
     - chat messenger
     - Twitter
       - [x] [hiredintech](https://www.hiredintech.com/classrooms/system-design/lesson/67)
+      - [ ] [gainlo.co 1](http://blog.gainlo.co/index.php/2016/02/17/system-design-interview-question-how-to-design-twitter-part-1/)
+      - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/02/24/system-design-interview-question-how-to-design-twitter-part-2/)
+    - Twitter Trends
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/03/how-to-design-a-trending-algorithm-for-twitter/)
+    - Photo Sharing App
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/01/system-design-interview-question-create-a-photo-sharing-app/)
+    - Google Docs
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/22/system-design-interview-question-how-to-design-google-docs/)
+    - News Feed System
+      - [ ] [gainlo.co 1](http://blog.gainlo.co/index.php/2016/03/29/design-news-feed-system-part-1-system-design-interview-questions/)
+      - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/04/05/design-news-feed-system-part-2/)
+    - Facebook Chat System
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/04/19/design-facebook-chat-function/)
+    - Cache System
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/17/design-a-cache-system/)
+    - Reccomendation System
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/24/design-a-recommendation-system/)
+    - Random ID Generator
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/06/07/random-id-generator/)
+    - Key-Value Store
+      - [ ] [gainlo.co 1](http://blog.gainlo.co/index.php/2016/06/14/design-a-key-value-store-part-i/)
+      - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/06/21/design-key-value-store-part-ii/)
+    - Web Crawler
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
+    - Garbage Collection System
+      - [ ] [gainlo.co 1](http://blog.gainlo.co/index.php/2016/07/25/design-a-garbage-collection-system-part-i/)
+      - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/08/08/design-garbage-collection-system-part-ii/)
+    - eCommerce Website
+      - [ ] [gainlo.co 1](http://blog.gainlo.co/index.php/2016/08/22/design-ecommerce-website-part/)
+      - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/08/28/design-ecommerce-website-part-ii/)
+    - Hit Counter
+      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/09/12/dropbox-interview-design-hit-counter/)
+    - YouTube
+      - [ ] [gainlo.co 1](http://blog.gainlo.co/index.php/2016/10/22/design-youtube-part/)
+      - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/11/04/design-youtube-part-ii/)
   - Other Questions
     - [ ] Design a receipt system
     - [ ] How to make API secure?
