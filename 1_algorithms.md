@@ -65,20 +65,13 @@
     - [ ] recursion
       - [ ] [LC: recursion-i](https://leetcode.com/explore/learn/card/recursion-i/)
       - [ ] [LC: recursion-ii](https://leetcode.com/explore/learn/card/recursion-ii/)
-    - [ ] Overlapping Subproblems
-      - [ ] [g4g](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/)
-    - [ ] Optimal Substructure
-      - [ ] [g4g](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
     - [ ] LRU cache
       - [ ] [LC](https://leetcode.com/problems/lru-cache/)
       - [ ] [g4g](https://www.geeksforgeeks.org/lru-cache-implementation/)
     - [ ] Copying
       - [ ] [wiki](https://en.wikipedia.org/wiki/Object_copying#Deep_copy)
     - [ ] Backtracking algorithms
-      - [ ] [g4g](https://www.geeksforgeeks.org/backtracking-algorithms/)
-      - [ ] [wiki](https://en.wikipedia.org/wiki/Backtracking)
-      - [ ] [1](http://web.archive.org/web/20141109193758/http://web.cse.ohio-state.edu/%7Egurari/course/cis680/cis680Ch19.html)
-      - [ ] N-Queens Problem
+
   - Analysis of Algorithms
     - [ ] [Asymptotic Analysis](https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/)
     - [ ] [Worst, Average and Best Cases](https://www.geeksforgeeks.org/analysis-of-algorithms-set-2-asymptotic-analysis/)
@@ -145,12 +138,13 @@
           - [ ] [wiki: linear search](https://en.wikipedia.org/wiki/Linear_search)
         - Time: ```O(n)```
         - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)    
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)
       - **Binary Search**
         - About
           - [x] [g4g](http://geeksquiz.com/binary-search/)
           - [ ] [wiki: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
           - [ ] [Unbounded Binary Search](https://www.geeksforgeeks.org/find-the-point-where-a-function-becomes-negative/)
+          - [ ] [LC: Binary search](https://leetcode.com/explore/learn/card/binary-search/)
         - Time: ```O(log(n))```
         - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/binary.py)
@@ -402,15 +396,15 @@
           - About
             - [x] [g4g: Counting sort](https://www.geeksforgeeks.org/counting-sort/)   
             - [x] [wiki: Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
-          - Time: ```O(n + k)```
+          - Time: ```O(n + k), where k is the range of the non-negative key values```
           - Space: ```O(n + k)```
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
         - **Radix Sort**
           - About
             - [x] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
             - [x] [wiki: Radix sort](https://en.wikipedia.org/wiki/Radix_sort#Least_significant_digit_radix_sorts)
-          - Time: ```O(n*k), where k = ?```
-          - Space: ```O()```
+          - Time: ```O(n * k), where k is the number of bits required to store each key.```
+          - Space: ```O(n + k)```
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
         - **Bucket Sort**
           - About
@@ -442,10 +436,16 @@
           - Space: ```O()```
           - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
   - Backtracking:
+    - About
+      - [x] [wiki](https://en.wikipedia.org/wiki/Backtracking)
+    - [ ] [g4g](https://www.geeksforgeeks.org/backtracking-algorithms/)
+    - [ ] [wiki](https://en.wikipedia.org/wiki/Backtracking)
+    - [ ] [1](http://web.archive.org/web/20141109193758/http://web.cse.ohio-state.edu/%7Egurari/course/cis680/cis680Ch19.html)
+    - N-Queens Problem
+      - [ ] [N Queen Problem](https://www.geeksforgeeks.org/backtracking-set-3-n-queen-problem/)
     - [ ] [Print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
     - [ ] [The Knight’s tour problem](https://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)
     - [ ] [Rat in a Maze](https://www.geeksforgeeks.org/backttracking-set-2-rat-in-a-maze/)
-    - [ ] [N Queen Problem](https://www.geeksforgeeks.org/backtracking-set-3-n-queen-problem/)
     - [ ] [Subset Sum](https://www.geeksforgeeks.org/backttracking-set-4-subset-sum/)
     - [ ] [m Coloring Problem](https://www.geeksforgeeks.org/backttracking-set-5-m-coloring-problem/)
     - [ ] [Hamiltonian Cycle](https://www.geeksforgeeks.org/backtracking-set-7-hamiltonian-cycle/)
@@ -543,7 +543,10 @@
     - [ ] [Branch And Bound | Set 4 (Job Assignment Problem)](https://www.geeksforgeeks.org/branch-bound-set-4-job-assignment-problem/)
     - [ ] [Branch and Bound | Set 5 (N Queen Problem)](https://www.geeksforgeeks.org/branch-and-bound-set-4-n-queen-problem/)
     - [ ] [Branch And Bound | Set 6 (Traveling Salesman Problem)](https://www.geeksforgeeks.org/branch-bound-set-5-traveling-salesman-problem/)
-  - Dynamic programming
+  - **Dynamic programming**
+    - [ ] [g4g: Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
+    - [ ] [g4g: Overlapping Subproblems in DP](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/)
+    - [ ] [g4g: Optimal Substructure Property](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
     - [ ] [System Design Interview - Top K Problem (Heavy Hitters)](https://www.youtube.com/watch?v=kx-XDoPjoHw)
     - [ ] [g4g](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
     - [ ] [hackerrank](https://www.hackerrank.com/domains/algorithms/dynamic-programming/difficulty:medium/page:1)
@@ -551,8 +554,6 @@
     - [ ] Traveling salesman problem
     - [ ] Coin change problem
     - [ ] Bit Masking
-    - [ ] [Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
-    - [ ] [Optimal Substructure Property](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
     - [ ] [Longest Increasing Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/)
     - [ ] [Longest Common Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
     - [ ] [Edit Distance](https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/)
@@ -803,7 +804,17 @@
       - [ ] [Leetcode 6](https://leetcode.com/problems/implement-trie-prefix-tree/)
       - [ ] Given a node in a N-ary tree, check if that node exists in the tree, if so, print all the nodes under its hierarchy
       - [ ] [Leetcode: data-structure-tree](https://leetcode.com/explore/learn/card/data-structure-tree/)
-      - [ ] [Leetcode: Binary search](https://leetcode.com/explore/learn/card/binary-search/)
+      - Traversals
+        - Pre-order
+          - root->L->R
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/pre_order_traversal.py)
+        - In-order
+          - L->root->R
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/in_order_traversal.py)
+        - Post-order
+          - L->R->root
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/post_order_traversal.py)
+        - Level-order (BFS)
     - Binary Tree
       - [ ] [Binary Tree Introduction](http://geeksquiz.com/binary-tree-set-1-introduction/)
       - [ ] [Binary Tree Properties](http://geeksquiz.com/binary-tree-set-2-properties/)

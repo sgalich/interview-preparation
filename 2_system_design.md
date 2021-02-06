@@ -3,11 +3,10 @@
 - ABOUT
   - [x] [Wiki: Systems_design](https://en.wikipedia.org/wiki/Systems_design)
   - [x] [Wiki: System_architecture](https://en.wikipedia.org/wiki/System_architecture)
-  - [ ] [examples](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
   - [x] [2](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
-  - [ ] [3](https://towardsdatascience.com/system-design-101-b8f15162ef7c)
-  - [ ] [4](https://www.educative.io/courses/grokking-the-system-design-interview)
-  - [ ] [5](https://www.freecodecamp.org/news/systems-design-for-interviews/)
+  - [x] ??? [3](https://towardsdatascience.com/system-design-101-b8f15162ef7c)
+  - [ ] [freecodecamp](https://www.freecodecamp.org/news/systems-design-for-interviews/)
+  - [x] ??? [medium: Client-Server Architecture](https://towardsdatascience.com/system-design-basics-getting-started-with-the-client-server-architecture-b02f9c9daae8)
   - [ ] [Software Design Principles for Evolving Achitectures](http://www.firatatagun.com/blog/2016/01/08/software-design-principles-for-evolving-architectures/)
   - [ ] [Ultimate guide for evolving architectures](http://www.firatatagun.com/blog/2016/01/05/ultimate-guide-for-evolving-architectures/)
   - [ ] [quora 1](https://www.quora.com/How-can-I-learn-about-Design-questions-asked-in-programming-interviews)
@@ -87,6 +86,7 @@
       - [ ] [SOLID - Wikipediaen.wikipedia.org › wiki › SOLID](https://en.wikipedia.org/wiki/SOLID)
   - Regression testing scenarios
   - Debugging/Logging
+  - consistent hashing
   - [ ] [Rapid application development](https://en.wikipedia.org/wiki/Rapid_application_development)
   - [ ] [Joint application design](https://en.wikipedia.org/wiki/Joint_application_design)
   - [ ] [Arcadia (engineering)](https://en.wikipedia.org/wiki/Arcadia_(engineering))
@@ -273,11 +273,11 @@
   - Functional requirements
     - About
       - [ ] [Wiki: Functional requirements](https://en.wikipedia.org/wiki/Functional_requirement)
-  - Non-functional Requirements
+  - **Non-functional Requirements**
     - About
       - [ ] [Wiki](https://en.wikipedia.org/wiki/Non-functional_requirement)
       - [ ] [Architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements)
-    - Scalability
+    - **Scalability**
       - About
         - [ ] [Wiki](https://en.wikipedia.org/wiki/Scalability)
         - [ ] [Scalability for Dummies](http://www.lecloud.net/tagged/scalability)
@@ -320,10 +320,11 @@
       - Bottlenecks
         - handling a lot of users
         - handling a lot of data
-    - Availability
+    - **Availability**
       - About
-        - [Wiki](https://en.wikipedia.org/wiki/Availability)
-        - [Service level agreement (SLA)](https://en.wikipedia.org/wiki/Service_level_agreement)
+        - [ ] [Wiki](https://en.wikipedia.org/wiki/Availability)
+        - [ ] [Service level agreement (SLA)](https://en.wikipedia.org/wiki/Service_level_agreement)
+        - [ ] [medium: How to Measure Availability in Distributed Systems](https://towardsdatascience.com/availability-in-distributed-systems-adb43df78b9a)
     - Performance
     - Durability
       - About
@@ -447,7 +448,10 @@
   - About
     - https://en.wikipedia.org/wiki/Bloom_filter
   - Cache
-    - memcached
+    - About
+      - [ ] [medium](https://towardsdatascience.com/system-design-basics-getting-started-with-caching-c2c3e934064a)
+      - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/3j6NnJrpp5p)
+      - memcached
   - Database
     - About
       - [x] [DB overview](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc)
@@ -583,10 +587,19 @@
   - Load balancer
     - About
       - [ ] [wiki: Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
+      - [x] [medium](https://codeburst.io/system-design-basics-load-balancer-101-adc4f602d08f)
+      - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/3jEwl04BL7Q)
     - Technologies
       - [nginx HTTP load balancer](https://nginx.org/en/docs/http/load_balancing.html)
       - [Amazon's Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
       - [HAProxy - TCP/HTTP load balancer](https://www.haproxy.org)
+    - Random selection
+    - Round Robin
+    - Weighted Round Robin Method
+    - Least Connection
+    - Least Response Time
+    - Source IP Hashing
+Source IP Hashing: In th
   - Server
     - About
       - Amazon Web Services, EC2, RDS, S3, Elastic MapReduce, Webhook Delivery
@@ -715,11 +728,13 @@
         - [ ] Java
   - Network
     - About
+      - [ ] [seems nice](https://www.cloudflare.com/learning/)
       - REST API
       - UDP, TCP, SSL, HTTP/HTTPS, IP, Http2 + bundling/sprites
       - DNS
       - [ ] [wiki/Point_of_presence](https://en.wikipedia.org/wiki/Point_of_presence)
       - [ ] [Convolutional neural network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+      - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/gx7wZzWn5Vj)
       - Content Delivery Network
         - AWS S3
         - Cloudfront
@@ -730,6 +745,8 @@
     - Url shortening service
       - [ ] [educative.io](https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR)
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/08/system-design-interview-question-create-tinyurl-system/)
+      - [ ] [medium](https://towardsdatascience.com/system-design-of-url-shortening-service-b325b18c8f88?source=your_stories_page-------------------------------------)
+      - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR)
     - car park ticketing system
     - chat messenger
     - Twitter
@@ -738,10 +755,13 @@
       - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/02/24/system-design-interview-question-how-to-design-twitter-part-2/)
     - Twitter Trends
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/03/how-to-design-a-trending-algorithm-for-twitter/)
-    - Photo Sharing App
+    - Instagram
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/01/system-design-interview-question-create-a-photo-sharing-app/)
+      - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG)
     - Google Docs
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/22/system-design-interview-question-how-to-design-google-docs/)
+    - Google Drive
+      - [ ] [medium](https://towardsdatascience.com/system-design-analysis-of-google-drive-ca3408f22ed3)
     - News Feed System
       - [ ] [gainlo.co 1](http://blog.gainlo.co/index.php/2016/03/29/design-news-feed-system-part-1-system-design-interview-questions/)
       - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/04/05/design-news-feed-system-part-2/)
@@ -751,13 +771,14 @@
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/17/design-a-cache-system/)
     - Reccomendation System
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/24/design-a-recommendation-system/)
+      - [ ] [medium](https://codeburst.io/system-design-analysis-for-auto-suggestion-service-d28bf1701658)
     - Random ID Generator
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/06/07/random-id-generator/)
     - Key-Value Store
       - [ ] [gainlo.co 1](http://blog.gainlo.co/index.php/2016/06/14/design-a-key-value-store-part-i/)
       - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/06/21/design-key-value-store-part-ii/)
     - Web Crawler
-      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
+      - [x] [gainlo.co](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
     - Garbage Collection System
       - [ ] [gainlo.co 1](http://blog.gainlo.co/index.php/2016/07/25/design-a-garbage-collection-system-part-i/)
       - [ ] [gainlo.co 2](http://blog.gainlo.co/index.php/2016/08/08/design-garbage-collection-system-part-ii/)
