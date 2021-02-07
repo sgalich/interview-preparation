@@ -70,8 +70,6 @@
       - [ ] [g4g](https://www.geeksforgeeks.org/lru-cache-implementation/)
     - [ ] Copying
       - [ ] [wiki](https://en.wikipedia.org/wiki/Object_copying#Deep_copy)
-    - [ ] Backtracking algorithms
-
   - Analysis of Algorithms
     - [ ] [Asymptotic Analysis](https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/)
     - [ ] [Worst, Average and Best Cases](https://www.geeksforgeeks.org/analysis-of-algorithms-set-2-asymptotic-analysis/)
