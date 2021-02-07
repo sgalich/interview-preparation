@@ -111,7 +111,7 @@ class TestSearch(unittest.TestCase):
 	)
 	SEARCH_NUM = 0
 
-	def test_search(self):
+	def test_search(self) -> None:
 		for search_type in self.ALL_SEARCHES:
 			function_test = getattr(search_type, 'search')
 			function_answer = lambda x: self.SEARCH_NUM in x
@@ -143,7 +143,7 @@ class TestSort(unittest.TestCase):
 		# topological_sort
 	)
 
-	def test_sort(self):
+	def test_sort(self) -> None:
 		for search_type in self.ALL_SORTS:
 			function_test = getattr(search_type, 'sort')
 			function_answer = lambda x: sorted(x)
