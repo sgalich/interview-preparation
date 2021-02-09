@@ -292,29 +292,12 @@
         - [ ] [Sharding and IDs at Instagram](http://instagram-engineering.tumblr.com/post/10853187575/sharding-ids-at-instagram)
         - [ ] [Sharding Postgres at Instagram (video & slides)](http://www.databasesoup.com/2012/04/sharding-postgres-with-instagram.html)
         - [ ] [Generating unique primary keys at Flickr when sharding](https://code.flickr.net/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/)
-        - Misc: “denormalization” and “SQL tuning” 
+        - Misc: “denormalization” and “SQL tuning”
       - Vertical scaling
       - Horizontal scaling
       - Caching
       - Database Replication
-        - [ ] [wiki: replication](https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE)
-        - master-slave replication (read from slaves, write to master)
-        - master-master
       - Database Partitioning
-        - About
-          - [x] [Wiki: db partitioning](https://en.wikipedia.org/wiki/Partition_(database))
-        - Partition criteria
-          - Range partitioning
-          - List partitioning
-          - Composite partitioning
-          - Round-robin partitioning
-            - [x] [quora](https://www.quora.com/What-is-round-robin-partitioning)
-          - Hash partitioning
-        - Partition methods
-          - Horizontal (Shard)
-            - [ ] [Wiki: shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))
-          - Vertical (Normalization)
-            - [ ] [Wiki: normalization](https://en.wikipedia.org/wiki/Database_normalization)
       - Using NoSQL instead of scaling a relational database
       - Being asynchronous
       - Bottlenecks
@@ -421,6 +404,7 @@
       - processor speed, memory, disk space, network bandwidth, etc.
     - Response time
       - [ ] [wiki: Response time](https://en.wikipedia.org/wiki/Response_Time#Data_processing)
+      - [ ] [wiki: Latency](https://en.wikipedia.org/wiki/Latency_(engineering))
     - Reusability
       - [ ] [wiki: Reusability](https://en.wikipedia.org/wiki/Reusability)
     - Robustness
@@ -452,7 +436,7 @@
       - [ ] [medium](https://towardsdatascience.com/system-design-basics-getting-started-with-caching-c2c3e934064a)
       - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/3j6NnJrpp5p)
       - memcached
-  - Database
+  - **Database**
     - About
       - [x] [DB overview](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc)
       - [ ] [Wiki: Data management](https://en.wikipedia.org/wiki/Data_management)
@@ -550,40 +534,64 @@
           - [ ] [](https://en.wikipedia.org/wiki/Data_mart)
       - [ ] [wiki](https://en.wikipedia.org/wiki/Block_Range_Index)
       - [ ] [wiki](https://en.wikipedia.org/wiki/CAP_theorem)
-    - Relational
+    - Database Replication
       - About
-        - Indexing
-          - [ ] [MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_b_tree)
-          - [ ] [stackoverflow](https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql)
-        - How companies work with relational db
-          - [ ] [How Twitter used to store 250 million tweets a day some years ago](http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html)
-          - [ ] [How Facebook made MySql scale](https://gigaom.com/2011/12/06/facebook-shares-some-secrets-on-making-mysql-scale/)
-          - [ ] [WebScaleSQL - an effort from a few big companies to make MySql more scalable](http://webscalesql.org/)
-          - [ ] [Twitter's branch of MySql on GitHub](https://github.com/twitter/mysql)
-          - [ ] [Facebook's branch of MySql on GitHub](https://github.com/facebook/mysql-5.6)
-      - MySQL, Postgres, SQL Server
-      - SQL language
-        - [ ] [w3schools](https://www.w3schools.com/sql/default.asp)
-        - [ ] [very nice tutorial](https://mode.com/sql-tutorial/introduction-to-sql/) with not excellent practice instruments
-        - [ ] practice: [Leetcode](https://leetcode.com/problemset/database/)
-        - [ ] practice: [hackerrank](https://www.hackerrank.com/domains/sql)
-        - [ ] group by
-          - [ ] https://www.peachpit.com/articles/article.aspx?p=30681&seqNum=8
-        - [x] joins
-          - [the best joins' explanation](https://joins.spathon.com)
-        - [ ] window functions
-        - [ ] CASE WHEN statements
-        - [ ] Misc: normalization, indexing, ANALYZE-EXPLAIN for queries, Query Optimization
-    - NoSQL
+        - [x] [wiki: replication](https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE)
+      - ```+```: reliability, availability (?), fault tolerance, accessibility
+      - ```-```: response time
+      - Multi-master
+        - [ ] [wiki: Multi-master replication](https://en.wikipedia.org/wiki/Multi-master_replication)
+      - Master-slave
+        - [ ] [wiki: Master/slave](https://en.wikipedia.org/wiki/Master/slave_(technology)#Master/replica)
+    - Database Partitioning
       - About
-      - Column Store
-        - Apache HBase, Cassandra
-      - Key-Value Store
-        - Redis, Amazon DynamoDB
-      - Graph
-        - neo4J, OrientDB, Titan
-      - Document-Oriented Database
-        - MongoDB, Couchbase
+        - [x] [Wiki: db partitioning](https://en.wikipedia.org/wiki/Partition_(database))
+      - Horizontal (Shard)
+        - [ ] [Wiki: shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))
+        - Partition criteria
+          - Range partitioning
+          - List partitioning
+          - Composite partitioning
+          - Round-robin partitioning
+            - [x] [quora](https://www.quora.com/What-is-round-robin-partitioning)
+          - Hash partitioning
+      - Vertical (Normalization)
+        - [ ] [Wiki: normalization](https://en.wikipedia.org/wiki/Database_normalization)
+    - Tech Stack
+      - Relational
+        - About
+          - Indexing
+            - [ ] [MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_b_tree)
+            - [ ] [stackoverflow](https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql)
+          - How companies work with relational db
+            - [ ] [How Twitter used to store 250 million tweets a day some years ago](http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html)
+            - [ ] [How Facebook made MySql scale](https://gigaom.com/2011/12/06/facebook-shares-some-secrets-on-making-mysql-scale/)
+            - [ ] [WebScaleSQL - an effort from a few big companies to make MySql more scalable](http://webscalesql.org/)
+            - [ ] [Twitter's branch of MySql on GitHub](https://github.com/twitter/mysql)
+            - [ ] [Facebook's branch of MySql on GitHub](https://github.com/facebook/mysql-5.6)
+        - MySQL, Postgres, SQL Server
+        - SQL language
+          - [ ] [w3schools](https://www.w3schools.com/sql/default.asp)
+          - [ ] [very nice tutorial](https://mode.com/sql-tutorial/introduction-to-sql/) with not excellent practice instruments
+          - [ ] practice: [Leetcode](https://leetcode.com/problemset/database/)
+          - [ ] practice: [hackerrank](https://www.hackerrank.com/domains/sql)
+          - [ ] group by
+            - [ ] https://www.peachpit.com/articles/article.aspx?p=30681&seqNum=8
+          - [x] joins
+            - [the best joins' explanation](https://joins.spathon.com)
+          - [ ] window functions
+          - [ ] CASE WHEN statements
+          - [ ] Misc: normalization, indexing, ANALYZE-EXPLAIN for queries, Query Optimization
+      - NoSQL
+        - About
+        - Column Store
+          - Apache HBase, Cassandra
+        - Key-Value Store
+          - Redis, Amazon DynamoDB, Memcached
+        - Graph
+          - neo4J, OrientDB, Titan
+        - Document-Oriented Database
+          - MongoDB, Couchbase
   - Load balancer
     - About
       - [ ] [wiki: Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
@@ -599,7 +607,6 @@
     - Least Connection
     - Least Response Time
     - Source IP Hashing
-Source IP Hashing: In th
   - Server
     - About
       - Amazon Web Services, EC2, RDS, S3, Elastic MapReduce, Webhook Delivery
