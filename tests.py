@@ -151,10 +151,4 @@ class TestSort(unittest.TestCase):
 
 
 if __name__ == '__main__':
-	# functions = (
-	# 	test_search,
-	# 	test_sort
-	# )
-	# for function in functions:
-	# 	function()
 	unittest.main()
