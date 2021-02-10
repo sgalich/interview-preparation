@@ -2,3 +2,7 @@
 *__pycache__
 env/
 .vscode/
+
+# Temporarily unavailable for public
+trash.md
+3_behavioral.md
