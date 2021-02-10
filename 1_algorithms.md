@@ -170,14 +170,14 @@
   - **🔎 Search**
     - About
       - [x] 📗 [stackabuse.com: Search Algorithms in Python](https://stackabuse.com/search-algorithms-in-python/)
-    - **Linear Search**
+    - **🌑 Linear Search**
       - About
         - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
         - [ ] [wiki: linear search](https://en.wikipedia.org/wiki/Linear_search)
       - Time: ```O(n)```
       - Space: ```O(1)```
       - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)
-    - **Binary Search**
+    - **🌕 Binary Search**
       - About
         - [x] [g4g](http://geeksquiz.com/binary-search/)
         - [ ] [wiki: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
@@ -193,7 +193,7 @@
       - Space: ```O(1)```
       - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/jump.py)
       - Doesn't use ```/``` while binary search does.
-    - Interpolation Search
+    - 🌕 Interpolation Search
       - About
         - [x] [g4g](https://www.geeksforgeeks.org/interpolation-search/)
         - [ ] [wiki: interpolation search](https://en.wikipedia.org/wiki/Interpolation_search)
@@ -286,14 +286,14 @@
         - [ ] [wiki: Comb_sort](https://en.wikipedia.org/wiki/Comb_sort)
         - [ ] [wiki: Gnome_sort](https://en.wikipedia.org/wiki/Gnome_sort)
         - UnShuffle Sort, Franceschini's method
-      - **Selection Sort**
+      - **🌗 Selection Sort**
         - About
           - [x] [g4g: Selection sort](http://geeksquiz.com/selection-sort/)
           - [ ] [wiki: Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
         - Time: ```O(n^2)```
         - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection_sort.py)
-      - **Insertion Sort**
+      - **🌗 Insertion Sort**
         - About
           - [x] [g4g: Insertion sort](http://geeksquiz.com/insertion-sort/)
           - [ ] [wiki: Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
@@ -307,14 +307,14 @@
           - Space: ```O(1)```
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/binary_insertion_sort.py)
           - ??? Still ```O(n^2)``` - why? because of the insertions (as I understood). But: ```iteration (n) + search (log(n)) + insert (n^2 ???) = O(n*log(n)*n) = O(n^2)```)
-      - **Bubble Sort**
+      - **🌑 Bubble Sort**
         - About
           - [x] [g4g: Bubble sort](http://geeksquiz.com/bubble-sort/)
           - [x] [wiki: Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
         - Time: ```O(n) - O(n^2)```
         - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort.py)
-      - **Merge Sort**
+      - **🌕 Merge Sort**
         - About
           - [x] [g4g: Merge sort](http://geeksquiz.com/merge-sort/)
           - [x] [g4g: Merge sort vs. Insertion sort](https://www.geeksforgeeks.org/merge-sort-vs-insertion-sort/?ref=rp)
@@ -336,7 +336,7 @@
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
         - Used by Python's ```sorted()``` function, + Android, Java
         - Hybrid of Mergesort and Insertion Sort
-      - **QuickSort**
+      - **🌖 QuickSort**
         - About
           - [x] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
           - [x] [g4g](http://geeksquiz.com/quick-sort/)
@@ -356,7 +356,7 @@
           - Adaptive: yes
           - [ ] [implemented]()
           - Better for arrays with redundant elements: ```[1, 4, 2, 4, 2, 4, 1, 2, 4, 1, 2, 2, 2, 2, 4, 1, 4, 4, 4]```
-      - **Heap Sort**
+      - **🌕 Heap Sort**
         - About
           - [ ] [g4g: HeapSort](http://geeksquiz.com/heap-sort/)
           - [ ] [wiki: HeapSort](https://en.wikipedia.org/wiki/Heapsort)
@@ -433,21 +433,21 @@
         - https://en.wikipedia.org/wiki/Bead_sort
         - https://en.wikipedia.org/wiki/Pancake_sorting
         - https://en.wikipedia.org/wiki/Spaghetti_sort
-      - **Counting Sort**
+      - **🌕 Counting Sort**
         - About
           - [x] [g4g: Counting sort](https://www.geeksforgeeks.org/counting-sort/)   
           - [x] [wiki: Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
         - Time: ```O(n + k), where k is the range of the non-negative key values```
         - Space: ```O(n + k)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
-      - **Radix Sort**
+      - **🌕 Radix Sort**
         - About
           - [x] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
           - [x] [wiki: Radix sort](https://en.wikipedia.org/wiki/Radix_sort#Least_significant_digit_radix_sorts)
         - Time: ```O(n * k), where k is the number of bits required to store each key.```
         - Space: ```O(n + k)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
-      - **Bucket Sort**
+      - **🌕 Bucket Sort**
         - About
           - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
           - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)

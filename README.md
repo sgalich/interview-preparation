@@ -21,17 +21,17 @@ This is my homepage for preparation to a software engineer interview.
   - Here is how do I use these nested lists: ![](https://github.com/sgalich/interview-preparation/blob/main/overview.png)
   - **Bolded** are essential topics for an interview!
   - Difficulty level
-    - 📕 - hard
-    - 📙 - middle
-    - 📗 - easy
-    - 📚 - messy
-    - ??? - I think I should remove it (useless for our purposes or duplicate)
-  -  Algorithms implementing
-    - 🌕 - practice as much as you can
-    - 🌖 - practice hard
-    - 🌗 - practice sometimes
-    - 🌘 - practice or skip
-    - 🌑 - already OK with this
+    * 📕 - hard
+    * 📙 - middle
+    * 📗 - easy
+    * 📚 - messy
+    * ??? - I think I should remove it (useless for our purposes or duplicate)
+  - Algorithms implementing
+    * 🌕 - practice as much as you can
+    * 🌖 - practice hard
+    * 🌗 - practice sometimes
+    * 🌘 - practice or skip
+    * 🌑 - already OK with this
 
 Good luck! And remember –
 > Consistency is the key to success

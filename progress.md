@@ -1,13 +1,13 @@
-# MY PROGRESS
+# MY PROGRESS 📈
 
 ## My LeetCode
 
-| Level  | Problem solved |
-|-------------------------|
-| Easy   |             99 |
-| Medium |             58 |
-| Hard   |              5 |
-| TOTAL  |            162 |
+    | Level  | Problem solved |
+    |-------------------------|
+    | Easy   |             99 |
+    | Medium |             58 |
+    | Hard   |              5 |
+    | TOTAL  |            162 |
 
 ## My interviews
 
