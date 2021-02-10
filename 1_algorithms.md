@@ -1,6 +1,6 @@
 🧮 🤪 I. ALGORITHMS & DATA STRUCTURES
 
-- ABOUT
+- 0️⃣ ABOUT
   - [ ] [Data Structure](https://en.wikipedia.org/wiki/Data_structure)
   - [ ] [hiredintech](https://www.hiredintech.com/classrooms/algorithm-design)
   - [ ] [functional programming](https://en.wikipedia.org/wiki/Functional_programming)
@@ -34,9 +34,858 @@
   - [ ] [Check if characters of a given string can be rearranged to form a palindrome](http://geeksquiz.com/check-characters-given-string-can-rearranged-form-palindrome/)
   - [ ] [Print all pairs of anagrams in a given array of strings](http://geeksquiz.com/print-pairs-anagrams-given-array-strings/)
   - [ ] [book The Art of Computer Programming by Knuth](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)
-- ALGORITHMS
+- 1️⃣ PRIMITIVE DATA STRUCTURES
+  - String
+    - [ ] Pattern Searching
+      - [ ] [Naive Pattern Searching](https://www.geeksforgeeks.org/searching-for-patterns-set-1-naive-pattern-searching/)
+      - [ ] [KMP Algorithm](https://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/)
+      - [ ] [Rabin-Karp Algorithm](https://www.geeksforgeeks.org/searching-for-patterns-set-3-rabin-karp-algorithm/)
+      - [ ] [A Naive Pattern Searching Question](https://www.geeksforgeeks.org/pattern-searching-set-4-a-naive-string-matching-algo-question/)
+      - [ ] [Finite Automata](https://www.geeksforgeeks.org/searching-for-patterns-set-5-finite-automata/)
+      - [ ] [Efficient Construction of Finite Automata](https://www.geeksforgeeks.org/pattern-searching-set-5-efficient-constructtion-of-finite-automata/)
+      - [ ] [Boyer Moore Algorithm – Bad Character Heuristic](https://www.geeksforgeeks.org/pattern-searching-set-7-boyer-moore-algorithm-bad-character-heuristic/)
+      - [ ] [Suffix Array](https://www.geeksforgeeks.org/suffix-array-set-1-introduction/)
+      - [ ] [Anagram Substring Search (Or Search for all permutations)](https://www.geeksforgeeks.org/anagram-substring-search-search-permutations/)
+      - [ ] [Pattern Searching using a Trie of all Suffixes](https://www.geeksforgeeks.org/pattern-searching-using-trie-suffixes/)
+      - [ ] [Aho-Corasick Algorithm for Pattern Searching](https://www.geeksforgeeks.org/aho-corasick-algorithm-pattern-searching/)
+      - [ ] [kasai’s Algorithm for Construction of LCP array from Suffix Array](https://www.geeksforgeeks.org/%c2%ad%c2%adkasais-algorithm-for-construction-of-lcp-array-from-suffix-array/)
+      - [ ] [Z algorithm (Linear time pattern searching Algorithm)](https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/)
+      - [ ] [Program to wish Women’s Day](https://www.geeksforgeeks.org/program-wish-womens-day/)
+    - [ ] Other String Algorithms
+      - [ ] [Manacher’s Algorithm – Linear Time Longest Palindromic Substring – Part 1](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/)
+      - [ ] [Part 2](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-2/)
+      - [ ] [Part 3](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-3-2/)
+      - [ ] [Part 4](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/)
+      - [ ] [Longest Even Length Substring such that Sum of First and Second Half is same](https://www.geeksforgeeks.org/longest-even-length-substring-sum-first-second-half/)
+      - [ ] [Print all possible strings that can be made by placing spaces](https://www.geeksforgeeks.org/print-possible-strings-can-made-placing-spaces/)
+  - Integer
+    - [ ] Binary & Hexadecimal numbers
+      - [ ] https://code.tutsplus.com/articles/number-systems-an-introduction-to-binary-hexadecimal-and-more--active-10848
+    - [ ] Bitwise Operators (Bit Algorithms)
+      - About
+        - [ ] [Wiki](https://en.wikipedia.org/wiki/Bitwise_operation)
+        - [ ] [1](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
+      - [ ] XOR
+        - [ ] https://leetcode.com/explore/challenge/card/september-leetcoding-challenge/556/week-3-september-15th-september-21st/3462/
+        - [ ] https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
+        - [ ] https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
+      - [ ] [Find the element that appears once](https://www.geeksforgeeks.org/find-the-element-that-appears-once/)
+      - [ ] [Detect opposite signs](https://www.geeksforgeeks.org/detect-if-two-integers-have-opposite-signs/)
+      - [ ] [Set bits in all numbers from 1 to n](https://www.geeksforgeeks.org/count-total-set-bits-in-all-numbers-from-1-to-n/)
+      - [ ] [Swap bits](https://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
+      - [ ] [Add two numbers](https://www.geeksforgeeks.org/add-two-numbers-without-using-arithmetic-operators/)
+      - [ ] [Smallest of three](https://www.geeksforgeeks.org/smallest-of-three-integers-without-comparison-operators/)
+      - [ ] [A Boolean Array Puzzle](https://www.geeksforgeeks.org/a-boolean-array-puzzle/)
+      - [ ] [Set bits in an (big) array](https://www.geeksforgeeks.org/program-to-count-number-of-set-bits-in-an-big-array/)
+      - [ ] [Next higher number with same number of set bits](https://www.geeksforgeeks.org/next-higher-number-with-same-number-of-set-bits/)
+      - [ ] [Optimization Technique (Modulus)](https://www.geeksforgeeks.org/optimization-techniques-set-1-modulus/)
+      - [ ] [Add 1 to a number](https://www.geeksforgeeks.org/add-1-to-a-given-number/)
+      - [ ] [Multiply with 3.5](https://www.geeksforgeeks.org/multiply-an-integer-with-3-5/)
+      - [ ] [Turn off the rightmost set bit](https://www.geeksforgeeks.org/turn-off-the-rightmost-set-bit/)
+      - [ ] [Check for Power of 4](https://www.geeksforgeeks.org/find-whether-a-given-number-is-a-power-of-4-or-not/)
+      - [ ] [Absolute value (abs) without branching](https://www.geeksforgeeks.org/compute-the-integer-absolute-value-abs-without-branching/)
+      - [ ] [Modulus division by a power-of-2-number](https://www.geeksforgeeks.org/compute-modulus-division-by-a-power-of-2-number/)
+      - [ ] [Minimum or Maximum of two integers](https://www.geeksforgeeks.org/compute-the-minimum-or-maximum-max-of-two-integers-without-branching/)
+      - [ ] [Rotate bits](https://www.geeksforgeeks.org/rotate-bits-of-an-integer/)
+      - [ ] [Find the two non-repeating elements in an array](https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/)
+      - [ ] [Number Occurring Odd Number of Times](https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/)
+      - [ ] [Check for Integer Overflow](https://www.geeksforgeeks.org/check-for-integer-overflow/)
+      - [ ] [Little and Big Endian](https://www.geeksforgeeks.org/little-and-big-endian-mystery/)
+      - [ ] [Reverse Bits of a Number](https://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
+      - [ ] [Count set bits in an integer](https://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
+      - [ ] [Number of bits to be flipped to convert A to B](https://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
+      - [ ] [Next Power of 2](https://www.geeksforgeeks.org/next-power-of-2/)
+      - [ ] [Check if a Number is Multiple of 3](https://www.geeksforgeeks.org/write-an-efficient-method-to-check-if-a-number-is-multiple-of-3/)
+      - [ ] [Find parity](https://www.geeksforgeeks.org/write-a-c-program-to-find-the-parity-of-an-unsigned-integer/)
+      - [ ] [Multiply with 7](https://www.geeksforgeeks.org/efficient-way-to-multiply-with-7/)
+      - [ ] [Find whether a no is power of two](https://www.geeksforgeeks.org/write-one-line-c-function-to-find-whether-a-no-is-power-of-two/)
+      - [ ] [Position of rightmost set bit](https://www.geeksforgeeks.org/position-of-rightmost-set-bit/)
+      - [ ] [Binary representation of a given number](https://www.geeksforgeeks.org/binary-representation-of-a-given-number/)
+      - [ ] [Swap all odd and even bits](https://www.geeksforgeeks.org/swap-all-odd-and-even-bits/)
+      - [ ] [Find position of the only set bit](https://www.geeksforgeeks.org/find-position-of-the-only-set-bit/)
+      - [ ] [Karatsuba algorithm for fast multiplication](https://www.geeksforgeeks.org/divide-and-conquer-set-2-karatsuba-algorithm-for-fast-multiplication/)
+      - [ ] [How to swap two numbers without using a temporary variable?](https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/)
+      - [ ] [Check if a number is multiple of 9 using bitwise operators](https://www.geeksforgeeks.org/divisibility-9-using-bitwise-operators/)
+      - [ ] [Swap two nibbles in a byte](https://www.geeksforgeeks.org/swap-two-nibbles-byte/)
+      - [ ] [How to turn off a particular bit in a number?](https://www.geeksforgeeks.org/how-to-turn-off-a-particular-bit-in-a-number/)
+      - [ ] [Check if binary representation of a number is palindrome](https://www.geeksforgeeks.org/check-binary-representation-number-palindrome/)
+- 2️⃣ ARRAY
+  - About
+    - [x] 📗 [Leetcode: arrays](https://leetcode.com/explore/learn/card/fun-with-arrays/)
+    - [ ] [array-and-string](https://leetcode.com/explore/learn/card/array-and-string/)
+    - [ ] [lecture: Unbounded arrays](http://www.cs.cmu.edu/~fp/courses/15122-s11/lectures/12-ubarrays.pdf)
+    - [ ] [Search, insert and delete in an unsorted array](https://www.geeksforgeeks.org/search-insert-and-delete-in-an-unsorted-array/)
+    - [ ] [Search, insert and delete in a sorted array](https://www.geeksforgeeks.org/search-insert-and-delete-in-a-sorted-array/)
+    - [ ] [Leaders in an array](https://www.geeksforgeeks.org/leaders-in-an-array/)
+    - [ ] [Given an array A[] and a number x, check for pair in A[] with sum as x](https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
+    - [ ] [Majority Element](https://www.geeksforgeeks.org/majority-element/)
+    - [ ] [Find the Number Occurring Odd Number of Times](https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/)
+    - [ ] [Largest Sum Contiguous Subarray](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+    - [ ] [Find the Missing Number](https://www.geeksforgeeks.org/find-the-missing-number/)
+    - [ ] [Search an element in a sorted and pivoted array](https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
+    - [ ] [Merge an array of size n into another array of size m+n](https://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/)
+    - [ ] [Median of two sorted arrays](https://www.geeksforgeeks.org/median-of-two-sorted-arrays/)
+    - [ ] [Program for array rotation](https://www.geeksforgeeks.org/array-rotation/)
+    - [ ] [Reversal algorithm for array rotation](https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/)
+    - [ ] [Block swap algorithm for array rotation](https://www.geeksforgeeks.org/block-swap-algorithm-for-array-rotation/)
+    - [ ] [Maximum sum such that no two elements are adjacent](https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
+    - [ ] [Sort elements by frequency | Set 1](https://www.geeksforgeeks.org/sort-elements-by-frequency/)
+    - [ ] [Count Inversions in an array](https://www.geeksforgeeks.org/counting-inversions/)
+    - Searching & sorting
+      - [ ] [random implementation](https://docs.python.org/3/library/bisect.html)
+      - [ ] [g4g: Introduction](https://www.geeksforgeeks.org/divide-and-conquer-set-1-find-closest-pair-of-points/)
+      - [ ] [g4g: Write your own pow(x, n) to calculate x*n](https://www.geeksforgeeks.org/write-a-c-program-to-calculate-powxn/)
+      - [ ] [g4g: Median of two sorted arrays](https://www.geeksforgeeks.org/median-of-two-sorted-arrays/)
+      - [ ] [g4g: Count Inversions](https://www.geeksforgeeks.org/counting-inversions/)
+      - [ ] [g4g: Closest Pair of Points](https://www.geeksforgeeks.org/closest-pair-of-points/)
+      - [ ] [g4g: Strassen’s Matrix Multiplication](https://www.geeksforgeeks.org/strassens-matrix-multiplication/)
+      - [ ] [Interpolation search vs Binary search](https://www.geeksforgeeks.org/g-fact-84/)
+      - [ ] [Stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+      - [ ] [Lower bound for comparison based sorting algorithms](https://www.geeksforgeeks.org/lower-bound-on-comparison-based-sorting-algorithms/)
+      - [ ] [Which sorting algorithm makes minimum number of memory writes?](https://www.geeksforgeeks.org/which-sorting-algorithm-makes-minimum-number-of-writes/)
+      - [ ] [Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted](https://www.geeksforgeeks.org/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/)
+      - [ ] [Merge Sort for Linked Lists](https://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+      - [ ] [Sort a nearly sorted (or K sorted) array](https://www.geeksforgeeks.org/nearly-sorted-algorithm/)
+      - [ ] [Iterative Quick Sort](https://www.geeksforgeeks.org/iterative-quick-sort/)
+      - [ ] [QuickSort on Singly Linked List](https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/)
+      - [ ] [QuickSort on Doubly Linked List](https://www.geeksforgeeks.org/quicksort-for-linked-list/)
+      - [ ] [Find k closest elements to a given value](https://www.geeksforgeeks.org/find-k-closest-elements-given-value/)
+      - [ ] [Sort n numbers in range from 0 to n^2 – 1 in linear time](https://www.geeksforgeeks.org/sort-n-numbers-range-0-n2-1-linear-time/)
+      - [ ] [A Problem in Many Binary Search Implementations](https://www.geeksforgeeks.org/problem-binary-search-implementations/)
+      - [ ] [Search in an almost sorted array](https://www.geeksforgeeks.org/search-almost-sorted-array/)
+      - [ ] [Sort an array in wave form](https://www.geeksforgeeks.org/sort-array-wave-form-2/)
+      - [ ] [Why is Binary Search preferred over Ternary Search?](https://www.geeksforgeeks.org/binary-search-preferred-ternary-search/)
+      - [ ] [K’th Smallest/Largest Element in Unsorted Array](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/)
+      - [ ] [K’th Smallest/Largest Element in Unsorted Array in Expected Linear Time](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array-set-2-expected-linear-time/)
+      - [ ] [K’th Smallest/Largest Element in Unsorted Array in Worst Case Linear Time](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array-set-3-worst-case-linear-time/)
+      - [ ] [Find the closest pair from two sorted arrays](https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/)
+      - [ ] [Find common elements in three sorted arrays](https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/)
+      - [ ] [Given a sorted array and a number x, find the pair in array whose sum is closest to x](http://geeksquiz.com/given-sorted-array-number-x-find-pair-array-whose-sum-closest-x/)
+      - [ ] [Count 1’s in a sorted binary array](http://geeksquiz.com/count-1s-sorted-binary-array/)
+      - [ ] [Binary Insertion Sort](http://geeksquiz.com/binary-insertion-sort/)
+      - [ ] [Insertion Sort for Singly Linked List](http://geeksquiz.com/insertion-sort-for-singly-linked-list/)
+      - [ ] [Why Quick Sort preferred for Arrays and Merge Sort for Linked Lists?](https://www.geeksforgeeks.org/why-quick-sort-preferred-for-arrays-and-merge-sort-for-linked-lists/)
+      - [ ] [Merge Sort for Doubly Linked List](https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
+      - [ ] [Minimum adjacent swaps to move maximum and minimum to corners](https://www.geeksforgeeks.org/minimum-adjacent-swaps-to-move-maximum-and-minimum-to-corners/)
+  - **🔎 Search**
+    - About
+      - [x] 📗 [stackabuse.com: Search Algorithms in Python](https://stackabuse.com/search-algorithms-in-python/)
+    - **Linear Search**
+      - About
+        - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
+        - [ ] [wiki: linear search](https://en.wikipedia.org/wiki/Linear_search)
+      - Time: ```O(n)```
+      - Space: ```O(1)```
+      - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)
+    - **Binary Search**
+      - About
+        - [x] [g4g](http://geeksquiz.com/binary-search/)
+        - [ ] [wiki: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+        - [ ] [Unbounded Binary Search](https://www.geeksforgeeks.org/find-the-point-where-a-function-becomes-negative/)
+        - [ ] [LC: Binary search](https://leetcode.com/explore/learn/card/binary-search/)
+      - Time: ```O(log(n))```
+      - Space: ```O(1)```
+      - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/binary.py)
+    - Jump Search
+      - About
+        - [x] [g4g](https://www.geeksforgeeks.org/jump-search/)
+      - Time: ```O(√n)```
+      - Space: ```O(1)```
+      - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/jump.py)
+      - Doesn't use ```/``` while binary search does.
+    - Interpolation Search
+      - About
+        - [x] [g4g](https://www.geeksforgeeks.org/interpolation-search/)
+        - [ ] [wiki: interpolation search](https://en.wikipedia.org/wiki/Interpolation_search)
+      - Time: ```O(log(log(n))) - O(n)```
+      - Space: ```O(1)```
+      - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/interpolation.py)
+    - Exponential Search
+      - About
+        - [ ] [wiki: exponential search](https://en.wikipedia.org/wiki/Exponential_search)
+        - [x] [g4g](https://www.geeksforgeeks.org/exponential-search/)
+      - Time: ```O(1) - O(log(n))```
+      - Space: ```O(1)```
+      - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/exponential.py)
+      - The best case: ```[sought_element, 1, 2, ...]```
+      - The worst case: ```[0, 1, 2, ..., sought_element]```
+      - The best search algorithm for for unbounded or infinite arrays
+    - Ternary Search
+      - About
+        - [x] [wiki: ternary search](https://en.wikipedia.org/wiki/Ternary_search)
+        - [x] [g4g](https://www.geeksforgeeks.org/binary-search-preferred-ternary-search/)
+      - Time: ```O(log3(n))```
+      - Space: ```O(1)```
+      - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/ternary.py)
+      - Always worse than binary search since ```2log2(n) < 4log3(n) <=> log2(n) < log2(n) * 2 * log2(3)```
+    - Fibonacci Search
+      - About
+        - [x] [g4g](https://www.geeksforgeeks.org/fibonacci-search/)
+        - [x] [wiki: fibonacci search](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
+      - Time: ```O(log(n))```
+      - Space: ```O(1)```
+      - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/fibonacci.py)
+    - Dichotomous Search
+      - About
+        - [ ] [video](https://www.youtube.com/watch?v=n_zefNBfhSM)
+      - Time: ```O()```
+      - Space: ```O()```
+      - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/dichotomous.py)
+    - Golden Section Search
+      - About
+        - [ ] [wiki: golden section search](https://en.wikipedia.org/wiki/Golden-section_search)
+      - Time: ```O()```
+      - Space: ```O()```
+      - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/golden_section.py)
+  - Selection
+    - About
+      - [ ] [wiki: Selection algorithms](https://en.wikipedia.org/wiki/Selection_algorithm)
+  - **🪆 Sorting**
+    - About
+      - [ ] [wiki: Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm)
+      - [x] [wiki: Adaptive sort](https://en.wikipedia.org/wiki/Adaptive_sort)
+      - [x] [g4g: time complexity of sorting algorithms](https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/?ref=lbp)
+      - [ ] [g4g: Stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
+      - [ ] Minimum spanning tree
+      - [ ] Bipartite matching
+      - [ ] Edmonds-Karp algorithm - max-flow problem
+      - [ ] Hopcroft-Karp
+      - [ ] problem 1-5 Peak finding
+      - [ ] random shuffle
+      - [ ] [wiki: Quantum_sort](https://en.wikipedia.org/wiki/Quantum_sort)
+      - https://en.wikipedia.org/wiki/Tree_sort
+      - https://en.wikipedia.org/wiki/Proportion_extend_sort
+      - https://en.wikipedia.org/wiki/Slowsort
+      - https://en.wikipedia.org/wiki/Cartesian_tree#Application_in_sorting
+      - https://en.wikipedia.org/wiki/Tournament_sort
+      - https://en.wikipedia.org/wiki/Weak_heap#Weak-heap_sort
+      - https://en.wikipedia.org/wiki/Splaysort
+      - https://en.wikipedia.org/wiki/Library_sort
+      - https://en.wikipedia.org/wiki/Patience_sorting
+      - https://en.wikipedia.org/wiki/Cascade_merge_sort
+      - https://en.wikipedia.org/wiki/Oscillating_merge_sort
+      - https://en.wikipedia.org/wiki/Polyphase_merge_sort
+      - https://en.wikipedia.org/wiki/Proxmap_sort
+      - Concurrent Sorts
+        - https://en.wikipedia.org/wiki/Bitonic_sorter
+        - https://en.wikipedia.org/wiki/Batcher_odd–even_mergesort
+        - https://en.wikipedia.org/wiki/Pairwise_sorting_network
+        - https://en.wikipedia.org/wiki/Samplesort
+      - Hybrid Sorts
+        - https://en.wikipedia.org/wiki/Block_sort
+        - https://en.wikipedia.org/wiki/Kirkpatrick-Reisch_sort
+        - https://en.wikipedia.org/wiki/Merge-insertion_sort
+    - **Comparison sort algorithms**
+      - About
+        - [ ] [wiki: Comparison sort](https://en.wikipedia.org/wiki/Comparison_sort)
+        - [ ] [wiki: Cubesort](https://en.wikipedia.org/wiki/Cubesort)
+        - [ ] [wiki: Library_sort](https://en.wikipedia.org/wiki/Library_sort)
+        - [ ] [wiki: Patience_sorting](https://en.wikipedia.org/wiki/Patience_sorting)
+        - [ ] [wiki: Strand_sort](https://en.wikipedia.org/wiki/Strand_sort)
+        - [ ] [wiki: Tournament_sort](https://en.wikipedia.org/wiki/Tournament_sort)
+        - [ ] [wiki: Comb_sort](https://en.wikipedia.org/wiki/Comb_sort)
+        - [ ] [wiki: Gnome_sort](https://en.wikipedia.org/wiki/Gnome_sort)
+        - UnShuffle Sort, Franceschini's method
+      - **Selection Sort**
+        - About
+          - [x] [g4g: Selection sort](http://geeksquiz.com/selection-sort/)
+          - [ ] [wiki: Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
+        - Time: ```O(n^2)```
+        - Space: ```O(1)```
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection_sort.py)
+      - **Insertion Sort**
+        - About
+          - [x] [g4g: Insertion sort](http://geeksquiz.com/insertion-sort/)
+          - [ ] [wiki: Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
+        - Time: ```O(n) - O(n^2)```
+        - Space: ```O(1)```
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/insertion_sort_.py)
+        - Binary insertion sort
+          - About
+            - [x] [g4g](https://www.geeksforgeeks.org/binary-insertion-sort/)
+          - Time: ```O(n) - O(n^2)```
+          - Space: ```O(1)```
+          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/binary_insertion_sort.py)
+          - ??? Still ```O(n^2)``` - why? because of the insertions (as I understood). But: ```iteration (n) + search (log(n)) + insert (n^2 ???) = O(n*log(n)*n) = O(n^2)```)
+      - **Bubble Sort**
+        - About
+          - [x] [g4g: Bubble sort](http://geeksquiz.com/bubble-sort/)
+          - [x] [wiki: Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
+        - Time: ```O(n) - O(n^2)```
+        - Space: ```O(1)```
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort.py)
+      - **Merge Sort**
+        - About
+          - [x] [g4g: Merge sort](http://geeksquiz.com/merge-sort/)
+          - [x] [g4g: Merge sort vs. Insertion sort](https://www.geeksforgeeks.org/merge-sort-vs-insertion-sort/?ref=rp)
+          - [x] [wiki: merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+        - Time: ```O(n*log(n))```
+        - Space: ```O(n)```
+        - Stable: +
+        - Adaptive: +
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/merge_sort.py)
+      - TimSort
+        - About
+          - [x] [wiki: TimSort](https://en.wikipedia.org/wiki/Timsort)
+          - [ ] [python: TimSort](https://bugs.python.org/file4451/timsort.txt)
+          - [x] [hackernoon: TimSort](https://hackernoon.com/timsort-the-fastest-sorting-algorithm-youve-never-heard-of-36b28417f399)
+        - Time: ```Ω(n) - O(n*log(n))```
+        - Space: ```O(n)```
+        - Stable: +
+        - Adaptive: +
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
+        - Used by Python's ```sorted()``` function, + Android, Java
+        - Hybrid of Mergesort and Insertion Sort
+      - **QuickSort**
+        - About
+          - [x] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
+          - [x] [g4g](http://geeksquiz.com/quick-sort/)
+          - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
+          - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
+        - Time: ```Ω(n*log(n)) - Θ(n*log(n)) - O(n^2)```
+        - Space: ```O()```
+        - Stable: -
+        - Adaptive: -
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/quick_sort.py)
+        - 3-Way Quick Sort
+          - About
+            - [ ] [g4g: 3-Way Quick Sort](https://www.geeksforgeeks.org/3-way-quicksort-dutch-national-flag/)
+          - Time: ```O(n) - O(n^2)```
+          - Space: ```O()```
+          - Stable: no
+          - Adaptive: yes
+          - [ ] [implemented]()
+          - Better for arrays with redundant elements: ```[1, 4, 2, 4, 2, 4, 1, 2, 4, 1, 2, 2, 2, 2, 4, 1, 4, 4, 4]```
+      - **Heap Sort**
+        - About
+          - [ ] [g4g: HeapSort](http://geeksquiz.com/heap-sort/)
+          - [ ] [wiki: HeapSort](https://en.wikipedia.org/wiki/Heapsort)
+        - Time: ```Ω(n) (equal keys) - O(n*log(n))```
+        - Space: ```O(1)```
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/heap_sort.py)
+      - IntroSort
+        - About
+          - [x] [wiki: IntroSort](https://en.wikipedia.org/wiki/Introsort)
+        - Time: ```O(n*log(n))```
+        - Space: ```O(1)```
+        - [ ] [implemented]()
+        - Hybrid of QuickSort, HeapSort & Insertion Sort
+        - Used in C++, .NET, Go
+      - ShellSort
+        - About
+          - [ ] [g4g: ShellSort](http://geeksquiz.com/shellsort/)
+          - [ ] [wiki: ShellSort](https://en.wikipedia.org/wiki/Shellsort)
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/shell_sort.py)
+      - Odd-even sort
+        - About
+          - [ ] [wiki: Odd-even sort](https://en.wikipedia.org/wiki/Odd–even_sort)
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented]()
+      - Cocktail shaker sort
+        - About
+          - [ ] [wiki: Cocktail chaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented]()
+      - Cycle Sort
+        - About
+          - [ ] [g4g](https://www.geeksforgeeks.org/cycle-sort/)
+          - [ ] [wiki: Cycle sort](https://en.wikipedia.org/wiki/Cycle_sort)
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/cycle_sort.py)
+      - Merge-insertion sort
+        - About
+          - [ ] [wiki: Merge-insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort)
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented]()
+      - Smooth sort
+        - About
+          - [ ] [wiki: Smooth sort](https://en.wikipedia.org/wiki/Smoothsort)
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented]()
+      - Block sort
+        - About
+          - [ ] [wiki: Block sort](https://en.wikipedia.org/wiki/Block_sort)
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented]()
+      - Gnome Sort
+        - About
+          - [x] [wiki: Gnome Sort](https://en.wikipedia.org/wiki/Gnome_sort)
+        - Time: ```Ω(n) - Θ(n^2) - O(n^2))```
+        - Space: ```O(1)```
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/ghnome_sort.py)
+    - **Non-Comparison Sort Algorithms**
+      - About
+        - [ ] [wiki: Integer sort](https://en.wikipedia.org/wiki/Integer_sorting)
+        - https://en.wikipedia.org/wiki/Spreadsort
+        - https://en.wikipedia.org/wiki/Burstsort
+        - https://en.wikipedia.org/wiki/Flashsort
+        - https://en.wikipedia.org/wiki/Samplesort
+        - https://en.wikipedia.org/wiki/Bogosort
+        - https://en.wikipedia.org/wiki/Stooge_sort
+        - https://en.wikipedia.org/wiki/Bead_sort
+        - https://en.wikipedia.org/wiki/Pancake_sorting
+        - https://en.wikipedia.org/wiki/Spaghetti_sort
+      - **Counting Sort**
+        - About
+          - [x] [g4g: Counting sort](https://www.geeksforgeeks.org/counting-sort/)   
+          - [x] [wiki: Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
+        - Time: ```O(n + k), where k is the range of the non-negative key values```
+        - Space: ```O(n + k)```
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
+      - **Radix Sort**
+        - About
+          - [x] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
+          - [x] [wiki: Radix sort](https://en.wikipedia.org/wiki/Radix_sort#Least_significant_digit_radix_sorts)
+        - Time: ```O(n * k), where k is the number of bits required to store each key.```
+        - Space: ```O(n + k)```
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
+      - **Bucket Sort**
+        - About
+          - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
+          - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)
+          - [ ] [leetcode problem #220](https://leetcode.com/problems/contains-duplicate-iii/)
+        - Time: ```O(n+k), where k = ?```
+        - Space: ```O()```
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bucket_sort.py)
+        - Interpolation Sort
+          - About
+            - [ ] [wiki: Interpolation Sort](https://en.wikipedia.org/wiki/Interpolation_sort)
+      - Comb Sort
+        - About
+          - [ ] [g4g](https://www.geeksforgeeks.org/comb-sort/)
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/comb_sort.py)
+      - Pigeonhole Sort
+        - About
+          - [ ] [g4g: Pigeonhole sort](https://www.geeksforgeeks.org/pigeonhole-sort/)
+          - [ ] [wiki: Pigeonhole sort](https://en.wikipedia.org/wiki/Pigeonhole_sort)
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/pigeonhole_sort.py)
+      - Topological sorting
+        - About
+        - Time: ```O()```
+        - Space: ```O()```
+        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
+  - **🪄 Dynamic programming**
+    - Sliding window
+    - [ ] [medium: Intuition behind Largest Subsequence Problems](https://medium.com/@yashgirdhar/intuition-behind-largest-subsequence-problems-3f82c8b4ba41)]
+    - [ ] [g4g: Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
+    - [ ] [g4g: Overlapping Subproblems in DP](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/)
+    - [ ] [g4g: Optimal Substructure Property](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
+    - [ ] [System Design Interview - Top K Problem (Heavy Hitters)](https://www.youtube.com/watch?v=kx-XDoPjoHw)
+    - [ ] [g4g](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
+    - [ ] [hackerrank](https://www.hackerrank.com/domains/algorithms/dynamic-programming/difficulty:medium/page:1)
+    - [ ] [g4g](https://www.geeksforgeeks.org/dynamic-programming/)
+    - [ ] Traveling salesman problem
+    - [ ] Coin change problem
+    - [ ] Bit Masking
+    - [ ] [Longest Increasing Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/)
+    - [ ] [Longest Common Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
+    - [ ] [Edit Distance](https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/)
+    - [ ] [Min Cost Path](https://www.geeksforgeeks.org/dynamic-programming-set-6-min-cost-path/)
+    - [ ] [Coin Change](https://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/)
+    - [ ] [Matrix Chain Multiplication](https://www.geeksforgeeks.org/dynamic-programming-set-8-matrix-chain-multiplication/)
+    - [ ] [Binomial Coefficient](https://www.geeksforgeeks.org/dynamic-programming-set-9-binomial-coefficient/)
+    - [ ] [0-1 Knapsack Problem](https://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
+    - [ ] [Egg Dropping Puzzle](https://www.geeksforgeeks.org/dynamic-programming-set-11-egg-dropping-puzzle/)
+    - [ ] [Longest Palindromic Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/)
+    - [ ] [Cutting a Rod](https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/)
+    - [ ] [Maximum Sum Increasing Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/)
+    - [ ] [Longest Bitonic Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-15-longest-bitonic-subsequence/)
+    - [ ] [Floyd Warshall Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
+    - [ ] [Palindrome Partitioning](https://www.geeksforgeeks.org/dynamic-programming-set-17-palindrome-partitioning/)
+    - [ ] [Partition problem](https://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/)
+    - [ ] [Word Wrap Problem](https://www.geeksforgeeks.org/dynamic-programming-set-18-word-wrap/)
+    - [ ] [Maximum Length Chain of Pairs](https://www.geeksforgeeks.org/dynamic-programming-set-20-maximum-length-chain-of-pairs/)
+    - [ ] [Variations of LIS](https://www.geeksforgeeks.org/dynamic-programming-set-14-variations-of-lis/)
+    - [ ] [Box Stacking Problem](https://www.geeksforgeeks.org/dynamic-programming-set-21-box-stacking-problem/)
+    - [ ] [Program for Fibonacci numbers](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
+    - [ ] [Minimum number of jumps to reach end](https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/)
+    - [ ] [Maximum size square sub-matrix with all 1s](https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/)
+    - [ ] [Ugly Numbers](https://www.geeksforgeeks.org/ugly-numbers/)
+    - [ ] [Largest Sum Contiguous Subarray](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+    - [ ] [Longest Palindromic Substring](https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/)
+    - [ ] [Bellman–Ford Algorithm for Shortest Paths](https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/)
+    - [ ] [Optimal Binary Search Tree](https://www.geeksforgeeks.org/dynamic-programming-set-24-optimal-binary-search-tree/)
+    - [ ] [Largest Independent Set Problem](https://www.geeksforgeeks.org/largest-independent-set-problem/)
+    - [ ] [Subset Sum Problem](https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)
+    - [ ] [Maximum sum rectangle in a 2D matrix](https://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/)
+    - [ ] [Count number of binary strings without consecutive 1?s](https://www.geeksforgeeks.org/count-number-binary-strings-without-consecutive-1s/)
+    - [ ] [Boolean Parenthesization Problem](https://www.geeksforgeeks.org/dynamic-programming-set-37-boolean-parenthesization-problem/)
+    - [ ] [Count ways to reach the n’th stair](https://www.geeksforgeeks.org/count-ways-reach-nth-stair/)
+    - [ ] [Minimum Cost Polygon Triangulation](https://www.geeksforgeeks.org/minimum-cost-polygon-triangulation/)
+    - [ ] [Mobile Numeric Keypad Problem](https://www.geeksforgeeks.org/mobile-numeric-keypad-problem/)
+    - [ ] [Count of n digit numbers whose sum of digits equals to given sum](https://www.geeksforgeeks.org/count-of-n-digit-numbers-whose-sum-of-digits-equals-to-given-sum/)
+    - [ ] [Minimum Initial Points to Reach Destination](https://www.geeksforgeeks.org/minimum-positive-points-to-reach-destination/)
+    - [ ] [Total number of non-decreasing numbers with n digits](https://www.geeksforgeeks.org/total-number-of-non-decreasing-numbers-with-n-digits/)
+    - [ ] [Find length of the longest consecutive path from a given starting character](https://www.geeksforgeeks.org/find-length-of-the-longest-consecutive-path-in-a-character-matrix/)
+    - [ ] [Tiling Problem](https://www.geeksforgeeks.org/tiling-problem/)
+    - [ ] [Minimum number of squares whose sum equals to given number n](https://www.geeksforgeeks.org/minimum-number-of-squares-whose-sum-equals-to-given-number-n/)
+    - [ ] [Find minimum number of coins that make a given value](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/)
+    - [ ] [Collect maximum points in a grid using two traversals](https://www.geeksforgeeks.org/collect-maximum-points-in-a-grid-using-two-traversals/)
+    - [ ] [Shortest Common Supersequence](https://www.geeksforgeeks.org/shortest-common-supersequence/)
+    - [ ] [Compute sum of digits in all numbers from 1 to n](https://www.geeksforgeeks.org/count-sum-of-digits-in-numbers-from-1-to-n/)
+    - [ ] [Count possible ways to construct buildings](https://www.geeksforgeeks.org/count-possible-ways-to-construct-buildings/)
+    - [ ] [Maximum profit by buying and selling a share at most twice](https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-twice/)
+    - [ ] [How to print maximum number of A’s using given four keys](https://www.geeksforgeeks.org/how-to-print-maximum-number-of-a-using-given-four-keys/)
+    - [ ] [Find the minimum cost to reach destination using a train](https://www.geeksforgeeks.org/find-the-minimum-cost-to-reach-a-destination-where-every-station-is-connected-in-one-direction/)
+    - [ ] [Vertex Cover Problem | Set 2 (Dynamic Programming Solution for Tree)](https://www.geeksforgeeks.org/vertex-cover-problem-set-2-dynamic-programming-solution-tree/)
+    - [ ] [Count number of ways to reach a given score in a game](https://www.geeksforgeeks.org/count-number-ways-reach-given-score-game/)
+    - [ ] [Weighted Job Scheduling](https://www.geeksforgeeks.org/weighted-job-scheduling/)
+    - [ ] [Longest Even Length Substring such that Sum of First and Second Half is same](https://www.geeksforgeeks.org/longest-even-length-substring-sum-first-second-half/)
+  - [ ] Matrixes
+    - [ ] [1](https://leetcode.com/problems/minimum-path-sum/)
+    - [ ] [Search in a row wise and column wise sorted matrix](https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/)
+    - [ ] [Print a given matrix in spiral form](https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
+    - [ ] [A Boolean Matrix Question](https://www.geeksforgeeks.org/a-boolean-matrix-question/)
+    - [ ] [Print unique rows in a given boolean matrix](https://www.geeksforgeeks.org/print-unique-rows/)
+    - [ ] [Maximum size square sub-matrix with all 1s](https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/)
+    - [ ] [Print unique rows in a given boolean matrix](https://www.geeksforgeeks.org/print-unique-rows/)
+    - [ ] [Inplace M x N size matrix transpose | Updated](https://www.geeksforgeeks.org/inplace-m-x-n-size-matrix-transpose/)
+    - [ ] [Dynamic Programming | Set 27 (Maximum sum rectangle in a 2D matrix)](https://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/)
+    - [ ] [Strassen’s Matrix Multiplication](https://www.geeksforgeeks.org/strassens-matrix-multiplication/)
+    - [ ] [Create a matrix with alternating rectangles of O and X](https://www.geeksforgeeks.org/create-a-matrix-with-alternating-rectangles-of-0-and-x/)
+    - [ ] [Print all elements in sorted order from row and column wise sorted matrix](https://www.geeksforgeeks.org/print-elements-sorted-order-row-column-wise-sorted-matrix/)
+    - [ ] [Given an n x n square matrix, find sum of all sub-squares of size k x k](https://www.geeksforgeeks.org/given-n-x-n-square-matrix-find-sum-sub-squares-size-k-x-k/)
+    - [ ] [Count number of islands where every island is row-wise and column-wise separated](https://www.geeksforgeeks.org/count-number-islands-every-island-separated-line/)
+    - [ ] [Find a common element in all rows of a given row-wise sorted matrix](https://www.geeksforgeeks.org/find-common-element-rows-row-wise-sorted-matrix/)
+- 3️⃣ LINKED LIST
+  - About
+    - [ ] [Wiki: Linked list](https://en.wikipedia.org/wiki/Linked_list)
+    - [ ] [Leetcode: Linked list](https://leetcode.com/explore/learn/card/linked-list/)
+    - [ ] Find cycle in LinkedList
+    - [ ] implementation w/ insertion, deletion, searching, traversing, reversing, height of a tree
+  - Singly Linked List:
+    - [ ] [Introduction to Linked List](http://geeksquiz.com/linked-list-set-1-introduction/)
+    - [ ] [Linked List vs Array](https://www.geeksforgeeks.org/linked-list-vs-array/)
+    - [ ] [Linked List Insertion](http://geeksquiz.com/linked-list-set-2-inserting-a-node/)
+    - [ ] [Linked List Deletion (Deleting a given key)](http://geeksquiz.com/linked-list-set-3-deleting-node/)
+    - [ ] [Linked List Deletion (Deleting a key at given position)](http://geeksquiz.com/delete-a-linked-list-node-at-a-given-position/)
+    - [ ] [A Programmer’s approach of looking at Array vs. Linked List](http://geeksquiz.com/programmers-approach-looking-array-vs-linked-list/)
+    - [ ] [Find Length of a Linked List (Iterative and Recursive)](http://geeksquiz.com/find-length-of-a-linked-list-iterative-and-recursive/)
+    - [ ] [How to write C functions that modify head pointer of a Linked List?](https://www.geeksforgeeks.org/how-to-write-functions-that-modify-the-head-pointer-of-a-linked-list/)
+    - [ ] [Swap nodes in a linked list without swapping data](https://www.geeksforgeeks.org/swap-nodes-in-a-linked-list-without-swapping-data/)
+    - [ ] [Reverse a linked list](https://www.geeksforgeeks.org/write-a-function-to-reverse-the-nodes-of-a-linked-list/)
+    - [ ] [Merge two sorted linked lists](https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/)
+    - [ ] [Merge Sort for Linked Lists](https://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+    - [ ] [Reverse a Linked List in groups of given size](https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/)
+    - [ ] [Detect and Remove Loop in a Linked List](https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/)
+    - [ ] [Add two numbers represented by linked lists | Set 1](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/)
+    - [ ] [Rotate a Linked List](https://www.geeksforgeeks.org/rotate-a-linked-list/)
+    - [ ] [Generic Linked List in C](https://www.geeksforgeeks.org/generic-linked-list-in-c-2/)
+  - Circular Linked List:
+    - [ ] [Circular Linked List Introduction and Applications,](http://geeksquiz.com/circular-linked-list/)
+    - [ ] [Circular Singly Linked List Insertion<](https://www.geeksforgeeks.org/circular-singly-linked-list-insertion/)
+    - [ ] [Circular Linked List Traversal](http://geeksquiz.com/circular-linked-list-set-2-traversal/)
+    - [ ] [Split a Circular Linked List into two halves](https://www.geeksforgeeks.org/split-a-circular-linked-list-into-two-halves/)
+    - [ ] [Sorted insert for circular linked list](https://www.geeksforgeeks.org/sorted-insert-for-circular-linked-list/)
+  - Doubly Linked List:
+    - [ ] [Doubly Linked List Introduction and Insertion](http://geeksquiz.com/doubly-linked-list/)
+    - [ ] [Delete a node in a Doubly Linked List](https://www.geeksforgeeks.org/delete-a-node-in-a-doubly-linked-list/)
+    - [ ] [Reverse a Doubly Linked List](https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/)
+    - [ ] [The Great Tree-List Recursion Problem.](https://www.geeksforgeeks.org/the-great-tree-list-recursion-problem/)
+    - [ ] [QuickSort on Doubly Linked List](https://www.geeksforgeeks.org/quicksort-for-linked-list/)
+    - [ ] [Merge Sort for Doubly Linked List](https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
+- 4️⃣ QUEUE & STACK
+  - About
+    - [x] [Leetcode](https://leetcode.com/explore/learn/card/queue-stack)
+    - [x] https://leetcode.com/problems/target-sum/solution/
+  - Stack
+    - [ ] [Geeksforgeeks: Introduction to Stack](http://geeksquiz.com/stack-set-1/)
+    - [ ] [Geeksforgeeks: Infix to Postfix Conversion using Stack](http://geeksquiz.com/stack-set-2-infix-to-postfix/)
+    - [ ] [Geeksforgeeks: Evaluation of Postfix Expression](http://geeksquiz.com/stack-set-4-evaluation-postfix-expression/)
+    - [ ] [Geeksforgeeks: Reverse a String using Stack](http://geeksquiz.com/stack-set-3-reverse-string-using-stack/)
+    - [ ] [Geeksforgeeks: Implement two stacks in an array](https://www.geeksforgeeks.org/implement-two-stacks-in-an-array/)
+    - [ ] [Geeksforgeeks: Check for balanced parentheses in an expression](https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/)
+    - [ ] [Geeksforgeeks: Next Greater Element](https://www.geeksforgeeks.org/next-greater-element/)
+    - [ ] [Geeksforgeeks: Reverse a stack using recursion](https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/)
+    - [ ] [Geeksforgeeks: Sort a stack using recursion](https://www.geeksforgeeks.org/sort-a-stack-using-recursion/)
+    - [ ] [Geeksforgeeks: The Stock Span Problem](https://www.geeksforgeeks.org/the-stock-span-problem/)
+    - [ ] [Geeksforgeeks: Design and Implement Special Stack Data Structure](https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/)
+    - [ ] [Geeksforgeeks: Implement Stack using Queues](https://www.geeksforgeeks.org/implement-stack-using-queue/)
+    - [ ] [Geeksforgeeks: Design a stack with operations on middle element](https://www.geeksforgeeks.org/design-a-stack-with-find-middle-operation/)
+    - [ ] [Geeksforgeeks: How to efficiently implement k stacks in a single array?](https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
+    - [ ] [Geeksforgeeks: Sort a stack using recursion](https://www.geeksforgeeks.org/sort-a-stack-using-recursion/)
+  - Queue
+    - [ ] [Geeksforgeeks: Queue Introduction and Array Implementation](http://geeksquiz.com/queue-set-1introduction-and-array-implementation/)
+    - [ ] [Geeksforgeeks: Linked List Implementation of Queue](http://geeksquiz.com/queue-set-2-linked-list-implementation/)
+    - [ ] [Geeksforgeeks: Applications of Queue Data Structure](https://www.geeksforgeeks.org/applications-of-queue-data-structure/)
+    - [ ] [Geeksforgeeks: Priority Queue Introduction](http://geeksquiz.com/priority-queue-set-1-introduction/)
+    - [ ] [Geeksforgeeks: Deque (Introduction and Applications)](http://geeksquiz.com/deque-set-1-introduction-applications/)
+    - [ ] [Geeksforgeeks: Implementation of Deque using circular array](https://www.geeksforgeeks.org/implementation-deque-using-circular-array/)
+    - [ ] [Geeksforgeeks: Implement Queue using Stacks](https://www.geeksforgeeks.org/queue-using-stacks/)
+    - [ ] [Geeksforgeeks: Find the first circular tour that visits all petrol pumps](https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/)
+    - [ ] [Geeksforgeeks: Maximum of all subarrays of size k](https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/)
+    - [ ] [Geeksforgeeks: An Interesting Method to Generate Binary Numbers from 1 to n](https://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/)
+    - [ ] [Geeksforgeeks: How to efficiently implement k Queues in a single array?](https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/)
+- 5️⃣ TREES
+  - About
+    - [ ] 📙 [Leetcode 1](https://leetcode.com/explore/learn/card/data-structure-tree/)
+    - [ ] [Leetcode 2](https://leetcode.com/explore/learn/card/n-ary-tree/)
+    - [ ] [Leetcode 3](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/)
+    - [ ] [Leetcode 4](https://leetcode.com/explore/learn/card/trie)
+    - [ ] [Leetcode 5](https://leetcode.com/explore/learn/card/decision-tree/)
+    - [ ] [Leetcode 6](https://leetcode.com/problems/implement-trie-prefix-tree/)
+    - [ ] Given a node in a N-ary tree, check if that node exists in the tree, if so, print all the nodes under its hierarchy
+    - [ ] [Leetcode: data-structure-tree](https://leetcode.com/explore/learn/card/data-structure-tree/)
+    - Traversals
+      - Pre-order
+        - root->L->R
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/pre_order_traversal.py)
+      - In-order
+        - L->root->R
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/in_order_traversal.py)
+      - Post-order
+        - L->R->root
+        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/post_order_traversal.py)
+      - Level-order (BFS)
+  - Binary Tree
+    - [ ] [Binary Tree Introduction](http://geeksquiz.com/binary-tree-set-1-introduction/)
+    - [ ] [Binary Tree Properties](http://geeksquiz.com/binary-tree-set-2-properties/)
+    - [ ] [Types of Binary Tree](http://geeksquiz.com/binary-tree-set-3-types-of-binary-tree/)
+    - [ ] [Handshaking Lemma and Interesting Tree Properties](https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/)
+    - [ ] [Enumeration of Binary Tree](http://geeksquiz.com/enumeration-of-binary-trees/)
+    - [ ] [Applications of tree data structure](https://www.geeksforgeeks.org/applications-of-tree-data-structure/)
+    - [ ] [Tree Traversals](https://www.geeksforgeeks.org/618/)
+    - [ ] [BFS vs DFS for Binary Tree](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
+    - [ ] [Level Order Tree Traversal](https://www.geeksforgeeks.org/level-order-tree-traversal/)
+    - [ ] [Diameter of a Binary Tree](https://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
+    - [ ] [Inorder Tree Traversal without Recursion](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/)
+    - [ ] [Inorder Tree Traversal without recursion and without stack!](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/)
+    - [ ] [Threaded Binary Tree](http://geeksquiz.com/threaded-binary-tree/)
+    - [ ] [Maximum Depth or Height of a Tree](https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/)
+    - [ ] [If you are given two traversal sequences, can you construct the binary tree?](https://www.geeksforgeeks.org/if-you-are-given-two-traversal-sequences-can-you-construct-the-binary-tree/)
+    - [ ] [Clone a Binary Tree with Random Pointers](https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/)
+    - [ ] [Construct Tree from given Inorder and Preorder traversals](https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/)
+    - [ ] [Maximum width of a binary tree](https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/)
+    - [ ] [Print nodes at k distance from root](https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/)
+    - [ ] [Print Ancestors of a given node in Binary Tree](https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/)
+    - [ ] [Check if a binary tree is subtree of another binary tree](https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/)
+    - [ ] [Connect nodes at same level](https://www.geeksforgeeks.org/connect-nodes-at-same-level/)
+  - Binary Search Tree (BST)
+    - [ ] [Search and Insert in BST](http://geeksquiz.com/binary-search-tree-set-1-search-and-insertion/)
+    - [ ] [Deletion from BST](http://geeksquiz.com/binary-search-tree-set-2-delete/)
+    - [ ] [Minimum value in a Binary Search Tree](https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/)
+    - [ ] [Inorder predecessor and successor for a given key in BST](https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/)
+    - [ ] [Check if a binary tree is BST or not](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
+    - [ ] [Lowest Common Ancestor in a Binary Search Tree.](https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/)
+    - [ ] [Inorder Successor in Binary Search Tree](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
+    - [ ] [Find k-th smallest element in BST (Order Statistics in BST)](https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
+    - [ ] [Merge two BSTs with limited extra space](https://www.geeksforgeeks.org/merge-two-bsts-with-limited-extra-space/)
+    - [ ] [Two nodes of a BST are swapped, correct the BST](https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/)
+    - [ ] [Floor and Ceil from a BST](https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/)
+    - [ ] [In-place conversion of Sorted DLL to Balanced BST](https://www.geeksforgeeks.org/in-place-conversion-of-sorted-dll-to-balanced-bst/)
+    - [ ] [Find a pair with given sum in a Balanced BST](https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/)
+    - [ ] [Total number of possible Binary Search Trees with n keys](https://www.geeksforgeeks.org/total-number-of-possible-binary-search-trees-with-n-keys/)
+    - [ ] [Merge Two Balanced Binary Search Trees](https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/)
+    - [ ] [Binary Tree to Binary Search Tree Conversion](https://www.geeksforgeeks.org/binary-tree-to-binary-search-tree-conversion/)
+  - Graph
+    - About
+      - [ ] [Wiki: graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
+      - [ ] [1](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/trees-graphs.md)
+      - [ ] graph traversing algorithms
+      - [ ] [Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
+      - [ ] [Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+      - [ ] [Depth First Traversal for a Graph](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
+      - [ ] [Applications of Depth First Search](https://www.geeksforgeeks.org/applications-of-depth-first-search/)
+      - [ ] [Applications of Breadth First Traversal](https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/)
+      - [ ] [Detect Cycle in a Directed Graph](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
+      - [ ] [Detect Cycle in a an Undirected Graph](https://www.geeksforgeeks.org/union-find/)
+      - [ ] [Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
+      - [ ] [Longest Path in a Directed Acyclic Graph](https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/)
+      - [ ] [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
+      - [ ] [Check whether a given graph is Bipartite or not](https://www.geeksforgeeks.org/bipartite-graph/)
+      - [ ] [Snake and Ladder Problem](https://www.geeksforgeeks.org/snake-ladder-problem-2/)
+      - [ ] [Minimize Cash Flow among a given set of friends who have borrowed money from each other](https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/)
+      - [ ] [Boggle (Find all possible words in a board of characters)](https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/)
+      - [ ] [Assign directions to edges so that the directed graph remains acyclic](https://www.geeksforgeeks.org/assign-directions-to-edges-so-that-the-directed-graph-remains-acyclic/)
+      - [ ] [Find if the strings can be chained to form a circle](https://www.geeksforgeeks.org/given-array-strings-find-strings-can-chained-form-circle/)
+      - [ ] [Given a sorted dictionary of an alien language, find order of characters](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)
+      - [ ] [Karger’s algorithm for Minimum Cut](https://www.geeksforgeeks.org/kargers-algorithm-for-minimum-cut-set-1-introduction-and-implementation/)
+      - [ ] [Karger’s algorithm for Minimum Cut | Set 2 (Analysis and Applications)](https://www.geeksforgeeks.org/kargers-algorithm-for-minimum-cut-set-2-analysis-and-applications/)
+      - [ ] [Hopcroft–Karp Algorithm for Maximum Matching | Set 1 (Introduction)](https://www.geeksforgeeks.org/hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/)
+      - [ ] [Hopcroft–Karp Algorithm for Maximum Matching | Set 2 (Implementation)](https://www.geeksforgeeks.org/hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/)
+      - [ ] [Length of shortest chain to reach a target word](https://www.geeksforgeeks.org/length-of-shortest-chain-to-reach-a-target-word/)
+      - [ ] [Find same contacts in a list of contacts](https://www.geeksforgeeks.org/find-same-contacts-in-a-list-of-contacts/)
+      - [ ] [All Algorithms on Graph](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+    - [ ] Graph Theory
+      - [ ] [Wiki: graph theory](https://en.wikipedia.org/wiki/Connectivity_(graph_theory))
+      - [ ] [Wiki: Flow_network](https://en.wikipedia.org/wiki/Flow_network)
+    - [ ] Introduction, DFS and BFS:
+      - [ ] [Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
+      - [ ] [Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+      - [ ] [Depth First Traversal for a Graph](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
+      - [ ] [Applications of Depth First Search](https://www.geeksforgeeks.org/applications-of-depth-first-search/)
+      - [ ] [Detect Cycle in a Directed Graph](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
+      - [ ] [Detect Cycle in a an Undirected Graph](https://www.geeksforgeeks.org/union-find/)
+      - [ ] [Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
+      - [ ] [Longest Path in a Directed Acyclic Graph](https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/)
+      - [ ] [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
+      - [ ] [Check whether a given graph is Bipartite or not](https://www.geeksforgeeks.org/bipartite-graph/)
+      - [ ] [Snake and Ladder Problem](https://www.geeksforgeeks.org/snake-ladder-problem-2/)
+      - [ ] [Biconnected Components](https://www.geeksforgeeks.org/biconnected-components/)
+      - [ ] [Check if a given graph is tree or not](http://geeksquiz.com/check-given-graph-tree/)
+    - [ ] Minimum Spanning Tree:
+      - [ ] [Prim’s Minimum Spanning Tree (MST))](https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/)
+      - [ ] [Applications of Minimum Spanning Tree Problem](https://www.geeksforgeeks.org/applications-of-minimum-spanning-tree/)
+      - [ ] [Prim’s MST for Adjacency List Representation](https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-mst-for-adjacency-list-representation/)
+      - [ ] [Kruskal’s Minimum Spanning Tree Algorithm](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
+      - [ ] [Boruvka’s algorithm for Minimum Spanning Tree](https://www.geeksforgeeks.org/greedy-algorithms-set-9-boruvkas-algorithm/)
+    - [ ] Shortest Paths:
+      - [ ] [Dijkstra’s shortest path algorithm](https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/)
+      - [ ] [Dijkstra’s Algorithm for Adjacency List Representation](https://www.geeksforgeeks.org/greedy-algorithms-set-7-dijkstras-algorithm-for-adjacency-list-representation/)
+      - [ ] [Bellman–Ford Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/)
+      - [ ] [Floyd Warshall Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
+      - [ ] [Johnson’s algorithm for All-pairs shortest paths](https://www.geeksforgeeks.org/johnsons-algorithm/)
+      - [ ] [Shortest Path in Directed Acyclic Graph](https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/)
+      - [ ] [Some interesting shortest path questions](https://www.geeksforgeeks.org/interesting-shortest-path-questions-set-1/)
+      - [ ] [Shortest path with exactly k edges in a directed and weighted graph](https://www.geeksforgeeks.org/shortest-path-exactly-k-edges-directed-weighted-graph/)
+    - [ ] Connectivity:
+      - [ ] [Find if there is a path between two vertices in a directed graph](https://www.geeksforgeeks.org/find-if-there-is-a-path-between-two-vertices-in-a-given-graph/)
+      - [ ] [Connectivity in a directed graph](https://www.geeksforgeeks.org/connectivity-in-a-directed-graph/)
+      - [ ] [Articulation Points (or Cut Vertices) in a Graph](https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/)
+      - [ ] [Biconnected graph](https://www.geeksforgeeks.org/biconnectivity-in-a-graph/)
+      - [ ] [Bridges in a graph](https://www.geeksforgeeks.org/bridge-in-a-graph/)
+      - [ ] [Eulerian path and circuit](https://www.geeksforgeeks.org/eulerian-path-and-circuit/)
+      - [ ] [Fleury’s Algorithm for printing Eulerian Path or Circuit](https://www.geeksforgeeks.org/fleurys-algorithm-for-printing-eulerian-path/)
+      - [ ] [Strongly Connected Components](https://www.geeksforgeeks.org/strongly-connected-components/)
+      - [ ] [Transitive closure of a graph](https://www.geeksforgeeks.org/transitive-closure-of-a-graph/)
+      - [ ] [Find the number of islands](https://www.geeksforgeeks.org/find-number-of-islands/)
+      - [ ] [Count all possible walks from a source to a destination with exactly k edges](https://www.geeksforgeeks.org/count-possible-paths-source-destination-exactly-k-edges/)
+      - [ ] [Euler Circuit in a Directed Graph](https://www.geeksforgeeks.org/euler-circuit-directed-graph/)
+      - [ ] [Biconnected Components](https://www.geeksforgeeks.org/biconnected-components/)
+      - [ ] [Tarjan’s Algorithm to find Strongly Connected Components](https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/)
+    - [ ] Hard Problems:
+      - [ ] [Graph Coloring (Introduction and Applications)](https://www.geeksforgeeks.org/graph-coloring-applications/)
+      - [ ] [Greedy Algorithm for Graph Coloring](https://www.geeksforgeeks.org/graph-coloring-set-2-greedy-algorithm/)
+      - [ ] [Travelling Salesman Problem (Naive and Dynamic Programming)](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
+      - [ ] [Travelling Salesman Problem (Approximate using MST)](https://www.geeksforgeeks.org/travelling-salesman-problem-set-2-approximate-using-mst/)
+      - [ ] [Hamiltonian Cycle](https://www.geeksforgeeks.org/backtracking-set-7-hamiltonian-cycle/)
+      - [ ] [Vertex Cover Problem (Introduction and Approximate Algorithm)](https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm-2/)
+      - [ ] [K Centers Problem (Greedy Approximate Algorithm)](https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/)
+    - [ ] Maximum Flow:
+      - [ ] [Ford-Fulkerson Algorithm for Maximum Flow Problem](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/)
+      - [ ] [Find maximum number of edge disjoint paths between two vertices](https://www.geeksforgeeks.org/find-edge-disjoint-paths-two-vertices/)
+      - [ ] [Find minimum s-t cut in a flow network](https://www.geeksforgeeks.org/minimum-cut-in-a-directed-graph/)
+      - [ ] [Maximum Bipartite Matching](https://www.geeksforgeeks.org/maximum-bipartite-matching/)
+      - [ ] [Channel Assignment Problem](https://www.geeksforgeeks.org/channel-assignment-problem/)
+  - Heap
+    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [ ] [Binary Heap](http://geeksquiz.com/binary-heap/)
+    - [ ] [Why is Binary Heap Preferred over BST for Priority Queue?](https://www.geeksforgeeks.org/why-is-binary-heap-preferred-over-bst-for-priority-queue/)
+    - [ ] [Binomial Heap](https://www.geeksforgeeks.org/binomial-heap-2/)
+    - [ ] [Fibonacci Heap](https://www.geeksforgeeks.org/fibonacci-heap-set-1-introduction/)
+    - [ ] [Heap Sort](http://geeksquiz.com/heap-sort/)
+    - [ ] [K’th Largest Element in an array](https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/)
+    - [ ] [Sort an almost sorted array/](https://www.geeksforgeeks.org/nearly-sorted-algorithm/)
+    - [ ] [Tournament Tree (Winner Tree) and Binary Heap](https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/)
+- 6️⃣ HASH TABLE
+  - [ ] [Hash table](https://en.wikipedia.org/wiki/Hash_table)
+  - [ ] [Leetcode: hash table[(https://leetcode.com/explore/learn/card/hash-table/)
+  - [ ] [Hashing Introduction](http://geeksquiz.com/hashing-set-1-introduction/)
+  - [ ] [Separate Chaining for Collision Handling](http://geeksquiz.com/hashing-set-2-separate-chaining/)
+  - [ ] [Open Addressing for Collision Handling](http://geeksquiz.com/hashing-set-3-open-addressing/)
+  - [ ] [Print a Binary Tree in Vertical Order](https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/)
+  - [ ] [Find whether an array is subset of another array](https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/)
+  - [ ] [Union and Intersection of two Linked Lists](https://www.geeksforgeeks.org/union-and-intersection-of-two-linked-lists/)
+  - [ ] [Find a pair with given sum](https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
+  - [ ] [Check if a given array contains duplicate elements within k distance from each other](https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/)
+  - [ ] [Find Itinerary from a given list of tickets](https://www.geeksforgeeks.org/find-itinerary-from-a-given-list-of-tickets/)
+  - [ ] [Find number of Employees Under every Employee](https://www.geeksforgeeks.org/find-number-of-employees-under-every-manager/)
+- 7️⃣ OTHER DATA STRUCTURES
+  - [ ] Advanced Lists:
+    - [ ] [Memory efficient doubly linked list](https://www.geeksforgeeks.org/memory-efficient-doubly-linked-list/)
+    - [ ] [XOR Linked List – A Memory Efficient Doubly Linked List | Set 1](https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-1/)
+    - [ ] [XOR Linked List – A Memory Efficient Doubly Linked List | Set 2](https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-2/)
+    - [ ] [Skip List | Set 1 (Introduction)](https://www.geeksforgeeks.org/skip-list/)
+    - [ ] [Self Organizing List | Set 1 (Introduction)](https://www.geeksforgeeks.org/self-organizing-list-set-1-introduction/)
+    - [ ] [Unrolled Linked List | Set 1 (Introduction)](https://www.geeksforgeeks.org/unrolled-linked-list-set-1-introduction/)
+  - [ ] Segment Tree:
+    - [ ] [Segment Tree | Set 1 (Sum of given range)](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
+    - [ ] [Segment Tree | Set 2 (Range Minimum Query)](https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/)
+    - [ ] [Lazy Propagation in Segment Tree](https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/)
+    - [ ] [Persistent Segment Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/persistent-segment-tree-set-1-introduction/)
+  - [ ] Trie:
+    - [ ] [Trie | (Insert and Search)](https://www.geeksforgeeks.org/trie-insert-and-search/)
+    - [ ] [Trie | (Delete)](https://www.geeksforgeeks.org/trie-delete/)
+    - [ ] [Longest prefix matching – A Trie based solution in Java](https://www.geeksforgeeks.org/longest-prefix-matching-a-trie-based-solution-in-java/)
+    - [ ] [Print unique rows in a given boolean matrix](https://www.geeksforgeeks.org/print-unique-rows/)
+    - [ ] [How to Implement Reverse DNS Look Up Cache?](https://www.geeksforgeeks.org/implement-reverse-dns-look-cache/)
+    - [ ] [How to Implement Forward DNS Look Up Cache?](https://www.geeksforgeeks.org/implement-forward-dns-look-cache/)
+  - [ ] Binary Indexed Tree:
+    - [ ] [Binary Indexed Tree](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+    - [ ] [Two Dimensional Binary Indexed Tree or Fenwick Tree](https://www.geeksforgeeks.org/two-dimensional-binary-indexed-tree-or-fenwick-tree/)
+    - [ ] [Binary Indexed Tree : Range Updates and Point Queries](https://www.geeksforgeeks.org/binary-indexed-tree-range-updates-point-queries/)
+    - [ ] [Binary Indexed Tree : Range Update and Range Queries](https://www.geeksforgeeks.org/binary-indexed-tree-range-update-range-queries/)
+  - [ ] Suffix Array and Suffix Tree:
+    - [ ] [Suffix Array Introduction](https://www.geeksforgeeks.org/suffix-array-set-1-introduction/)
+    - [ ] [Suffix Array nLogn Algorithm](https://www.geeksforgeeks.org/suffix-array-set-2-a-nlognlogn-algorithm/)
+    - [ ] [kasai’s Algorithm for Construction of LCP array from Suffix Array](https://www.geeksforgeeks.org/%c2%ad%c2%adkasais-algorithm-for-construction-of-lcp-array-from-suffix-array/)
+    - [ ] [Suffix Tree Introduction](https://www.geeksforgeeks.org/pattern-searching-set-8-suffix-tree-introduction/)
+    - [ ] [Ukkonen’s Suffix Tree Construction – Part 1](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/)
+    - [ ] [Ukkonen’s Suffix Tree Construction – Part 2](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/)
+    - [ ] [Ukkonen’s Suffix Tree Construction – Part 3](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-3/)
+    - [ ] [Ukkonen’s Suffix Tree Construction – Part 4](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-4/)
+    - [ ] [Ukkonen’s Suffix Tree Construction – Part 5](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-5/)
+    - [ ] [Ukkonen’s Suffix Tree Construction – Part 6](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-6/)
+    - [ ] [Generalized Suffix Tree](https://www.geeksforgeeks.org/generalized-suffix-tree-1/)
+    - [ ] [Build Linear Time Suffix Array using Suffix Tree](https://www.geeksforgeeks.org/suffix-tree-application-4-build-linear-time-suffix-array/)
+    - [ ] [Substring Check](https://www.geeksforgeeks.org/suffix-tree-application-1-substring-check/)
+    - [ ] [Searching All Patterns](https://www.geeksforgeeks.org/suffix-tree-application-2-searching-all-patterns/)
+    - [ ] [Longest Repeated Substring,](https://www.geeksforgeeks.org/suffix-tree-application-3-longest-repeated-substring/)
+    - [ ] [Longest Common Substring, Longest Palindromic Substring](https://www.geeksforgeeks.org/suffix-tree-application-6-longest-palindromic-substring/)
+  - [ ] AVL Tree:
+    - [ ] [AVL Tree | Set 1 (Insertion)](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/)
+    - [ ] [AVL Tree | Set 2 (Deletion)](https://www.geeksforgeeks.org/avl-tree-set-2-deletion/)
+    - [ ] [AVL with duplicate keys](http://geeksquiz.com/avl-with-duplicate-keys/)
+  - [ ] Splay Tree:
+    - [ ] [Splay Tree | Set 1 (Search)](https://www.geeksforgeeks.org/splay-tree-set-1-insert/)
+    - [ ] [Splay Tree | Set 2 (Insert)](https://www.geeksforgeeks.org/splay-tree-set-2-insert-delete/)
+  - [ ] B Tree:
+    - [ ] [B-Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/)
+    - [ ] [B-Tree | Set 2 (Insert)](https://www.geeksforgeeks.org/b-tree-set-1-insert-2/)
+    - [ ] [B-Tree | Set 3 (Delete)](https://www.geeksforgeeks.org/b-tree-set-3delete/)
+  - [ ] Red-Black Tree:
+    - [ ] [Red-Black Tree Introduction](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)
+    - [ ] [Red Black Tree Insertion](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/)
+    - [ ] [Red-Black Tree Deletion](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)
+    - [ ] [Program for Red Black Tree Insertion ](http://geeksquiz.com/c-program-red-black-tree-insertion/)
+  - [ ] K Dimensional Tree:
+    - [ ] [KD Tree (Search and Insert)](https://www.geeksforgeeks.org/k-dimensional-tree/)
+    - [ ] [K D Tree (Find Minimum)](https://www.geeksforgeeks.org/k-dimensional-tree-set-2-find-minimum/)
+    - [ ] [K D Tree (Delete)](https://www.geeksforgeeks.org/k-dimensional-tree-set-3-delete/)
+  - [ ] Others:
+    - [ ] [Treap (A Randomized Binary Search Tree)](https://www.geeksforgeeks.org/treap-a-randomized-binary-search-tree/)
+    - [ ] [Ternary Search Tree](https://www.geeksforgeeks.org/ternary-search-tree/)
+    - [ ] [Interval Tree](https://www.geeksforgeeks.org/interval-tree/)
+    - [ ] [Implement LRU Cache](https://www.geeksforgeeks.org/implement-lru-cache/)
+    - [ ] [Sort numbers stored on different machines](https://www.geeksforgeeks.org/sort-numbers-stored-on-different-machines/)
+    - [ ] [Find the k most frequent words from a file](https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/)
+    - [ ] [Given a sequence of words, print all anagrams together](https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together-set-2/)
+    - [ ] [Tournament Tree (Winner Tree) and Binary Heap](https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/)
+    - [ ] [Decision Trees – Fake (Counterfeit) Coin Puzzle (12 Coin Puzzle)](https://www.geeksforgeeks.org/decision-trees-fake-coin-puzzle/)
+    - [ ] [Spaghetti Stack](https://www.geeksforgeeks.org/g-fact-87/)
+    - [ ] [Data Structure for Dictionary and Spell Checker?](https://www.geeksforgeeks.org/data-structure-dictionary-spell-checker/)
+    - [ ] [Cartesian Tree](https://www.geeksforgeeks.org/cartesian-tree/)
+    - [ ] [Cartesian Tree Sorting](https://www.geeksforgeeks.org/cartesian-tree-sorting/)
+    - [ ] [Sparse Set](https://www.geeksforgeeks.org/sparse-set/)
+    - [ ] [Centroid Decomposition of Tree](https://www.geeksforgeeks.org/centroid-decomposition-of-tree/)
+    - [ ] [Gomory-Hu Tree](https://www.geeksforgeeks.org/gomory-hu-tree-introduction/)
+- 8️⃣ OTHER ALGORITHMS
   - About
     - [ ] [algorithm](https://en.wikipedia.org/wiki/Algorithm)
+    - [ ] [Wiki: divide & conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
+    - [ ] [g4g: Divide & conquer](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
     - [ ] [fundamentals-of-algorithms](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
     - [ ] [algorithm-design](https://www.hiredintech.com/courses/algorithm-design)
     - Breadth-first search (BFS)
@@ -88,351 +937,6 @@
     - [ ] [Time Complexity where loop variable is incremented by 1, 2, 3, 4](https://www.geeksforgeeks.org/time-complexity-where-loop-variable-is-incremented-by-1-2-3-4/)
     - [ ] [Time Complexity of Loop with Powers](https://www.geeksforgeeks.org/time-complexity-of-loop-with-powers/)
     - [ ] [Performance of loops (A caching question)](http://geeksquiz.com/performance-of-loops-a-caching-question/)
-  - **Searching and Sorting**
-    - About
-      - [ ] [Wiki: divide & conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
-      - [ ] [g4g: Divide & conquer](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
-      - [ ] [random implementation](https://docs.python.org/3/library/bisect.html)
-      - [ ] [g4g: Introduction](https://www.geeksforgeeks.org/divide-and-conquer-set-1-find-closest-pair-of-points/)
-      - [ ] [g4g: Write your own pow(x, n) to calculate x*n](https://www.geeksforgeeks.org/write-a-c-program-to-calculate-powxn/)
-      - [ ] [g4g: Median of two sorted arrays](https://www.geeksforgeeks.org/median-of-two-sorted-arrays/)
-      - [ ] [g4g: Count Inversions](https://www.geeksforgeeks.org/counting-inversions/)
-      - [ ] [g4g: Closest Pair of Points](https://www.geeksforgeeks.org/closest-pair-of-points/)
-      - [ ] [g4g: Strassen’s Matrix Multiplication](https://www.geeksforgeeks.org/strassens-matrix-multiplication/)
-      - [ ] [Interpolation search vs Binary search](https://www.geeksforgeeks.org/g-fact-84/)
-      - [ ] [Stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-      - [ ] [Lower bound for comparison based sorting algorithms](https://www.geeksforgeeks.org/lower-bound-on-comparison-based-sorting-algorithms/)
-      - [ ] [Which sorting algorithm makes minimum number of memory writes?](https://www.geeksforgeeks.org/which-sorting-algorithm-makes-minimum-number-of-writes/)
-      - [ ] [Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted](https://www.geeksforgeeks.org/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/)
-      - [ ] [Merge Sort for Linked Lists](https://www.geeksforgeeks.org/merge-sort-for-linked-list/)
-      - [ ] [Sort a nearly sorted (or K sorted) array](https://www.geeksforgeeks.org/nearly-sorted-algorithm/)
-      - [ ] [Iterative Quick Sort](https://www.geeksforgeeks.org/iterative-quick-sort/)
-      - [ ] [QuickSort on Singly Linked List](https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/)
-      - [ ] [QuickSort on Doubly Linked List](https://www.geeksforgeeks.org/quicksort-for-linked-list/)
-      - [ ] [Find k closest elements to a given value](https://www.geeksforgeeks.org/find-k-closest-elements-given-value/)
-      - [ ] [Sort n numbers in range from 0 to n^2 – 1 in linear time](https://www.geeksforgeeks.org/sort-n-numbers-range-0-n2-1-linear-time/)
-      - [ ] [A Problem in Many Binary Search Implementations](https://www.geeksforgeeks.org/problem-binary-search-implementations/)
-      - [ ] [Search in an almost sorted array](https://www.geeksforgeeks.org/search-almost-sorted-array/)
-      - [ ] [Sort an array in wave form](https://www.geeksforgeeks.org/sort-array-wave-form-2/)
-      - [ ] [Why is Binary Search preferred over Ternary Search?](https://www.geeksforgeeks.org/binary-search-preferred-ternary-search/)
-      - [ ] [K’th Smallest/Largest Element in Unsorted Array](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/)
-      - [ ] [K’th Smallest/Largest Element in Unsorted Array in Expected Linear Time](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array-set-2-expected-linear-time/)
-      - [ ] [K’th Smallest/Largest Element in Unsorted Array in Worst Case Linear Time](https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array-set-3-worst-case-linear-time/)
-      - [ ] [Find the closest pair from two sorted arrays](https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/)
-      - [ ] [Find common elements in three sorted arrays](https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/)
-      - [ ] [Given a sorted array and a number x, find the pair in array whose sum is closest to x](http://geeksquiz.com/given-sorted-array-number-x-find-pair-array-whose-sum-closest-x/)
-      - [ ] [Count 1’s in a sorted binary array](http://geeksquiz.com/count-1s-sorted-binary-array/)
-      - [ ] [Binary Insertion Sort](http://geeksquiz.com/binary-insertion-sort/)
-      - [ ] [Insertion Sort for Singly Linked List](http://geeksquiz.com/insertion-sort-for-singly-linked-list/)
-      - [ ] [Why Quick Sort preferred for Arrays and Merge Sort for Linked Lists?](https://www.geeksforgeeks.org/why-quick-sort-preferred-for-arrays-and-merge-sort-for-linked-lists/)
-      - [ ] [Merge Sort for Doubly Linked List](https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
-      - [ ] [Minimum adjacent swaps to move maximum and minimum to corners](https://www.geeksforgeeks.org/minimum-adjacent-swaps-to-move-maximum-and-minimum-to-corners/)
-    - **Arrays' Search algorithms**
-      - About
-        - [x] [good explanations](https://stackabuse.com/search-algorithms-in-python/)
-      - **Linear Search**
-        - About
-          - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
-          - [ ] [wiki: linear search](https://en.wikipedia.org/wiki/Linear_search)
-        - Time: ```O(n)```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)
-      - **Binary Search**
-        - About
-          - [x] [g4g](http://geeksquiz.com/binary-search/)
-          - [ ] [wiki: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
-          - [ ] [Unbounded Binary Search](https://www.geeksforgeeks.org/find-the-point-where-a-function-becomes-negative/)
-          - [ ] [LC: Binary search](https://leetcode.com/explore/learn/card/binary-search/)
-        - Time: ```O(log(n))```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/binary.py)
-      - Jump Search
-        - About
-          - [x] [g4g](https://www.geeksforgeeks.org/jump-search/)
-        - Time: ```O(√n)```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/jump.py)
-        - Doesn't use ```/``` while binary search does.
-      - Interpolation Search
-        - About
-          - [x] [g4g](https://www.geeksforgeeks.org/interpolation-search/)
-          - [ ] [wiki: interpolation search](https://en.wikipedia.org/wiki/Interpolation_search)
-        - Time: ```O(log(log(n))) - O(n)```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/interpolation.py)
-      - Exponential Search
-        - About
-          - [ ] [wiki: exponential search](https://en.wikipedia.org/wiki/Exponential_search)
-          - [x] [g4g](https://www.geeksforgeeks.org/exponential-search/)
-        - Time: ```O(1) - O(log(n))```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/exponential.py)
-        - The best case: ```[sought_element, 1, 2, ...]```
-        - The worst case: ```[0, 1, 2, ..., sought_element]```
-        - The best search algorithm for for unbounded or infinite arrays
-      - Ternary Search
-        - About
-          - [x] [wiki: ternary search](https://en.wikipedia.org/wiki/Ternary_search)
-          - [x] [g4g](https://www.geeksforgeeks.org/binary-search-preferred-ternary-search/)
-        - Time: ```O(log3(n))```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/ternary.py)
-        - Always worse than binary search since ```2log2(n) < 4log3(n) <=> log2(n) < log2(n) * 2 * log2(3)```
-      - Fibonacci Search
-        - About
-          - [x] [g4g](https://www.geeksforgeeks.org/fibonacci-search/)
-          - [x] [wiki: fibonacci search](https://en.wikipedia.org/wiki/Fibonacci_search_technique)
-        - Time: ```O(log(n))```
-        - Space: ```O(1)```
-        - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/fibonacci.py)
-      - Dichotomous Search
-        - About
-          - [ ] [video](https://www.youtube.com/watch?v=n_zefNBfhSM)
-        - Time: ```O()```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/dichotomous.py)
-      - Golden Section Search
-        - About
-          - [ ] [wiki: golden section search](https://en.wikipedia.org/wiki/Golden-section_search)
-        - Time: ```O()```
-        - Space: ```O()```
-        - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/golden_section.py)
-    - **Arrays' Sorting algorithms**
-      - About
-        - [ ] [wiki: Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm)
-        - [x] [wiki: Adaptive sort](https://en.wikipedia.org/wiki/Adaptive_sort)
-        - [x] [g4g: time complexity of sorting algorithms](https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/?ref=lbp)
-        - [ ] [g4g: Stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
-        - [ ] Minimum spanning tree
-        - [ ] Bipartite matching
-        - [ ] Edmonds-Karp algorithm - max-flow problem
-        - [ ] Hopcroft-Karp
-        - [ ] problem 1-5 Peak finding
-        - [ ] random shuffle
-        - [ ] [wiki: Quantum_sort](https://en.wikipedia.org/wiki/Quantum_sort)
-        - https://en.wikipedia.org/wiki/Tree_sort
-        - https://en.wikipedia.org/wiki/Proportion_extend_sort
-        - https://en.wikipedia.org/wiki/Slowsort
-        - https://en.wikipedia.org/wiki/Cartesian_tree#Application_in_sorting
-        - https://en.wikipedia.org/wiki/Tournament_sort
-        - https://en.wikipedia.org/wiki/Weak_heap#Weak-heap_sort
-        - https://en.wikipedia.org/wiki/Splaysort
-        - https://en.wikipedia.org/wiki/Library_sort
-        - https://en.wikipedia.org/wiki/Patience_sorting
-        - https://en.wikipedia.org/wiki/Cascade_merge_sort
-        - https://en.wikipedia.org/wiki/Oscillating_merge_sort
-        - https://en.wikipedia.org/wiki/Polyphase_merge_sort
-        - https://en.wikipedia.org/wiki/Proxmap_sort
-        - Concurrent Sorts
-          - https://en.wikipedia.org/wiki/Bitonic_sorter
-          - https://en.wikipedia.org/wiki/Batcher_odd–even_mergesort
-          - https://en.wikipedia.org/wiki/Pairwise_sorting_network
-          - https://en.wikipedia.org/wiki/Samplesort
-        - Hybrid Sorts
-          - https://en.wikipedia.org/wiki/Block_sort
-          - https://en.wikipedia.org/wiki/Kirkpatrick-Reisch_sort
-          - https://en.wikipedia.org/wiki/Merge-insertion_sort
-      - **Comparison sort algorithms**
-        - About
-          - [ ] [wiki: Comparison sort](https://en.wikipedia.org/wiki/Comparison_sort)
-          - [ ] [wiki: Cubesort](https://en.wikipedia.org/wiki/Cubesort)
-          - [ ] [wiki: Library_sort](https://en.wikipedia.org/wiki/Library_sort)
-          - [ ] [wiki: Patience_sorting](https://en.wikipedia.org/wiki/Patience_sorting)
-          - [ ] [wiki: Strand_sort](https://en.wikipedia.org/wiki/Strand_sort)
-          - [ ] [wiki: Tournament_sort](https://en.wikipedia.org/wiki/Tournament_sort)
-          - [ ] [wiki: Comb_sort](https://en.wikipedia.org/wiki/Comb_sort)
-          - [ ] [wiki: Gnome_sort](https://en.wikipedia.org/wiki/Gnome_sort)
-          - UnShuffle Sort, Franceschini's method
-        - **Selection Sort**
-          - About
-            - [x] [g4g: Selection sort](http://geeksquiz.com/selection-sort/)
-            - [ ] [wiki: Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
-          - Time: ```O(n^2)```
-          - Space: ```O(1)```
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection_sort.py)
-        - **Insertion Sort**
-          - About
-            - [x] [g4g: Insertion sort](http://geeksquiz.com/insertion-sort/)
-            - [ ] [wiki: Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
-          - Time: ```O(n) - O(n^2)```
-          - Space: ```O(1)```
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/insertion_sort_.py)
-          - Binary insertion sort
-            - About
-              - [x] [g4g](https://www.geeksforgeeks.org/binary-insertion-sort/)
-            - Time: ```O(n) - O(n^2)```
-            - Space: ```O(1)```
-            - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/binary_insertion_sort.py)
-            - ??? Still ```O(n^2)``` - why? because of the insertions (as I understood). But: ```iteration (n) + search (log(n)) + insert (n^2 ???) = O(n*log(n)*n) = O(n^2)```)
-        - **Bubble Sort**
-          - About
-            - [x] [g4g: Bubble sort](http://geeksquiz.com/bubble-sort/)
-            - [x] [wiki: Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
-          - Time: ```O(n) - O(n^2)```
-          - Space: ```O(1)```
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort.py)
-        - **Merge Sort**
-          - About
-            - [x] [g4g: Merge sort](http://geeksquiz.com/merge-sort/)
-            - [x] [g4g: Merge sort vs. Insertion sort](https://www.geeksforgeeks.org/merge-sort-vs-insertion-sort/?ref=rp)
-            - [x] [wiki: merge sort](https://en.wikipedia.org/wiki/Merge_sort)
-          - Time: ```O(n*log(n))```
-          - Space: ```O(n)```
-          - Stable: +
-          - Adaptive: +
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/merge_sort.py)
-        - TimSort
-          - About
-            - [x] [wiki: TimSort](https://en.wikipedia.org/wiki/Timsort)
-            - [ ] [python: TimSort](https://bugs.python.org/file4451/timsort.txt)
-            - [x] [hackernoon: TimSort](https://hackernoon.com/timsort-the-fastest-sorting-algorithm-youve-never-heard-of-36b28417f399)
-          - Time: ```Ω(n) - O(n*log(n))```
-          - Space: ```O(n)```
-          - Stable: +
-          - Adaptive: +
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
-          - Used by Python's ```sorted()``` function, + Android, Java
-          - Hybrid of Mergesort and Insertion Sort
-        - **QuickSort**
-          - About
-            - [x] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
-            - [x] [g4g](http://geeksquiz.com/quick-sort/)
-            - [ ] [g4g: Quick Sort vs Merge Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)
-            - [ ] [When does the worst case of Quicksort occur?](https://www.geeksforgeeks.org/when-does-the-worst-case-of-quicksort-occur/)
-          - Time: ```Ω(n*log(n)) - Θ(n*log(n)) - O(n^2)```
-          - Space: ```O()```
-          - Stable: -
-          - Adaptive: -
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/quick_sort.py)
-          - 3-Way Quick Sort
-            - About
-              - [ ] [g4g: 3-Way Quick Sort](https://www.geeksforgeeks.org/3-way-quicksort-dutch-national-flag/)
-            - Time: ```O(n) - O(n^2)```
-            - Space: ```O()```
-            - Stable: no
-            - Adaptive: yes
-            - [ ] [implemented]()
-            - Better for arrays with redundant elements: ```[1, 4, 2, 4, 2, 4, 1, 2, 4, 1, 2, 2, 2, 2, 4, 1, 4, 4, 4]```
-        - **Heap Sort**
-          - About
-            - [ ] [g4g: HeapSort](http://geeksquiz.com/heap-sort/)
-            - [ ] [wiki: HeapSort](https://en.wikipedia.org/wiki/Heapsort)
-          - Time: ```Ω(n) (equal keys) - O(n*log(n))```
-          - Space: ```O(1)```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/heap_sort.py)
-        - IntroSort
-          - About
-            - [x] [wiki: IntroSort](https://en.wikipedia.org/wiki/Introsort)
-          - Time: ```O(n*log(n))```
-          - Space: ```O(1)```
-          - [ ] [implemented]()
-          - Hybrid of QuickSort, HeapSort & Insertion Sort
-          - Used in C++, .NET, Go
-        - ShellSort
-          - About
-            - [ ] [g4g: ShellSort](http://geeksquiz.com/shellsort/)
-            - [ ] [wiki: ShellSort](https://en.wikipedia.org/wiki/Shellsort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/shell_sort.py)
-        - Odd-even sort
-          - About
-            - [ ] [wiki: Odd-even sort](https://en.wikipedia.org/wiki/Odd–even_sort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented]()
-        - Cocktail shaker sort
-          - About
-            - [ ] [wiki: Cocktail chaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented]()
-        - Cycle Sort
-          - About
-            - [ ] [g4g](https://www.geeksforgeeks.org/cycle-sort/)
-            - [ ] [wiki: Cycle sort](https://en.wikipedia.org/wiki/Cycle_sort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/cycle_sort.py)
-        - Merge-insertion sort
-          - About
-            - [ ] [wiki: Merge-insertion sort](https://en.wikipedia.org/wiki/Merge-insertion_sort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented]()
-        - Smooth sort
-          - About
-            - [ ] [wiki: Smooth sort](https://en.wikipedia.org/wiki/Smoothsort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented]()
-        - Block sort
-          - About
-            - [ ] [wiki: Block sort](https://en.wikipedia.org/wiki/Block_sort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented]()
-        - Gnome Sort
-          - About
-            - [x] [wiki: Gnome Sort](https://en.wikipedia.org/wiki/Gnome_sort)
-          - Time: ```Ω(n) - Θ(n^2) - O(n^2))```
-          - Space: ```O(1)```
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/ghnome_sort.py)
-      - **Non-Comparison Sort Algorithms**
-        - About
-          - [ ] [wiki: Integer sort](https://en.wikipedia.org/wiki/Integer_sorting)
-          - https://en.wikipedia.org/wiki/Spreadsort
-          - https://en.wikipedia.org/wiki/Burstsort
-          - https://en.wikipedia.org/wiki/Flashsort
-          - https://en.wikipedia.org/wiki/Samplesort
-          - https://en.wikipedia.org/wiki/Bogosort
-          - https://en.wikipedia.org/wiki/Stooge_sort
-          - https://en.wikipedia.org/wiki/Bead_sort
-          - https://en.wikipedia.org/wiki/Pancake_sorting
-          - https://en.wikipedia.org/wiki/Spaghetti_sort
-        - **Counting Sort**
-          - About
-            - [x] [g4g: Counting sort](https://www.geeksforgeeks.org/counting-sort/)   
-            - [x] [wiki: Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
-          - Time: ```O(n + k), where k is the range of the non-negative key values```
-          - Space: ```O(n + k)```
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
-        - **Radix Sort**
-          - About
-            - [x] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
-            - [x] [wiki: Radix sort](https://en.wikipedia.org/wiki/Radix_sort#Least_significant_digit_radix_sorts)
-          - Time: ```O(n * k), where k is the number of bits required to store each key.```
-          - Space: ```O(n + k)```
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
-        - **Bucket Sort**
-          - About
-            - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
-            - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)
-            - [ ] [leetcode problem #220](https://leetcode.com/problems/contains-duplicate-iii/)
-          - Time: ```O(n+k), where k = ?```
-          - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bucket_sort.py)
-          - Interpolation Sort
-            - About
-              - [ ] [wiki: Interpolation Sort](https://en.wikipedia.org/wiki/Interpolation_sort)
-        - Comb Sort
-          - About
-            - [ ] [g4g](https://www.geeksforgeeks.org/comb-sort/)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/comb_sort.py)
-        - Pigeonhole Sort
-          - About
-            - [ ] [g4g: Pigeonhole sort](https://www.geeksforgeeks.org/pigeonhole-sort/)
-            - [ ] [wiki: Pigeonhole sort](https://en.wikipedia.org/wiki/Pigeonhole_sort)
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/pigeonhole_sort.py)
-        - Topological sorting
-          - About
-          - Time: ```O()```
-          - Space: ```O()```
-          - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
   - Backtracking:
     - About
       - [x] [wiki](https://en.wikipedia.org/wiki/Backtracking)
@@ -541,507 +1045,4 @@
     - [ ] [Branch And Bound | Set 4 (Job Assignment Problem)](https://www.geeksforgeeks.org/branch-bound-set-4-job-assignment-problem/)
     - [ ] [Branch and Bound | Set 5 (N Queen Problem)](https://www.geeksforgeeks.org/branch-and-bound-set-4-n-queen-problem/)
     - [ ] [Branch And Bound | Set 6 (Traveling Salesman Problem)](https://www.geeksforgeeks.org/branch-bound-set-5-traveling-salesman-problem/)
-  - **Dynamic programming**
-    - [ ] [g4g: Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
-    - [ ] [g4g: Overlapping Subproblems in DP](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/)
-    - [ ] [g4g: Optimal Substructure Property](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
-    - [ ] [System Design Interview - Top K Problem (Heavy Hitters)](https://www.youtube.com/watch?v=kx-XDoPjoHw)
-    - [ ] [g4g](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
-    - [ ] [hackerrank](https://www.hackerrank.com/domains/algorithms/dynamic-programming/difficulty:medium/page:1)
-    - [ ] [g4g](https://www.geeksforgeeks.org/dynamic-programming/)
-    - [ ] Traveling salesman problem
-    - [ ] Coin change problem
-    - [ ] Bit Masking
-    - [ ] [Longest Increasing Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/)
-    - [ ] [Longest Common Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
-    - [ ] [Edit Distance](https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/)
-    - [ ] [Min Cost Path](https://www.geeksforgeeks.org/dynamic-programming-set-6-min-cost-path/)
-    - [ ] [Coin Change](https://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/)
-    - [ ] [Matrix Chain Multiplication](https://www.geeksforgeeks.org/dynamic-programming-set-8-matrix-chain-multiplication/)
-    - [ ] [Binomial Coefficient](https://www.geeksforgeeks.org/dynamic-programming-set-9-binomial-coefficient/)
-    - [ ] [0-1 Knapsack Problem](https://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
-    - [ ] [Egg Dropping Puzzle](https://www.geeksforgeeks.org/dynamic-programming-set-11-egg-dropping-puzzle/)
-    - [ ] [Longest Palindromic Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/)
-    - [ ] [Cutting a Rod](https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/)
-    - [ ] [Maximum Sum Increasing Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/)
-    - [ ] [Longest Bitonic Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-15-longest-bitonic-subsequence/)
-    - [ ] [Floyd Warshall Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
-    - [ ] [Palindrome Partitioning](https://www.geeksforgeeks.org/dynamic-programming-set-17-palindrome-partitioning/)
-    - [ ] [Partition problem](https://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/)
-    - [ ] [Word Wrap Problem](https://www.geeksforgeeks.org/dynamic-programming-set-18-word-wrap/)
-    - [ ] [Maximum Length Chain of Pairs](https://www.geeksforgeeks.org/dynamic-programming-set-20-maximum-length-chain-of-pairs/)
-    - [ ] [Variations of LIS](https://www.geeksforgeeks.org/dynamic-programming-set-14-variations-of-lis/)
-    - [ ] [Box Stacking Problem](https://www.geeksforgeeks.org/dynamic-programming-set-21-box-stacking-problem/)
-    - [ ] [Program for Fibonacci numbers](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
-    - [ ] [Minimum number of jumps to reach end](https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/)
-    - [ ] [Maximum size square sub-matrix with all 1s](https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/)
-    - [ ] [Ugly Numbers](https://www.geeksforgeeks.org/ugly-numbers/)
-    - [ ] [Largest Sum Contiguous Subarray](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
-    - [ ] [Longest Palindromic Substring](https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/)
-    - [ ] [Bellman–Ford Algorithm for Shortest Paths](https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/)
-    - [ ] [Optimal Binary Search Tree](https://www.geeksforgeeks.org/dynamic-programming-set-24-optimal-binary-search-tree/)
-    - [ ] [Largest Independent Set Problem](https://www.geeksforgeeks.org/largest-independent-set-problem/)
-    - [ ] [Subset Sum Problem](https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)
-    - [ ] [Maximum sum rectangle in a 2D matrix](https://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/)
-    - [ ] [Count number of binary strings without consecutive 1?s](https://www.geeksforgeeks.org/count-number-binary-strings-without-consecutive-1s/)
-    - [ ] [Boolean Parenthesization Problem](https://www.geeksforgeeks.org/dynamic-programming-set-37-boolean-parenthesization-problem/)
-    - [ ] [Count ways to reach the n’th stair](https://www.geeksforgeeks.org/count-ways-reach-nth-stair/)
-    - [ ] [Minimum Cost Polygon Triangulation](https://www.geeksforgeeks.org/minimum-cost-polygon-triangulation/)
-    - [ ] [Mobile Numeric Keypad Problem](https://www.geeksforgeeks.org/mobile-numeric-keypad-problem/)
-    - [ ] [Count of n digit numbers whose sum of digits equals to given sum](https://www.geeksforgeeks.org/count-of-n-digit-numbers-whose-sum-of-digits-equals-to-given-sum/)
-    - [ ] [Minimum Initial Points to Reach Destination](https://www.geeksforgeeks.org/minimum-positive-points-to-reach-destination/)
-    - [ ] [Total number of non-decreasing numbers with n digits](https://www.geeksforgeeks.org/total-number-of-non-decreasing-numbers-with-n-digits/)
-    - [ ] [Find length of the longest consecutive path from a given starting character](https://www.geeksforgeeks.org/find-length-of-the-longest-consecutive-path-in-a-character-matrix/)
-    - [ ] [Tiling Problem](https://www.geeksforgeeks.org/tiling-problem/)
-    - [ ] [Minimum number of squares whose sum equals to given number n](https://www.geeksforgeeks.org/minimum-number-of-squares-whose-sum-equals-to-given-number-n/)
-    - [ ] [Find minimum number of coins that make a given value](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/)
-    - [ ] [Collect maximum points in a grid using two traversals](https://www.geeksforgeeks.org/collect-maximum-points-in-a-grid-using-two-traversals/)
-    - [ ] [Shortest Common Supersequence](https://www.geeksforgeeks.org/shortest-common-supersequence/)
-    - [ ] [Compute sum of digits in all numbers from 1 to n](https://www.geeksforgeeks.org/count-sum-of-digits-in-numbers-from-1-to-n/)
-    - [ ] [Count possible ways to construct buildings](https://www.geeksforgeeks.org/count-possible-ways-to-construct-buildings/)
-    - [ ] [Maximum profit by buying and selling a share at most twice](https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-twice/)
-    - [ ] [How to print maximum number of A’s using given four keys](https://www.geeksforgeeks.org/how-to-print-maximum-number-of-a-using-given-four-keys/)
-    - [ ] [Find the minimum cost to reach destination using a train](https://www.geeksforgeeks.org/find-the-minimum-cost-to-reach-a-destination-where-every-station-is-connected-in-one-direction/)
-    - [ ] [Vertex Cover Problem | Set 2 (Dynamic Programming Solution for Tree)](https://www.geeksforgeeks.org/vertex-cover-problem-set-2-dynamic-programming-solution-tree/)
-    - [ ] [Count number of ways to reach a given score in a game](https://www.geeksforgeeks.org/count-number-ways-reach-given-score-game/)
-    - [ ] [Weighted Job Scheduling](https://www.geeksforgeeks.org/weighted-job-scheduling/)
-    - [ ] [Longest Even Length Substring such that Sum of First and Second Half is same](https://www.geeksforgeeks.org/longest-even-length-substring-sum-first-second-half/)
-- DATA STRUCTURES
-  - Primitive types
-    - String
-      - [ ] Pattern Searching
-        - [ ] [Naive Pattern Searching](https://www.geeksforgeeks.org/searching-for-patterns-set-1-naive-pattern-searching/)
-        - [ ] [KMP Algorithm](https://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/)
-        - [ ] [Rabin-Karp Algorithm](https://www.geeksforgeeks.org/searching-for-patterns-set-3-rabin-karp-algorithm/)
-        - [ ] [A Naive Pattern Searching Question](https://www.geeksforgeeks.org/pattern-searching-set-4-a-naive-string-matching-algo-question/)
-        - [ ] [Finite Automata](https://www.geeksforgeeks.org/searching-for-patterns-set-5-finite-automata/)
-        - [ ] [Efficient Construction of Finite Automata](https://www.geeksforgeeks.org/pattern-searching-set-5-efficient-constructtion-of-finite-automata/)
-        - [ ] [Boyer Moore Algorithm – Bad Character Heuristic](https://www.geeksforgeeks.org/pattern-searching-set-7-boyer-moore-algorithm-bad-character-heuristic/)
-        - [ ] [Suffix Array](https://www.geeksforgeeks.org/suffix-array-set-1-introduction/)
-        - [ ] [Anagram Substring Search (Or Search for all permutations)](https://www.geeksforgeeks.org/anagram-substring-search-search-permutations/)
-        - [ ] [Pattern Searching using a Trie of all Suffixes](https://www.geeksforgeeks.org/pattern-searching-using-trie-suffixes/)
-        - [ ] [Aho-Corasick Algorithm for Pattern Searching](https://www.geeksforgeeks.org/aho-corasick-algorithm-pattern-searching/)
-        - [ ] [kasai’s Algorithm for Construction of LCP array from Suffix Array](https://www.geeksforgeeks.org/%c2%ad%c2%adkasais-algorithm-for-construction-of-lcp-array-from-suffix-array/)
-        - [ ] [Z algorithm (Linear time pattern searching Algorithm)](https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/)
-        - [ ] [Program to wish Women’s Day](https://www.geeksforgeeks.org/program-wish-womens-day/)
-      - [ ] Other String Algorithms
-        - [ ] [Manacher’s Algorithm – Linear Time Longest Palindromic Substring – Part 1](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/)
-        - [ ] [Part 2](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-2/)
-        - [ ] [Part 3](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-3-2/)
-        - [ ] [Part 4](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/)
-        - [ ] [Longest Even Length Substring such that Sum of First and Second Half is same](https://www.geeksforgeeks.org/longest-even-length-substring-sum-first-second-half/)
-        - [ ] [Print all possible strings that can be made by placing spaces](https://www.geeksforgeeks.org/print-possible-strings-can-made-placing-spaces/)
-    - Integer
-      - [ ] Binary & Hexadecimal numbers
-        - [ ] https://code.tutsplus.com/articles/number-systems-an-introduction-to-binary-hexadecimal-and-more--active-10848
-      - [ ] Bitwise Operators (Bit Algorithms)
-        - About
-          - [ ] [Wiki](https://en.wikipedia.org/wiki/Bitwise_operation)
-          - [ ] [1](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
-        - [ ] XOR
-          - [ ] https://leetcode.com/explore/challenge/card/september-leetcoding-challenge/556/week-3-september-15th-september-21st/3462/
-          - [ ] https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
-          - [ ] https://www.geeksforgeeks.org/find-xor-of-two-number-without-using-xor-operator/
-        - [ ] [Find the element that appears once](https://www.geeksforgeeks.org/find-the-element-that-appears-once/)
-        - [ ] [Detect opposite signs](https://www.geeksforgeeks.org/detect-if-two-integers-have-opposite-signs/)
-        - [ ] [Set bits in all numbers from 1 to n](https://www.geeksforgeeks.org/count-total-set-bits-in-all-numbers-from-1-to-n/)
-        - [ ] [Swap bits](https://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
-        - [ ] [Add two numbers](https://www.geeksforgeeks.org/add-two-numbers-without-using-arithmetic-operators/)
-        - [ ] [Smallest of three](https://www.geeksforgeeks.org/smallest-of-three-integers-without-comparison-operators/)
-        - [ ] [A Boolean Array Puzzle](https://www.geeksforgeeks.org/a-boolean-array-puzzle/)
-        - [ ] [Set bits in an (big) array](https://www.geeksforgeeks.org/program-to-count-number-of-set-bits-in-an-big-array/)
-        - [ ] [Next higher number with same number of set bits](https://www.geeksforgeeks.org/next-higher-number-with-same-number-of-set-bits/)
-        - [ ] [Optimization Technique (Modulus)](https://www.geeksforgeeks.org/optimization-techniques-set-1-modulus/)
-        - [ ] [Add 1 to a number](https://www.geeksforgeeks.org/add-1-to-a-given-number/)
-        - [ ] [Multiply with 3.5](https://www.geeksforgeeks.org/multiply-an-integer-with-3-5/)
-        - [ ] [Turn off the rightmost set bit](https://www.geeksforgeeks.org/turn-off-the-rightmost-set-bit/)
-        - [ ] [Check for Power of 4](https://www.geeksforgeeks.org/find-whether-a-given-number-is-a-power-of-4-or-not/)
-        - [ ] [Absolute value (abs) without branching](https://www.geeksforgeeks.org/compute-the-integer-absolute-value-abs-without-branching/)
-        - [ ] [Modulus division by a power-of-2-number](https://www.geeksforgeeks.org/compute-modulus-division-by-a-power-of-2-number/)
-        - [ ] [Minimum or Maximum of two integers](https://www.geeksforgeeks.org/compute-the-minimum-or-maximum-max-of-two-integers-without-branching/)
-        - [ ] [Rotate bits](https://www.geeksforgeeks.org/rotate-bits-of-an-integer/)
-        - [ ] [Find the two non-repeating elements in an array](https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/)
-        - [ ] [Number Occurring Odd Number of Times](https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/)
-        - [ ] [Check for Integer Overflow](https://www.geeksforgeeks.org/check-for-integer-overflow/)
-        - [ ] [Little and Big Endian](https://www.geeksforgeeks.org/little-and-big-endian-mystery/)
-        - [ ] [Reverse Bits of a Number](https://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
-        - [ ] [Count set bits in an integer](https://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
-        - [ ] [Number of bits to be flipped to convert A to B](https://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
-        - [ ] [Next Power of 2](https://www.geeksforgeeks.org/next-power-of-2/)
-        - [ ] [Check if a Number is Multiple of 3](https://www.geeksforgeeks.org/write-an-efficient-method-to-check-if-a-number-is-multiple-of-3/)
-        - [ ] [Find parity](https://www.geeksforgeeks.org/write-a-c-program-to-find-the-parity-of-an-unsigned-integer/)
-        - [ ] [Multiply with 7](https://www.geeksforgeeks.org/efficient-way-to-multiply-with-7/)
-        - [ ] [Find whether a no is power of two](https://www.geeksforgeeks.org/write-one-line-c-function-to-find-whether-a-no-is-power-of-two/)
-        - [ ] [Position of rightmost set bit](https://www.geeksforgeeks.org/position-of-rightmost-set-bit/)
-        - [ ] [Binary representation of a given number](https://www.geeksforgeeks.org/binary-representation-of-a-given-number/)
-        - [ ] [Swap all odd and even bits](https://www.geeksforgeeks.org/swap-all-odd-and-even-bits/)
-        - [ ] [Find position of the only set bit](https://www.geeksforgeeks.org/find-position-of-the-only-set-bit/)
-        - [ ] [Karatsuba algorithm for fast multiplication](https://www.geeksforgeeks.org/divide-and-conquer-set-2-karatsuba-algorithm-for-fast-multiplication/)
-        - [ ] [How to swap two numbers without using a temporary variable?](https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/)
-        - [ ] [Check if a number is multiple of 9 using bitwise operators](https://www.geeksforgeeks.org/divisibility-9-using-bitwise-operators/)
-        - [ ] [Swap two nibbles in a byte](https://www.geeksforgeeks.org/swap-two-nibbles-byte/)
-        - [ ] [How to turn off a particular bit in a number?](https://www.geeksforgeeks.org/how-to-turn-off-a-particular-bit-in-a-number/)
-        - [ ] [Check if binary representation of a number is palindrome](https://www.geeksforgeeks.org/check-binary-representation-number-palindrome/)
-  - Array
-    - About
-      - [x] [Leetcode: arrays](https://leetcode.com/explore/learn/card/fun-with-arrays/)
-    - Selection algorithms
-      - About
-        - [ ] [wiki: Selection algorithms](https://en.wikipedia.org/wiki/Selection_algorithm)
-    - [ ] [array-and-string](https://leetcode.com/explore/learn/card/array-and-string/)
-    - [ ] [lecture: Unbounded arrays](http://www.cs.cmu.edu/~fp/courses/15122-s11/lectures/12-ubarrays.pdf)
-    - [ ] [Search, insert and delete in an unsorted array](https://www.geeksforgeeks.org/search-insert-and-delete-in-an-unsorted-array/)
-    - [ ] [Search, insert and delete in a sorted array](https://www.geeksforgeeks.org/search-insert-and-delete-in-a-sorted-array/)
-    - [ ] [Leaders in an array](https://www.geeksforgeeks.org/leaders-in-an-array/)
-    - [ ] [Given an array A[] and a number x, check for pair in A[] with sum as x](https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
-    - [ ] [Majority Element](https://www.geeksforgeeks.org/majority-element/)
-    - [ ] [Find the Number Occurring Odd Number of Times](https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/)
-    - [ ] [Largest Sum Contiguous Subarray](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
-    - [ ] [Find the Missing Number](https://www.geeksforgeeks.org/find-the-missing-number/)
-    - [ ] [Search an element in a sorted and pivoted array](https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
-    - [ ] [Merge an array of size n into another array of size m+n](https://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/)
-    - [ ] [Median of two sorted arrays](https://www.geeksforgeeks.org/median-of-two-sorted-arrays/)
-    - [ ] [Program for array rotation](https://www.geeksforgeeks.org/array-rotation/)
-    - [ ] [Reversal algorithm for array rotation](https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/)
-    - [ ] [Block swap algorithm for array rotation](https://www.geeksforgeeks.org/block-swap-algorithm-for-array-rotation/)
-    - [ ] [Maximum sum such that no two elements are adjacent](https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
-    - [ ] [Sort elements by frequency | Set 1](https://www.geeksforgeeks.org/sort-elements-by-frequency/)
-    - [ ] [Count Inversions in an array](https://www.geeksforgeeks.org/counting-inversions/)
-    - [ ] Matrixes
-      - [ ] [1](https://leetcode.com/problems/minimum-path-sum/)
-      - [ ] [Search in a row wise and column wise sorted matrix](https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/)
-      - [ ] [Print a given matrix in spiral form](https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
-      - [ ] [A Boolean Matrix Question](https://www.geeksforgeeks.org/a-boolean-matrix-question/)
-      - [ ] [Print unique rows in a given boolean matrix](https://www.geeksforgeeks.org/print-unique-rows/)
-      - [ ] [Maximum size square sub-matrix with all 1s](https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/)
-      - [ ] [Print unique rows in a given boolean matrix](https://www.geeksforgeeks.org/print-unique-rows/)
-      - [ ] [Inplace M x N size matrix transpose | Updated](https://www.geeksforgeeks.org/inplace-m-x-n-size-matrix-transpose/)
-      - [ ] [Dynamic Programming | Set 27 (Maximum sum rectangle in a 2D matrix)](https://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/)
-      - [ ] [Strassen’s Matrix Multiplication](https://www.geeksforgeeks.org/strassens-matrix-multiplication/)
-      - [ ] [Create a matrix with alternating rectangles of O and X](https://www.geeksforgeeks.org/create-a-matrix-with-alternating-rectangles-of-0-and-x/)
-      - [ ] [Print all elements in sorted order from row and column wise sorted matrix](https://www.geeksforgeeks.org/print-elements-sorted-order-row-column-wise-sorted-matrix/)
-      - [ ] [Given an n x n square matrix, find sum of all sub-squares of size k x k](https://www.geeksforgeeks.org/given-n-x-n-square-matrix-find-sum-sub-squares-size-k-x-k/)
-      - [ ] [Count number of islands where every island is row-wise and column-wise separated](https://www.geeksforgeeks.org/count-number-islands-every-island-separated-line/)
-      - [ ] [Find a common element in all rows of a given row-wise sorted matrix](https://www.geeksforgeeks.org/find-common-element-rows-row-wise-sorted-matrix/)
-  - Linked list
-    - About
-      - [ ] [Wiki: Linked list](https://en.wikipedia.org/wiki/Linked_list)
-      - [ ] [Leetcode: Linked list](https://leetcode.com/explore/learn/card/linked-list/)
-      - [ ] Find cycle in LinkedList
-      - [ ] implementation w/ insertion, deletion, searching, traversing, reversing, height of a tree
-    - Singly Linked List:
-      - [ ] [Introduction to Linked List](http://geeksquiz.com/linked-list-set-1-introduction/)
-      - [ ] [Linked List vs Array](https://www.geeksforgeeks.org/linked-list-vs-array/)
-      - [ ] [Linked List Insertion](http://geeksquiz.com/linked-list-set-2-inserting-a-node/)
-      - [ ] [Linked List Deletion (Deleting a given key)](http://geeksquiz.com/linked-list-set-3-deleting-node/)
-      - [ ] [Linked List Deletion (Deleting a key at given position)](http://geeksquiz.com/delete-a-linked-list-node-at-a-given-position/)
-      - [ ] [A Programmer’s approach of looking at Array vs. Linked List](http://geeksquiz.com/programmers-approach-looking-array-vs-linked-list/)
-      - [ ] [Find Length of a Linked List (Iterative and Recursive)](http://geeksquiz.com/find-length-of-a-linked-list-iterative-and-recursive/)
-      - [ ] [How to write C functions that modify head pointer of a Linked List?](https://www.geeksforgeeks.org/how-to-write-functions-that-modify-the-head-pointer-of-a-linked-list/)
-      - [ ] [Swap nodes in a linked list without swapping data](https://www.geeksforgeeks.org/swap-nodes-in-a-linked-list-without-swapping-data/)
-      - [ ] [Reverse a linked list](https://www.geeksforgeeks.org/write-a-function-to-reverse-the-nodes-of-a-linked-list/)
-      - [ ] [Merge two sorted linked lists](https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/)
-      - [ ] [Merge Sort for Linked Lists](https://www.geeksforgeeks.org/merge-sort-for-linked-list/)
-      - [ ] [Reverse a Linked List in groups of given size](https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/)
-      - [ ] [Detect and Remove Loop in a Linked List](https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/)
-      - [ ] [Add two numbers represented by linked lists | Set 1](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/)
-      - [ ] [Rotate a Linked List](https://www.geeksforgeeks.org/rotate-a-linked-list/)
-      - [ ] [Generic Linked List in C](https://www.geeksforgeeks.org/generic-linked-list-in-c-2/)
-    - Circular Linked List:
-      - [ ] [Circular Linked List Introduction and Applications,](http://geeksquiz.com/circular-linked-list/)
-      - [ ] [Circular Singly Linked List Insertion<](https://www.geeksforgeeks.org/circular-singly-linked-list-insertion/)
-      - [ ] [Circular Linked List Traversal](http://geeksquiz.com/circular-linked-list-set-2-traversal/)
-      - [ ] [Split a Circular Linked List into two halves](https://www.geeksforgeeks.org/split-a-circular-linked-list-into-two-halves/)
-      - [ ] [Sorted insert for circular linked list](https://www.geeksforgeeks.org/sorted-insert-for-circular-linked-list/)
-    - Doubly Linked List:
-      - [ ] [Doubly Linked List Introduction and Insertion](http://geeksquiz.com/doubly-linked-list/)
-      - [ ] [Delete a node in a Doubly Linked List](https://www.geeksforgeeks.org/delete-a-node-in-a-doubly-linked-list/)
-      - [ ] [Reverse a Doubly Linked List](https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/)
-      - [ ] [The Great Tree-List Recursion Problem.](https://www.geeksforgeeks.org/the-great-tree-list-recursion-problem/)
-      - [ ] [QuickSort on Doubly Linked List](https://www.geeksforgeeks.org/quicksort-for-linked-list/)
-      - [ ] [Merge Sort for Doubly Linked List](https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
-  - Queue & Stack
-    - About
-      - [x] [Leetcode](https://leetcode.com/explore/learn/card/queue-stack)
-      - [x] https://leetcode.com/problems/target-sum/solution/
-    - Stack
-      - [ ] [Geeksforgeeks: Introduction to Stack](http://geeksquiz.com/stack-set-1/)
-      - [ ] [Geeksforgeeks: Infix to Postfix Conversion using Stack](http://geeksquiz.com/stack-set-2-infix-to-postfix/)
-      - [ ] [Geeksforgeeks: Evaluation of Postfix Expression](http://geeksquiz.com/stack-set-4-evaluation-postfix-expression/)
-      - [ ] [Geeksforgeeks: Reverse a String using Stack](http://geeksquiz.com/stack-set-3-reverse-string-using-stack/)
-      - [ ] [Geeksforgeeks: Implement two stacks in an array](https://www.geeksforgeeks.org/implement-two-stacks-in-an-array/)
-      - [ ] [Geeksforgeeks: Check for balanced parentheses in an expression](https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/)
-      - [ ] [Geeksforgeeks: Next Greater Element](https://www.geeksforgeeks.org/next-greater-element/)
-      - [ ] [Geeksforgeeks: Reverse a stack using recursion](https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/)
-      - [ ] [Geeksforgeeks: Sort a stack using recursion](https://www.geeksforgeeks.org/sort-a-stack-using-recursion/)
-      - [ ] [Geeksforgeeks: The Stock Span Problem](https://www.geeksforgeeks.org/the-stock-span-problem/)
-      - [ ] [Geeksforgeeks: Design and Implement Special Stack Data Structure](https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/)
-      - [ ] [Geeksforgeeks: Implement Stack using Queues](https://www.geeksforgeeks.org/implement-stack-using-queue/)
-      - [ ] [Geeksforgeeks: Design a stack with operations on middle element](https://www.geeksforgeeks.org/design-a-stack-with-find-middle-operation/)
-      - [ ] [Geeksforgeeks: How to efficiently implement k stacks in a single array?](https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
-      - [ ] [Geeksforgeeks: Sort a stack using recursion](https://www.geeksforgeeks.org/sort-a-stack-using-recursion/)
-    - Queue
-      - [ ] [Geeksforgeeks: Queue Introduction and Array Implementation](http://geeksquiz.com/queue-set-1introduction-and-array-implementation/)
-      - [ ] [Geeksforgeeks: Linked List Implementation of Queue](http://geeksquiz.com/queue-set-2-linked-list-implementation/)
-      - [ ] [Geeksforgeeks: Applications of Queue Data Structure](https://www.geeksforgeeks.org/applications-of-queue-data-structure/)
-      - [ ] [Geeksforgeeks: Priority Queue Introduction](http://geeksquiz.com/priority-queue-set-1-introduction/)
-      - [ ] [Geeksforgeeks: Deque (Introduction and Applications)](http://geeksquiz.com/deque-set-1-introduction-applications/)
-      - [ ] [Geeksforgeeks: Implementation of Deque using circular array](https://www.geeksforgeeks.org/implementation-deque-using-circular-array/)
-      - [ ] [Geeksforgeeks: Implement Queue using Stacks](https://www.geeksforgeeks.org/queue-using-stacks/)
-      - [ ] [Geeksforgeeks: Find the first circular tour that visits all petrol pumps](https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/)
-      - [ ] [Geeksforgeeks: Maximum of all subarrays of size k](https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/)
-      - [ ] [Geeksforgeeks: An Interesting Method to Generate Binary Numbers from 1 to n](https://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/)
-      - [ ] [Geeksforgeeks: How to efficiently implement k Queues in a single array?](https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/)
-  - Trees
-    - About
-      - [ ] [Leetcode 1](https://leetcode.com/explore/learn/card/data-structure-tree/)
-      - [ ] [Leetcode 2](https://leetcode.com/explore/learn/card/n-ary-tree/)
-      - [ ] [Leetcode 3](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/)
-      - [ ] [Leetcode 4](https://leetcode.com/explore/learn/card/trie)
-      - [ ] [Leetcode 5](https://leetcode.com/explore/learn/card/decision-tree/)
-      - [ ] [Leetcode 6](https://leetcode.com/problems/implement-trie-prefix-tree/)
-      - [ ] Given a node in a N-ary tree, check if that node exists in the tree, if so, print all the nodes under its hierarchy
-      - [ ] [Leetcode: data-structure-tree](https://leetcode.com/explore/learn/card/data-structure-tree/)
-      - Traversals
-        - Pre-order
-          - root->L->R
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/pre_order_traversal.py)
-        - In-order
-          - L->root->R
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/in_order_traversal.py)
-        - Post-order
-          - L->R->root
-          - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/post_order_traversal.py)
-        - Level-order (BFS)
-    - Binary Tree
-      - [ ] [Binary Tree Introduction](http://geeksquiz.com/binary-tree-set-1-introduction/)
-      - [ ] [Binary Tree Properties](http://geeksquiz.com/binary-tree-set-2-properties/)
-      - [ ] [Types of Binary Tree](http://geeksquiz.com/binary-tree-set-3-types-of-binary-tree/)
-      - [ ] [Handshaking Lemma and Interesting Tree Properties](https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/)
-      - [ ] [Enumeration of Binary Tree](http://geeksquiz.com/enumeration-of-binary-trees/)
-      - [ ] [Applications of tree data structure](https://www.geeksforgeeks.org/applications-of-tree-data-structure/)
-      - [ ] [Tree Traversals](https://www.geeksforgeeks.org/618/)
-      - [ ] [BFS vs DFS for Binary Tree](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
-      - [ ] [Level Order Tree Traversal](https://www.geeksforgeeks.org/level-order-tree-traversal/)
-      - [ ] [Diameter of a Binary Tree](https://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
-      - [ ] [Inorder Tree Traversal without Recursion](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/)
-      - [ ] [Inorder Tree Traversal without recursion and without stack!](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/)
-      - [ ] [Threaded Binary Tree](http://geeksquiz.com/threaded-binary-tree/)
-      - [ ] [Maximum Depth or Height of a Tree](https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/)
-      - [ ] [If you are given two traversal sequences, can you construct the binary tree?](https://www.geeksforgeeks.org/if-you-are-given-two-traversal-sequences-can-you-construct-the-binary-tree/)
-      - [ ] [Clone a Binary Tree with Random Pointers](https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/)
-      - [ ] [Construct Tree from given Inorder and Preorder traversals](https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/)
-      - [ ] [Maximum width of a binary tree](https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/)
-      - [ ] [Print nodes at k distance from root](https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/)
-      - [ ] [Print Ancestors of a given node in Binary Tree](https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/)
-      - [ ] [Check if a binary tree is subtree of another binary tree](https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/)
-      - [ ] [Connect nodes at same level](https://www.geeksforgeeks.org/connect-nodes-at-same-level/)
-    - Binary Search Tree (BST)
-      - [ ] [Search and Insert in BST](http://geeksquiz.com/binary-search-tree-set-1-search-and-insertion/)
-      - [ ] [Deletion from BST](http://geeksquiz.com/binary-search-tree-set-2-delete/)
-      - [ ] [Minimum value in a Binary Search Tree](https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/)
-      - [ ] [Inorder predecessor and successor for a given key in BST](https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/)
-      - [ ] [Check if a binary tree is BST or not](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
-      - [ ] [Lowest Common Ancestor in a Binary Search Tree.](https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/)
-      - [ ] [Inorder Successor in Binary Search Tree](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
-      - [ ] [Find k-th smallest element in BST (Order Statistics in BST)](https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
-      - [ ] [Merge two BSTs with limited extra space](https://www.geeksforgeeks.org/merge-two-bsts-with-limited-extra-space/)
-      - [ ] [Two nodes of a BST are swapped, correct the BST](https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/)
-      - [ ] [Floor and Ceil from a BST](https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/)
-      - [ ] [In-place conversion of Sorted DLL to Balanced BST](https://www.geeksforgeeks.org/in-place-conversion-of-sorted-dll-to-balanced-bst/)
-      - [ ] [Find a pair with given sum in a Balanced BST](https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/)
-      - [ ] [Total number of possible Binary Search Trees with n keys](https://www.geeksforgeeks.org/total-number-of-possible-binary-search-trees-with-n-keys/)
-      - [ ] [Merge Two Balanced Binary Search Trees](https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/)
-      - [ ] [Binary Tree to Binary Search Tree Conversion](https://www.geeksforgeeks.org/binary-tree-to-binary-search-tree-conversion/)
-    - Graph
-      - About
-        - [ ] [Wiki: graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
-        - [ ] [1](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/trees-graphs.md)
-        - [ ] graph traversing algorithms
-        - [ ] [Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
-        - [ ] [Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
-        - [ ] [Depth First Traversal for a Graph](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
-        - [ ] [Applications of Depth First Search](https://www.geeksforgeeks.org/applications-of-depth-first-search/)
-        - [ ] [Applications of Breadth First Traversal](https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/)
-        - [ ] [Detect Cycle in a Directed Graph](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
-        - [ ] [Detect Cycle in a an Undirected Graph](https://www.geeksforgeeks.org/union-find/)
-        - [ ] [Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
-        - [ ] [Longest Path in a Directed Acyclic Graph](https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/)
-        - [ ] [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
-        - [ ] [Check whether a given graph is Bipartite or not](https://www.geeksforgeeks.org/bipartite-graph/)
-        - [ ] [Snake and Ladder Problem](https://www.geeksforgeeks.org/snake-ladder-problem-2/)
-        - [ ] [Minimize Cash Flow among a given set of friends who have borrowed money from each other](https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/)
-        - [ ] [Boggle (Find all possible words in a board of characters)](https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/)
-        - [ ] [Assign directions to edges so that the directed graph remains acyclic](https://www.geeksforgeeks.org/assign-directions-to-edges-so-that-the-directed-graph-remains-acyclic/)
-        - [ ] [Find if the strings can be chained to form a circle](https://www.geeksforgeeks.org/given-array-strings-find-strings-can-chained-form-circle/)
-        - [ ] [Given a sorted dictionary of an alien language, find order of characters](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)
-        - [ ] [Karger’s algorithm for Minimum Cut](https://www.geeksforgeeks.org/kargers-algorithm-for-minimum-cut-set-1-introduction-and-implementation/)
-        - [ ] [Karger’s algorithm for Minimum Cut | Set 2 (Analysis and Applications)](https://www.geeksforgeeks.org/kargers-algorithm-for-minimum-cut-set-2-analysis-and-applications/)
-        - [ ] [Hopcroft–Karp Algorithm for Maximum Matching | Set 1 (Introduction)](https://www.geeksforgeeks.org/hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/)
-        - [ ] [Hopcroft–Karp Algorithm for Maximum Matching | Set 2 (Implementation)](https://www.geeksforgeeks.org/hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/)
-        - [ ] [Length of shortest chain to reach a target word](https://www.geeksforgeeks.org/length-of-shortest-chain-to-reach-a-target-word/)
-        - [ ] [Find same contacts in a list of contacts](https://www.geeksforgeeks.org/find-same-contacts-in-a-list-of-contacts/)
-        - [ ] [All Algorithms on Graph](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
-      - [ ] Graph Theory
-        - [ ] [Wiki: graph theory](https://en.wikipedia.org/wiki/Connectivity_(graph_theory))
-        - [ ] [Wiki: Flow_network](https://en.wikipedia.org/wiki/Flow_network)
-      - [ ] Introduction, DFS and BFS:
-        - [ ] [Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
-        - [ ] [Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
-        - [ ] [Depth First Traversal for a Graph](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
-        - [ ] [Applications of Depth First Search](https://www.geeksforgeeks.org/applications-of-depth-first-search/)
-        - [ ] [Detect Cycle in a Directed Graph](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
-        - [ ] [Detect Cycle in a an Undirected Graph](https://www.geeksforgeeks.org/union-find/)
-        - [ ] [Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
-        - [ ] [Longest Path in a Directed Acyclic Graph](https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/)
-        - [ ] [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
-        - [ ] [Check whether a given graph is Bipartite or not](https://www.geeksforgeeks.org/bipartite-graph/)
-        - [ ] [Snake and Ladder Problem](https://www.geeksforgeeks.org/snake-ladder-problem-2/)
-        - [ ] [Biconnected Components](https://www.geeksforgeeks.org/biconnected-components/)
-        - [ ] [Check if a given graph is tree or not](http://geeksquiz.com/check-given-graph-tree/)
-      - [ ] Minimum Spanning Tree:
-        - [ ] [Prim’s Minimum Spanning Tree (MST))](https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/)
-        - [ ] [Applications of Minimum Spanning Tree Problem](https://www.geeksforgeeks.org/applications-of-minimum-spanning-tree/)
-        - [ ] [Prim’s MST for Adjacency List Representation](https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-mst-for-adjacency-list-representation/)
-        - [ ] [Kruskal’s Minimum Spanning Tree Algorithm](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
-        - [ ] [Boruvka’s algorithm for Minimum Spanning Tree](https://www.geeksforgeeks.org/greedy-algorithms-set-9-boruvkas-algorithm/)
-      - [ ] Shortest Paths:
-        - [ ] [Dijkstra’s shortest path algorithm](https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/)
-        - [ ] [Dijkstra’s Algorithm for Adjacency List Representation](https://www.geeksforgeeks.org/greedy-algorithms-set-7-dijkstras-algorithm-for-adjacency-list-representation/)
-        - [ ] [Bellman–Ford Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/)
-        - [ ] [Floyd Warshall Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
-        - [ ] [Johnson’s algorithm for All-pairs shortest paths](https://www.geeksforgeeks.org/johnsons-algorithm/)
-        - [ ] [Shortest Path in Directed Acyclic Graph](https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/)
-        - [ ] [Some interesting shortest path questions](https://www.geeksforgeeks.org/interesting-shortest-path-questions-set-1/)
-        - [ ] [Shortest path with exactly k edges in a directed and weighted graph](https://www.geeksforgeeks.org/shortest-path-exactly-k-edges-directed-weighted-graph/)
-      - [ ] Connectivity:
-        - [ ] [Find if there is a path between two vertices in a directed graph](https://www.geeksforgeeks.org/find-if-there-is-a-path-between-two-vertices-in-a-given-graph/)
-        - [ ] [Connectivity in a directed graph](https://www.geeksforgeeks.org/connectivity-in-a-directed-graph/)
-        - [ ] [Articulation Points (or Cut Vertices) in a Graph](https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/)
-        - [ ] [Biconnected graph](https://www.geeksforgeeks.org/biconnectivity-in-a-graph/)
-        - [ ] [Bridges in a graph](https://www.geeksforgeeks.org/bridge-in-a-graph/)
-        - [ ] [Eulerian path and circuit](https://www.geeksforgeeks.org/eulerian-path-and-circuit/)
-        - [ ] [Fleury’s Algorithm for printing Eulerian Path or Circuit](https://www.geeksforgeeks.org/fleurys-algorithm-for-printing-eulerian-path/)
-        - [ ] [Strongly Connected Components](https://www.geeksforgeeks.org/strongly-connected-components/)
-        - [ ] [Transitive closure of a graph](https://www.geeksforgeeks.org/transitive-closure-of-a-graph/)
-        - [ ] [Find the number of islands](https://www.geeksforgeeks.org/find-number-of-islands/)
-        - [ ] [Count all possible walks from a source to a destination with exactly k edges](https://www.geeksforgeeks.org/count-possible-paths-source-destination-exactly-k-edges/)
-        - [ ] [Euler Circuit in a Directed Graph](https://www.geeksforgeeks.org/euler-circuit-directed-graph/)
-        - [ ] [Biconnected Components](https://www.geeksforgeeks.org/biconnected-components/)
-        - [ ] [Tarjan’s Algorithm to find Strongly Connected Components](https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/)
-      - [ ] Hard Problems:
-        - [ ] [Graph Coloring (Introduction and Applications)](https://www.geeksforgeeks.org/graph-coloring-applications/)
-        - [ ] [Greedy Algorithm for Graph Coloring](https://www.geeksforgeeks.org/graph-coloring-set-2-greedy-algorithm/)
-        - [ ] [Travelling Salesman Problem (Naive and Dynamic Programming)](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
-        - [ ] [Travelling Salesman Problem (Approximate using MST)](https://www.geeksforgeeks.org/travelling-salesman-problem-set-2-approximate-using-mst/)
-        - [ ] [Hamiltonian Cycle](https://www.geeksforgeeks.org/backtracking-set-7-hamiltonian-cycle/)
-        - [ ] [Vertex Cover Problem (Introduction and Approximate Algorithm)](https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm-2/)
-        - [ ] [K Centers Problem (Greedy Approximate Algorithm)](https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/)
-      - [ ] Maximum Flow:
-        - [ ] [Ford-Fulkerson Algorithm for Maximum Flow Problem](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/)
-        - [ ] [Find maximum number of edge disjoint paths between two vertices](https://www.geeksforgeeks.org/find-edge-disjoint-paths-two-vertices/)
-        - [ ] [Find minimum s-t cut in a flow network](https://www.geeksforgeeks.org/minimum-cut-in-a-directed-graph/)
-        - [ ] [Maximum Bipartite Matching](https://www.geeksforgeeks.org/maximum-bipartite-matching/)
-        - [ ] [Channel Assignment Problem](https://www.geeksforgeeks.org/channel-assignment-problem/)
-    - Heap
-      - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-      - [ ] [Binary Heap](http://geeksquiz.com/binary-heap/)
-      - [ ] [Why is Binary Heap Preferred over BST for Priority Queue?](https://www.geeksforgeeks.org/why-is-binary-heap-preferred-over-bst-for-priority-queue/)
-      - [ ] [Binomial Heap](https://www.geeksforgeeks.org/binomial-heap-2/)
-      - [ ] [Fibonacci Heap](https://www.geeksforgeeks.org/fibonacci-heap-set-1-introduction/)
-      - [ ] [Heap Sort](http://geeksquiz.com/heap-sort/)
-      - [ ] [K’th Largest Element in an array](https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/)
-      - [ ] [Sort an almost sorted array/](https://www.geeksforgeeks.org/nearly-sorted-algorithm/)
-      - [ ] [Tournament Tree (Winner Tree) and Binary Heap](https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/)
-  - Hash table
-    - [ ] [Hash table](https://en.wikipedia.org/wiki/Hash_table)
-    - [ ] [Leetcode: hash table[(https://leetcode.com/explore/learn/card/hash-table/)
-    - [ ] [Hashing Introduction](http://geeksquiz.com/hashing-set-1-introduction/)
-    - [ ] [Separate Chaining for Collision Handling](http://geeksquiz.com/hashing-set-2-separate-chaining/)
-    - [ ] [Open Addressing for Collision Handling](http://geeksquiz.com/hashing-set-3-open-addressing/)
-    - [ ] [Print a Binary Tree in Vertical Order](https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/)
-    - [ ] [Find whether an array is subset of another array](https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/)
-    - [ ] [Union and Intersection of two Linked Lists](https://www.geeksforgeeks.org/union-and-intersection-of-two-linked-lists/)
-    - [ ] [Find a pair with given sum](https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
-    - [ ] [Check if a given array contains duplicate elements within k distance from each other](https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/)
-    - [ ] [Find Itinerary from a given list of tickets](https://www.geeksforgeeks.org/find-itinerary-from-a-given-list-of-tickets/)
-    - [ ] [Find number of Employees Under every Employee](https://www.geeksforgeeks.org/find-number-of-employees-under-every-manager/)
-  - Advanced Data Structures
-    - [ ] Advanced Lists:
-      - [ ] [Memory efficient doubly linked list](https://www.geeksforgeeks.org/memory-efficient-doubly-linked-list/)
-      - [ ] [XOR Linked List – A Memory Efficient Doubly Linked List | Set 1](https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-1/)
-      - [ ] [XOR Linked List – A Memory Efficient Doubly Linked List | Set 2](https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-2/)
-      - [ ] [Skip List | Set 1 (Introduction)](https://www.geeksforgeeks.org/skip-list/)
-      - [ ] [Self Organizing List | Set 1 (Introduction)](https://www.geeksforgeeks.org/self-organizing-list-set-1-introduction/)
-      - [ ] [Unrolled Linked List | Set 1 (Introduction)](https://www.geeksforgeeks.org/unrolled-linked-list-set-1-introduction/)
-    - [ ] Segment Tree:
-      - [ ] [Segment Tree | Set 1 (Sum of given range)](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
-      - [ ] [Segment Tree | Set 2 (Range Minimum Query)](https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/)
-      - [ ] [Lazy Propagation in Segment Tree](https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/)
-      - [ ] [Persistent Segment Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/persistent-segment-tree-set-1-introduction/)
-    - [ ] Trie:
-      - [ ] [Trie | (Insert and Search)](https://www.geeksforgeeks.org/trie-insert-and-search/)
-      - [ ] [Trie | (Delete)](https://www.geeksforgeeks.org/trie-delete/)
-      - [ ] [Longest prefix matching – A Trie based solution in Java](https://www.geeksforgeeks.org/longest-prefix-matching-a-trie-based-solution-in-java/)
-      - [ ] [Print unique rows in a given boolean matrix](https://www.geeksforgeeks.org/print-unique-rows/)
-      - [ ] [How to Implement Reverse DNS Look Up Cache?](https://www.geeksforgeeks.org/implement-reverse-dns-look-cache/)
-      - [ ] [How to Implement Forward DNS Look Up Cache?](https://www.geeksforgeeks.org/implement-forward-dns-look-cache/)
-    - [ ] Binary Indexed Tree:
-      - [ ] [Binary Indexed Tree](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
-      - [ ] [Two Dimensional Binary Indexed Tree or Fenwick Tree](https://www.geeksforgeeks.org/two-dimensional-binary-indexed-tree-or-fenwick-tree/)
-      - [ ] [Binary Indexed Tree : Range Updates and Point Queries](https://www.geeksforgeeks.org/binary-indexed-tree-range-updates-point-queries/)
-      - [ ] [Binary Indexed Tree : Range Update and Range Queries](https://www.geeksforgeeks.org/binary-indexed-tree-range-update-range-queries/)
-    - [ ] Suffix Array and Suffix Tree:
-      - [ ] [Suffix Array Introduction](https://www.geeksforgeeks.org/suffix-array-set-1-introduction/)
-      - [ ] [Suffix Array nLogn Algorithm](https://www.geeksforgeeks.org/suffix-array-set-2-a-nlognlogn-algorithm/)
-      - [ ] [kasai’s Algorithm for Construction of LCP array from Suffix Array](https://www.geeksforgeeks.org/%c2%ad%c2%adkasais-algorithm-for-construction-of-lcp-array-from-suffix-array/)
-      - [ ] [Suffix Tree Introduction](https://www.geeksforgeeks.org/pattern-searching-set-8-suffix-tree-introduction/)
-      - [ ] [Ukkonen’s Suffix Tree Construction – Part 1](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/)
-      - [ ] [Ukkonen’s Suffix Tree Construction – Part 2](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/)
-      - [ ] [Ukkonen’s Suffix Tree Construction – Part 3](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-3/)
-      - [ ] [Ukkonen’s Suffix Tree Construction – Part 4](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-4/)
-      - [ ] [Ukkonen’s Suffix Tree Construction – Part 5](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-5/)
-      - [ ] [Ukkonen’s Suffix Tree Construction – Part 6](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-6/)
-      - [ ] [Generalized Suffix Tree](https://www.geeksforgeeks.org/generalized-suffix-tree-1/)
-      - [ ] [Build Linear Time Suffix Array using Suffix Tree](https://www.geeksforgeeks.org/suffix-tree-application-4-build-linear-time-suffix-array/)
-      - [ ] [Substring Check](https://www.geeksforgeeks.org/suffix-tree-application-1-substring-check/)
-      - [ ] [Searching All Patterns](https://www.geeksforgeeks.org/suffix-tree-application-2-searching-all-patterns/)
-      - [ ] [Longest Repeated Substring,](https://www.geeksforgeeks.org/suffix-tree-application-3-longest-repeated-substring/)
-      - [ ] [Longest Common Substring, Longest Palindromic Substring](https://www.geeksforgeeks.org/suffix-tree-application-6-longest-palindromic-substring/)
-    - [ ] AVL Tree:
-      - [ ] [AVL Tree | Set 1 (Insertion)](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/)
-      - [ ] [AVL Tree | Set 2 (Deletion)](https://www.geeksforgeeks.org/avl-tree-set-2-deletion/)
-      - [ ] [AVL with duplicate keys](http://geeksquiz.com/avl-with-duplicate-keys/)
-    - [ ] Splay Tree:
-      - [ ] [Splay Tree | Set 1 (Search)](https://www.geeksforgeeks.org/splay-tree-set-1-insert/)
-      - [ ] [Splay Tree | Set 2 (Insert)](https://www.geeksforgeeks.org/splay-tree-set-2-insert-delete/)
-    - [ ] B Tree:
-      - [ ] [B-Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/)
-      - [ ] [B-Tree | Set 2 (Insert)](https://www.geeksforgeeks.org/b-tree-set-1-insert-2/)
-      - [ ] [B-Tree | Set 3 (Delete)](https://www.geeksforgeeks.org/b-tree-set-3delete/)
-    - [ ] Red-Black Tree:
-      - [ ] [Red-Black Tree Introduction](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)
-      - [ ] [Red Black Tree Insertion](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/)
-      - [ ] [Red-Black Tree Deletion](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)
-      - [ ] [Program for Red Black Tree Insertion ](http://geeksquiz.com/c-program-red-black-tree-insertion/)
-    - [ ] K Dimensional Tree:
-      - [ ] [KD Tree (Search and Insert)](https://www.geeksforgeeks.org/k-dimensional-tree/)
-      - [ ] [K D Tree (Find Minimum)](https://www.geeksforgeeks.org/k-dimensional-tree-set-2-find-minimum/)
-      - [ ] [K D Tree (Delete)](https://www.geeksforgeeks.org/k-dimensional-tree-set-3-delete/)
-    - [ ] Others:
-      - [ ] [Treap (A Randomized Binary Search Tree)](https://www.geeksforgeeks.org/treap-a-randomized-binary-search-tree/)
-      - [ ] [Ternary Search Tree](https://www.geeksforgeeks.org/ternary-search-tree/)
-      - [ ] [Interval Tree](https://www.geeksforgeeks.org/interval-tree/)
-      - [ ] [Implement LRU Cache](https://www.geeksforgeeks.org/implement-lru-cache/)
-      - [ ] [Sort numbers stored on different machines](https://www.geeksforgeeks.org/sort-numbers-stored-on-different-machines/)
-      - [ ] [Find the k most frequent words from a file](https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/)
-      - [ ] [Given a sequence of words, print all anagrams together](https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together-set-2/)
-      - [ ] [Tournament Tree (Winner Tree) and Binary Heap](https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/)
-      - [ ] [Decision Trees – Fake (Counterfeit) Coin Puzzle (12 Coin Puzzle)](https://www.geeksforgeeks.org/decision-trees-fake-coin-puzzle/)
-      - [ ] [Spaghetti Stack](https://www.geeksforgeeks.org/g-fact-87/)
-      - [ ] [Data Structure for Dictionary and Spell Checker?](https://www.geeksforgeeks.org/data-structure-dictionary-spell-checker/)
-      - [ ] [Cartesian Tree](https://www.geeksforgeeks.org/cartesian-tree/)
-      - [ ] [Cartesian Tree Sorting](https://www.geeksforgeeks.org/cartesian-tree-sorting/)
-      - [ ] [Sparse Set](https://www.geeksforgeeks.org/sparse-set/)
-      - [ ] [Centroid Decomposition of Tree](https://www.geeksforgeeks.org/centroid-decomposition-of-tree/)
-      - [ ] [Gomory-Hu Tree](https://www.geeksforgeeks.org/gomory-hu-tree-introduction/)
+ 

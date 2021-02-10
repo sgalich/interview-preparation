@@ -1,4 +1,5 @@
 - ABOUT
+  - [x] 📗 [medium: some useful advices how to prepare](https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f)
   - [x] [1](https://medium.com/@m_mcclarty/data-engineering-interview-guide-7a14d10887dd)
   - [x] [2](https://www.freecodecamp.org/news/software-engineering-interviews-744380f4f2af/)
   - [ ] [4](https://www.guru99.com/data-engineer-interview-questions.html)

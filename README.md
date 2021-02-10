@@ -1,4 +1,4 @@
-# ⚡ MY INTERVIEW PREPARATION PLAN ⚡
+# ⚡ SOFTWARE ENGINEER PREPARATION PLAN ⚡
 
 This is my homepage for preparation to a software engineer interview.
   - [ABOUT](https://github.com/sgalich/interview-preparation/blob/main/0_about.md) <- container for all unsorted materials.
@@ -20,6 +20,18 @@ This is my homepage for preparation to a software engineer interview.
     - a particular clause: ```Cmd```+```Option (⌥)```+```[```
   - Here is how do I use these nested lists: ![](https://github.com/sgalich/interview-preparation/blob/main/overview.png)
   - **Bolded** are essential topics for an interview!
+  - Difficulty level
+    - 📕 - hard
+    - 📙 - middle
+    - 📗 - easy
+    - 📚 - messy
+    - ??? - I think I should remove it (useless for our purposes or duplicate)
+  -  Algorithms implementing
+    - 🌕 - practice as much as you can
+    - 🌖 - practice hard
+    - 🌗 - practice sometimes
+    - 🌘 - practice or skip
+    - 🌑 - already OK with this
 
 Good luck! And remember –
 > Consistency is the key to success

@@ -1,11 +1,14 @@
-🎛️ 🤔 II. SYSTEM DESIGN
+II. SYSTEM DESIGN
 
 - ABOUT
-  - [x] [Wiki: Systems_design](https://en.wikipedia.org/wiki/Systems_design)
+  - [x] ??? [Wiki: Systems_design](https://en.wikipedia.org/wiki/Systems_design)
   - [x] [Wiki: System_architecture](https://en.wikipedia.org/wiki/System_architecture)
   - [x] [2](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
   - [x] ??? [3](https://towardsdatascience.com/system-design-101-b8f15162ef7c)
-  - [ ] [freecodecamp](https://www.freecodecamp.org/news/systems-design-for-interviews/)
+  - [x] 📙 [freecodecamp](https://www.freecodecamp.org/news/systems-design-for-interviews/)
+  - [ ] 📚 [github: system design prep](https://github.com/donnemartin/system-design-primer)
+  - [ ] 📗 [some patterns](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
+  - [ ] 📕 [enterpriseintegrationpatterns.com](https://www.enterpriseintegrationpatterns.com/patterns/messaging/)
   - [x] ??? [medium: Client-Server Architecture](https://towardsdatascience.com/system-design-basics-getting-started-with-the-client-server-architecture-b02f9c9daae8)
   - [ ] [Software Design Principles for Evolving Achitectures](http://www.firatatagun.com/blog/2016/01/08/software-design-principles-for-evolving-architectures/)
   - [ ] [Ultimate guide for evolving architectures](http://www.firatatagun.com/blog/2016/01/05/ultimate-guide-for-evolving-architectures/)
@@ -267,7 +270,7 @@
         - [ ] [continuous test](https://en.wikipedia.org/wiki/Continuous_testing)
         - [ ] [A pattern language for software debugging, 2006]()
   - Misc: (Weibull, Lognormal, Exponential, etc.), life data (or survival) analysis, and reliability modeling
-- REQUIREMENTS
+- 1️⃣ REQUIREMENTS
   - About
     - [x] [Requirements engineering](https://en.wikipedia.org/wiki/Requirements_engineering)
   - Functional requirements
@@ -277,6 +280,115 @@
     - About
       - [ ] [Wiki](https://en.wikipedia.org/wiki/Non-functional_requirement)
       - [ ] [Architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements)
+    - Accessibility
+    - Adaptability
+    - Auditability and control
+    - **Availability**
+      - About
+        - [ ] [Wiki](https://en.wikipedia.org/wiki/Availability)
+        - [ ] [Service level agreement (SLA)](https://en.wikipedia.org/wiki/Service_level_agreement)
+        - [ ] [medium: How to Measure Availability in Distributed Systems](https://towardsdatascience.com/availability-in-distributed-systems-adb43df78b9a)
+      - Redundancy
+        - [ ] [wiki: Redundancy](https://en.wikipedia.org/wiki/Redundancy_(engineering))
+    - Backup
+      - [ ] [Backup](https://en.wikipedia.org/wiki/Backup)
+    - Capacity
+      - [ ] [Capacity](https://en.wikipedia.org/wiki/System_capacity)
+    - Certification
+    - Compatibility
+      - [ ] [wiki: Compatibility](https://en.wikipedia.org/wiki/Backward_compatibility)
+    - Compliance
+    - Configuration management
+      - [ ] [Configuration management](https://en.wikipedia.org/wiki/Configuration_management)
+    - **Cost**
+      - About
+        - [ ] [wiki: Life-cycle cost](https://en.wikipedia.org/wiki/Life-cycle_cost)
+    - Data integrity
+      - [ ] [Data integrity](https://en.wikipedia.org/wiki/Data_integrity)
+    - Data retention
+      - [ ] [Data retention](https://en.wikipedia.org/wiki/Data_retention)
+    - Dependency on other parties
+    - Deployment
+      - [ ] [Deployment](https://en.wikipedia.org/wiki/Software_deployment)
+    - Development environment
+      - [ ] [Development environment](https://en.wikipedia.org/wiki/Development_environment)
+    - Disaster recovery
+      - [ ] [Disaster recovery](https://en.wikipedia.org/wiki/Disaster_recovery)
+    - Documentation
+    - Durability
+      - About
+        - [ ] [Durability](https://en.wikipedia.org/wiki/Durability)
+    - Efficiency (resource consumption for given load)
+    - Effectiveness (resulting performance in relation to effort)
+    - Elasticity
+      - [ ] [Elasticity](https://en.wikipedia.org/wiki/Elasticity_(cloud_computing))
+    - Emotional factors
+      - like fun or absorbing or has "Wow! Factor"
+    - Environmental protection
+    - Escrow
+      - [ ] [wiki: Escrow](https://en.wikipedia.org/wiki/Source_code_escrow)
+    - Exploitability
+    - Extensibility
+      - adding features, and carry-forward of customizations at next major version upgrade
+      - [ ] [wiki: Extensibility](https://en.wikipedia.org/wiki/Extensibility)
+    - Failure management
+    - Fault tolerance
+      - e.g. Operational System Monitoring, Measuring, and Management
+      - [ ] [wiki: Fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance) 
+    - Flexibility
+      - e.g. to deal with future changes in requirements
+    - Integrability
+      - [ ] [wiki: Integrability](https://en.wikipedia.org/wiki/System_integration) ability to integrate components
+    - Internationalization and localization
+      - [ ] [wiki: Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
+    - Interoperability
+      - [ ] [wiki: Interoperability](https://en.wikipedia.org/wiki/Interoperability)
+    - Legal and licensing issues or patent-infringement-avoidability
+      - [ ] Legal and [wiki: licensing](https://en.wikipedia.org/wiki/Software_license_agreement)
+    - Maintainability
+      - About
+        - [ ] [Maintainability](https://en.wikipedia.org/wiki/Maintainability)
+        - e.g. Mean Time to Repair - MTTR
+    - Manageability
+    - Modifiability
+    - Network topology
+      - [ ] [wiki: Network topology](https://en.wikipedia.org/wiki/Network_topology)
+    - Open source
+      - [ ] [wiki: Open source](https://en.wikipedia.org/wiki/Open_source)
+    - Operability
+      - [ ] [wiki: Operability](https://en.wikipedia.org/wiki/Operability)
+    - **Performance (response time)**
+      - [ ] [wiki: Performance](https://en.wikipedia.org/wiki/Computer_performance)
+      - [ ] [wiki: performance engineering](https://en.wikipedia.org/wiki/Performance_engineering)
+      - [ ] [wiki: Response time](https://en.wikipedia.org/wiki/Response_Time#Data_processing)
+      - [ ] [wiki: Latency](https://en.wikipedia.org/wiki/Latency_(engineering))
+    - Platform compatibility
+      - [ ] [wiki: Platform](https://en.wikipedia.org/wiki/Platform_(computing))
+    - Privacy
+      - [ ] [wiki: Privacy](https://en.wikipedia.org/wiki/Privacy)
+      - [ ] [wiki: privacy laws](https://en.wikipedia.org/wiki/Privacy_law))
+    - Portability
+      - [ ] [wiki: Portability](https://en.wikipedia.org/wiki/Software_portability)
+    - Quality
+      - e.g. faults discovered, faults delivered, fault removal efficacy
+      - [ ] [wiki: Quality](https://en.wikipedia.org/wiki/Quality_(business))
+    - Readability
+      - [ ] [wiki: Readability](https://en.wikipedia.org/wiki/Computer_programming#Readability_of_source_code)
+    - Reliability
+      - Mean Time Between/to Failures - MTBF/MTTF
+      - [ ] [wiki: Reliability](https://en.wikipedia.org/wiki/Reliability_engineering)
+    - Reporting
+    - Resilience
+      - [ ] [wiki: Resilience](https://en.wikipedia.org/wiki/Resilience_(network))
+    - Resource constraints
+      - processor speed, memory, disk space, network bandwidth, etc.
+    - Reusability
+      - [ ] [wiki: Reusability](https://en.wikipedia.org/wiki/Reusability)
+    - Robustness
+      - [ ] [wiki: Robustness](https://en.wikipedia.org/wiki/Robustness_(computer_science))
+    - Safety
+      - [ ] [wiki: Safety](https://en.wikipedia.org/wiki/Safety) or 
+      - [ ] [wiki: factor of safety](https://en.wikipedia.org/wiki/Factor_of_safety)
     - **Scalability**
       - About
         - [ ] [Wiki](https://en.wikipedia.org/wiki/Scalability)
@@ -303,117 +415,9 @@
       - Bottlenecks
         - handling a lot of users
         - handling a lot of data
-    - **Availability**
-      - About
-        - [ ] [Wiki](https://en.wikipedia.org/wiki/Availability)
-        - [ ] [Service level agreement (SLA)](https://en.wikipedia.org/wiki/Service_level_agreement)
-        - [ ] [medium: How to Measure Availability in Distributed Systems](https://towardsdatascience.com/availability-in-distributed-systems-adb43df78b9a)
-    - Performance
-    - Durability
-      - About
-        - [ ] [Durability](https://en.wikipedia.org/wiki/Durability)
-    - Maintainability
-      - About
-        - [ ] [Maintainability](https://en.wikipedia.org/wiki/Maintainability)
-    - Life-cycle cost
-      - About
-        - [ ] [Life-cycle cost](https://en.wikipedia.org/wiki/Life-cycle_cost)
     - Security
       - About
         - [Wiki](https://en.wikipedia.org/wiki/Computer_security)
-    - Accessibility
-    - Adaptability
-    - Auditability and control
-    - Backup
-      - [ ] [Backup](https://en.wikipedia.org/wiki/Backup)
-    - Capacity
-      - [ ] [Capacity](https://en.wikipedia.org/wiki/System_capacity)
-    - Certification
-    - Compliance
-    - Configuration management
-      - [ ] [Configuration management](https://en.wikipedia.org/wiki/Configuration_management)
-    - Data integrity
-      - [ ] [Data integrity](https://en.wikipedia.org/wiki/Data_integrity)
-    - Data retention
-      - [ ] [Data retention](https://en.wikipedia.org/wiki/Data_retention)
-    - Dependency on other parties
-    - Deployment
-      - [ ] [Deployment](https://en.wikipedia.org/wiki/Software_deployment)
-    - Development environment
-      - [ ] [Development environment](https://en.wikipedia.org/wiki/Development_environment)
-    - Disaster recovery
-      - [ ] [Disaster recovery](https://en.wikipedia.org/wiki/Disaster_recovery)
-    - Documentation
-    - Efficiency (resource consumption for given load)
-    - Effectiveness (resulting performance in relation to effort)
-    - Elasticity
-      - [ ] [Elasticity](https://en.wikipedia.org/wiki/Elasticity_(cloud_computing))
-    - Emotional factors (like fun or absorbing or has "Wow! Factor")
-    - Environmental protection
-    - Escrow
-      - [ ] [wiki: Escrow](https://en.wikipedia.org/wiki/Source_code_escrow)
-    - Exploitability
-    - Extensibility
-      - adding features, and carry-forward of customizations at next major version upgrade
-      - [ ] [wiki: Extensibility](https://en.wikipedia.org/wiki/Extensibility)
-    - Failure management
-    - Fault tolerance
-      - e.g. Operational System Monitoring, Measuring, and Management
-      - [ ] [wiki: Fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance) 
-    - Flexibility (e.g. to deal with future changes in requirements)
-    - Integrability
-      - [ ] [wiki: Integrability](https://en.wikipedia.org/wiki/System_integration) ability to integrate components
-    - Internationalization and localization
-      - [ ] [wiki: Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
-    - Interoperability
-      - [ ] [wiki: Interoperability](https://en.wikipedia.org/wiki/Interoperability)
-    - Legal and licensing issues or patent-infringement-avoidability
-      - [ ] Legal and [wiki: licensing](https://en.wikipedia.org/wiki/Software_license_agreement)
-    - Maintainability
-      - e.g. Mean Time to Repair - MTTR
-    - Management
-    - Modifiability
-    - Network topology
-      - [ ] [wiki: Network topology](https://en.wikipedia.org/wiki/Network_topology)
-    - Open source
-      - [ ] [wiki: Open source](https://en.wikipedia.org/wiki/Open_source)
-    - Operability
-      - [ ] [wiki: Operability](https://en.wikipedia.org/wiki/Operability)
-    - Performance/response time
-      - [ ] [wiki: Performance](https://en.wikipedia.org/wiki/Computer_performance)
-      - [ ] [wiki: performance engineering](https://en.wikipedia.org/wiki/Performance_engineering)
-    - Platform compatibility
-      - [ ] [wiki: Platform](https://en.wikipedia.org/wiki/Platform_(computing))
-    - Privacy
-      - [ ] [wiki: Privacy](https://en.wikipedia.org/wiki/Privacy)
-      - [ ] [wiki: privacy laws](https://en.wikipedia.org/wiki/Privacy_law))
-    - Portability
-      - [ ] [wiki: Portability](https://en.wikipedia.org/wiki/Software_portability)
-    - Quality
-      - e.g. faults discovered, faults delivered, fault removal efficacy
-      - [ ] [wiki: Quality](https://en.wikipedia.org/wiki/Quality_(business))
-    - Readability
-      - [ ] [wiki: Readability](https://en.wikipedia.org/wiki/Computer_programming#Readability_of_source_code)
-    - Reliability
-      - Mean Time Between/to Failures - MTBF/MTTF
-      - [ ] [wiki: Reliability](https://en.wikipedia.org/wiki/Reliability_engineering)
-    - Reporting
-    - Resilience
-      - [ ] [wiki: Resilience](https://en.wikipedia.org/wiki/Resilience_(network))
-    - Resource constraints
-      - processor speed, memory, disk space, network bandwidth, etc.
-    - Response time
-      - [ ] [wiki: Response time](https://en.wikipedia.org/wiki/Response_Time#Data_processing)
-      - [ ] [wiki: Latency](https://en.wikipedia.org/wiki/Latency_(engineering))
-    - Reusability
-      - [ ] [wiki: Reusability](https://en.wikipedia.org/wiki/Reusability)
-    - Robustness
-      - [ ] [wiki: Robustness](https://en.wikipedia.org/wiki/Robustness_(computer_science))
-    - Safety
-      - [ ] [wiki: Safety](https://en.wikipedia.org/wiki/Safety) or 
-      - [ ] [wiki: factor of safety](https://en.wikipedia.org/wiki/Factor_of_safety)
-    - Compatibility
-      - [ ] [wiki: Compatibility](https://en.wikipedia.org/wiki/Backward_compatibility)
     - Stability
       - [ ] [wiki: Stability](https://en.wikipedia.org/wiki/Stability_Model)
     - Supportability
@@ -428,17 +432,16 @@
       - [ ] [wiki: Usability](https://en.wikipedia.org/wiki/Usability) (human factors) by target user community
     - Volume
       - [ ] [wiki: Volume](https://en.wikipedia.org/wiki/Volume_testing)
-- COMPONENTS
+- 2️⃣ COMPONENTS
   - About
     - https://en.wikipedia.org/wiki/Bloom_filter
-  - Cache
-    - About
-      - [ ] [medium](https://towardsdatascience.com/system-design-basics-getting-started-with-caching-c2c3e934064a)
-      - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/3j6NnJrpp5p)
-      - memcached
-  - **Database**
+    - https://en.wikipedia.org/wiki/Leader_election
+    - https://en.wikipedia.org/wiki/Consensus_(computer_science)
+    - [ ] [very nice presentation](https://www.slideshare.net/jboner/scalability-availability-stability-patterns/51-Partitioning)
+  - **DATABASE**
     - About
       - [x] [DB overview](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc)
+      - [ ] [SQL vs. NoSQL](https://www.sitepoint.com/asynchronous-programming-using-async-await-in-c/)
       - [ ] [Wiki: Data management](https://en.wikipedia.org/wiki/Data_management)
       - [ ] [Wiki: dynamic data](https://en.wikipedia.org/wiki/Dynamic_data)
       - [ ] [wiki: codd's 12 rules](https://en.wikipedia.org/wiki/Codd%27s_12_rules)
@@ -534,18 +537,25 @@
           - [ ] [](https://en.wikipedia.org/wiki/Data_mart)
       - [ ] [wiki](https://en.wikipedia.org/wiki/Block_Range_Index)
       - [ ] [wiki](https://en.wikipedia.org/wiki/CAP_theorem)
-    - Database Replication
+    - Failover
+      - ✅: Reliability, Availability, Fault Tolerance, Accessibility
+      - ❌: ?
+    - **Replication**
       - About
         - [x] [wiki: replication](https://en.wikipedia.org/wiki/Replication_(computing)#DATABASE)
-      - ```+```: reliability, availability (?), fault tolerance, accessibility
-      - ```-```: response time
+      - ✅: reliability, Availability (?), fault tolerance, accessibility
+      - ❌: Performance
       - Multi-master
         - [ ] [wiki: Multi-master replication](https://en.wikipedia.org/wiki/Multi-master_replication)
       - Master-slave
         - [ ] [wiki: Master/slave](https://en.wikipedia.org/wiki/Master/slave_(technology)#Master/replica)
-    - Database Partitioning
+      - Tree replication
+      - Buddy replication
+    - **Partitioning**
       - About
         - [x] [Wiki: db partitioning](https://en.wikipedia.org/wiki/Partition_(database))
+      - ✅: Manageability, Performance, Availability
+      - ❌: ?
       - Horizontal (Shard)
         - [ ] [Wiki: shard](https://en.wikipedia.org/wiki/Shard_(database_architecture))
         - Partition criteria
@@ -557,12 +567,20 @@
           - Hash partitioning
       - Vertical (Normalization)
         - [ ] [Wiki: normalization](https://en.wikipedia.org/wiki/Database_normalization)
+    - Indexing realtional db
+      - ✅: Performance (reading)
+      - ❌: Performance (writing)
+      - [ ] [MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_b_tree)
+      - [ ] [stackoverflow](https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql)
+    - **Cache**
+      - About
+        - [ ] [medium](https://towardsdatascience.com/system-design-basics-getting-started-with-caching-c2c3e934064a)
+        - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/3j6NnJrpp5p)
+      - ✅: Performance
+      - ❌: Cost
     - Tech Stack
       - Relational
         - About
-          - Indexing
-            - [ ] [MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_b_tree)
-            - [ ] [stackoverflow](https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql)
           - How companies work with relational db
             - [ ] [How Twitter used to store 250 million tweets a day some years ago](http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html)
             - [ ] [How Facebook made MySql scale](https://gigaom.com/2011/12/06/facebook-shares-some-secrets-on-making-mysql-scale/)
@@ -588,6 +606,7 @@
           - Apache HBase, Cassandra
         - Key-Value Store
           - Redis, Amazon DynamoDB, Memcached
+          - [etcd](https://etcd.io)
         - Graph
           - neo4J, OrientDB, Titan
         - Document-Oriented Database
@@ -711,6 +730,8 @@
         - performance analysis
         - ! Bash language
     - Application
+      - Logging
+      - Monitoring
       - Git
       - Regex
       - [ ] [Wiki](https://en.wikipedia.org/wiki/Regular_expression)
@@ -736,16 +757,34 @@
   - Network
     - About
       - [ ] [seems nice](https://www.cloudflare.com/learning/)
+      - https://hpbn.co
       - REST API
-      - UDP, TCP, SSL, HTTP/HTTPS, IP, Http2 + bundling/sprites
-      - DNS
+      - UDP
+      - TCP, SSL, HTTP/HTTPS, IP, Http2 + bundling/sprites
+      - TLS
+      - Messaging & Pub-Sub
       - [ ] [wiki/Point_of_presence](https://en.wikipedia.org/wiki/Point_of_presence)
       - [ ] [Convolutional neural network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
       - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/gx7wZzWn5Vj)
       - Content Delivery Network
         - AWS S3
         - Cloudfront
-- PRACTICE
+    - DNS
+      - About
+        - [ ] [wiki: DNS](https://en.wikipedia.org/wiki/Domain_Name_System)
+    - CDN
+      - About
+        - [ ] [Globally distributed content delivery, 1998](https://figshare.com/articles/journal_contribution/Globally_distributed_content_delivery/6605972)
+        - [ ] [1](http://www.travelblogadvice.com/technical/the-differences-between-push-and-pull-cdns/)
+        - [ ] [wiki: CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
+      - ✅: Perfomance, Availability (worldwide)
+      - ❌: Cost
+    - Polling
+    - Streaming
+      - About
+        - Sockets
+      - 💡: Apache Kafka, RabbitMQ, Google Cloud Pub/Sub, AWS SNS/SQS 
+- 3️⃣ PRACTICE
   - About
     - [x] [Images handling at Kraken.io](http://highscalability.com/blog/2016/6/15/the-image-optimization-technology-that-serves-millions-of-re.html)
   - Design a...
@@ -754,6 +793,7 @@
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/08/system-design-interview-question-create-tinyurl-system/)
       - [ ] [medium](https://towardsdatascience.com/system-design-of-url-shortening-service-b325b18c8f88?source=your_stories_page-------------------------------------)
       - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR)
+      - [ ] [github](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md)
     - car park ticketing system
     - chat messenger
     - Twitter
