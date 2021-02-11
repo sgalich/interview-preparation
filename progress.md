@@ -2,12 +2,12 @@
 
 ## My LeetCode
 
-    | Level  | Problem solved |
-    |-------------------------|
-    | Easy   |             99 |
-    | Medium |             58 |
-    | Hard   |              5 |
-    | TOTAL  |            162 |
+| Level  | Problems solved |
+|--------|-----------------|
+| Easy   |              99 |
+| Medium |              58 |
+| Hard   |               5 |
+| TOTAL  |             162 |
 
 ## My interviews
 

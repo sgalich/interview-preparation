@@ -131,6 +131,10 @@
     - [ ] [Maximum sum such that no two elements are adjacent](https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
     - [ ] [Sort elements by frequency | Set 1](https://www.geeksforgeeks.org/sort-elements-by-frequency/)
     - [ ] [Count Inversions in an array](https://www.geeksforgeeks.org/counting-inversions/)
+    - [ ] Suffix Array:
+      - [ ] [Suffix Array Introduction](https://www.geeksforgeeks.org/suffix-array-set-1-introduction/)
+      - [ ] [Suffix Array nLogn Algorithm](https://www.geeksforgeeks.org/suffix-array-set-2-a-nlognlogn-algorithm/)
+      - [ ] [kasai’s Algorithm for Construction of LCP array from Suffix Array](https://www.geeksforgeeks.org/%c2%ad%c2%adkasais-algorithm-for-construction-of-lcp-array-from-suffix-array/)
     - Searching & sorting
       - [ ] [random implementation](https://docs.python.org/3/library/bisect.html)
       - [ ] [g4g: Introduction](https://www.geeksforgeeks.org/divide-and-conquer-set-1-find-closest-pair-of-points/)
@@ -167,17 +171,17 @@
       - [ ] [Why Quick Sort preferred for Arrays and Merge Sort for Linked Lists?](https://www.geeksforgeeks.org/why-quick-sort-preferred-for-arrays-and-merge-sort-for-linked-lists/)
       - [ ] [Merge Sort for Doubly Linked List](https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
       - [ ] [Minimum adjacent swaps to move maximum and minimum to corners](https://www.geeksforgeeks.org/minimum-adjacent-swaps-to-move-maximum-and-minimum-to-corners/)
-  - **🔎 Search**
+  - 🔎 **Search**
     - About
       - [x] 📗 [stackabuse.com: Search Algorithms in Python](https://stackabuse.com/search-algorithms-in-python/)
-    - **🌑 Linear Search**
+    - 🌑 **Linear Search**
       - About
         - [x] [g4g](http://quiz.geeksforgeeks.org/linear-search/)
         - [ ] [wiki: linear search](https://en.wikipedia.org/wiki/Linear_search)
       - Time: ```O(n)```
       - Space: ```O(1)```
       - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/search/linear.py)
-    - **🌕 Binary Search**
+    - 🌕 **Binary Search**
       - About
         - [x] [g4g](http://geeksquiz.com/binary-search/)
         - [ ] [wiki: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
@@ -286,14 +290,14 @@
         - [ ] [wiki: Comb_sort](https://en.wikipedia.org/wiki/Comb_sort)
         - [ ] [wiki: Gnome_sort](https://en.wikipedia.org/wiki/Gnome_sort)
         - UnShuffle Sort, Franceschini's method
-      - **🌗 Selection Sort**
+      - 🌗 **Selection Sort**
         - About
           - [x] [g4g: Selection sort](http://geeksquiz.com/selection-sort/)
           - [ ] [wiki: Selection sort](https://en.wikipedia.org/wiki/Selection_sort)
         - Time: ```O(n^2)```
         - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/selection_sort.py)
-      - **🌗 Insertion Sort**
+      - 🌗 **Insertion Sort**
         - About
           - [x] [g4g: Insertion sort](http://geeksquiz.com/insertion-sort/)
           - [ ] [wiki: Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort)
@@ -307,14 +311,14 @@
           - Space: ```O(1)```
           - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/binary_insertion_sort.py)
           - ??? Still ```O(n^2)``` - why? because of the insertions (as I understood). But: ```iteration (n) + search (log(n)) + insert (n^2 ???) = O(n*log(n)*n) = O(n^2)```)
-      - **🌑 Bubble Sort**
+      - 🌑 **Bubble Sort**
         - About
           - [x] [g4g: Bubble sort](http://geeksquiz.com/bubble-sort/)
           - [x] [wiki: Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
         - Time: ```O(n) - O(n^2)```
         - Space: ```O(1)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/bubble_sort.py)
-      - **🌕 Merge Sort**
+      - 🌕 **Merge Sort**
         - About
           - [x] [g4g: Merge sort](http://geeksquiz.com/merge-sort/)
           - [x] [g4g: Merge sort vs. Insertion sort](https://www.geeksforgeeks.org/merge-sort-vs-insertion-sort/?ref=rp)
@@ -336,7 +340,7 @@
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/tim_sort.py)
         - Used by Python's ```sorted()``` function, + Android, Java
         - Hybrid of Mergesort and Insertion Sort
-      - **🌖 QuickSort**
+      - 🌖 **QuickSort**
         - About
           - [x] [Wiki: QuickSort](https://en.wikipedia.org/wiki/Quicksort)
           - [x] [g4g](http://geeksquiz.com/quick-sort/)
@@ -356,7 +360,7 @@
           - Adaptive: yes
           - [ ] [implemented]()
           - Better for arrays with redundant elements: ```[1, 4, 2, 4, 2, 4, 1, 2, 4, 1, 2, 2, 2, 2, 4, 1, 4, 4, 4]```
-      - **🌕 Heap Sort**
+      - 🌕 **Heap Sort**
         - About
           - [ ] [g4g: HeapSort](http://geeksquiz.com/heap-sort/)
           - [ ] [wiki: HeapSort](https://en.wikipedia.org/wiki/Heapsort)
@@ -433,21 +437,21 @@
         - https://en.wikipedia.org/wiki/Bead_sort
         - https://en.wikipedia.org/wiki/Pancake_sorting
         - https://en.wikipedia.org/wiki/Spaghetti_sort
-      - **🌕 Counting Sort**
+      - 🌕 **Counting Sort**
         - About
           - [x] [g4g: Counting sort](https://www.geeksforgeeks.org/counting-sort/)   
           - [x] [wiki: Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
         - Time: ```O(n + k), where k is the range of the non-negative key values```
         - Space: ```O(n + k)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/counting_sort.py)
-      - **🌕 Radix Sort**
+      - 🌕 **Radix Sort**
         - About
           - [x] [g4g: Radix sort](https://www.geeksforgeeks.org/radix-sort/)
           - [x] [wiki: Radix sort](https://en.wikipedia.org/wiki/Radix_sort#Least_significant_digit_radix_sorts)
         - Time: ```O(n * k), where k is the number of bits required to store each key.```
         - Space: ```O(n + k)```
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/radix_sort.py)
-      - **🌕 Bucket Sort**
+      - 🌕 **Bucket Sort**
         - About
           - [ ] [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
           - [ ] [g4g](https://www.geeksforgeeks.org/bucket-sort-2/)
@@ -476,7 +480,7 @@
         - Time: ```O()```
         - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
-  - **🪄 Dynamic programming**
+  - 🪄 **Dynamic programming**
     - Sliding window
     - [ ] [medium: Intuition behind Largest Subsequence Problems](https://medium.com/@yashgirdhar/intuition-behind-largest-subsequence-problems-3f82c8b4ba41)]
     - [ ] [g4g: Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
@@ -598,8 +602,9 @@
     - [ ] [Merge Sort for Doubly Linked List](https://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
 - 4️⃣ QUEUE & STACK
   - About
-    - [x] [Leetcode](https://leetcode.com/explore/learn/card/queue-stack)
-    - [x] https://leetcode.com/problems/target-sum/solution/
+    - [x] 📗 [Leetcode](https://leetcode.com/explore/learn/card/queue-stack)
+    - Problems
+      - [x] 📕 [LC 494. Target Sum](https://leetcode.com/problems/target-sum/solution/)
   - Stack
     - [ ] [Geeksforgeeks: Introduction to Stack](http://geeksquiz.com/stack-set-1/)
     - [ ] [Geeksforgeeks: Infix to Postfix Conversion using Stack](http://geeksquiz.com/stack-set-2-infix-to-postfix/)
@@ -630,179 +635,265 @@
     - [ ] [Geeksforgeeks: How to efficiently implement k Queues in a single array?](https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/)
 - 5️⃣ TREES
   - About
-    - [ ] 📙 [Leetcode 1](https://leetcode.com/explore/learn/card/data-structure-tree/)
-    - [ ] [Leetcode 2](https://leetcode.com/explore/learn/card/n-ary-tree/)
-    - [ ] [Leetcode 3](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/)
-    - [ ] [Leetcode 4](https://leetcode.com/explore/learn/card/trie)
-    - [ ] [Leetcode 5](https://leetcode.com/explore/learn/card/decision-tree/)
-    - [ ] [Leetcode 6](https://leetcode.com/problems/implement-trie-prefix-tree/)
+    - [ ] 📙 [wiki: Tree](https://en.wikipedia.org/wiki/Tree_(data_structure))
+    - [ ] 📕 [lc 1](https://leetcode.com/explore/learn/card/data-structure-tree/)
+    - [ ] [lc 2](https://leetcode.com/explore/learn/card/n-ary-tree/)
+    - [ ] [lc 3](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/)
+    - [ ] [lc 4](https://leetcode.com/explore/learn/card/trie)
+    - [ ] [lc 5](https://leetcode.com/explore/learn/card/decision-tree/)
+    - [ ] [lc 6](https://leetcode.com/problems/implement-trie-prefix-tree/)
     - [ ] Given a node in a N-ary tree, check if that node exists in the tree, if so, print all the nodes under its hierarchy
-    - [ ] [Leetcode: data-structure-tree](https://leetcode.com/explore/learn/card/data-structure-tree/)
+  - Binary Tree
+    - About
+      - [x] 📗 [g4g: Binary Tree Introduction](http://geeksquiz.com/binary-tree-set-1-introduction/)
+      - [x] 📗 [g4g: Types of Binary Tree](http://geeksquiz.com/binary-tree-set-3-types-of-binary-tree/)
+      - [x] 📗 [g4g: Binary Tree Properties](http://geeksquiz.com/binary-tree-set-2-properties/)
+      - [ ] 📗 [g4g: Tree Traversals](https://www.geeksforgeeks.org/618/)
+      - [ ] 📗 [g4g: BFS vs DFS for Binary Tree](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
+      - [ ] 📗 [g4g: Level Order Tree Traversal](https://www.geeksforgeeks.org/level-order-tree-traversal/)
+      - [ ] 📗 [g4g: If you are given two traversal sequences, can you construct the binary tree?](https://www.geeksforgeeks.org/if-you-are-given-two-traversal-sequences-can-you-construct-the-binary-tree/)
+      - [ ] 📗 [g4g: Print nodes at k distance from root](https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/)
+      - [ ] 📙 [wiki: Binary Tree](https://en.wikipedia.org/wiki/Binary_tree)
+      - [ ] 📙 [g4g: Diameter of a Binary Tree](https://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
+      - [ ] 📙 [g4g: Enumeration of Binary Tree](http://geeksquiz.com/enumeration-of-binary-trees/)
+      - [ ] 📙 [g4g: Inorder Tree Traversal without Recursion](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/)
+      - [ ] 📙 [g4g: Threaded Binary Tree](http://geeksquiz.com/threaded-binary-tree/)
+      - [ ] 📙 [g4g: Maximum Depth or Height of a Tree](https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/)
+      - [ ] 📙 [g4g: Construct Tree from given Inorder and Preorder traversals](https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/)
+      - [ ] 📙 [g4g: Maximum width of a binary tree](https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/) 
+      - [ ] 📙 [g4g: Print Ancestors of a given node in Binary Tree](https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/)
+      - [ ] 📙 [g4g: Check if a binary tree is subtree of another binary tree](https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/)
+      - [ ] 📙 [g4g: Connect nodes at same level](https://www.geeksforgeeks.org/connect-nodes-at-same-level/)
+      - [ ] 📕 [g4g: Inorder Tree Traversal without recursion and without stack!](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/)
+      - [ ] 📕 [g4g: Clone a Binary Tree with Random Pointers](https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/)
+    - Properties
+      - Number of nodes at level ```l```: ```n <= 2 ** l```, where level ```l ∈ {0, 1, 2, ...}```
+      - Number of levels of a binary tree: ```L >= log2(n)```, where ```n - number of leaves```
+      - Number of nodes in a binary tree: ```N <= (2 ** (h + 1)) – 1```, where height ```h ∈ {0, 1, 2, ...}```
+      - Height of a binary tree: ```h <= log2(N + 1) - 1```, where ```N - number of nodes```
+    - Types
+      - Full Binary Tree: every node has 0 or 2 children
+      - Complete Binary Tree: all the levels are completely filled except possibly the last level and the last level has all keys as left as possible
+      - Perfect Binary Tree: all the internal nodes have 2 children and all leaf nodes are at the same level
+      - Balanced Binary Tree: left and right subtrees of every node differ in height by no more than 1
+      - Degenerate (Pathological) Binary Tree: every internal node has 1 child
     - Traversals
-      - Pre-order
-        - root->L->R
+      - Pre-order: root->L->R
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/pre_order_traversal.py)
-      - In-order
-        - L->root->R
+      - In-order: L->root->R
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/in_order_traversal.py)
-      - Post-order
-        - L->R->root
+      - Post-order: L->R->root
         - [x] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/trees/post_order_traversal.py)
       - Level-order (BFS)
-  - Binary Tree
-    - [ ] [Binary Tree Introduction](http://geeksquiz.com/binary-tree-set-1-introduction/)
-    - [ ] [Binary Tree Properties](http://geeksquiz.com/binary-tree-set-2-properties/)
-    - [ ] [Types of Binary Tree](http://geeksquiz.com/binary-tree-set-3-types-of-binary-tree/)
-    - [ ] [Handshaking Lemma and Interesting Tree Properties](https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/)
-    - [ ] [Enumeration of Binary Tree](http://geeksquiz.com/enumeration-of-binary-trees/)
-    - [ ] [Applications of tree data structure](https://www.geeksforgeeks.org/applications-of-tree-data-structure/)
-    - [ ] [Tree Traversals](https://www.geeksforgeeks.org/618/)
-    - [ ] [BFS vs DFS for Binary Tree](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
-    - [ ] [Level Order Tree Traversal](https://www.geeksforgeeks.org/level-order-tree-traversal/)
-    - [ ] [Diameter of a Binary Tree](https://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
-    - [ ] [Inorder Tree Traversal without Recursion](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/)
-    - [ ] [Inorder Tree Traversal without recursion and without stack!](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/)
-    - [ ] [Threaded Binary Tree](http://geeksquiz.com/threaded-binary-tree/)
-    - [ ] [Maximum Depth or Height of a Tree](https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/)
-    - [ ] [If you are given two traversal sequences, can you construct the binary tree?](https://www.geeksforgeeks.org/if-you-are-given-two-traversal-sequences-can-you-construct-the-binary-tree/)
-    - [ ] [Clone a Binary Tree with Random Pointers](https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/)
-    - [ ] [Construct Tree from given Inorder and Preorder traversals](https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/)
-    - [ ] [Maximum width of a binary tree](https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/)
-    - [ ] [Print nodes at k distance from root](https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/)
-    - [ ] [Print Ancestors of a given node in Binary Tree](https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/)
-    - [ ] [Check if a binary tree is subtree of another binary tree](https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/)
-    - [ ] [Connect nodes at same level](https://www.geeksforgeeks.org/connect-nodes-at-same-level/)
-  - Binary Search Tree (BST)
-    - [ ] [Search and Insert in BST](http://geeksquiz.com/binary-search-tree-set-1-search-and-insertion/)
-    - [ ] [Deletion from BST](http://geeksquiz.com/binary-search-tree-set-2-delete/)
-    - [ ] [Minimum value in a Binary Search Tree](https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/)
-    - [ ] [Inorder predecessor and successor for a given key in BST](https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/)
-    - [ ] [Check if a binary tree is BST or not](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
-    - [ ] [Lowest Common Ancestor in a Binary Search Tree.](https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/)
-    - [ ] [Inorder Successor in Binary Search Tree](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
-    - [ ] [Find k-th smallest element in BST (Order Statistics in BST)](https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
-    - [ ] [Merge two BSTs with limited extra space](https://www.geeksforgeeks.org/merge-two-bsts-with-limited-extra-space/)
-    - [ ] [Two nodes of a BST are swapped, correct the BST](https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/)
-    - [ ] [Floor and Ceil from a BST](https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/)
-    - [ ] [In-place conversion of Sorted DLL to Balanced BST](https://www.geeksforgeeks.org/in-place-conversion-of-sorted-dll-to-balanced-bst/)
-    - [ ] [Find a pair with given sum in a Balanced BST](https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/)
-    - [ ] [Total number of possible Binary Search Trees with n keys](https://www.geeksforgeeks.org/total-number-of-possible-binary-search-trees-with-n-keys/)
-    - [ ] [Merge Two Balanced Binary Search Trees](https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/)
-    - [ ] [Binary Tree to Binary Search Tree Conversion](https://www.geeksforgeeks.org/binary-tree-to-binary-search-tree-conversion/)
-  - Graph
-    - About
-      - [ ] [Wiki: graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
-      - [ ] [1](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/trees-graphs.md)
-      - [ ] graph traversing algorithms
-      - [ ] [Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
-      - [ ] [Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
-      - [ ] [Depth First Traversal for a Graph](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
-      - [ ] [Applications of Depth First Search](https://www.geeksforgeeks.org/applications-of-depth-first-search/)
-      - [ ] [Applications of Breadth First Traversal](https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/)
-      - [ ] [Detect Cycle in a Directed Graph](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
-      - [ ] [Detect Cycle in a an Undirected Graph](https://www.geeksforgeeks.org/union-find/)
-      - [ ] [Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
-      - [ ] [Longest Path in a Directed Acyclic Graph](https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/)
-      - [ ] [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
-      - [ ] [Check whether a given graph is Bipartite or not](https://www.geeksforgeeks.org/bipartite-graph/)
-      - [ ] [Snake and Ladder Problem](https://www.geeksforgeeks.org/snake-ladder-problem-2/)
-      - [ ] [Minimize Cash Flow among a given set of friends who have borrowed money from each other](https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/)
-      - [ ] [Boggle (Find all possible words in a board of characters)](https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/)
-      - [ ] [Assign directions to edges so that the directed graph remains acyclic](https://www.geeksforgeeks.org/assign-directions-to-edges-so-that-the-directed-graph-remains-acyclic/)
-      - [ ] [Find if the strings can be chained to form a circle](https://www.geeksforgeeks.org/given-array-strings-find-strings-can-chained-form-circle/)
-      - [ ] [Given a sorted dictionary of an alien language, find order of characters](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)
-      - [ ] [Karger’s algorithm for Minimum Cut](https://www.geeksforgeeks.org/kargers-algorithm-for-minimum-cut-set-1-introduction-and-implementation/)
-      - [ ] [Karger’s algorithm for Minimum Cut | Set 2 (Analysis and Applications)](https://www.geeksforgeeks.org/kargers-algorithm-for-minimum-cut-set-2-analysis-and-applications/)
-      - [ ] [Hopcroft–Karp Algorithm for Maximum Matching | Set 1 (Introduction)](https://www.geeksforgeeks.org/hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/)
-      - [ ] [Hopcroft–Karp Algorithm for Maximum Matching | Set 2 (Implementation)](https://www.geeksforgeeks.org/hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/)
-      - [ ] [Length of shortest chain to reach a target word](https://www.geeksforgeeks.org/length-of-shortest-chain-to-reach-a-target-word/)
-      - [ ] [Find same contacts in a list of contacts](https://www.geeksforgeeks.org/find-same-contacts-in-a-list-of-contacts/)
-      - [ ] [All Algorithms on Graph](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
-    - [ ] Graph Theory
-      - [ ] [Wiki: graph theory](https://en.wikipedia.org/wiki/Connectivity_(graph_theory))
-      - [ ] [Wiki: Flow_network](https://en.wikipedia.org/wiki/Flow_network)
-    - [ ] Introduction, DFS and BFS:
-      - [ ] [Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
-      - [ ] [Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
-      - [ ] [Depth First Traversal for a Graph](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
-      - [ ] [Applications of Depth First Search](https://www.geeksforgeeks.org/applications-of-depth-first-search/)
-      - [ ] [Detect Cycle in a Directed Graph](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
-      - [ ] [Detect Cycle in a an Undirected Graph](https://www.geeksforgeeks.org/union-find/)
-      - [ ] [Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
-      - [ ] [Longest Path in a Directed Acyclic Graph](https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/)
-      - [ ] [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
-      - [ ] [Check whether a given graph is Bipartite or not](https://www.geeksforgeeks.org/bipartite-graph/)
-      - [ ] [Snake and Ladder Problem](https://www.geeksforgeeks.org/snake-ladder-problem-2/)
-      - [ ] [Biconnected Components](https://www.geeksforgeeks.org/biconnected-components/)
-      - [ ] [Check if a given graph is tree or not](http://geeksquiz.com/check-given-graph-tree/)
-    - [ ] Minimum Spanning Tree:
-      - [ ] [Prim’s Minimum Spanning Tree (MST))](https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/)
-      - [ ] [Applications of Minimum Spanning Tree Problem](https://www.geeksforgeeks.org/applications-of-minimum-spanning-tree/)
-      - [ ] [Prim’s MST for Adjacency List Representation](https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-mst-for-adjacency-list-representation/)
-      - [ ] [Kruskal’s Minimum Spanning Tree Algorithm](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
-      - [ ] [Boruvka’s algorithm for Minimum Spanning Tree](https://www.geeksforgeeks.org/greedy-algorithms-set-9-boruvkas-algorithm/)
-    - [ ] Shortest Paths:
-      - [ ] [Dijkstra’s shortest path algorithm](https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/)
-      - [ ] [Dijkstra’s Algorithm for Adjacency List Representation](https://www.geeksforgeeks.org/greedy-algorithms-set-7-dijkstras-algorithm-for-adjacency-list-representation/)
-      - [ ] [Bellman–Ford Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/)
-      - [ ] [Floyd Warshall Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
-      - [ ] [Johnson’s algorithm for All-pairs shortest paths](https://www.geeksforgeeks.org/johnsons-algorithm/)
-      - [ ] [Shortest Path in Directed Acyclic Graph](https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/)
-      - [ ] [Some interesting shortest path questions](https://www.geeksforgeeks.org/interesting-shortest-path-questions-set-1/)
-      - [ ] [Shortest path with exactly k edges in a directed and weighted graph](https://www.geeksforgeeks.org/shortest-path-exactly-k-edges-directed-weighted-graph/)
-    - [ ] Connectivity:
-      - [ ] [Find if there is a path between two vertices in a directed graph](https://www.geeksforgeeks.org/find-if-there-is-a-path-between-two-vertices-in-a-given-graph/)
-      - [ ] [Connectivity in a directed graph](https://www.geeksforgeeks.org/connectivity-in-a-directed-graph/)
-      - [ ] [Articulation Points (or Cut Vertices) in a Graph](https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/)
-      - [ ] [Biconnected graph](https://www.geeksforgeeks.org/biconnectivity-in-a-graph/)
-      - [ ] [Bridges in a graph](https://www.geeksforgeeks.org/bridge-in-a-graph/)
-      - [ ] [Eulerian path and circuit](https://www.geeksforgeeks.org/eulerian-path-and-circuit/)
-      - [ ] [Fleury’s Algorithm for printing Eulerian Path or Circuit](https://www.geeksforgeeks.org/fleurys-algorithm-for-printing-eulerian-path/)
-      - [ ] [Strongly Connected Components](https://www.geeksforgeeks.org/strongly-connected-components/)
-      - [ ] [Transitive closure of a graph](https://www.geeksforgeeks.org/transitive-closure-of-a-graph/)
-      - [ ] [Find the number of islands](https://www.geeksforgeeks.org/find-number-of-islands/)
-      - [ ] [Count all possible walks from a source to a destination with exactly k edges](https://www.geeksforgeeks.org/count-possible-paths-source-destination-exactly-k-edges/)
-      - [ ] [Euler Circuit in a Directed Graph](https://www.geeksforgeeks.org/euler-circuit-directed-graph/)
-      - [ ] [Biconnected Components](https://www.geeksforgeeks.org/biconnected-components/)
-      - [ ] [Tarjan’s Algorithm to find Strongly Connected Components](https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/)
-    - [ ] Hard Problems:
-      - [ ] [Graph Coloring (Introduction and Applications)](https://www.geeksforgeeks.org/graph-coloring-applications/)
-      - [ ] [Greedy Algorithm for Graph Coloring](https://www.geeksforgeeks.org/graph-coloring-set-2-greedy-algorithm/)
-      - [ ] [Travelling Salesman Problem (Naive and Dynamic Programming)](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
-      - [ ] [Travelling Salesman Problem (Approximate using MST)](https://www.geeksforgeeks.org/travelling-salesman-problem-set-2-approximate-using-mst/)
-      - [ ] [Hamiltonian Cycle](https://www.geeksforgeeks.org/backtracking-set-7-hamiltonian-cycle/)
-      - [ ] [Vertex Cover Problem (Introduction and Approximate Algorithm)](https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm-2/)
-      - [ ] [K Centers Problem (Greedy Approximate Algorithm)](https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/)
-    - [ ] Maximum Flow:
-      - [ ] [Ford-Fulkerson Algorithm for Maximum Flow Problem](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/)
-      - [ ] [Find maximum number of edge disjoint paths between two vertices](https://www.geeksforgeeks.org/find-edge-disjoint-paths-two-vertices/)
-      - [ ] [Find minimum s-t cut in a flow network](https://www.geeksforgeeks.org/minimum-cut-in-a-directed-graph/)
-      - [ ] [Maximum Bipartite Matching](https://www.geeksforgeeks.org/maximum-bipartite-matching/)
-      - [ ] [Channel Assignment Problem](https://www.geeksforgeeks.org/channel-assignment-problem/)
+    - Binary Search Tree (BST)
+      - About
+        - [ ] 📗 [g4g: Search and Insert in BST](http://geeksquiz.com/binary-search-tree-set-1-search-and-insertion/)
+        - [ ] 📗 [g4g: Minimum value in a Binary Search Tree](https://www.geeksforgeeks.org/find-the-minimum-element-in-a-binary-search-tree/)
+        - [ ] 📗 [g4g: Lowest Common Ancestor in a Binary Search Tree.](https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/)
+        - [ ] 📙 [g4g: Deletion from BST](http://geeksquiz.com/binary-search-tree-set-2-delete/)      
+        - [ ] 📙 [g4g: Inorder predecessor and successor for a given key in BST](https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/)
+        - [ ] 📙 [g4g: Check if a binary tree is BST or not](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
+        - [ ] 📙 [g4g: Inorder Successor in Binary Search Tree](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
+        - [ ] 📙 [g4g: Find k-th smallest element in BST (Order Statistics in BST)](https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
+        - [ ] 📙 [g4g: Floor and Ceil from a BST](https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/)
+        - [ ] 📙 [g4g: Total number of possible Binary Search Trees with n keys](https://www.geeksforgeeks.org/total-number-of-possible-binary-search-trees-with-n-keys/)
+        - [ ] 📙 [g4g: Merge Two Balanced Binary Search Trees](https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/)
+        - [ ] 📙 [g4g: Binary Tree to Binary Search Tree Conversion](https://www.geeksforgeeks.org/binary-tree-to-binary-search-tree-conversion/)
+        - [ ] 📕 [g4g: In-place conversion of Sorted DLL to Balanced BST](https://www.geeksforgeeks.org/in-place-conversion-of-sorted-dll-to-balanced-bst/)
+        - [ ] 📕 [g4g: Find a pair with given sum in a Balanced BST](https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/)
+        - [ ] 📕 [g4g: Merge two BSTs with limited extra space](https://www.geeksforgeeks.org/merge-two-bsts-with-limited-extra-space/)
+        - [ ] 📕 [g4g: Two nodes of a BST are swapped, correct the BST](https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/)
+      - Self-Balancing BST
+        - About
+          - [ ] [wiki: Self-Balancing BST](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
+        - AVL Tree
+          - [ ] [wiki: AVL Tree](https://en.wikipedia.org/wiki/AVL_tree)
+          - [ ] [g4g: AVL Tree](http://en.wikipedia.org/wiki/AVL_tree)
+        - Red-Black Tree
+          - [ ] [wiki: Red-Black Tree](https://en.wikipedia.org/wiki/Red–black_tree)
+          - [ ] [g4g: Red-Black Tree](http://en.wikipedia.org/wiki/Red-black_tree)
   - Heap
-    - [ ] [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
-    - [ ] [Binary Heap](http://geeksquiz.com/binary-heap/)
-    - [ ] [Why is Binary Heap Preferred over BST for Priority Queue?](https://www.geeksforgeeks.org/why-is-binary-heap-preferred-over-bst-for-priority-queue/)
-    - [ ] [Binomial Heap](https://www.geeksforgeeks.org/binomial-heap-2/)
-    - [ ] [Fibonacci Heap](https://www.geeksforgeeks.org/fibonacci-heap-set-1-introduction/)
-    - [ ] [Heap Sort](http://geeksquiz.com/heap-sort/)
-    - [ ] [K’th Largest Element in an array](https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/)
-    - [ ] [Sort an almost sorted array/](https://www.geeksforgeeks.org/nearly-sorted-algorithm/)
-    - [ ] [Tournament Tree (Winner Tree) and Binary Heap](https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/)
-- 6️⃣ HASH TABLE
-  - [ ] [Hash table](https://en.wikipedia.org/wiki/Hash_table)
-  - [ ] [Leetcode: hash table[(https://leetcode.com/explore/learn/card/hash-table/)
-  - [ ] [Hashing Introduction](http://geeksquiz.com/hashing-set-1-introduction/)
-  - [ ] [Separate Chaining for Collision Handling](http://geeksquiz.com/hashing-set-2-separate-chaining/)
-  - [ ] [Open Addressing for Collision Handling](http://geeksquiz.com/hashing-set-3-open-addressing/)
-  - [ ] [Print a Binary Tree in Vertical Order](https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/)
-  - [ ] [Find whether an array is subset of another array](https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/)
-  - [ ] [Union and Intersection of two Linked Lists](https://www.geeksforgeeks.org/union-and-intersection-of-two-linked-lists/)
-  - [ ] [Find a pair with given sum](https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
-  - [ ] [Check if a given array contains duplicate elements within k distance from each other](https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/)
-  - [ ] [Find Itinerary from a given list of tickets](https://www.geeksforgeeks.org/find-itinerary-from-a-given-list-of-tickets/)
-  - [ ] [Find number of Employees Under every Employee](https://www.geeksforgeeks.org/find-number-of-employees-under-every-manager/)
-- 7️⃣ OTHER DATA STRUCTURES
+    - [ ] [wiki: Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
+    - [ ] [g4g: Binary Heap](http://geeksquiz.com/binary-heap/)
+    - [ ] [g4g: Why is Binary Heap Preferred over BST for Priority Queue?](https://www.geeksforgeeks.org/why-is-binary-heap-preferred-over-bst-for-priority-queue/)
+    - [ ] [g4g: Binomial Heap](https://www.geeksforgeeks.org/binomial-heap-2/)
+    - [ ] [g4g: Fibonacci Heap](https://www.geeksforgeeks.org/fibonacci-heap-set-1-introduction/)
+    - [ ] [g4g: Heap Sort](http://geeksquiz.com/heap-sort/)
+    - [ ] [g4g: K’th Largest Element in an array](https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/)
+    - [ ] [g4g: Sort an almost sorted array/](https://www.geeksforgeeks.org/nearly-sorted-algorithm/)
+    - [ ] [g4g: Tournament Tree (Winner Tree) and Binary Heap](https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/)
+  - [ ] Segment Tree
+    - [ ] [g4g: Segment Tree | Set 1 (Sum of given range)](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
+    - [ ] [g4g: Segment Tree | Set 2 (Range Minimum Query)](https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/)
+    - [ ] [g4g: Lazy Propagation in Segment Tree](https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/)
+    - [ ] [g4g: Persistent Segment Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/persistent-segment-tree-set-1-introduction/)
+  - [ ] Trie
+    - [ ] [g4g: Trie | (Insert and Search)](https://www.geeksforgeeks.org/trie-insert-and-search/)
+    - [ ] [g4g: Trie | (Delete)](https://www.geeksforgeeks.org/trie-delete/)
+    - [ ] [g4g: Longest prefix matching – A Trie based solution in Java](https://www.geeksforgeeks.org/longest-prefix-matching-a-trie-based-solution-in-java/)
+    - [ ] [g4g: Print unique rows in a given boolean matrix](https://www.geeksforgeeks.org/print-unique-rows/)
+    - [ ] [g4g: How to Implement Reverse DNS Look Up Cache?](https://www.geeksforgeeks.org/implement-reverse-dns-look-cache/)
+    - [ ] [g4g: How to Implement Forward DNS Look Up Cache?](https://www.geeksforgeeks.org/implement-forward-dns-look-cache/)
+  - [ ] Binary Indexed Tree
+    - [ ] [g4g: Binary Indexed Tree](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+    - [ ] [g4g: Two Dimensional Binary Indexed Tree or Fenwick Tree](https://www.geeksforgeeks.org/two-dimensional-binary-indexed-tree-or-fenwick-tree/)
+    - [ ] [g4g: Binary Indexed Tree : Range Updates and Point Queries](https://www.geeksforgeeks.org/binary-indexed-tree-range-updates-point-queries/)
+    - [ ] [g4g: Binary Indexed Tree : Range Update and Range Queries](https://www.geeksforgeeks.org/binary-indexed-tree-range-update-range-queries/)
+  - [ ] Suffix Array and Suffix Tree
+    - [ ] [g4g: Suffix Array Introduction](https://www.geeksforgeeks.org/suffix-array-set-1-introduction/)
+    - [ ] [g4g: Suffix Array nLogn Algorithm](https://www.geeksforgeeks.org/suffix-array-set-2-a-nlognlogn-algorithm/)
+    - [ ] [g4g: kasai’s Algorithm for Construction of LCP array from Suffix Array](https://www.geeksforgeeks.org/%c2%ad%c2%adkasais-algorithm-for-construction-of-lcp-array-from-suffix-array/)
+    - [ ] 📙 [g4g: Pattern Searching using Suffix Tree](https://www.geeksforgeeks.org/pattern-searching-using-suffix-tree/)
+    - [ ] [g4g: Suffix Tree Introduction](https://www.geeksforgeeks.org/pattern-searching-set-8-suffix-tree-introduction/)
+    - [ ] [g4g: Ukkonen’s Suffix Tree Construction – Part 1](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/)
+    - [ ] [g4g: Ukkonen’s Suffix Tree Construction – Part 2](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/)
+    - [ ] [g4g: Ukkonen’s Suffix Tree Construction – Part 3](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-3/)
+    - [ ] [g4g: Ukkonen’s Suffix Tree Construction – Part 4](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-4/)
+    - [ ] [g4g: Ukkonen’s Suffix Tree Construction – Part 5](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-5/)
+    - [ ] [g4g: Ukkonen’s Suffix Tree Construction – Part 6](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-6/)
+    - [ ] [g4g: Generalized Suffix Tree](https://www.geeksforgeeks.org/generalized-suffix-tree-1/)
+    - [ ] [g4g: Build Linear Time Suffix Array using Suffix Tree](https://www.geeksforgeeks.org/suffix-tree-application-4-build-linear-time-suffix-array/)
+    - [ ] [g4g: Substring Check](https://www.geeksforgeeks.org/suffix-tree-application-1-substring-check/)
+    - [ ] [g4g: Searching All Patterns](https://www.geeksforgeeks.org/suffix-tree-application-2-searching-all-patterns/)
+    - [ ] [g4g: Longest Repeated Substring,](https://www.geeksforgeeks.org/suffix-tree-application-3-longest-repeated-substring/)
+    - [ ] [g4g: Longest Common Substring, Longest Palindromic Substring](https://www.geeksforgeeks.org/suffix-tree-application-6-longest-palindromic-substring/)
+  - AVL Tree
+    - [ ] [g4g: AVL Tree | Set 1 (Insertion)](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/)
+    - [ ] [g4g: AVL Tree | Set 2 (Deletion)](https://www.geeksforgeeks.org/avl-tree-set-2-deletion/)
+    - [ ] [g4g: AVL with duplicate keys](http://geeksquiz.com/avl-with-duplicate-keys/)
+  - Splay Tree
+    - [ ] [g4g: Splay Tree | Set 1 (Search)](https://www.geeksforgeeks.org/splay-tree-set-1-insert/)
+    - [ ] [g4g: Splay Tree | Set 2 (Insert)](https://www.geeksforgeeks.org/splay-tree-set-2-insert-delete/)
+  - B Tree
+    - [ ] [g4g: B-Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/)
+    - [ ] [g4g: B-Tree | Set 2 (Insert)](https://www.geeksforgeeks.org/b-tree-set-1-insert-2/)
+    - [ ] [g4g: B-Tree | Set 3 (Delete)](https://www.geeksforgeeks.org/b-tree-set-3delete/)
+  - Red-Black Tree
+    - [ ] [g4g: Red-Black Tree Introduction](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)
+    - [ ] [g4g: Red Black Tree Insertion](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/)
+    - [ ] [g4g: Red-Black Tree Deletion](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)
+    - [ ] [g4g: Program for Red Black Tree Insertion ](http://geeksquiz.com/c-program-red-black-tree-insertion/)
+  - K Dimensional Tree
+    - [ ] [g4g: KD Tree (Search and Insert)](https://www.geeksforgeeks.org/k-dimensional-tree/)
+    - [ ] [g4g: K D Tree (Find Minimum)](https://www.geeksforgeeks.org/k-dimensional-tree-set-2-find-minimum/)
+    - [ ] [g4g: K D Tree (Delete)](https://www.geeksforgeeks.org/k-dimensional-tree-set-3-delete/)
+  - Other Trees
+    - [ ] 📕 [g4g: B-Tree](https://www.geeksforgeeks.org/introduction-of-b-tree-2/)
+    - [ ] 📙 [g4g: B+ Tree](https://www.geeksforgeeks.org/introduction-of-b-tree/)
+    - [ ] 📕 [Syntax Tree](https://www.geeksforgeeks.org/syntax-directed-translation-in-compiler-design/)
+  - Breadth-first search (BFS)
+    - [ ] [Wiki: BFS](https://en.wikipedia.org/wiki/Breadth-first_search)
+  - Depth-first search (DFS)
+    - [ ] [Wiki: DFS](https://en.wikipedia.org/wiki/Depth-first_search)
+    - [ ] [g4g: dfs](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+    - [ ] [1](http://web.archive.org/web/20110113025421/http://eom.springer.de/D/d110150.htm)
+- 6️⃣ GRAPH
+  - About
+    - [ ] [wiki: graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
+    - [ ] [gihub: 1](https://github.com/WomenWhoCode/wwcsf-algos/blob/master/topics/trees-graphs.md)
+    - [ ] graph traversing algorithms
+    - [ ] [g4g: Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
+    - [ ] [g4g: Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+    - [ ] [g4g: Depth First Traversal for a Graph](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
+    - [ ] [g4g: Applications of Depth First Search](https://www.geeksforgeeks.org/applications-of-depth-first-search/)
+    - [ ] [g4g: Applications of Breadth First Traversal](https://www.geeksforgeeks.org/applications-of-breadth-first-traversal/)
+    - [ ] [g4g: Detect Cycle in a Directed Graph](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
+    - [ ] [g4g: Detect Cycle in a an Undirected Graph](https://www.geeksforgeeks.org/union-find/)
+    - [ ] [g4g: Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
+    - [ ] [g4g: Longest Path in a Directed Acyclic Graph](https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/)
+    - [ ] [g4g: Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
+    - [ ] [g4g: Check whether a given graph is Bipartite or not](https://www.geeksforgeeks.org/bipartite-graph/)
+    - [ ] [g4g: Snake and Ladder Problem](https://www.geeksforgeeks.org/snake-ladder-problem-2/)
+    - [ ] [g4g: Minimize Cash Flow among a given set of friends who have borrowed money from each other](https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/)
+    - [ ] [g4g: Boggle (Find all possible words in a board of characters)](https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/)
+    - [ ] [g4g: Assign directions to edges so that the directed graph remains acyclic](https://www.geeksforgeeks.org/assign-directions-to-edges-so-that-the-directed-graph-remains-acyclic/)
+    - [ ] [g4g: Find if the strings can be chained to form a circle](https://www.geeksforgeeks.org/given-array-strings-find-strings-can-chained-form-circle/)
+    - [ ] [g4g: Given a sorted dictionary of an alien language, find order of characters](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)
+    - [ ] [g4g: Karger’s algorithm for Minimum Cut](https://www.geeksforgeeks.org/kargers-algorithm-for-minimum-cut-set-1-introduction-and-implementation/)
+    - [ ] [g4g: Karger’s algorithm for Minimum Cut | Set 2 (Analysis and Applications)](https://www.geeksforgeeks.org/kargers-algorithm-for-minimum-cut-set-2-analysis-and-applications/)
+    - [ ] [g4g: Hopcroft–Karp Algorithm for Maximum Matching | Set 1 (Introduction)](https://www.geeksforgeeks.org/hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/)
+    - [ ] [g4g: Hopcroft–Karp Algorithm for Maximum Matching | Set 2 (Implementation)](https://www.geeksforgeeks.org/hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/)
+    - [ ] [g4g: Length of shortest chain to reach a target word](https://www.geeksforgeeks.org/length-of-shortest-chain-to-reach-a-target-word/)
+    - [ ] [g4g: Find same contacts in a list of contacts](https://www.geeksforgeeks.org/find-same-contacts-in-a-list-of-contacts/)
+    - [ ] [g4g: All Algorithms on Graph](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+  - [ ] Graph Theory
+    - [ ] [wiki: graph theory](https://en.wikipedia.org/wiki/Connectivity_(graph_theory))
+    - [ ] [wiki: Flow_network](https://en.wikipedia.org/wiki/Flow_network)
+    - Handshaking Lemma
+      - [ ] 📕 [wiki: Handshaking Lemma](https://en.wikipedia.org/wiki/Handshaking_lemma)
+      - [ ] 📕 [g4g: Handshaking Lemma and Interesting Tree Properties](https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/)
+  - [ ] Introduction, DFS and BFS:
+    - [ ] [g4g: Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
+    - [ ] [g4g: Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+    - [ ] [g4g: Depth First Traversal for a Graph](https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
+    - [ ] [g4g: Applications of Depth First Search](https://www.geeksforgeeks.org/applications-of-depth-first-search/)
+    - [ ] [g4g: Detect Cycle in a Directed Graph](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
+    - [ ] [g4g: Detect Cycle in a an Undirected Graph](https://www.geeksforgeeks.org/union-find/)
+    - [ ] [g4g: Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
+    - [ ] [g4g: Longest Path in a Directed Acyclic Graph](https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/)
+    - [ ] [g4g: Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
+    - [ ] [g4g: Check whether a given graph is Bipartite or not](https://www.geeksforgeeks.org/bipartite-graph/)
+    - [ ] [g4g: Snake and Ladder Problem](https://www.geeksforgeeks.org/snake-ladder-problem-2/)
+    - [ ] [g4g: Biconnected Components](https://www.geeksforgeeks.org/biconnected-components/)
+    - [ ] [g4g: Check if a given graph is tree or not](http://geeksquiz.com/check-given-graph-tree/)
+  - [ ] Minimum Spanning Tree:
+    - [ ] [g4g: Prim’s Minimum Spanning Tree (MST))](https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/)
+    - [ ] [g4g: Applications of Minimum Spanning Tree Problem](https://www.geeksforgeeks.org/applications-of-minimum-spanning-tree/)
+    - [ ] [g4g: Prim’s MST for Adjacency List Representation](https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-mst-for-adjacency-list-representation/)
+    - [ ] [g4g: Kruskal’s Minimum Spanning Tree Algorithm](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
+    - [ ] [g4g: Boruvka’s algorithm for Minimum Spanning Tree](https://www.geeksforgeeks.org/greedy-algorithms-set-9-boruvkas-algorithm/)
+  - [ ] Shortest Paths:
+    - [ ] [g4g: Dijkstra’s shortest path algorithm](https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/)
+    - [ ] [g4g: Dijkstra’s Algorithm for Adjacency List Representation](https://www.geeksforgeeks.org/greedy-algorithms-set-7-dijkstras-algorithm-for-adjacency-list-representation/)
+    - [ ] [g4g: Bellman–Ford Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/)
+    - [ ] [g4g: Floyd Warshall Algorithm](https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
+    - [ ] [g4g: Johnson’s algorithm for All-pairs shortest paths](https://www.geeksforgeeks.org/johnsons-algorithm/)
+    - [ ] [g4g: Shortest Path in Directed Acyclic Graph](https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/)
+    - [ ] [g4g: Some interesting shortest path questions](https://www.geeksforgeeks.org/interesting-shortest-path-questions-set-1/)
+    - [ ] [g4g: Shortest path with exactly k edges in a directed and weighted graph](https://www.geeksforgeeks.org/shortest-path-exactly-k-edges-directed-weighted-graph/)
+  - [ ] Connectivity:
+    - [ ] [g4g: Find if there is a path between two vertices in a directed graph](https://www.geeksforgeeks.org/find-if-there-is-a-path-between-two-vertices-in-a-given-graph/)
+    - [ ] [g4g: Connectivity in a directed graph](https://www.geeksforgeeks.org/connectivity-in-a-directed-graph/)
+    - [ ] [g4g: Articulation Points (or Cut Vertices) in a Graph](https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/)
+    - [ ] [g4g: Biconnected graph](https://www.geeksforgeeks.org/biconnectivity-in-a-graph/)
+    - [ ] [g4g: Bridges in a graph](https://www.geeksforgeeks.org/bridge-in-a-graph/)
+    - [ ] [g4g: Eulerian path and circuit](https://www.geeksforgeeks.org/eulerian-path-and-circuit/)
+    - [ ] [g4g: Fleury’s Algorithm for printing Eulerian Path or Circuit](https://www.geeksforgeeks.org/fleurys-algorithm-for-printing-eulerian-path/)
+    - [ ] [g4g: Strongly Connected Components](https://www.geeksforgeeks.org/strongly-connected-components/)
+    - [ ] [g4g: Transitive closure of a graph](https://www.geeksforgeeks.org/transitive-closure-of-a-graph/)
+    - [ ] [g4g: Find the number of islands](https://www.geeksforgeeks.org/find-number-of-islands/)
+    - [ ] [g4g: Count all possible walks from a source to a destination with exactly k edges](https://www.geeksforgeeks.org/count-possible-paths-source-destination-exactly-k-edges/)
+    - [ ] [g4g: Euler Circuit in a Directed Graph](https://www.geeksforgeeks.org/euler-circuit-directed-graph/)
+    - [ ] [g4g: Biconnected Components](https://www.geeksforgeeks.org/biconnected-components/)
+    - [ ] [g4g: Tarjan’s Algorithm to find Strongly Connected Components](https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/)
+  - [ ] Hard Problems:
+    - [ ] [g4g: Graph Coloring (Introduction and Applications)](https://www.geeksforgeeks.org/graph-coloring-applications/)
+    - [ ] [g4g: Greedy Algorithm for Graph Coloring](https://www.geeksforgeeks.org/graph-coloring-set-2-greedy-algorithm/)
+    - [ ] [g4g: Travelling Salesman Problem (Naive and Dynamic Programming)](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
+    - [ ] [g4g: Travelling Salesman Problem (Approximate using MST)](https://www.geeksforgeeks.org/travelling-salesman-problem-set-2-approximate-using-mst/)
+    - [ ] [g4g: Hamiltonian Cycle](https://www.geeksforgeeks.org/backtracking-set-7-hamiltonian-cycle/)
+    - [ ] [g4g: Vertex Cover Problem (Introduction and Approximate Algorithm)](https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm-2/)
+    - [ ] [g4g: K Centers Problem (Greedy Approximate Algorithm)](https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/)
+  - [ ] Maximum Flow:
+    - [ ] [g4g: Ford-Fulkerson Algorithm for Maximum Flow Problem](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/)
+    - [ ] [g4g: Find maximum number of edge disjoint paths between two vertices](https://www.geeksforgeeks.org/find-edge-disjoint-paths-two-vertices/)
+    - [ ] [g4g: Find minimum s-t cut in a flow network](https://www.geeksforgeeks.org/minimum-cut-in-a-directed-graph/)
+    - [ ] [g4g: Maximum Bipartite Matching](https://www.geeksforgeeks.org/maximum-bipartite-matching/)
+    - [ ] [g4g: Channel Assignment Problem](https://www.geeksforgeeks.org/channel-assignment-problem/)
+- 7️⃣ HASH TABLE
+  - [ ] [wiki: Hash table](https://en.wikipedia.org/wiki/Hash_table)
+  - [ ] [lc: hash table](https://leetcode.com/explore/learn/card/hash-table/)
+  - [ ] [g4g: Hashing Introduction](http://geeksquiz.com/hashing-set-1-introduction/)
+  - [ ] [g4g: Separate Chaining for Collision Handling](http://geeksquiz.com/hashing-set-2-separate-chaining/)
+  - [ ] [g4g: Open Addressing for Collision Handling](http://geeksquiz.com/hashing-set-3-open-addressing/)
+  - [ ] [g4g: Print a Binary Tree in Vertical Order](https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/)
+  - [ ] [g4g: Find whether an array is subset of another array](https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/)
+  - [ ] [g4g: Union and Intersection of two Linked Lists](https://www.geeksforgeeks.org/union-and-intersection-of-two-linked-lists/)
+  - [ ] [g4g: Find a pair with given sum](https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
+  - [ ] [g4g: Check if a given array contains duplicate elements within k distance from each other](https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/)
+  - [ ] [g4g: Find Itinerary from a given list of tickets](https://www.geeksforgeeks.org/find-itinerary-from-a-given-list-of-tickets/)
+  - [ ] [g4g: Find number of Employees Under every Employee](https://www.geeksforgeeks.org/find-number-of-employees-under-every-manager/)
+- 8️⃣ OTHER DATA STRUCTURES
   - [ ] Advanced Lists:
     - [ ] [Memory efficient doubly linked list](https://www.geeksforgeeks.org/memory-efficient-doubly-linked-list/)
     - [ ] [XOR Linked List – A Memory Efficient Doubly Linked List | Set 1](https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-1/)
@@ -810,60 +901,6 @@
     - [ ] [Skip List | Set 1 (Introduction)](https://www.geeksforgeeks.org/skip-list/)
     - [ ] [Self Organizing List | Set 1 (Introduction)](https://www.geeksforgeeks.org/self-organizing-list-set-1-introduction/)
     - [ ] [Unrolled Linked List | Set 1 (Introduction)](https://www.geeksforgeeks.org/unrolled-linked-list-set-1-introduction/)
-  - [ ] Segment Tree:
-    - [ ] [Segment Tree | Set 1 (Sum of given range)](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
-    - [ ] [Segment Tree | Set 2 (Range Minimum Query)](https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/)
-    - [ ] [Lazy Propagation in Segment Tree](https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/)
-    - [ ] [Persistent Segment Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/persistent-segment-tree-set-1-introduction/)
-  - [ ] Trie:
-    - [ ] [Trie | (Insert and Search)](https://www.geeksforgeeks.org/trie-insert-and-search/)
-    - [ ] [Trie | (Delete)](https://www.geeksforgeeks.org/trie-delete/)
-    - [ ] [Longest prefix matching – A Trie based solution in Java](https://www.geeksforgeeks.org/longest-prefix-matching-a-trie-based-solution-in-java/)
-    - [ ] [Print unique rows in a given boolean matrix](https://www.geeksforgeeks.org/print-unique-rows/)
-    - [ ] [How to Implement Reverse DNS Look Up Cache?](https://www.geeksforgeeks.org/implement-reverse-dns-look-cache/)
-    - [ ] [How to Implement Forward DNS Look Up Cache?](https://www.geeksforgeeks.org/implement-forward-dns-look-cache/)
-  - [ ] Binary Indexed Tree:
-    - [ ] [Binary Indexed Tree](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
-    - [ ] [Two Dimensional Binary Indexed Tree or Fenwick Tree](https://www.geeksforgeeks.org/two-dimensional-binary-indexed-tree-or-fenwick-tree/)
-    - [ ] [Binary Indexed Tree : Range Updates and Point Queries](https://www.geeksforgeeks.org/binary-indexed-tree-range-updates-point-queries/)
-    - [ ] [Binary Indexed Tree : Range Update and Range Queries](https://www.geeksforgeeks.org/binary-indexed-tree-range-update-range-queries/)
-  - [ ] Suffix Array and Suffix Tree:
-    - [ ] [Suffix Array Introduction](https://www.geeksforgeeks.org/suffix-array-set-1-introduction/)
-    - [ ] [Suffix Array nLogn Algorithm](https://www.geeksforgeeks.org/suffix-array-set-2-a-nlognlogn-algorithm/)
-    - [ ] [kasai’s Algorithm for Construction of LCP array from Suffix Array](https://www.geeksforgeeks.org/%c2%ad%c2%adkasais-algorithm-for-construction-of-lcp-array-from-suffix-array/)
-    - [ ] [Suffix Tree Introduction](https://www.geeksforgeeks.org/pattern-searching-set-8-suffix-tree-introduction/)
-    - [ ] [Ukkonen’s Suffix Tree Construction – Part 1](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-1/)
-    - [ ] [Ukkonen’s Suffix Tree Construction – Part 2](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-2/)
-    - [ ] [Ukkonen’s Suffix Tree Construction – Part 3](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-3/)
-    - [ ] [Ukkonen’s Suffix Tree Construction – Part 4](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-4/)
-    - [ ] [Ukkonen’s Suffix Tree Construction – Part 5](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-5/)
-    - [ ] [Ukkonen’s Suffix Tree Construction – Part 6](https://www.geeksforgeeks.org/ukkonens-suffix-tree-construction-part-6/)
-    - [ ] [Generalized Suffix Tree](https://www.geeksforgeeks.org/generalized-suffix-tree-1/)
-    - [ ] [Build Linear Time Suffix Array using Suffix Tree](https://www.geeksforgeeks.org/suffix-tree-application-4-build-linear-time-suffix-array/)
-    - [ ] [Substring Check](https://www.geeksforgeeks.org/suffix-tree-application-1-substring-check/)
-    - [ ] [Searching All Patterns](https://www.geeksforgeeks.org/suffix-tree-application-2-searching-all-patterns/)
-    - [ ] [Longest Repeated Substring,](https://www.geeksforgeeks.org/suffix-tree-application-3-longest-repeated-substring/)
-    - [ ] [Longest Common Substring, Longest Palindromic Substring](https://www.geeksforgeeks.org/suffix-tree-application-6-longest-palindromic-substring/)
-  - [ ] AVL Tree:
-    - [ ] [AVL Tree | Set 1 (Insertion)](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/)
-    - [ ] [AVL Tree | Set 2 (Deletion)](https://www.geeksforgeeks.org/avl-tree-set-2-deletion/)
-    - [ ] [AVL with duplicate keys](http://geeksquiz.com/avl-with-duplicate-keys/)
-  - [ ] Splay Tree:
-    - [ ] [Splay Tree | Set 1 (Search)](https://www.geeksforgeeks.org/splay-tree-set-1-insert/)
-    - [ ] [Splay Tree | Set 2 (Insert)](https://www.geeksforgeeks.org/splay-tree-set-2-insert-delete/)
-  - [ ] B Tree:
-    - [ ] [B-Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/)
-    - [ ] [B-Tree | Set 2 (Insert)](https://www.geeksforgeeks.org/b-tree-set-1-insert-2/)
-    - [ ] [B-Tree | Set 3 (Delete)](https://www.geeksforgeeks.org/b-tree-set-3delete/)
-  - [ ] Red-Black Tree:
-    - [ ] [Red-Black Tree Introduction](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)
-    - [ ] [Red Black Tree Insertion](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/)
-    - [ ] [Red-Black Tree Deletion](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)
-    - [ ] [Program for Red Black Tree Insertion ](http://geeksquiz.com/c-program-red-black-tree-insertion/)
-  - [ ] K Dimensional Tree:
-    - [ ] [KD Tree (Search and Insert)](https://www.geeksforgeeks.org/k-dimensional-tree/)
-    - [ ] [K D Tree (Find Minimum)](https://www.geeksforgeeks.org/k-dimensional-tree-set-2-find-minimum/)
-    - [ ] [K D Tree (Delete)](https://www.geeksforgeeks.org/k-dimensional-tree-set-3-delete/)
   - [ ] Others:
     - [ ] [Treap (A Randomized Binary Search Tree)](https://www.geeksforgeeks.org/treap-a-randomized-binary-search-tree/)
     - [ ] [Ternary Search Tree](https://www.geeksforgeeks.org/ternary-search-tree/)
@@ -881,19 +918,13 @@
     - [ ] [Sparse Set](https://www.geeksforgeeks.org/sparse-set/)
     - [ ] [Centroid Decomposition of Tree](https://www.geeksforgeeks.org/centroid-decomposition-of-tree/)
     - [ ] [Gomory-Hu Tree](https://www.geeksforgeeks.org/gomory-hu-tree-introduction/)
-- 8️⃣ OTHER ALGORITHMS
+- 9️⃣ OTHER ALGORITHMS
   - About
     - [ ] [algorithm](https://en.wikipedia.org/wiki/Algorithm)
     - [ ] [Wiki: divide & conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
     - [ ] [g4g: Divide & conquer](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/)
     - [ ] [fundamentals-of-algorithms](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
     - [ ] [algorithm-design](https://www.hiredintech.com/courses/algorithm-design)
-    - Breadth-first search (BFS)
-      - [ ] [Wiki: BFS](https://en.wikipedia.org/wiki/Breadth-first_search)
-    - Depth-first search (DFS)
-      - [ ] [Wiki: DFS](https://en.wikipedia.org/wiki/Depth-first_search)
-      - [ ] [g4g: dfs](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
-      - [ ] [1](http://web.archive.org/web/20110113025421/http://eom.springer.de/D/d110150.htm)
     - [ ] Greedy Algorithms
       - [ ] Dijkstra’s shortest path algorithm
       - [ ] Prim’s and Kruskal's Minimum Spanning Tree.
@@ -938,10 +969,8 @@
     - [ ] [Time Complexity of Loop with Powers](https://www.geeksforgeeks.org/time-complexity-of-loop-with-powers/)
     - [ ] [Performance of loops (A caching question)](http://geeksquiz.com/performance-of-loops-a-caching-question/)
   - Backtracking:
-    - About
-      - [x] [wiki](https://en.wikipedia.org/wiki/Backtracking)
+    - [x] [wiki](https://en.wikipedia.org/wiki/Backtracking)
     - [ ] [g4g](https://www.geeksforgeeks.org/backtracking-algorithms/)
-    - [ ] [wiki](https://en.wikipedia.org/wiki/Backtracking)
     - [ ] [1](http://web.archive.org/web/20141109193758/http://web.cse.ohio-state.edu/%7Egurari/course/cis680/cis680Ch19.html)
     - N-Queens Problem
       - [ ] [N Queen Problem](https://www.geeksforgeeks.org/backtracking-set-3-n-queen-problem/)
