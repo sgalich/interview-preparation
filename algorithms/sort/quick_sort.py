@@ -4,28 +4,55 @@ from typing import Union, List
 def sort(arr: List[Union[int, float, str]]) -> List[Union[int, float, str]]:
 	"""QuickSort algorithm.
 	O(n*log(n)) - O(n^2)
-	This solution could be done in-place
-	with a better Space Complexity performance.
-	But it's not in educational purposes.
 	"""
 
-	def partition_around_pivot(start: int, end: int) -> int:
-		left = []
-		right = []
+	# # 1/24/2021
+	# # This solution could be done in-place
+	# # with a better Space Complexity performance.
+	# # But it's not in educational purposes.
+	# def partition_around_pivot(start: int, end: int) -> int:
+	# 	left = []
+	# 	right = []
+	# 	pivot = arr[end]
+	# 	for i in range(start, end):
+	# 		if arr[i] <= pivot:
+	# 			left.append(arr[i])
+	# 		else:
+	# 			right.append(arr[i])
+	# 	return left, pivot, right
+
+	# arr = arr.copy()
+	# if len(arr) < 2:
+	# 	return arr
+	# left, pivot, right = partition_around_pivot(0, len(arr) - 1)
+	# return sort(left) + [pivot] + sort(right)
+
+	# 2/11/2021
+	# In-place solution
+	def sort_part(start=0, end=None):
+		if not end:
+			end = len(arr) - 1
 		pivot = arr[end]
+		max_left_ind = start
 		for i in range(start, end):
-			if arr[i] <= pivot:
-				left.append(arr[i])
-			else:
-				right.append(arr[i])
-		return left, pivot, right
+			if arr[i] < pivot:
+				arr[max_left_ind], arr[i] = arr[i], arr[max_left_ind]
+				max_left_ind += 1
+		arr[max_left_ind], arr[end] = arr[end], arr[max_left_ind]
+		# Sort left part
+		new_end = max_left_ind - 1
+		if new_end > 0 and new_end > start:
+			sort_part(start=start, end=max_left_ind - 1)
+		# Sort right part
+		new_start = max_left_ind + 1
+		if new_start < len(arr) - 1 and new_start < end:
+			sort_part(start=max_left_ind + 1, end=end)
 
 	arr = arr.copy()
 	if len(arr) < 2:
 		return arr
-	left, pivot, right = partition_around_pivot(0, len(arr) - 1)
-	return sort(left) + [pivot] + sort(right)
-
+	sort_part()
+	return arr
 
 
 """

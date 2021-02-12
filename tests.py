@@ -124,16 +124,16 @@ class TestSearch(unittest.TestCase):
 
 class TestSort(unittest.TestCase):
 	ALL_SORTS = (
+		merge_sort,
+		quick_sort,
+		radix_sort,
+		counting_sort,
 		selection_sort,
 		insertion_sort,
 		binary_insertion_sort,
 		bubble_sort,
-		merge_sort,
-		quick_sort,
 		ghnome_sort,
-		counting_sort,
-		radix_sort,
-		bucket_sort,
+		# bucket_sort,
 		# tim_sort,
 		# heap_sort,
 		# comb_sort,
