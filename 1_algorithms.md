@@ -649,7 +649,7 @@
       - [x] 📗 [g4g: Types of Binary Tree](http://geeksquiz.com/binary-tree-set-3-types-of-binary-tree/)
       - [x] 📗 [g4g: Binary Tree Properties](http://geeksquiz.com/binary-tree-set-2-properties/)
       - [x] 📗 [g4g: Tree Traversals](https://www.geeksforgeeks.org/618/)
-      - [ ] 📗 [g4g: BFS vs DFS for Binary Tree](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
+      - [x] 📗 [g4g: BFS vs DFS for Binary Tree](https://www.geeksforgeeks.org/bfs-vs-dfs-binary-tree/)
       - [ ] 📗 [g4g: If you are given two traversal sequences, can you construct the binary tree?](https://www.geeksforgeeks.org/if-you-are-given-two-traversal-sequences-can-you-construct-the-binary-tree/)
       - [ ] 📗 [g4g: Print nodes at k distance from root](https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/)
       - [ ] 📙 [wiki: Binary Tree](https://en.wikipedia.org/wiki/Binary_tree)

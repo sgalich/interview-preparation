@@ -1,7 +1,16 @@
 from typing import List
 
-from ds.ds import TreeNode
+from algorithms.ds import TreeNode
 
 
 def traverse(self, root: TreeNode) -> List[int]:
-	pass
+	# 2/11/2021
+	# iterative solution
+	if not root:
+		return []
+	traversal = []
+	queue = [root]
+	while queue:
+		next_queue = []
+		for node in queue:
+			traversal.append(node.val)
