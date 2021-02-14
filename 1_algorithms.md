@@ -60,6 +60,7 @@
       - [ ] [Print all possible strings that can be made by placing spaces](https://www.geeksforgeeks.org/print-possible-strings-can-made-placing-spaces/)
   - Integer
     - [ ] Binary & Hexadecimal numbers
+      - https://en.wikipedia.org/wiki/Two%27s_complement
       - [ ] https://code.tutsplus.com/articles/number-systems-an-introduction-to-binary-hexadecimal-and-more--active-10848
     - [ ] Bitwise Operators (Bit Algorithms)
       - About
