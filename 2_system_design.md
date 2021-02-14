@@ -803,8 +803,8 @@ II. SYSTEM DESIGN
     - Twitter Trends
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/03/how-to-design-a-trending-algorithm-for-twitter/)
     - Instagram
-      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/01/system-design-interview-question-create-a-photo-sharing-app/)
-      - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG)
+      - [x] ??? [gainlo.co](http://blog.gainlo.co/index.php/2016/03/01/system-design-interview-question-create-a-photo-sharing-app/)
+      - [ ] 📗 [educative](https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG)
     - Google Docs
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/22/system-design-interview-question-how-to-design-google-docs/)
     - Google Drive
