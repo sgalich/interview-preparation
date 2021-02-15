@@ -42,11 +42,11 @@ def sort(arr: List[Union[int, float, str]]) -> List[Union[int, float, str]]:
 		# Sort left part
 		new_end = max_left_ind - 1
 		if new_end > 0 and new_end > start:
-			sort_part(start=start, end=max_left_ind - 1)
+			sort_part(start=start, end=new_end)
 		# Sort right part
 		new_start = max_left_ind + 1
 		if new_start < len(arr) - 1 and new_start < end:
-			sort_part(start=max_left_ind + 1, end=end)
+			sort_part(start=new_start, end=end)
 
 	arr = arr.copy()
 	if len(arr) < 2:

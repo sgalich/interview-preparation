@@ -10,7 +10,7 @@ def sort(arr: List[Union[int]]) -> List[Union[int]]:
 
 		def get_digit(number: int) -> int:
 			try:
-				n = str(num)[-i - 1]
+				n = str(number)[-i - 1]
 			except IndexError:
 				return 0
 			return int(n)
