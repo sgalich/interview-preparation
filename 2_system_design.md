@@ -442,6 +442,9 @@ II. SYSTEM DESIGN
     - About
       - [x] [DB overview](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc)
       - [ ] [SQL vs. NoSQL](https://www.sitepoint.com/asynchronous-programming-using-async-await-in-c/)
+      - distributed file storage:
+        - HDFS
+        - S3
       - [ ] [Wiki: Data management](https://en.wikipedia.org/wiki/Data_management)
       - [ ] [Wiki: dynamic data](https://en.wikipedia.org/wiki/Dynamic_data)
       - [ ] [wiki: codd's 12 rules](https://en.wikipedia.org/wiki/Codd%27s_12_rules)
