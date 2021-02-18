@@ -434,13 +434,14 @@ II. SYSTEM DESIGN
       - [ ] [wiki: Volume](https://en.wikipedia.org/wiki/Volume_testing)
 - 2️⃣ COMPONENTS
   - About
-    - https://en.wikipedia.org/wiki/Bloom_filter
-    - https://en.wikipedia.org/wiki/Leader_election
-    - https://en.wikipedia.org/wiki/Consensus_(computer_science)
+    - 📙 https://en.wikipedia.org/wiki/Bloom_filter
+    - 📙 https://en.wikipedia.org/wiki/Leader_election
+    - 📙 https://en.wikipedia.org/wiki/Consensus_(computer_science)
+    - https://lethain.com/introduction-to-architecting-systems-for-scale/
     - [ ] [very nice presentation](https://www.slideshare.net/jboner/scalability-availability-stability-patterns/51-Partitioning)
   - **DATABASE**
     - About
-      - [x] [DB overview](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc)
+      - [x] 📗 [DB overview](https://medium.com/@zhenwu93/relational-vs-non-relational-databases-8336870da8bc)
       - [ ] [SQL vs. NoSQL](https://www.sitepoint.com/asynchronous-programming-using-async-await-in-c/)
       - distributed file storage:
         - HDFS
@@ -616,9 +617,9 @@ II. SYSTEM DESIGN
           - MongoDB, Couchbase
   - Load balancer
     - About
-      - [ ] [wiki: Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
-      - [x] [medium](https://codeburst.io/system-design-basics-load-balancer-101-adc4f602d08f)
-      - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/3jEwl04BL7Q)
+      - [x] 📗 [medium](https://codeburst.io/system-design-basics-load-balancer-101-adc4f602d08f)
+      - [x] 📗 [educative](https://www.educative.io/courses/grokking-the-system-design-interview/3jEwl04BL7Q)
+      - [ ] 📙 [wiki: Load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
     - Technologies
       - [nginx HTTP load balancer](https://nginx.org/en/docs/http/load_balancing.html)
       - [Amazon's Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
@@ -807,7 +808,7 @@ II. SYSTEM DESIGN
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/03/how-to-design-a-trending-algorithm-for-twitter/)
     - Instagram
       - [x] ??? [gainlo.co](http://blog.gainlo.co/index.php/2016/03/01/system-design-interview-question-create-a-photo-sharing-app/)
-      - [ ] 📗 [educative](https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG)
+      - [x] 📗 [educative](https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG)
     - Google Docs
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/22/system-design-interview-question-how-to-design-google-docs/)
     - Google Drive
