@@ -821,7 +821,7 @@ II. SYSTEM DESIGN
     - Cache System
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/17/design-a-cache-system/)
     - Reccomendation System
-      - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/05/24/design-a-recommendation-system/)
+      - [x] ??? [gainlo.co](http://blog.gainlo.co/index.php/2016/05/24/design-a-recommendation-system/)
       - [ ] [medium](https://codeburst.io/system-design-analysis-for-auto-suggestion-service-d28bf1701658)
     - Random ID Generator
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/06/07/random-id-generator/)
