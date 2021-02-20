@@ -113,6 +113,7 @@
 - 2️⃣ ARRAY
   - About
     - [x] 📗 [Leetcode: arrays](https://leetcode.com/explore/learn/card/fun-with-arrays/)
+    - [ ] 📙 [g4g: Prefix sum](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)
     - [ ] [array-and-string](https://leetcode.com/explore/learn/card/array-and-string/)
     - [ ] [lecture: Unbounded arrays](http://www.cs.cmu.edu/~fp/courses/15122-s11/lectures/12-ubarrays.pdf)
     - [ ] [Search, insert and delete in an unsorted array](https://www.geeksforgeeks.org/search-insert-and-delete-in-an-unsorted-array/)
