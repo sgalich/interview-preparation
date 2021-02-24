@@ -4,7 +4,7 @@ This is my homepage for preparation to a software engineer interview.
   - [ABOUT](https://github.com/sgalich/interview-preparation/blob/main/0_about.md) <- container for all unsorted materials.
   - [I. ALGORITHMS & DATA STRUCTURES](https://github.com/sgalich/interview-preparation/blob/main/1_algorithms.md)
   - [II. SYSTEM DESIGN](https://github.com/sgalich/interview-preparation/blob/main/2_system_design.md)
-  - [III. BEHAVIORAL QUESTIONS](https://github.com/sgalich/interview-preparation/blob/main/3_behavioral.md)
+  - III. BEHAVIORAL QUESTIONS (yet hidden)
 
 ## How it works
   - Found a good article - identificate the most specific field of the article and add the link there. If you cannot identify a certain field just add the link to About section under the most specific field you can identify.

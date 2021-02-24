@@ -1,4 +1,4 @@
-🧮 🤪 I. ALGORITHMS & DATA STRUCTURES
+I. ALGORITHMS & DATA STRUCTURES
 
 - 0️⃣ ABOUT
   - [ ] [Data Structure](https://en.wikipedia.org/wiki/Data_structure)
