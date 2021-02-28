@@ -606,6 +606,7 @@ II. SYSTEM DESIGN
           - [ ] Misc: normalization, indexing, ANALYZE-EXPLAIN for queries, Query Optimization
       - NoSQL
         - About
+          - Riak
         - Column Store
           - Apache HBase, Cassandra
         - Key-Value Store
@@ -796,7 +797,7 @@ II. SYSTEM DESIGN
       - [ ] [educative.io](https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR)
       - [ ] [gainlo.co](http://blog.gainlo.co/index.php/2016/03/08/system-design-interview-question-create-tinyurl-system/)
       - [ ] [medium](https://towardsdatascience.com/system-design-of-url-shortening-service-b325b18c8f88?source=your_stories_page-------------------------------------)
-      - [ ] [educative](https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR)
+      - [ ] 📙 [educative](https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR)
       - [ ] [github](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md)
     - car park ticketing system
     - chat messenger
