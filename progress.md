@@ -4,10 +4,10 @@
 
 | Level  | Solved | Total |
 |--------|--------|-------|
-| Easy   |    143 |   464 |
+| Easy   |    144 |   464 |
 | Medium |     79 |   936 |
-| Hard   |      8 |   377 |
-| TOTAL  |    230 |  1777 |
+| Hard   |      9 |   377 |
+| TOTAL  |    232 |  1777 |
 
 ## My interviews
 
