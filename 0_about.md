@@ -35,7 +35,7 @@
     - [ ] CS164
       - [ ] https://www.youtube.com/watch?v=MIZrQ2smM30
       - [ ] [Relational databases](https://www.youtube.com/watch?v=5xeIjMsxEqs)
-  - [ ] []()
+  - [ ] [some hints in russian](https://www.forumdaily.com/kak-najti-rabotu-programmistom-v-kalifornii-poshagovaya-instrukciya-ot-nashix/)
   - [ ] []()
   - [ ] []()
   - [ ] []()

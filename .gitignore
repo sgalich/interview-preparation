@@ -2,6 +2,7 @@
 *__pycache__
 env/
 .vscode/
+old/
 
 # Temporarily unavailable for public
 trash.md
