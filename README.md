@@ -22,7 +22,7 @@ This is my homepage for preparation to a software engineer interview.
   - **Bolded** are essential topics for an interview!
   - Difficulty level
     * 📕 - hard
-    * 📙 - middle
+    * 📙 - medium
     * 📗 - easy
     * 📚 - messy
     * ??? - I think I should remove it (useless for our purposes or duplicate)
