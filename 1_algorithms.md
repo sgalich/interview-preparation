@@ -729,8 +729,7 @@ I. ALGORITHMS & DATA STRUCTURES
         - Space: ```O()```
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
   - 🪄 **Dynamic programming**
-    - Sliding window
-    - [ ] 📗 [g4g: Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
+    - [x] 📗 [g4g: Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
     - [ ] 📗 [g4g: Optimal Substructure Property in Dynamic Programming | DP-2](https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/)
     - [ ] [g4g: Overlapping Subproblems in DP](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/)
     - [ ] [g4g: Optimal Substructure Property](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
@@ -744,6 +743,7 @@ I. ALGORITHMS & DATA STRUCTURES
     - [ ] Traveling salesman problem
     - [ ] Coin change problem
     - [ ] Bit Masking
+    - Sliding window
     - [ ] [Longest Increasing Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/)
     - [ ] [Longest Common Subsequence](https://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
     - [ ] [Edit Distance](https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/)
