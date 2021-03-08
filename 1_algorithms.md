@@ -1,6 +1,7 @@
 I. ALGORITHMS & DATA STRUCTURES
 
 - 0️⃣ ABOUT
+  - [ ] 📖 [Book: Introduction to Algorithms by Cormen, Leiserson, Rivest, Stein (CLRS)](http://ressources.unisciel.fr/algoprog/s00aaroot/aa00module1/res/%5BCormen-AL2011%5DIntroduction_To_Algorithms-A3.pdf)
   - [ ] [Data Structure](https://en.wikipedia.org/wiki/Data_structure)
   - [ ] [hiredintech](https://www.hiredintech.com/classrooms/algorithm-design)
   - [ ] [functional programming](https://en.wikipedia.org/wiki/Functional_programming)
@@ -729,14 +730,17 @@ I. ALGORITHMS & DATA STRUCTURES
         - [ ] [implemented](https://github.com/sgalich/interview-preparation/blob/main/algorithms/sort/topological_sort.py)
   - 🪄 **Dynamic programming**
     - Sliding window
-    - [ ] [medium: Intuition behind Largest Subsequence Problems](https://medium.com/@yashgirdhar/intuition-behind-largest-subsequence-problems-3f82c8b4ba41)]
-    - [ ] [g4g: Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
+    - [ ] 📗 [g4g: Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
+    - [ ] 📗 [g4g: Optimal Substructure Property in Dynamic Programming | DP-2](https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/)
     - [ ] [g4g: Overlapping Subproblems in DP](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/)
     - [ ] [g4g: Optimal Substructure Property](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
     - [ ] [System Design Interview - Top K Problem (Heavy Hitters)](https://www.youtube.com/watch?v=kx-XDoPjoHw)
     - [ ] [g4g](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
     - [ ] [hackerrank](https://www.hackerrank.com/domains/algorithms/dynamic-programming/difficulty:medium/page:1)
     - [ ] [g4g](https://www.geeksforgeeks.org/dynamic-programming/)
+    - [ ] 📙 [medium: Intuition behind Largest Subsequence Problems](https://medium.com/@yashgirdhar/intuition-behind-largest-subsequence-problems-3f82c8b4ba41)]
+    - [ ] 📙 [wiki: Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
+    - [ ] 📙 [wiki: Longest common substring](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
     - [ ] Traveling salesman problem
     - [ ] Coin change problem
     - [ ] Bit Masking
