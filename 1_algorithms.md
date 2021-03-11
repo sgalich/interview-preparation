@@ -733,7 +733,7 @@ I. ALGORITHMS & DATA STRUCTURES
     - [ ] 📗 [g4g: Optimal Substructure Property in Dynamic Programming | DP-2](https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/)
     - [ ] [youtube 5h](https://www.youtube.com/watch?v=oBt53YbR9Kk)
     - [ ] [g4g: Overlapping Subproblems in DP](https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/)
-    - [ ] [g4g: Optimal Substructure Property](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
+    - [ ] 📗 [g4g: Optimal Substructure Property](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
     - [ ] [System Design Interview - Top K Problem (Heavy Hitters)](https://www.youtube.com/watch?v=kx-XDoPjoHw)
     - [ ] [g4g](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
     - [ ] [hackerrank](https://www.hackerrank.com/domains/algorithms/dynamic-programming/difficulty:medium/page:1)
