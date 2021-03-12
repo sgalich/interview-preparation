@@ -2,12 +2,12 @@
 
 ## LeetCode Problems
 
-| Level  | Solved | Total |
-|--------|--------|-------|
-| Easy   |    151 |   464 |
-| Medium |     79 |   937 |
-| Hard   |      9 |   377 |
-| TOTAL  |    239 |  1778 |
+| Level  | Solved |
+|--------|--------|
+| Easy   |    154 |
+| Medium |     80 |
+| Hard   |      9 |
+| TOTAL  |    243 |
 
 ## My interviews
 
