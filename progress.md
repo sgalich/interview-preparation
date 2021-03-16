@@ -5,9 +5,9 @@
 | Level  | Solved |
 |--------|--------|
 | Easy   |    154 |
-| Medium |     81 |
-| Hard   |      9 |
-| TOTAL  |    244 |
+| Medium |     82 |
+| Hard   |     10 |
+| TOTAL  |    246 |
 
 ## My interviews
 
