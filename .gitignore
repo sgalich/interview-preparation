@@ -3,6 +3,7 @@
 env/
 .vscode/
 old/
+.idea/
 
 # Temporarily unavailable for public
 trash.md
