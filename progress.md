@@ -71,46 +71,67 @@
 | 55 | Uber | Full Stack Engineer - CO | 2021-04-01 | - | - | - | - |   
 | 56 | Uber | Backend Platform Engineer- Memberships Platform | 2021-04-01 | - | - | - | - |   
 | 57 | Uber | Full Stack Web Engineer | 2021-04-01 | - | - | - | - |   
-| 58 |  |  | 2021-04-01 | - | - | - | - | 
-| 59 |  |  | 2021-04-01 | - | - | - | - |   
-| 60 |  |  | 2021-04-01 | - | - | - | - |   
-| 61 |  |  | 2021-04-01 | - | - | - | - |   
-| 62 |  |  | 2021-04-01 | - | - | - | - |   
-| 63 |  |  | 2021-04-01 | - | - | - | - |   
-| 64 |  |  | 2021-04-01 | - | - | - | - |   
-| 65 |  |  | 2021-04-01 | - | - | - | - |   
-| 66 |  |  | 2021-04-01 | - | - | - | - |   
-| 67 |  |  | 2021-04-01 | - | - | - | - |   
-| 68 |  |  | 2021-04-01 | - | - | - | - |   
-| 69 |  |  | 2021-04-01 | - | - | - | - |   
-| 71 |  |  | 2021-04-01 | - | - | - | - |   
-| 72 |  |  | 2021-04-01 | - | - | - | - |   
-| 73 |  |  | 2021-04-01 | - | - | - | - |   
-| 74 |  |  | 2021-04-01 | - | - | - | - |   
-| 75 |  |  | 2021-04-01 | - | - | - | - |   
-| 76 |  |  | 2021-04-01 | - | - | - | - |   
-| 77 |  |  | 2021-04-01 | - | - | - | - |   
-| 78 |  |  | 2021-04-01 | - | - | - | - |   
-| 79 |  |  | 2021-04-01 | - | - | - | - |   
-| 80 |  |  | 2021-04-01 | - | - | - | - |   
-| 81 |  |  | 2021-04-01 | - | - | - | - |   
-| 82 |  |  | 2021-04-01 | - | - | - | - |   
-| 83 |  |  | 2021-04-01 | - | - | - | - |   
-| 84 |  |  | 2021-04-01 | - | - | - | - |   
-| 85 |  |  | 2021-04-01 | - | - | - | - |   
-| 86 |  |  | 2021-04-01 | - | - | - | - |   
-| 87 |  |  | 2021-04-01 | - | - | - | - |   
-| 88 |  |  | 2021-04-01 | - | - | - | - |   
-| 89 |  |  | 2021-04-01 | - | - | - | - |   
-| 90 |  |  | 2021-04-01 | - | - | - | - |   
-| 91 |  |  | 2021-04-01 | - | - | - | - |   
-| 92 |  |  | 2021-04-01 | - | - | - | - |   
-| 93 |  |  | 2021-04-01 | - | - | - | - |   
-| 94 |  |  | 2021-04-01 | - | - | - | - |   
-| 95 |  |  | 2021-04-01 | - | - | - | - |   
-| 96 |  |  | 2021-04-01 | - | - | - | - |   
-| 97 |  |  | 2021-04-01 | - | - | - | - |   
-| 98 |  |  | 2021-04-01 | - | - | - | - |   
-| 99 |  |  | 2021-04-01 | - | - | - | - |   
-| 100 |  |  | 2021-04-01 | - | - | - | - |  
+| 58 | Tesla | Application Support Analyst - Quality Engineering | 2021-04-01 | - | - | - | - | ReqID 74931
+| 59 | Apple | Sr. Software Engineer - Apple Cloud Product Services- Apple Park | 2021-04-02 | - | - | - | - | 200229044
+| 60 | Apple | Job Description - Backend Platform/Data Engineer | 2021-04-02 | - | - | - | - | 200210200
+| 61 | Apple | Tools Developer | 2021-04-02 | - | - | - | - | 200224811
+| 62 | Apple | Big Data Engineer - Wallet & Apple Pay - Cupertino | 2021-04-02 | - | - | - | - | 200230718
+| 63 | Apple | Software Build Engineer | 2021-04-02 | - | - | - | - | 200228767
+| 64 | Apple | Sr. Research Data Engineer | 2021-04-02 | - | - | - | - | 200186194
+| 65 | Apple | Full Stack Software Engineer | 2021-04-02 | - | - | - | - | 200209421
+| 66 | Apple | Media Tools & Screening Engineer | 2021-04-02 | - | - | - | - | 200227063
+| 67 | Apple | Maps Evaluation Data Software Engineer | 2021-04-02 | - | - | - | - | 200217036
+| 68 | Apple | Full Stack Developer - Video Computer Vision | 2021-04-02 | - | - | - | - | 200191494
+| 69 | Apple | Software Quality Engineer - Media | 2021-04-02 | - | - | - | - | 200194486
+| 71 | Apple | Full Stack Engineer - Video Engineering | 2021-04-02 | - | - | - | - | 200219021
+| 72 | Apple | Systems Software Cloud Engineer, Platform Architecture | 2021-04-02 | - | - | - | - | 200204481
+| 73 | Apple | Data Software Engineer-Camera | 2021-04-02 | - | - | - | - | 200212584
+| 74 | Apple | Software Engineer Data Cloud - Apple Cloud Services | 2021-04-02 | - | - | - | - | 200215320
+| 75 | Apple | Continuous Integration Software Engineer | 2021-04-02 | - | - | - | - | 200205352
+| 76 | Apple | Software Engineer | 2021-04-02 | - | - | - | - | 200139738
+| 77 | Apple | Software Engineer (Full Stack) - Video Engineering | 2021-04-02 | - | - | - | - | 200219004
+| 78 | Apple | Data Engineer (Global Business Intelligence) | 2021-04-02 | - | - | - | - | 200215071
+| 79 | Facebook | Software Engineew, Product | 2021-04-02 | - | - | - | - | 
+| 80 | Facebook | Internal Software Engineer | 2021-04-02 | - | - | - | - | 
+| 81 | Facebook | Data Engineer, GMS | 2021-04-02 | - | - | - | - | 
+| 82 | Nvidia | Software Tools Engineer | 2021-04-02 | - | - | - | - | 
+| 83 | Nvidia | Software Engineer - Robotics (New College Grad) | 2021-04-02 | - | - | - | - | 
+| 84 | Tesla | Data Engineer | 2021-04-03 | - | - | - | - | 84722
+| 85 | Tesla | Data Engineer | Gigafactory New York | 2021-04-03 | - | - | - | - | 87371
+| 86 | Twitter | Software Engineer - Privacy and Data Protection Engineering | 2021-04-03 | - | - | - | - | 
+| 87 | Twitter | Software Engineer - Performance Tools | 2021-04-03 | - | - | - | - | 
+| 88 | Twitter | Software Engineer, Engineering Effectiveness (SDLC) | 2021-04-03 | - | - | - | - | 
+| 89 | Twitter | Software Engineer, Application Security - Tooling and Automation | 2021-04-03 | - | - | - | - | 
+| 90 | Twitter | Data Product Engineer, Revenue Science | 2021-04-03 | - | - | - | - | 
+| 91 | Twitter | Software Engineer - Mobile CI/CD | 2021-04-03 | - | - | - | - | 
+| 92 | Twitter | Software Engineer, Engineering Effectiveness (SDLC) | 2021-04-03 | - | - | - | - | 
+| 93 | Twitter | Cloud Data Engineer | 2021-04-03 | - | - | - | - | 
+| 94 | Netflix | Support Solutions Engineer | 2021-04-03 | - | - | - | - | 
+| 95 | Netflix | Senior Data Engineer, Consolidated Logging | 2021-04-03 | - | - | - | - | 
+| 96 | Zillow | Full Stack Software Development Engineer, New Construction Team | 2021-04-03 | - | - | - | - | 
+| 97 | Zillow | Back End Software Development Engineer - AI Platform | 2021-04-03 | - | - | - | - | 
+| 98 | Zillow | Software Development Engineer, Big Data - Data Quality | 2021-04-03 | - | - | - | - | 
+| 99 | Zillow | Software Development Engineer, Big Data- Core Privacy Platform | 2021-04-03 | - | - | - | - | 
+| 100 | Zillow | Software Development Engineer, Big Data - Kafka/Flink | 2021-04-03 | - | - | - | - | 
+| 101 | Zillow | Software Development Engineer, Big Data - Property Data | 2021-04-03 | - | - | - | - | 
+| 102 | Zillow | Full Stack Software Development Engineer - Ad Tech | 2021-04-03 | - | - | - | - | 
+|  |  |  |  |  |  |  |  | 
+| ... | PayPal |  | 2021-04- | - | - | - | - | 
+| ... | Amazon |  | 2021-04- | - | - | - | - | 
+| ... | Walmart |  | 2021-04- | - | - | - | - | 
+| ... | Salesforce |  | 2021-04- | - | - | - | - | 
+| ... | Dropbox |  | 2021-04- | - | - | - | - | 
+| ... | Microsoft |  | 2021-04- | - | - | - | - | 
+| ... | Disney |  | 2021-04- | - | - | - | - | 
+| ... | banks ? |  | 2021-04- | - | - | - | - | 
+| ... |  |  | 2021-04- | - | - | - | - | 
+| ... |  |  | 2021-04- | - | - | - | - | 
+| ... |  |  | 2021-04- | - | - | - | - | 
+| ... |  |  | 2021-04- | - | - | - | - | 
+| ... |  |  | 2021-04- | - | - | - | - | 
+| ... |  |  | 2021-04- | - | - | - | - | 
+| ... |  |  | 2021-04- | - | - | - | - | 
+
+
+
  
