@@ -9,11 +9,11 @@
 | Hard   |     10 |
 | TOTAL  |    255 |
 
-## My interviews
+## My interview
 
 | Step              | Cases |
 |-------------------|-------|
-| Applied           |   200 |
+| Applied           |   251 |
 | Phone screening   |     2 |
 | Code screening    |     1 |
 | On-site interview |     0 |
