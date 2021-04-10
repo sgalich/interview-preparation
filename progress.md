@@ -13,9 +13,9 @@
 
 | Step              | Cases |
 |-------------------|-------|
-| Applied           |   251 |
-| Phone screening   |     2 |
-| Code screening    |     1 |
+| Applied           |   319 |
+| Phone             |     6 |
+| Coding online     |     1 |
 | On-site interview |     0 |
 | Offers            |     0 |
  
