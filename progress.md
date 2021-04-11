@@ -13,9 +13,9 @@
 
 | Step              | Cases |
 |-------------------|-------|
-| Applied           |   352 |
+| Applied           |   384 |
 | Phone             |     6 |
-| Coding online     |     2 |
+| Coding online     |     3 |
 | On-site interview |     0 |
 | Offers            |     0 |
  
