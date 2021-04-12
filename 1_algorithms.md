@@ -35,6 +35,7 @@ I. ALGORITHMS & DATA STRUCTURES
   - [ ] [Check if characters of a given string can be rearranged to form a palindrome](http://geeksquiz.com/check-characters-given-string-can-rearranged-form-palindrome/)
   - [ ] [Print all pairs of anagrams in a given array of strings](http://geeksquiz.com/print-pairs-anagrams-given-array-strings/)
   - [ ] [book The Art of Computer Programming by Knuth](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)
+  - https://www.interviewbit.com
 - 1️⃣ PRIMITIVE DATA STRUCTURES
   - String
     - [ ] Pattern Searching
