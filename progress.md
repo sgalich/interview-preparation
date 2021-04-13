@@ -13,7 +13,7 @@
 
 | Step              | Cases |
 |-------------------|-------|
-| Applied           |   387 |
+| Applied           |   407 |
 | Phone             |     6 |
 | Coding online     |     3 |
 | On-site interview |     0 |
