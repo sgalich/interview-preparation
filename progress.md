@@ -11,11 +11,11 @@
 
 ## My interview
 
-| Step              | Cases |
-|-------------------|-------|
-| Applied           |   407 |
-| Phone             |     6 |
-| Coding online     |     3 |
-| On-site interview |     0 |
-| Offers            |     0 |
+| Step                 | Cases |
+|----------------------|-------|
+| Applied              |   426 |
+| Phone                |     7 |
+| Coding online        |     4 |
+| On-site/after coding |     0 |
+| Offers               |     0 |
  
