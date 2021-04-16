@@ -13,7 +13,7 @@
 
 | Step                 | Cases |
 |----------------------|-------|
-| Applied              |   433 |
+| Applied              |   442 |
 | Phone                |     7 |
 | Coding online        |     4 |
 | On-site/after coding |     0 |
