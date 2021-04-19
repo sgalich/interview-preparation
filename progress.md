@@ -13,9 +13,9 @@
 
 | Step                 | Cases |
 |----------------------|-------|
-| Applied              |   450 |
+| Applied              |   501 |
 | Phone                |     7 |
-| Coding online        |     4 |
+| Coding               |     5 |
 | On-site/after coding |     0 |
 | Offers               |     0 |
  
