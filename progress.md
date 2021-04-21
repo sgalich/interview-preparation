@@ -13,9 +13,9 @@
 
 | Step                 | Cases |
 |----------------------|-------|
-| Applied              |   502 |
+| Applied              |   504 |
 | Phone                |     7 |
-| Coding               |     5 |
+| Coding               |     6 |
 | On-site/after coding |     0 |
 | Offers               |     0 |
  
