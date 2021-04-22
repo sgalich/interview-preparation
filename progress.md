@@ -13,7 +13,7 @@
 
 | Step                 | Cases |
 |----------------------|-------|
-| Applied              |   504 |
+| Applied              |   572 |
 | Phone                |     7 |
 | Coding               |     6 |
 | On-site/after coding |     0 |
