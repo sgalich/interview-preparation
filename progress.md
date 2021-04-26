@@ -14,7 +14,7 @@
 | Step                 | Cases |
 |----------------------|-------|
 | Applied              |   572 |
-| Phone                |     7 |
+| Phone                |     8 |
 | Coding               |     6 |
 | On-site/after coding |     0 |
 | Offers               |     0 |
