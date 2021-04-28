@@ -18,4 +18,3 @@
 | Coding               |     6 |
 | On-site/after coding |     0 |
 | Offers               |     0 |
- 
