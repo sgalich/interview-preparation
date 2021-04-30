@@ -13,8 +13,8 @@
 
 | Step                 | Cases |
 |----------------------|-------|
-| Applied              |   634 |
-| Phone                |    10 |
-| Coding               |     6 |
+| Applied              |   636 |
+| Phone                |    12 |
+| Coding               |     8 |
 | On-site/after coding |     0 |
 | Offers               |     0 |
