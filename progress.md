@@ -13,7 +13,7 @@
 
 | Step                 | Cases |
 |----------------------|-------|
-| Applied              |   745 |
+| Applied              |   760 |
 | Phone                |    12 |
 | Coding               |     8 |
 | On-site/after coding |     0 |
