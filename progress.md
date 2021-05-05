@@ -11,10 +11,10 @@
 
 ## My interview
 
-| Step                 | Cases |
-|----------------------|-------|
-| Applied              |   760 |
-| Phone                |    12 |
-| Coding               |     8 |
-| On-site/after coding |     0 |
-| Offers               |     0 |
+| Step                  | Cases |
+|-----------------------|-------|
+| Applied               |  1014 |
+| Phone                 |    12 |
+| Coding                |     8 |
+| Final round (On-site) |     0 |
+| Offers                |     0 |
