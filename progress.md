@@ -13,7 +13,7 @@
 
 | Step                  | Cases |
 |-----------------------|-------|
-| Applied               |  1014 |
+| Applied               |  1016 |
 | Phone                 |    12 |
 | Coding                |     8 |
 | Final round (On-site) |     0 |
