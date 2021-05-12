@@ -14,7 +14,7 @@
 | Step                  | Cases |
 |-----------------------|-------|
 | Applied               |  1016 |
-| Phone                 |    17 |
+| Phone                 |    18 |
 | Coding                |    11 |
 | Final round (On-site) |     0 |
 | Offers                |     0 |
